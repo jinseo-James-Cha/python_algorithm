@@ -1,3 +1,3 @@
-a, b = map(int, input().strip().split(' '))
+a, b = input().split(' ')
 print(f'a = {a}')
 print(f'b = {b}')
