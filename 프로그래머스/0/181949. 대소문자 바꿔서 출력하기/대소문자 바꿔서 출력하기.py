@@ -1,3 +1,8 @@
+# str.swapcase() 
+# str.islower() / str.isupper
+# str + str = strstr
+
+
 str = input()
 result = []
 for letter in str:
