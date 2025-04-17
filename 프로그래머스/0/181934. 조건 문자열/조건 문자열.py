@@ -18,5 +18,8 @@ def solution(ineq, eq, n, m):
     #     return int(n >= m) if ineq == '>' else int(n <= m)
     
     # version 3
-    eq = eq if eq == '=' else ''
-    return int(eval(f"{n} {ineq}{eq} {m}"))
+    # eq = eq if eq == '=' else ''
+    # return int(eval(f"{n} {ineq}{eq} {m}"))
+    
+    # version 4
+    return int(eval(f"{n} {ineq}{eq.replace('!','')} {m}"))
