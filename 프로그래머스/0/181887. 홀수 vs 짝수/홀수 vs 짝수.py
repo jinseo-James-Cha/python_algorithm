@@ -1,3 +1,7 @@
+# sum(list)를 잊다니...
+def solution(num_list):
+    return max(sum(num_list[::2]), sum(num_list[1::2]))
+
 def solution(num_list):
     even_sum = 0
     odd_sum = 0
