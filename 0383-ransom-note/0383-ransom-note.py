@@ -2,10 +2,13 @@ class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         dict_ransomNote = {}
         for r in ransomNote:
-            if not r in dict_ransomNote:
-                dict_ransomNote[r] = 1
-            else:
-                dict_ransomNote[r] += 1
+            dict_ransomNote[r] = 1 + dict_ransomNote.get(r, 0)
+            # if not r in dict_ransomNote:
+            #     dict_ransomNote[r] = 1
+            # else:
+            #     dict_ransomNote[r] += 1
+
+    
 
         for key, value in dict_ransomNote.items():
             if key in magazine:
