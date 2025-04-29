@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0020-valid-parentheses) |
+| [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
 ## Counting
 |  |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0009-palindrome-number) |
+| [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 ## Linked List
 |  |
 | ------- |
@@ -73,4 +76,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0278-first-bad-version) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
