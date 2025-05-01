@@ -6,17 +6,14 @@
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        d = {}
+        h = {}
+        m_value = m_key = 0
         for n in nums:
-            d[n] = d.get(n, 0) + 1
-
-        m = 0
-        answer = 0
-        for k, v in d.items():
-            if v > m:
-                m = v
-                answer = k
-        return answer
+            h[n] = h.get(n, 0) + 1
+            if h[n] > m_value:
+                m_value = h[n]
+                m_key = n
+        return m_key
 
         # memory limit exceeded
         # answer = [0] * (max(nums) + 1)
