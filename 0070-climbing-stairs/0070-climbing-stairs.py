@@ -16,6 +16,7 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
         # top-down without memoization -> time limit exceeded
+        # memoization in cache
         cache = [-1] * 46
         cache[0] = 0
         cache[1] = 1
@@ -28,4 +29,19 @@ class Solution:
             return cache[n]
 
         return fibo(n)
+
+        # bottom-up
+        cache = [-1] * 46
+        cache[0] = 0
+        cache[1] = 1
+        cache[2] = 2
+        for i in range(n+1):
+            if cache[i] < 0:
+                cache[i] = cache[i-2] + cache[i-1]
+
+        return cache[n]                
+            
+
+
+
         
