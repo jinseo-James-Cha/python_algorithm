@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0009-palindrome-number) |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
+| [0070-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0070-climbing-stairs) |
 ## Linked List
 |  |
 | ------- |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
 ## Sorting
@@ -91,4 +93,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
