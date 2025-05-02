@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0020-valid-parentheses) |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0125-valid-palindrome) |
@@ -111,4 +112,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
