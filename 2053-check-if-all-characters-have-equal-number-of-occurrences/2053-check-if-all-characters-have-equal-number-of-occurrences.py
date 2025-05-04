@@ -1,7 +1,8 @@
+# return true for Good and false otherwise
+# good means all chars has the same num of occurrences
+
 class Solution:
     def areOccurrencesEqual(self, s: str) -> bool:
-        # return true for Good and false otherwise
-        # good means all chars has the same num of occurrences
         dct = {}
         for char in s:
             if char in dct:
