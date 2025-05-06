@@ -1,3 +1,2 @@
 def solution(n):
-    a = 1 if n % 7 != 0 else 0
-    return n // 7 + a
+    return (n - 1) // 7 + 1
