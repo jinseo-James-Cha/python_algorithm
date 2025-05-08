@@ -5,8 +5,14 @@
 input = 20
 
 def find_prime_list_under_number(number):
-    
-    return []
+    prime_list = []
+    for n in range(2, number + 1):
+        for p in prime_list:
+            if p * p <= n and n % p == 0:
+                break
+        else:
+            prime_list.append(n)
+    return prime_list
 
 
 result = find_prime_list_under_number(input)
