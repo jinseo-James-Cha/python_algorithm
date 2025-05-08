@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
+| [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 ## Hash Table
@@ -61,12 +62,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0283-move-zeroes) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
+| [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 ## Simulation
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
+| [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 ## Counting
 |  |
 | ------- |
