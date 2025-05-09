@@ -1,4 +1,5 @@
 # V2 - I don't need Sliding window or two pointer for this question...
+# like the below
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         profit = 0
