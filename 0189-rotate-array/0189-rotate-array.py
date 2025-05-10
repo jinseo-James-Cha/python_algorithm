@@ -5,17 +5,18 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # not working cuz it is not in-place
-        # nums = nums[len(nums) - k:] + nums[:len(nums) - k + 1]
-            
-        # deque
+        
+        # Version 2 deque
         # Using [:] change original value in-place
         # rotate() => pop() + appendleft
-        
         dq = deque(nums)
         dq.rotate(k)
+        nums[:] = list(dq)
+        
+        # Version 1 deque
+        # Using [:] change original value in-place
+        # dq = deque(nums)
         # for _ in range(k):
             # temp = dq.pop()
             # dq.appendleft(temp)
-            
-        nums[:] = list(dq)
+        # nums[:] = list(dq)
