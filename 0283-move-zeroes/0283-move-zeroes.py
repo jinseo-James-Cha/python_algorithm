@@ -16,8 +16,6 @@ class Solution:
         left = 0
         for right in range(len(nums)):
             if nums[right] != 0:
-                print(left)
-                print(right)
                 nums[left], nums[right] = nums[right], nums[left]
                 left += 1
 
