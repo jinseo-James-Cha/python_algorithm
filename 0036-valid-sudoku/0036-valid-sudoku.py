@@ -1,59 +1,33 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:        
-        rows = defaultdict(set)
-        cols = defaultdict(set)
-        boxes = defaultdict(set)
-        
+         # 3x3 박스 체크용 3차원 배열 (3x3x10)
+        box_check = [[[False] * 10 for _ in range(3)] for _ in range(3)]
+
         for r in range(9):
+            row_check = [False] * 10
+            col_check = [False] * 10
+
             for c in range(9):
-                if board[r][c] == ".":
-                    continue
-                
-                if board[r][c] in rows[r] or board[r][c] in cols[c] or board[r][c] in boxes[(r // 3, c // 3)]:
-                    return False
-                
-                rows[r].add(board[r][c])
-                cols[c].add(board[r][c])
-                boxes[(r // 3, c // 3)].add(board[r][c])
-        
+                # -----------------------------
+                # 행 검사
+                if board[r][c] != ".":
+                    num = int(board[r][c])
+                    if row_check[num]:
+                        return False
+                    row_check[num] = True
+
+                    # 3x3 박스 검사
+                    box_r, box_c = r // 3, c // 3
+                    if box_check[box_r][box_c][num]:
+                        return False
+                    box_check[box_r][box_c][num] = True
+
+                # -----------------------------
+                # 열 검사
+                if board[c][r] != ".":
+                    num = int(board[c][r])
+                    if col_check[num]:
+                        return False
+                    col_check[num] = True
+
         return True
-
-
-        # This is My solution which is not completed :(
-        # for r in range(9):
-        #     row_check = [False] * 10
-        #     col_check = [False] * 10
-        #     box_check = [[False] * 3 ]            
-            
-        #     for c in range(9):
-        #         if board[r][c] == ".":
-        #             continue
-
-        #         # row
-        #         if row_check[int(board[r][c])]:
-        #             return False
-        #         else:
-        #             row_check[int(board[r][c])] = True
-                
-        #         # col
-        #         if col_check[int(board[c][r])]:
-        #             return False
-        #         else:
-        #             col_check[int(board[c][r])] = True
-                
-                # sub-box
-                # if board[i % 3][j % 3] != ".":
-        
-        # # sub-box check
-        # for i in range(9):
-        #     check = [False] * 10
-        #     for j in range(9):
-        #         if board[i % 3][j % 3] != ".":
-        #             if check[int(board[i % 3])][int(board[j % 3])]:
-        #                     return False
-        #             else:
-        #                 check[int(board[i % 3])][int(board[j % 3])] = True
-
-        # return True
-        
-        
