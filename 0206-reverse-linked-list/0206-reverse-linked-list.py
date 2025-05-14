@@ -7,7 +7,6 @@ class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         node = None
 
-        # head will be updated by next 
         while head:
             temp = head.next
             head.next = node
@@ -15,4 +14,13 @@ class Solution:
             head = temp
         return node
 
-        
+# Recursive version
+# class Solution:
+#     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+#         if not head or not head.next:
+#             return head
+
+#         new_head = self.reverseList(head.next)
+#         head.next.next = head
+#         head.next = None
+#         return new_head
