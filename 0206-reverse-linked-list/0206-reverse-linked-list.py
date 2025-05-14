@@ -8,11 +8,14 @@ class Solution:
         node = None
 
         while head:
-            temp = head.next
-            head.next = node
-            node = head 
+            temp = head.next # keeping moving by connection, so save this connection in temp
+            
+            head.next = node # attach node into next
+            node = head # attach head's val and node into node
+
             head = temp
         return node
+
 
 # Recursive version
 # class Solution:
