@@ -1,5 +1,5 @@
+# O(N^2)
 # find the minimum value in the list and change from the front
-
 
 input = [4, 6, 2, 9, 1]
 
