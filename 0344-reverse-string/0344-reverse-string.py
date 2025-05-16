@@ -1,4 +1,5 @@
 # my solition 1 - recursion
+# slicing is creating new list, so it won't change the original
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -6,7 +7,7 @@ class Solution:
         """
         # space O(1)
         return self.reverse(s, 0, len(s) - 1)
-        
+    
     def reverse(self, s: List[str], start, end) -> List[str]:
         if end - start < 1:
             return s
