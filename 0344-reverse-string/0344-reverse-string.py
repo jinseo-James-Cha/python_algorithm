@@ -1,4 +1,4 @@
-# my solition 3 - built-in function reverse
+# my solition 3 - built-in function reverse Beat 100%
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         s.reverse() # can use in list not str type
