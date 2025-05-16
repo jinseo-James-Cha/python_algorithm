@@ -15,6 +15,3 @@ class Solution:
             x //= 10
 
         return answer * -1 if is_x_negative else answer
-
-        2,147,483,647
-        -2,147,483,648
