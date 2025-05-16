@@ -1,3 +1,6 @@
+# time O(N)
+# space O(1)
+
 class Solution(object):
     def firstUniqChar(self, s):
          # Create a list to store the frequency of each character
