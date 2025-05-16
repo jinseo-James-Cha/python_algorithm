@@ -8,7 +8,7 @@ class Solution:
         while right - left > 0:
             s[left], s[right] = s[right], s[left]
             left += 1
-            left -= 1
+            right -= 1
         return s
 
 
