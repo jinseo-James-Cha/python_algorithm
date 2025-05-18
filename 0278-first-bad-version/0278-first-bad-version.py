@@ -9,7 +9,7 @@ class Solution:
 
         while left < right:
             mid = (left + right) // 2
-            if isBadVersion(mid): # 
+            if isBadVersion(mid):
                 right = mid
             else:
                 left = mid + 1 
