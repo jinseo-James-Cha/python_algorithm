@@ -1,6 +1,7 @@
 # python_algorithm
 ## resources
 - Leetcode
+- Backjoon
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
