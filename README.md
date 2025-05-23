@@ -1,6 +1,6 @@
 # python_algorithm
 ## resources
-- Leetcode
+- [Leetcode](https://leetcode.com/)
 - Backjoon
 - Programmers
 
