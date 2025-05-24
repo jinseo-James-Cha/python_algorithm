@@ -2,7 +2,7 @@
 ## resources
 - [Leetcode](https://leetcode.com/)
 - [Backjoon](https://www.acmicpc.net/problemset)
-- Programmers
+- [Programmers](https://school.programmers.co.kr/)
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
