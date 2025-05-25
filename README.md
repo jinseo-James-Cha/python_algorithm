@@ -1,7 +1,7 @@
 # python_algorithm
 ## resources
 - [Leetcode](https://leetcode.com/)
-- Backjoon
+- [Backjoon](https://www.acmicpc.net/problemset)
 - Programmers
 
 <!---LeetCode Topics Start-->
