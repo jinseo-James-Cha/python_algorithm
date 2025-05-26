@@ -1,3 +1,7 @@
+# Python
+- started daily algorithm PS at 14th Apr, 2025
+
+
 # python_algorithm
 ## resources
 - [Leetcode](https://leetcode.com/)
