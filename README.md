@@ -1,7 +1,7 @@
 # Python
 - started daily algorithm PS at 14th Apr, 2025
 - this year, 2025, target the number of PS in Leetcode:  400-Easy 200-Medium 100-Hard
-- 
+- Goal is to enter "Google"
 
 
 # python_algorithm
