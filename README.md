@@ -3,6 +3,7 @@
 - this year, 2025, target the number of PS in Leetcode:  400-Easy 200-Medium 100-Hard
 - Goal is to enter "Google"
 - Data Structures:
+```
 Arrays: Manipulation, searching, sorting.
 Strings: Palindromes, anagrams, parsing, pattern matching.
 Linked Lists: Traversal, reversal, merging, cycle detection.
@@ -10,8 +11,10 @@ Trees: Traversal (in-order, pre-order, post-order, BFS/level-order), BSTs (inser
 Graphs: Representation (adjacency list/matrix), traversal (BFS, DFS), shortest path algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall), minimum spanning trees (Prim, Kruskal), topological sort, strongly connected components.
 Hash Tables/Maps: Use cases, collision resolution, implementation details.
 Stacks and Queues: Standard operations, use in algorithms (e.g., expression evaluation, BFS).
+```
 
 - Algorithms:
+```
 Sorting: Merge Sort, Quick Sort, Heap Sort (understanding principles, not necessarily implementing from scratch).
 Searching: Binary Search (especially on sorted arrays/data).
 Recursion & Backtracking: Problems involving permutations, combinations, subsets, N-queens, Sudoku solver.
@@ -21,7 +24,7 @@ Two Pointers: Efficiently solving problems on sorted arrays or linked lists.
 Sliding Window: Solving problems involving sub-arrays/sub-strings of a fixed or variable size.
 Bit Manipulation: Solving problems using bitwise operations (less frequent for junior roles, but good to know).
 Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge Sort).
-
+```
 # python_algorithm
 ## resources
 - [Leetcode](https://leetcode.com/)
