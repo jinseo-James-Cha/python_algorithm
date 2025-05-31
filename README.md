@@ -2,7 +2,25 @@
 - started daily algorithm PS at 14th Apr, 2025
 - this year, 2025, target the number of PS in Leetcode:  400-Easy 200-Medium 100-Hard
 - Goal is to enter "Google"
+- Data Structures:
+Arrays: Manipulation, searching, sorting.
+Strings: Palindromes, anagrams, parsing, pattern matching.
+Linked Lists: Traversal, reversal, merging, cycle detection.
+Trees: Traversal (in-order, pre-order, post-order, BFS/level-order), BSTs (insertion, deletion, searching), Heaps (min-heap, max-heap), Tries.
+Graphs: Representation (adjacency list/matrix), traversal (BFS, DFS), shortest path algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall), minimum spanning trees (Prim, Kruskal), topological sort, strongly connected components.
+Hash Tables/Maps: Use cases, collision resolution, implementation details.
+Stacks and Queues: Standard operations, use in algorithms (e.g., expression evaluation, BFS).
 
+- Algorithms:
+Sorting: Merge Sort, Quick Sort, Heap Sort (understanding principles, not necessarily implementing from scratch).
+Searching: Binary Search (especially on sorted arrays/data).
+Recursion & Backtracking: Problems involving permutations, combinations, subsets, N-queens, Sudoku solver.
+Dynamic Programming (DP): Identifying overlapping subproblems and optimal substructure, memorization vs. tabulation, common DP patterns (e.g., Fibonacci, knapsack, longest common subsequence, edit distance). This is a very frequent and challenging topic.
+Greedy Algorithms: Problems where a locally optimal choice leads to a globally optimal solution.
+Two Pointers: Efficiently solving problems on sorted arrays or linked lists.
+Sliding Window: Solving problems involving sub-arrays/sub-strings of a fixed or variable size.
+Bit Manipulation: Solving problems using bitwise operations (less frequent for junior roles, but good to know).
+Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge Sort).
 
 # python_algorithm
 ## resources
