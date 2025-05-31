@@ -25,6 +25,9 @@ Sliding Window: Solving problems involving sub-arrays/sub-strings of a fixed or 
 Bit Manipulation: Solving problems using bitwise operations (less frequent for junior roles, but good to know).
 Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge Sort).
 ```
+
+- I will enter Google within Octber, 2025!!!!!!!
+
 # python_algorithm
 ## resources
 - [Leetcode](https://leetcode.com/)
