@@ -1,4 +1,6 @@
 # python_algorithm
+## resources
+- Leetcode
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
