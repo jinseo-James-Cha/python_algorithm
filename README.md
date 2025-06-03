@@ -249,10 +249,12 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -261,5 +263,10 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
