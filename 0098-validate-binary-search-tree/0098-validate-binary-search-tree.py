@@ -15,7 +15,8 @@ class Solution:
             if not node:
                 return True
             
-            if not (node.val > minimum and node.val < maximum):
+            # if not (node.val > minimum and node.val < maximum):
+            if node.val <= minimum or node.val >= maximum:
                 return False
         
             return valid(node.left, minimum, node.val) and valid(node.right, node.val, maximum)
