@@ -33,7 +33,3 @@ class Solution:
                     q.append(node.right)
         
         return depth
-
-
-
-        
