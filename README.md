@@ -115,6 +115,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 ## Two Pointers
@@ -301,6 +302,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0155-min-stack) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 ## Randomized
 |  |
