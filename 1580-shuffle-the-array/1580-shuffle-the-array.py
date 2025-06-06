@@ -2,7 +2,7 @@ class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
         res = []
         left = 0
-        right = len(nums) // 2
+        right = n
         for i in range(len(nums)):
             if i % 2 == 0:
                 res.append(nums[left])
