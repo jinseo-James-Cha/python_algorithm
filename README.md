@@ -54,6 +54,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0066-plus-one](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0118-pascals-triangle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0136-single-number) |
@@ -184,6 +185,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0053-maximum-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0070-climbing-stairs) |
+| [0118-pascals-triangle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0198-house-robber) |
