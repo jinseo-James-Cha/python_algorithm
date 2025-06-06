@@ -5,18 +5,6 @@ class Solution:
                 return i
         return len(nums)
 
-
-
-
-
-
-
-
-
-
-
-
-
         # answer = 0
         # for i in range(len(nums)):
         #     answer += i - nums[i]
