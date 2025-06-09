@@ -6,15 +6,13 @@ class Solution:
                 nums[i] = -1
 
         # two pointer -> move all -1 into back
-        res = 0
         left = 0
         for right in range(len(nums)):
             if nums[right] != -1:
                 nums[left], nums[right] = nums[right], nums[left]
-                res += 1
                 left += 1
 
-        return res
+        return left
 
 
 
