@@ -48,6 +48,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0001-two-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0027-remove-element) |
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0053-maximum-subarray) |
@@ -128,6 +129,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0141-linked-list-cycle) |
