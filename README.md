@@ -121,6 +121,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0020-valid-parentheses) |
+| [0094-binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0155-min-stack](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
@@ -272,6 +273,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0101-symmetric-tree) |
@@ -281,6 +283,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0101-symmetric-tree) |
@@ -295,6 +298,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0101-symmetric-tree) |
