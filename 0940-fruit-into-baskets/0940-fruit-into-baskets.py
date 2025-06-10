@@ -4,7 +4,7 @@ class Solution:
         # two types only
         # baskets = set() # allow two type -> X
         # set is not available cuz I need to move left one by one
-        # try with dict
+        # try with hashmap
         baskets = {} # 'type': count
         maximum = 0
 
@@ -13,6 +13,7 @@ class Solution:
         for right in range(len(fruits)):
             # baskets.add(fruits[right])
             baskets[fruits[right]] = baskets.get(fruits[right], 0) + 1
+            
             while len(baskets) > 2: # two types fruit only
                 baskets[fruits[left]] -= 1
                 
