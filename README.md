@@ -60,6 +60,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0136-single-number) |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
+| [0163-missing-ranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0163-missing-ranges) |
 | [0169-majority-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0198-house-robber) |
