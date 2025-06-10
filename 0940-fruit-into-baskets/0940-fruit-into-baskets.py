@@ -1,24 +1,55 @@
+# Sliding window
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
-        if len(fruits) == 1:
-            return 1
-        
-        # save two fruit types 
-        # using dict? or what?
-        baskets = {} 
+        # two types only
+        # baskets = set() # allow two type -> X
+        # set is not available cuz I need to move left one by one
+        # try with dict
+        baskets = {} # 'type': count
+        maximum = 0
+
+        # left pointer remove respectively
         left = 0
-        m = 0
         for right in range(len(fruits)):
+            # baskets.add(fruits[right])
             baskets[fruits[right]] = baskets.get(fruits[right], 0) + 1
-            
-            while len(baskets) > 2:
+            while len(baskets) > 2: # two types fruit only
                 baskets[fruits[left]] -= 1
+                
                 if baskets[fruits[left]] == 0:
                     del baskets[fruits[left]]
+                
                 left += 1
+            maximum = max(maximum, right - left + 1)
+        return maximum
 
-            m = max(right - left + 1, m)
-        return m
+
+
+
+
+
+
+# class Solution:
+#     def totalFruit(self, fruits: List[int]) -> int:
+#         if len(fruits) == 1:
+#             return 1
+        
+#         # save two fruit types 
+#         # using dict? or what?
+#         baskets = {} 
+#         left = 0
+#         m = 0
+#         for right in range(len(fruits)):
+#             baskets[fruits[right]] = baskets.get(fruits[right], 0) + 1
+            
+#             while len(baskets) > 2:
+#                 baskets[fruits[left]] -= 1
+#                 if baskets[fruits[left]] == 0:
+#                     del baskets[fruits[left]]
+#                 left += 1
+
+#             m = max(right - left + 1, m)
+#         return m
 
 
 # class Solution:
