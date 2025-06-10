@@ -1,19 +1,24 @@
 # sliding window feeling !
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        left = max_length = 0
-        char_set = set()
-        
+        # do it again with proper sliding door
+        # remove left and left += 1 keep checking its in there or not
+        longest = 0
+        left = 0
+        window = set()
         for right in range(len(s)):
-            while s[right] in char_set:
-                char_set.remove(s[left])
-                left += 1
-
-            char_set.add(s[right])
-            max_length = max(max_length, right - left + 1)
-        
-        return max_length
-
+            # why I cannot understand how to remove dups
+            # need to keep the order.. to remove in respectively
+            while s[right] in window:
+                # remove s[right] in window
+                # use left pointer to remove by order
+                window.remove(s[left])
+                left += 1  # move to right
+            
+            window.add(s[right])
+            longest = max(longest, right - left + 1)
+        return longest
+                
 
 
 # 0 <= s.length <= 5 * 10^4 -> O(N)
