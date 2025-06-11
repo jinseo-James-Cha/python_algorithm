@@ -1,22 +1,44 @@
-# New Solution with two pointer
+# retry with two pointers inward traversal strategy
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        new_s = ""
-        for a in s:
-            if (a >= "a" and a <= "z") or (a >= "A" and a <= "Z") or (a >= "0" and a <= "9"):
-                new_s += a.lower()
-
-            # if not a.isalpha(): above or this
-                # continue
-        # two pointer
         left = 0
-        for right in range(len(new_s)-1, -1, -1):
-            if left > right:
-                break
-            if new_s[left] != new_s[right]:
+        right = len(s) - 1
+        while left < right:
+            # skip non alphanumeric letter from both pointers
+            if not s[left].isalnum():
+                left += 1
+                continue
+            if not s[right].isalnum():
+                right -= 1
+                continue
+            
+            if s[left].lower() != s[right].lower():
                 return False
-            left += 1
+            else:
+                left += 1
+                right -= 1
         return True
+
+
+# New Solution with two pointer
+# class Solution:
+#     def isPalindrome(self, s: str) -> bool:
+#         new_s = ""
+#         for a in s:
+#             if (a >= "a" and a <= "z") or (a >= "A" and a <= "Z") or (a >= "0" and a <= "9"):
+#                 new_s += a.lower()
+
+#             # if not a.isalpha(): above or this
+#                 # continue
+#         # two pointer
+#         left = 0
+#         for right in range(len(new_s)-1, -1, -1):
+#             if left > right:
+#                 break
+#             if new_s[left] != new_s[right]:
+#                 return False
+#             left += 1
+#         return True
 
 
 # converting upper into lowercase
