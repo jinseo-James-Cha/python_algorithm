@@ -33,16 +33,16 @@ class Solution:
                     # if not [standard, nums[left], nums[right]] in res:
                     res.append([standard, nums[left], nums[right]])
                     left += 1
-                    right -= 1
+                    # right -= 1
                     
                     # TLE
                     # to prevent duplication skip left if tis the same 
                     # left dup
                     while left < right and nums[left] == nums[left - 1]:
                         left += 1
-                    # right dup
-                    while left < right and nums[right] == nums[right + 1]:
-                        right -= 1
+                    # # right dup
+                    # while left < right and nums[right] == nums[right + 1]:
+                    #     right -= 1
                 elif nums[left] + nums[right] + standard > 0 :
                     right -= 1
                 else:
