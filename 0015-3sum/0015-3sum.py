@@ -30,6 +30,7 @@ class Solution:
                     
                     # TLE
                     # THIS IS MAKING O(N^3) !!!!!
+                    # if not [standard, nums[left], nums[right]] in res:
                     res.append([standard, nums[left], nums[right]])
                     left += 1
                     
