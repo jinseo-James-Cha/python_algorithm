@@ -1,3 +1,6 @@
+# a in array is mulitiplying another O(n)
+# -10^5 <= nums[i] <= 10^5 within O(N^2)
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         # uhm i j k -> n^3 -> two pointers -> O(N^2)
