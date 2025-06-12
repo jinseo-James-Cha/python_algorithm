@@ -10,14 +10,12 @@ class MovingAverage:
 
     def next(self, val: int) -> float:
         poped = 0
-        if self.window_size >= self.size:
+        if len(self.window) >= self.size:
             poped = self.window.popleft()
-            self.window_size -= 1
 
         self.window.append(val)
-        self.window_size += 1
         self.window_sum += val - poped
-        return self.window_sum / self.window_size
+        return self.window_sum / len(self.window)
 
 
 # just for anwer submit.. lets try another version with sliding window
