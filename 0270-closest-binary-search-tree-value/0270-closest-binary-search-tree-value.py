@@ -5,7 +5,6 @@
 #         self.left = left
 #         self.right = right
 from collections import deque
-import sys
 class Solution:
     def closestValue(self, root: Optional[TreeNode], target: float) -> int:
         # BST!!!!
@@ -14,7 +13,7 @@ class Solution:
 
         # keep tracking minumum gap beween val and target
         res = []
-        minimum = sys.maxsize
+        minimum = float('inf')
         q = deque([root])
 
         while q:
