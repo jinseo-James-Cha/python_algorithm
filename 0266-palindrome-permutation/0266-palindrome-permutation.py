@@ -10,14 +10,18 @@ class Solution:
             else:
                 s_set.remove(a)
         
-        s_set_len = len(s_set)
-        s_len = len(s)
-        if s_len % 2 == 0 and s_set_len == 0:
-            return True
-        elif s_len % 2 != 0 and s_set_len == 1:
-            return True
+        return len(s_set) <= 1
+
+        # I already did the add and remove by even numbers.
+        # so s_set_len is already true if <= 1
+        # s_set_len = len(s_set)
+        # s_len = len(s)
+        # if s_len % 2 == 0 and s_set_len == 0:
+        #     return True
+        # elif s_len % 2 != 0 and s_set_len == 1:
+        #     return True
         
-        return False
+        # return False
 
 
 
