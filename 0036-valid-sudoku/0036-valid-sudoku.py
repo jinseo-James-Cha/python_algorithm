@@ -1,8 +1,8 @@
 # v2: optimize
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:   
-        rows = [set() for _ in range(9)]
-        columns = [set() for _ in range(9)]
+        rows = [set() for _ in range(9)] # this is the kick
+        columns = [set() for _ in range(9)] # this is the kick
         subBoxes = [[set() for _ in range(3)] for _ in range(3)] # subBoxes[][] = set()
         for r in range(9):
             for c in range(9):
@@ -10,11 +10,11 @@ class Solution:
                 if num == ".":
                     continue
                 
-                if num in rows[r]:
+                if num in rows[r]: # this is the kick
                     return False
-                if num in columns[c]:
+                if num in columns[c]: # this is the kick
                     return False
-                if num in subBoxes[r // 3][c // 3]:
+                if num in subBoxes[r // 3][c // 3]: # this is the kick
                     return False
                 
                 rows[r].add(num)
