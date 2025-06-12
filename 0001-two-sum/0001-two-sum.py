@@ -1,16 +1,20 @@
 # uhm.. I can use inward traversal two pointers if its sorted list.
 # You may assume that each input would have exactly one solution,
 # not use the same element twice.
+
+# v2: hash table solution
+# O(N) because hash table lookup time is O(1)
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         d = {}
-        for i, n in enumerate(nums):
-            d[n] = i
-        # no dup
+        # for i, n in enumerate(nums):
+        #     d[n] = i
         for i,n in enumerate(nums):
             t = target - n
-            if t in d and i != d[t]:
+            if t in d:
                 return [i, d[t]]
+            d[n] = i
+        return []
 
 
 
