@@ -17,8 +17,6 @@ class MovingAverage:
         self.window.append(val)
         self.window_size += 1
         self.window_sum += val - poped
-        print(self.window)
-        print(self.window_sum)
         return self.window_sum / self.window_size
 
 
