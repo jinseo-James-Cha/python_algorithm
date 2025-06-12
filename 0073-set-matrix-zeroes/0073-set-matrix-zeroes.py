@@ -1,6 +1,6 @@
 # optimize to make 
-# time :
-# space :
+# time : N + M +  M*N -> O(M*N)
+# space : O(1)
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
