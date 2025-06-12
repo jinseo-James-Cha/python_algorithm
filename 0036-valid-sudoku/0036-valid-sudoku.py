@@ -1,4 +1,5 @@
 # v2: optimize
+# O(N^2)
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:   
         rows = [set() for _ in range(9)] # this is the kick
