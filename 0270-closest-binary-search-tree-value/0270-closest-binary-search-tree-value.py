@@ -28,9 +28,10 @@ class Solution:
                 res.append(cur.val)
 
             # next level
-            if cur.left:
+            # optimize with target num and BST 
+            if cur.left and cur.val > target:
                 q.append(cur.left)
-            if cur.right:
+            if cur.right and cur.val < target:
                 q.append(cur.right)
         
         return min(res)
