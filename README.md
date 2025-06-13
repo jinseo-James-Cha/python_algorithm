@@ -102,6 +102,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0266-palindrome-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
@@ -344,6 +345,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0155-min-stack](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0155-min-stack) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 ## Randomized
 |  |
@@ -358,4 +360,5 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
 <!---LeetCode Topics End-->
