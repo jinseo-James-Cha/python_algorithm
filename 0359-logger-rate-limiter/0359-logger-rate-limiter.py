@@ -1,6 +1,9 @@
 # at most every 10 seconds
 # t + 10 < next message
 # Several messages may arrive at the same timestamp.
+
+# time : O(1) -> hashtable / dictionary
+# space : O(M)
 class Logger:
 
     def __init__(self):
