@@ -77,6 +77,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0422-valid-word-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0422-valid-word-square) |
 | [0604-design-compressed-string-iterator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0604-design-compressed-string-iterator) |
+| [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
@@ -108,6 +109,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
+| [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
@@ -133,6 +135,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
 | [0482-license-key-formatting](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0482-license-key-formatting) |
 | [0604-design-compressed-string-iterator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0604-design-compressed-string-iterator) |
+| [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 ## Stack
