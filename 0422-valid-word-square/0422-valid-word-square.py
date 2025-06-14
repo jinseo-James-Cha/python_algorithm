@@ -1,34 +1,39 @@
-# let me do another idea
-# v3 : fill up with 0 and then compare them
+# this is the kick....
 class Solution:
     def validWordSquare(self, words: List[str]) -> bool:
-        # standarize with row len
-        row_len = len(words)
-        col_len = len(words[0])
-        for w in words:
-            col_len = max(col_len, len(w))
-        max_len = max(row_len, col_len)
-
-        # make same rows if col is greater than row
-        # if col_len > row_len:
-        for i in range(max_len - row_len):
-            words.append("0" * col_len)
-        row_len = max_len
-        ## print(words)
-        ## return False
-
-        # make same cols if row is greater than col
-        for i in range(row_len):
-            if len(words[i]) != row_len:
-                words[i] += "0" * (row_len - len(words[i]))
-
-        # print(words)
-        # return False
-        for r in range(row_len):
-            for c in range(row_len):
-                if words[r][c] != words[c][r]:
+        
+        for i in range(len(words)):
+            for j in range(len(words[i])):
+                if j >= len(words) or i >= len(words[j]) or words[i][j] != words[j][i]:
                     return False
         return True
+
+# let me do another idea
+# v3 : fill up with 0 and then compare them
+# class Solution:
+#     def validWordSquare(self, words: List[str]) -> bool:
+#         # standarize with row len
+#         row_len = len(words)
+#         col_len = len(words[0])
+#         for w in words:
+#             col_len = max(col_len, len(w))
+#         max_len = max(row_len, col_len)
+
+#         # make same rows if col is greater than row
+#         for i in range(max_len - row_len):
+#             words.append("0" * col_len)
+#         row_len = max_len
+
+#         # make same cols if row is greater than col
+#         for i in range(row_len):
+#             if len(words[i]) != row_len:
+#                 words[i] += "0" * (row_len - len(words[i]))
+
+#         for r in range(row_len):
+#             for c in range(row_len):
+#                 if words[r][c] != words[c][r]:
+#                     return False
+#         return True
 
 # 1 <= words.length <= 500
 # 1 <= words[i].length <= 500
