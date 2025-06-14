@@ -1,7 +1,12 @@
+# defaultdict(set)
+# 'truck': {'car'}, 'car': {'automobile', 'vehicle', 'wagon', 'auto', 'truck'},
+# 'wagon': {'car'}, 'automobile': {'car'}, 'auto': {'car'}, 'vehicle': {'car'}
+
 class Solution:
     def areSentencesSimilar(self, sentence1: List[str], sentence2: List[str], similarPairs: List[List[str]]) -> bool:
         if len(sentence1) != len(sentence2):
             return False
+        # this is the kick
         wordToSimilarWords = defaultdict(set)
         for x, y in similarPairs:
             wordToSimilarWords[x].add(y)
