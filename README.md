@@ -138,6 +138,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0482-license-key-formatting](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0482-license-key-formatting) |
 | [0604-design-compressed-string-iterator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0604-design-compressed-string-iterator) |
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
+| [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 ## Stack
@@ -202,6 +203,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0326-power-of-three](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0326-power-of-three) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
+| [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
 ## Linked List
 |  |
@@ -303,6 +305,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
+| [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
 ## Number Theory
 |  |
 | ------- |
