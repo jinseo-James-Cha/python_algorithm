@@ -1,10 +1,8 @@
 # using hashmap -> O(N)
 
-from collections import defaultdict
-
 class Solution:
     def anagramMappings(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        hm = defaultdict(int)
+        hm = {}
         for i, n2 in enumerate(nums2):
             hm[n2] = i
 
