@@ -100,6 +100,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0141-linked-list-cycle) |
+| [0160-intersection-of-two-linked-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0242-valid-anagram) |
@@ -163,6 +164,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0088-merge-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0141-linked-list-cycle) |
+| [0160-intersection-of-two-linked-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0246-strobogrammatic-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0246-strobogrammatic-number) |
@@ -215,6 +217,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0019-remove-nth-node-from-end-of-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0141-linked-list-cycle) |
+| [0160-intersection-of-two-linked-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0237-delete-node-in-a-linked-list) |
