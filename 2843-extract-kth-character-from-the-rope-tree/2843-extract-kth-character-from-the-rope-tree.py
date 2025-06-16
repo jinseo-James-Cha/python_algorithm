@@ -26,6 +26,8 @@ class Solution:
 
         # implement all logic and then return value
 
+        # I think this solution is not what they want to see
+        # I should have used the root.len for backtracking
         # DFS will be useful to get leaves
         # S = ""
         def dfs(root: Optional[object]):
@@ -35,7 +37,7 @@ class Solution:
             if root.len == 0 and root.val:
                 return root.val
             
-            return concat(dfs(root.left), dfs(root.right))
+            return dfs(root.left) + dfs(root.right)
             
         S = dfs(root)
         return S[k-1]
