@@ -100,6 +100,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0217-contains-duplicate) |
@@ -217,6 +218,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0019-remove-nth-node-from-end-of-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
@@ -368,6 +370,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0155-min-stack) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
@@ -395,4 +398,8 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [1974-find-customers-with-positive-revenue-this-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1974-find-customers-with-positive-revenue-this-year) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
