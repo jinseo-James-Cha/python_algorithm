@@ -5,35 +5,26 @@
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        # this is the kick !
-        # we need the previous node of the target node !!!! -> easy to remove
-        # so start from 0 -> new head
-        res = ListNode(0, head)
-
-        # dummy will remove node with head pointer, res will return as answer
-        # linked list is sharing the address in memory, so make the copy easily
-        dummy = res
-
-
-        # head location - dummy location = n + 1, so lets move head ahead
-        # n + 1 is for easy removal as I mentioned.
-        # previous node is easier to remove the target node
+        # I think I can use two pointer and right - left = n
+        # once right arrives the end
+        # left arrives where we need to remove..
+        # but we need to reach one node bofore the target node we will remove
+        # head.next = head.next.next -> remove the next pointer.
+        answer = ListNode(-1)
+        answer.next = head
+        left = right = answer
+        # move right first
         for _ in range(n):
-            head = head.next
+            right = right.next
+            if not right:
+                return head
 
-        # now head location - dummy = n + 1
-        # let's move all together until head reaches the end
-        while head:
-            head = head.next
-            dummy = dummy.next
-        
-        # now head is None
-        # now dummy is the previous node of the target
-        # remove "next node" which is target node
-        dummy.next = dummy.next.next
+        while right.next:
+            right = right.next
+            left = left.next
 
-        # good job dummy, return the original of res's next
-        return res.next
+        # remve the tarket node
+        left.next = left.next.next
 
+        return answer.next
 
-    
