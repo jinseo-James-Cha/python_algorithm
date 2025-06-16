@@ -10,6 +10,26 @@ class Solution:
         """
         :type root: Optional[RopeTreeNode]
         """
+        # v2 : using len
+        # idea = check len and don't get into children if k is greater than len
+        if root.left:
+            if root.left.len == 0:
+                l = len(root.left.val)
+                if k <= l:
+                    return root.left.val[k-1]
+                else:
+                    return self.getKthCharacter(root.right, k-l)
+            else:
+                if k <= root.left.len:
+                    return self.getKthCharacter(root.left, k)
+                else:
+                    return self.getKthCharacter(root.right, k-root.left.len)
+
+        if root.right:
+            return self.getKthCharacter(root.right, k)
+        return root.val[k-1]
+
+
         # yes ! I like Tree question
         # node.val -> lowercase English letters (possibly empty)
         # node.len -> non-negative integer
@@ -30,15 +50,15 @@ class Solution:
         # I should have used the root.len for backtracking
         # DFS will be useful to get leaves
         # S = ""
-        def dfs(root: Optional[object]):
-            if not root:
-                return ""
+        # def dfs(root: Optional[object]):
+        #     if not root:
+        #         return ""
 
-            if root.len == 0 and root.val:
-                return root.val
+        #     if root.len == 0 and root.val:
+        #         return root.val
             
-            return dfs(root.left) + dfs(root.right)
+        #     return dfs(root.left) + dfs(root.right)
             
-        S = dfs(root)
-        return S[k-1]
+        # S = dfs(root)
+        # return S[k-1]
 
