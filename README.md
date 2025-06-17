@@ -178,6 +178,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0408-valid-word-abbreviation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
+| [0908-middle-of-the-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 ## Simulation
@@ -228,6 +229,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0206-reverse-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0237-delete-node-in-a-linked-list) |
+| [0908-middle-of-the-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0908-middle-of-the-linked-list) |
 ## Recursion
 |  |
 | ------- |
