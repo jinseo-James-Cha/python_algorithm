@@ -4,6 +4,18 @@
 #         self.val = x
 #         self.next = None
 
+# v3 : optimize with fast and slow pinters
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow = fast = head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if fast == slow:
+                return True
+        return False
+
 
 # v2: two pointers: fast and slow pointers
 class Solution:
