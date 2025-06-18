@@ -1,23 +1,41 @@
-# sliding window feeling !
+# v2 dynamic sliding window
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        # do it again with proper sliding door
-        # remove left and left += 1 keep checking its in there or not
         longest = 0
+
+        unique_str = set()
         left = 0
-        window = set()
         for right in range(len(s)):
-            # why I cannot understand how to remove dups
-            # need to keep the order.. to remove in respectively
-            while s[right] in window:
-                # remove s[right] in window
-                # use left pointer to remove by order
-                window.remove(s[left])
-                left += 1  # move to right
-            
-            window.add(s[right])
+            while s[right] in unique_str:
+                unique_str.remove(s[left])
+                left += 1
+            unique_str.add(s[right])
             longest = max(longest, right - left + 1)
         return longest
+
+
+        return longest
+
+# sliding window feeling !
+# class Solution:
+#     def lengthOfLongestSubstring(self, s: str) -> int:
+#         # do it again with proper sliding door
+#         # remove left and left += 1 keep checking its in there or not
+#         longest = 0
+#         left = 0
+#         window = set()
+#         for right in range(len(s)):
+#             # why I cannot understand how to remove dups
+#             # need to keep the order.. to remove in respectively
+#             while s[right] in window:
+#                 # remove s[right] in window
+#                 # use left pointer to remove by order
+#                 window.remove(s[left])
+#                 left += 1  # move to right
+            
+#             window.add(s[right])
+#             longest = max(longest, right - left + 1)
+#         return longest
                 
 
 
