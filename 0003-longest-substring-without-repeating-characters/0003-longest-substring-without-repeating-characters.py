@@ -6,7 +6,7 @@ class Solution:
         longest = 0
         left = 0
         for right in range(len(s)):
-            if s[right] in window:
+            if s[right] in window and window[s[right]] >= left:
                 # move +1 index for the saved index
                 left = window[s[right]] + 1
             
