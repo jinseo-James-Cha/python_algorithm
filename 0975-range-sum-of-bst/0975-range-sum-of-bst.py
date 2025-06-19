@@ -12,6 +12,7 @@ class Solution:
         # left -> low < val < high
         # right -> parent < val < high
         # I think we can use recursive..
+        # but no idea how to make..
         s = 0
         def addSum(node, low, high):
             nonlocal s
@@ -19,11 +20,16 @@ class Solution:
             if not node:
                 return 0
             
+            print(node.val)
+            
             if low <= node.val <= high:
                 s += node.val
             
-            addSum(node.left, low, high)
-            addSum(node.right, low, high) 
+            if node.val > low:
+                addSum(node.left, low, high)
+
+            if node.val < high:
+                addSum(node.right, low, high) 
         addSum(root, low, high)
         return s
 
