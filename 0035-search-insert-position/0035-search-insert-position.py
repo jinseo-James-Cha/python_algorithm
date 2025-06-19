@@ -13,5 +13,5 @@ class Solution:
             else:
                 return mid
         # left and right meets at the same spot
-        return right + 1
+        return left
         
