@@ -51,6 +51,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0015-3sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0027-remove-element) |
+| [0035-search-insert-position](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0053-maximum-subarray) |
@@ -264,6 +265,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0035-search-insert-position) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0278-first-bad-version](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0278-first-bad-version) |
