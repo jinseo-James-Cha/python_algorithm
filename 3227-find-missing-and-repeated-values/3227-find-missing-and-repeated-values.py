@@ -11,10 +11,10 @@ class Solution:
             for num in grid[i]:
                 checked[num] += 1
         
-        for i in range(len(checked)):
+        for i in range(1, len(checked)):
             if checked[i] == 2:
                 ans[0] = i
-            if i != 0 and not checked[i]:
+            if not checked[i]:
                 ans[1] = i
         return ans
                 
