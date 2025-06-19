@@ -4,29 +4,24 @@ class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         def lower_bound_binary_search(nums: List[int], target: int) -> int:
             left, right = 0, len(nums) - 1
-            res = -1 # default value setting
-            while left <= right: # 
+            while left < right:
                 mid = (left + right) // 2
                 if nums[mid] < target:
                     left = mid + 1
-                else:
-                    if nums[mid] == target:
-                        res = mid
-                    right = mid - 1 # put left there and move right to befroe mid
-            return res
+                else:   
+                    right = mid 
+            return left if left < len(nums) and nums[left] == target else -1
+
         # rightmost occurrence of the target
         def upper_bound_binary_search(nums: List[int], target: int) -> int:
-            left, right = 0, len(nums) - 1
-            res = -1
-            while left <= right:
+            left, right = 0, len(nums)
+            while left < right:
                 mid = (left + right) // 2
-                if nums[mid] > target:
-                    right = mid - 1
-                else:
-                    if nums[mid] == target:
-                        res = mid
+                if nums[mid] <= target:
                     left = mid + 1
-            return res
+                else:
+                    right = mid
+            return left - 1 if left > 0 and nums[left - 1] == target else -1
 
         lower_bound = lower_bound_binary_search(nums, target)
         upper_bound = upper_bound_binary_search(nums, target)
