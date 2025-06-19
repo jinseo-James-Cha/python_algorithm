@@ -352,6 +352,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0104-maximum-depth-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
+| [0543-diameter-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0543-diameter-of-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Depth-First Search
 |  |
@@ -362,6 +363,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0101-symmetric-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
+| [0543-diameter-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0543-diameter-of-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Breadth-First Search
 |  |
@@ -381,6 +383,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0104-maximum-depth-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
+| [0543-diameter-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0543-diameter-of-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Binary Search Tree
 |  |
