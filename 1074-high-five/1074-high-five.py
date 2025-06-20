@@ -1,10 +1,9 @@
-
-
 # nice to write down plan with brainstorming first
 # and think edge case to change plans
 # and separate all by one
+# this is O(NlogN)
 # I can optimize in v2
-from collections import defaultdict
+# from collections import defaultdict
 class Solution:
     def highFive(self, items: List[List[int]]) -> List[List[int]]:
         # scores in items
