@@ -1,3 +1,9 @@
+
+
+# nice to write down plan with brainstorming first
+# and think edge case to change plans
+# and separate all by one
+# I can optimize in v2
 from collections import defaultdict
 class Solution:
     def highFive(self, items: List[List[int]]) -> List[List[int]]:
