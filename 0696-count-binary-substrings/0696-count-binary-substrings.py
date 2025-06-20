@@ -1,21 +1,39 @@
+# wow... group when every different time of letter comes...
+# and check min num of next each one.
+class Solution(object):
+    def countBinarySubstrings(self, s):
+        groups = [1]
+        for i in range(1, len(s)):
+            if s[i-1] != s[i]:
+                groups.append(1)
+            else:
+                groups[-1] += 1
+
+        ans = 0
+        for i in range(1, len(groups)):
+            ans += min(groups[i-1], groups[i])
+        return ans
+
 # v4 optimize from O(N^2)
 # O(N) from solutions
-class Solution:
-    def countBinarySubstrings(self, s: str) -> int:
-        prev = 0
-        curr = 1
-        result = 0
+# class Solution:
+#     def countBinarySubstrings(self, s: str) -> int:
+#         prev = 0
+#         curr = 1
+#         result = 0
 
-        for i in range(1, len(s)):
-            if s[i] == s[i - 1]:
-                curr += 1
-            else:
-                result += min(prev, curr)
-                prev = curr
-                curr = 1
+#         for i in range(1, len(s)):
+#             if s[i] == s[i - 1]:
+#                 curr += 1
+#             else:
+#                 result += min(prev, curr)
+#                 prev = curr
+#                 curr = 1
 
-        result += min(prev, curr)
-        return result
+#         result += min(prev, curr)
+#         return result
+
+
 
 # v3 optimize
 # using dict it works till testcases 86/91 but TLE
