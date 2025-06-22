@@ -1,3 +1,4 @@
+# v1: brute force and O(N**2)
 class Solution:
     def countSymmetricIntegers(self, low: int, high: int) -> int:
         # x -> 2 * n digits symmetric
@@ -25,9 +26,6 @@ class Solution:
                     second_half += int(s_num[i])
             
             if first_half == second_half:
-                print(s_num)
-                print(first_half)
-                print(second_half)
                 count += 1
         return count
             
