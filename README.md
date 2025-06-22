@@ -238,6 +238,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1500-count-largest-group) |
 | [2383-add-two-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2383-add-two-integers) |
+| [2998-count-symmetric-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2998-count-symmetric-integers) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 ## Linked List
 |  |
@@ -351,6 +352,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
+| [2998-count-symmetric-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2998-count-symmetric-integers) |
 ## Number Theory
 |  |
 | ------- |
