@@ -1,4 +1,3 @@
-# v2
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         # keep saving latest index in hashmap and compare 
