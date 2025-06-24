@@ -1,4 +1,3 @@
-from collections import deque
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         # flowers cannot be planted in adjacent plots.
