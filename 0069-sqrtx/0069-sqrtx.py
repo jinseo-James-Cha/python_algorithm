@@ -10,7 +10,7 @@ class Solution:
 
         # a**2 <= x < a+1**2 ->a
         a = 0
-        while True:
+        while a**2 <= 2**31 - 1 :
             if a**2 <= x < (a+1)**2:
                 return a
             a += 1
