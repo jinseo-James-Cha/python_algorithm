@@ -95,6 +95,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 | [2875-count-houses-in-a-circular-street](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2875-count-houses-in-a-circular-street) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
@@ -136,6 +137,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1500-count-largest-group](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1500-count-largest-group) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
+| [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 ## String
@@ -230,6 +232,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
+| [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
 ## Math
 |  |
 | ------- |
@@ -329,6 +332,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
 | [0461-hamming-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0461-hamming-distance) |
+| [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
 ## Memoization
 |  |
 | ------- |
