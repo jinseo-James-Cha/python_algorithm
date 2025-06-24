@@ -1,3 +1,23 @@
+# min heap not working
+# from collections import Counter
+# import heapq
+# class Solution:
+#     def topKFrequent(self, words: List[str], k: int) -> List[str]:
+#         freqs = Counter(words)
+#         min_heap = []
+#         for word, freq in freqs.items():
+#             heapq.heappush(min_heap, (freq, word))
+
+#             # remove if it is more than k
+#             if len(min_heap) > k:
+#                 heapq.heappop(min_heap)
+
+#         res = [heapq.heappop(min_heap)[1] for _ in range(k)]
+#         print(res)
+#         res.reverse()
+#         return res
+
+# max heap
 from collections import Counter
 import heapq
 class Solution:
