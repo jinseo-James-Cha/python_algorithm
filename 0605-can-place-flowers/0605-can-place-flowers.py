@@ -22,10 +22,13 @@ class Solution:
         if True not in flowerbed[0:2]:
             flowerbed[0] = 1
             count += 1
+        
+        # check last 2
         if True not in flowerbed[len(flowerbed)-2:]:
             flowerbed[len(flowerbed)-1] = 1
             count += 1
 
+        # check middle
         left = 0
         right = 3
         while right < len(flowerbed):                
