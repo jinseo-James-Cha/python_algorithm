@@ -21,6 +21,8 @@ class MedianFinder:
                 heapq.heappush(self.left_half, -heapq.heappop(self.right_half))
 
     def findMedian(self) -> float:
+        # heap[0]은 가장 작은 값을 단순히 조회(read-only) 할 때 사용합니다.
+
         if len(self.left_half) == len(self.right_half):
             return (-self.left_half[0] + self.right_half[0]) / 2.0
         return -self.left_half[0]
