@@ -242,6 +242,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
+| [0069-sqrtx](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0202-happy-number) |
@@ -310,6 +311,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0033-search-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0278-first-bad-version](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0278-first-bad-version) |
