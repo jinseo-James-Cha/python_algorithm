@@ -57,6 +57,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0053-maximum-subarray) |
+| [0056-merge-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0088-merge-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0088-merge-sorted-array) |
@@ -314,6 +315,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0015-3sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0217-contains-duplicate) |
