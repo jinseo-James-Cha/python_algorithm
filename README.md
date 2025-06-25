@@ -109,6 +109,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3429-special-array-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 ## Hash Table
 |  |
@@ -149,6 +150,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## String
 |  |
 | ------- |
