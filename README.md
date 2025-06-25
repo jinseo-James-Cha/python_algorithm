@@ -182,6 +182,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0696-count-binary-substrings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0696-count-binary-substrings) |
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
+| [0851-goat-latin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0851-goat-latin) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [1123-single-row-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1123-single-row-keyboard) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1146-greatest-common-divisor-of-strings) |
