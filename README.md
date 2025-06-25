@@ -91,6 +91,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
+| [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-three-consecutive-odds) |
@@ -230,6 +231,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
+| [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 ## Simulation
 |  |
@@ -544,4 +546,8 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0023-merge-k-sorted-lists) |
+## Line Sweep
+|  |
+| ------- |
+| [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 <!---LeetCode Topics End-->
