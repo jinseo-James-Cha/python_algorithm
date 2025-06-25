@@ -1,3 +1,19 @@
+# time O(n)
+# space O(n)
+class Solution:
+    def minimumOperations(self, nums: List[int]) -> int:
+        seen = [False] * 128 # no meaning with 128, just 2**7 and enough space
+
+        # reverse the array
+        count = 0
+        for i in range(len(nums)-1, -1, -1):
+            if seen[nums[i]]:
+                return i // 3 + 1
+            seen[nums[i]] = True
+        return 0
+
+
+# brute force O(n^2)
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
         # ensure all in array is distinct
