@@ -1,3 +1,4 @@
+# v1 : O(n)
 class Solution:
     def check(self, nums: List[int]) -> bool:
         # count reversed pair
