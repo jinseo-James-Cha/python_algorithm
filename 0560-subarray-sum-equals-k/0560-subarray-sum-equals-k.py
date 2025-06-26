@@ -10,7 +10,8 @@ class Solution:
         # curr = 1 + 0
         # 
         for num in nums:
-            curr_prefix_sum += num #
+            curr_prefix_sum += num
+            
             if curr_prefix_sum - k in prefix_sum_map:
                 count += prefix_sum_map[curr_prefix_sum - k]
 
