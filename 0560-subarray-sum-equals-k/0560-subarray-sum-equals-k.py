@@ -1,8 +1,10 @@
+from collections import defaultdict
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         count = 0
-
-        prefix_sum_map = {0: 1}
+        
+        prefix_sum_map = defaultdict(int)
+        prefix_sum_map[0] = 1
         curr_prefix_sum = 0
         # 1 1 1
         # curr = 1 + 0
@@ -11,7 +13,8 @@ class Solution:
             curr_prefix_sum += num #
             if curr_prefix_sum - k in prefix_sum_map:
                 count += prefix_sum_map[curr_prefix_sum - k]
-            prefix_sum_map[curr_prefix_sum] = prefix_sum_map.get(curr_prefix_sum, 0) + 1
+
+            prefix_sum_map[curr_prefix_sum] += 1
         return count
 
 
