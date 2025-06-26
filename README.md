@@ -74,6 +74,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0219-contains-duplicate-ii) |
+| [0238-product-of-array-except-self](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0238-product-of-array-except-self) |
 | [0252-meeting-rooms](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0283-move-zeroes) |
@@ -527,6 +528,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Heap (Priority Queue)
