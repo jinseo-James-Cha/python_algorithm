@@ -3,6 +3,7 @@
 - May goal: an easy question within 30min
 - June goal: a medium question within 30min
 - July goal: a hard question within 30min
+- July ~ Aug: finish an algorithm book
 - Aug goal: mock tests and interview
 
 # Python
