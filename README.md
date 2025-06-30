@@ -109,6 +109,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
+| [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
@@ -161,6 +162,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2186-count-vowel-substrings-of-a-string) |
+| [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -354,6 +356,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
+| [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 ## Binary Search
 |  |
 | ------- |
@@ -434,6 +437,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
+| [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2998-count-symmetric-integers) |
 ## Number Theory
 |  |
