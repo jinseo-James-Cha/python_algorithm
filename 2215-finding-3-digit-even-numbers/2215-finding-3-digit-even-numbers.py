@@ -18,18 +18,16 @@ class Solution:
         for i in range(100, 999, 2):
             s_i = str(i)
             matching_count = 0
-            c = Counter(digits)
+            temp_c = c.copy()
             for a in s_i:
-                print(s_i)
-                print(c)
-                if int(a) not in c:
+                if int(a) not in temp_c:
                     break
                 else:
-                    if c[int(a)] == 0:
+                    if temp_c[int(a)] == 0:
                         break
 
                     matching_count += 1
-                    c[int(a)] -= 1
+                    temp_c[int(a)] -= 1
             if matching_count == 3:
                 res.append(int(s_i))
         return res
