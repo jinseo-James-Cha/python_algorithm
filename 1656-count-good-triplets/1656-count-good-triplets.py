@@ -5,10 +5,12 @@ class Solution:
         # abs(arr[i] - arr[j]) <= a
         # ...
 
-        ### Solving
+        ### Approaching
         # 3 nested loops..? 
         # no...uhm I wannt to do with 3 pointers.. -> no it cannot be j not moving..
         # especially, k <= next element -> res += 1
+
+        ### Sovled O(n^3)
         res = 0
         n = len(arr)
         for i in range(n - 2):
