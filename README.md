@@ -108,6 +108,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1524-string-matching-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1524-string-matching-in-an-array) |
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
+| [1656-count-good-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1656-count-good-triplets) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -448,6 +449,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
+| [1656-count-good-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1656-count-good-triplets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2998-count-symmetric-integers) |
 ## Number Theory
