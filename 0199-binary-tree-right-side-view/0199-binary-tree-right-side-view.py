@@ -8,7 +8,7 @@ from collections import deque
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         # right value on each depth.
-        # BFS?
+        # BFS?!
         res = []
         if not root:
             return res
