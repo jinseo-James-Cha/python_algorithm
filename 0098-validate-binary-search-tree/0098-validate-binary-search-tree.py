@@ -4,23 +4,21 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-# 1. left child node should be less than parent node
-# 2. right child node should be greater than parent node
-# 3. keep cheching all
-
+from math import inf
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def valid(node, minimum, maximum):
+        # BFS
+        # left.val < node.val < right.val
+        def validBST(node, minimum, maximum):
             if not node:
                 return True
             
-            # if not (node.val > minimum and node.val < maximum):
-            if node.val <= minimum or node.val >= maximum:
+            if node.val <= minimum:
                 return False
+            if node.val >= maximum:
+                return False
+            
+            return validBST(node.left, minimum, node.val) and validBST(node.right, node.val, maximum)
         
-            return valid(node.left, minimum, node.val) and valid(node.right, node.val, maximum)
-
-        return valid(root, float("-inf"), float("inf"))
-
+        return validBST(root, -inf, inf)
         
