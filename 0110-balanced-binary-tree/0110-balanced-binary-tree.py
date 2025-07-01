@@ -9,6 +9,7 @@ class Solution:
         def getHeightImbalance(node: TreeNode) -> int:
             if not node:
                 return 0
+            
             left_height = getHeightImbalance(node.left)
             right_height = getHeightImbalance(node.right)
             
