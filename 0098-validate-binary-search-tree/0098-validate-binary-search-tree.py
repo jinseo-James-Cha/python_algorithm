@@ -7,9 +7,9 @@
 from math import inf
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        # BFS
+        # DFS recursive
         # left.val < node.val < right.val
-        def validBST(node, minimum, maximum):
+        def validBST(node: TreeNode, minimum: int, maximum: int) -> bool:
             if not node:
                 return True
             
