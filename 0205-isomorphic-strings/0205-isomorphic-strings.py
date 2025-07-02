@@ -10,6 +10,4 @@ class Solution:
         return " ".join(new_s)
             
     def isIsomorphic(self, s: str, t: str) -> bool:
-        print(self.transformStr(s))
-        print(self.transformStr(t))
         return self.transformStr(s) == self.transformStr(t)
