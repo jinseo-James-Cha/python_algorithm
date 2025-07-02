@@ -8,14 +8,15 @@ from collections import deque
 class Solution:
     def findTarget(self, root: Optional[TreeNode], k: int) -> bool:
         # BFS
-        nums = []
+        nums = {}
         queue = deque([root])
         while queue:
             node = queue.popleft()
             
-            if k - node.val in nums:
+            if node.val in nums:
                 return True
-            nums.append(node.val)
+            
+            nums[k - node.val] = True
             if node.left:
                 queue.append(node.left)
             if node.right:
