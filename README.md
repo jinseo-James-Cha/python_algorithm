@@ -220,6 +220,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
 ## Stack
@@ -545,6 +546,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0219-contains-duplicate-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Data Stream
 |  |
 | ------- |
