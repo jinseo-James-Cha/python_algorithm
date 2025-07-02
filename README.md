@@ -106,6 +106,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
 | [1319-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1319-unique-number-of-occurrences) |
 | [1382-calculate-amount-paid-in-taxes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1382-calculate-amount-paid-in-taxes) |
+| [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1524-string-matching-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1524-string-matching-in-an-array) |
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
@@ -167,6 +168,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1123-single-row-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1123-single-row-keyboard) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1319-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1319-unique-number-of-occurrences) |
+| [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1500-count-largest-group](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1500-count-largest-group) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
@@ -279,6 +281,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [1382-calculate-amount-paid-in-taxes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1382-calculate-amount-paid-in-taxes) |
+| [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
@@ -444,6 +447,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0422-valid-word-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0422-valid-word-square) |
+| [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 ## Queue
 |  |
