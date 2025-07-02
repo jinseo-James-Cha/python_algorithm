@@ -487,6 +487,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0543-diameter-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
+| [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Depth-First Search
 |  |
@@ -505,6 +506,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0543-diameter-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
+| [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Breadth-First Search
 |  |
@@ -517,6 +519,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0199-binary-tree-right-side-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -536,6 +539,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0543-diameter-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
+| [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Binary Search Tree
 |  |
