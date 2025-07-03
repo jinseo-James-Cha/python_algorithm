@@ -24,21 +24,6 @@ class KthLargest:
         if len(self.scores) > self.k:
             heapq.heappop(self.scores)
         return self.scores[0]
-        # # compare with kth value
-        # kthValue = self.scores[0]
-            
-        # # ignore if new val is less than kth value
-        # if kthValue > val:
-        #     return kthValue
-        # # only if its full, remove kth value and add new val
-        # if len(self.scores) == self.k:
-        #     heapq.heappop(self.scores)
-        # heapq.heappush(self.scores, val)
-        
-        # return self.scores[0]
-        
-            
-
 
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
