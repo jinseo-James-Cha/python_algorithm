@@ -38,4 +38,3 @@ class Solution:
                         y_parent = node.val
 
         return x_depth == y_depth and x_parent != y_parent
-        
