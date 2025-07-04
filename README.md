@@ -491,6 +491,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0783-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
@@ -551,6 +552,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0783-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
@@ -563,6 +565,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0783-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
 ## Design
