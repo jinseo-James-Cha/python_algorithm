@@ -16,7 +16,6 @@ class Solution:
         res = []
         dfs(root)
         minimum = float(inf)
-        for i in range(len(res) - 1):
-            temp = res[i + 1] - res[i]
-            minimum = min(temp, minimum)
+        for a, b in zip(res[1:], res[:len(res) - 1]):
+            minimum = min(a - b, minimum)
         return minimum
