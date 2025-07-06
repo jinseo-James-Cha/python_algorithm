@@ -6,40 +6,41 @@
 #         self.right = right
 
 # try #2 stack
-# class Solution:
-#     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-#         res = [] 
-#         stack = [] # stack, LIFO
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        res = [] 
+        stack = []
+        curr = root
 
-#         while root or stack:
-#             while root:
-#                 stack.append(root)
-#                 root = root.left
-            
-#             root = stack.pop()
-#             res.append(root.val)
-#             root = root.right
+        while curr or stack:
+            while curr:
+                stack.append(curr)
+                curr = curr.left
+
+            curr = stack.pop()
+            res.append(curr.val)
+            curr = curr.right
         
-#         return res
+        return res
 
 
 
 # try # 1 recursive
-class Solution:
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        # YES BT problem.
-        # inorder
+# class Solution:
+#     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+#         # YES BT problem.
+#         # inorder
 
-        res = [] 
-        # go left -> root (myself) -> go right
-        def inorder(root):
-            if not root:
-                return
-            inorder(root.left)
-            res.append(root.val)
-            inorder(root.right)
+#         res = [] 
+#         # go left -> root (myself) -> go right
+#         def inorder(root):
+#             if not root:
+#                 return
+#             inorder(root.left)
+#             res.append(root.val)
+#             inorder(root.right)
         
-        inorder(root)
-        return res
+#         inorder(root)
+#         return res
         
             
