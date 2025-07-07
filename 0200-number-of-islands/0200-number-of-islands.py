@@ -16,7 +16,7 @@ class Solution:
     # DFS
     def dfs(self, r: int, c: int, grid: List[List[str]]) -> None:
         # mark current land cell as visited with -1
-        grid[r][c] = -1
+        grid[r][c] = "-1"
 
         # up, down, left, right
         # row, column order cuz of 2D matrix
