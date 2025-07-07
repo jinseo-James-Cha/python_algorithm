@@ -73,6 +73,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
 | [0163-missing-ranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0163-missing-ranges) |
 | [0169-majority-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0169-majority-element) |
+| [0170-two-sum-iii-data-structure-design](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0189-rotate-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
@@ -147,6 +148,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0146-lru-cache](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0169-majority-element) |
+| [0170-two-sum-iii-data-structure-design](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0202-happy-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0217-contains-duplicate) |
@@ -265,6 +267,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0125-valid-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0160-intersection-of-two-linked-lists) |
+| [0170-two-sum-iii-data-structure-design](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0189-rotate-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
@@ -609,6 +612,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0146-lru-cache](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0155-min-stack) |
+| [0170-two-sum-iii-data-structure-design](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
@@ -631,6 +635,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Data Stream
 |  |
 | ------- |
+| [0170-two-sum-iii-data-structure-design](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
