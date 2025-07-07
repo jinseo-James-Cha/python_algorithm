@@ -412,6 +412,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0069-sqrtx) |
+| [0222-count-complete-tree-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0278-first-bad-version](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0278-first-bad-version) |
@@ -432,6 +433,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0136-single-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0191-number-of-1-bits) |
+| [0222-count-complete-tree-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0222-count-complete-tree-nodes) |
 | [0266-palindrome-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
@@ -511,6 +513,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0144-binary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
@@ -584,6 +587,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0144-binary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
