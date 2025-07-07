@@ -81,6 +81,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0219-contains-duplicate-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0238-product-of-array-except-self) |
+| [0243-shortest-word-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0243-shortest-word-distance) |
 | [0252-meeting-rooms](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0283-move-zeroes) |
@@ -204,6 +205,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0211-design-add-and-search-words-data-structure](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0224-basic-calculator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0242-valid-anagram) |
+| [0243-shortest-word-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0243-shortest-word-distance) |
 | [0246-strobogrammatic-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0246-strobogrammatic-number) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0266-palindrome-permutation) |
