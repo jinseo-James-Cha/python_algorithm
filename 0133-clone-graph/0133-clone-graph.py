@@ -12,7 +12,6 @@ class Solution:
         # DFS
         # hash map
         def dfs(node: Node, clone_map = {}) -> Node:
-            # if already cloned, return the one
             if node in clone_map:
                 return clone_map[node]
 
