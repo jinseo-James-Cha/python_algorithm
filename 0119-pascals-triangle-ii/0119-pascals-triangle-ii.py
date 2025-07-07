@@ -23,8 +23,8 @@ class Solution:
         # 1 , 2,  1
         # row[row][i] = row[row-1][i-1] + [i]
         for i in range(2, rowIndex + 1):
-            temp = [0] * (i + 1)
-            temp[0] = temp[-1] = 1
+            temp = [1] * (i + 1)
+            # temp[0] = temp[-1] = 1
             for j in range(1, i):
                 temp[j] = dp[-1][j-1] + dp[-1][j]
             dp.append(temp)
