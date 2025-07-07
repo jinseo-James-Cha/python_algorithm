@@ -26,7 +26,6 @@ class Solution:
             temp = [0] * (i + 1)
             temp[0] = temp[-1] = 1
             for j in range(1, i):
-                print(dp[-1])
                 temp[j] = dp[-1][j-1] + dp[-1][j]
             dp.append(temp)
         return dp[rowIndex]
