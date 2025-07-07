@@ -1,13 +1,19 @@
 class TwoSum:
+    # v2
 
     def __init__(self):
         self.arr = []
+        self.isSorted = False
 
     def add(self, number: int) -> None:
         self.arr.append(number)
-        self.arr.sort()
+        self.isSorted = False
 
     def find(self, value: int) -> bool:
+        if not self.isSorted:
+            self.arr.sort()
+            self.isSorted = True
+
         left = 0
         right = len(self.arr) - 1
 
