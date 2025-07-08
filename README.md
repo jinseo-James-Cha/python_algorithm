@@ -342,6 +342,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0224-basic-calculator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0258-add-digits) |
+| [0263-ugly-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0263-ugly-number) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0326-power-of-three) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
