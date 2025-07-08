@@ -160,6 +160,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0246-strobogrammatic-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0246-strobogrammatic-number) |
 | [0266-palindrome-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
@@ -211,6 +212,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0246-strobogrammatic-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0246-strobogrammatic-number) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0266-palindrome-permutation) |
+| [0290-word-pattern](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0290-word-pattern) |
 | [0293-flip-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0293-flip-game) |
 | [0344-reverse-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0345-reverse-vowels-of-a-string) |
