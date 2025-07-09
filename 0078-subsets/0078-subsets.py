@@ -6,7 +6,6 @@ class Solution:
     
     def backtrack(self, i: int, curr_subset: List[int], nums: List[int], res: List[List[int]]) -> None:
         # base case: if all elements have been considered, add the current subset to the output
-        print(i)
         if i == len(nums):
             res.append(curr_subset[:])
             print(res)
