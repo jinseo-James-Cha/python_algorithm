@@ -8,7 +8,6 @@ class Solution:
         # base case: if all elements have been considered, add the current subset to the output
         if i == len(nums):
             res.append(curr_subset[:])
-            print(res)
             return
 
         # include the current element 
