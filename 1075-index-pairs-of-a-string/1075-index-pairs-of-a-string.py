@@ -8,7 +8,7 @@ class Solution:
         
         # constraints : All the strings of words are unique
 
-        res = []
+        res = set()
 
         for word in words:
             first = word[0]
@@ -16,8 +16,8 @@ class Solution:
                 if first == t:
                     j =  i + len(word)
                     if word == text[i:j]:
-                        if [i, j - 1] not in res:
-                            res.append([i,j - 1])
+                        res.add((i,j - 1))
         
+        res = list(res)
         res.sort(key= lambda x: (x[0], x[1]))
         return res
