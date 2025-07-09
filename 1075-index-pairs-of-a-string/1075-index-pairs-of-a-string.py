@@ -11,14 +11,13 @@ class Solution:
         res = []
 
         for word in words:
-            # temp = []
-            for w in word: # s t o r y 5
-                for i, t in enumerate(text): # t h e s t o r y o f f l e e t c o d e 
-                    if w == t:
-                        j =  i + len(word)
-                        if word == text[i:j]:
-                            if [i, j - 1] not in res:
-                                res.append([i,j - 1])
+            first = word[0]
+            for i, t in enumerate(text):
+                if first == t:
+                    j =  i + len(word)
+                    if word == text[i:j]:
+                        if [i, j - 1] not in res:
+                            res.append([i,j - 1])
         
         res.sort(key= lambda x: (x[0], x[1]))
         return res
