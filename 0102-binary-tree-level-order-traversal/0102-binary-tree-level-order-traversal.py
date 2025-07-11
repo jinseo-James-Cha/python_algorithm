@@ -4,57 +4,39 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-# BFS
 from collections import deque
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        res = []
+        # 1. intuition
+        # BFS every queue make temp [] and put into res at the end of each loop
+
+        # 2. complexicy
+        # BFS : O(N)
+
+        # 3. data structure
+        # queue = deque
+        # temp =  List[int], 
+        # res = List[List[int]]
 
         if not root:
-            return res
-        
-        dq = deque()
-        dq.append(root)
-        while dq:
+            return []
+
+        res = []
+        queue = deque([root])
+        while queue:
             temp = []
-            for _ in range(len(dq)):
-                node = dq.popleft()
+            for _ in range(len(queue)):
+                node = queue.popleft()
                 temp.append(node.val)
+
                 if node.left:
-                    dq.append(node.left)
+                    queue.append(node.left)
                 if node.right:
-                    dq.append(node.right)
+                    queue.append(node.right)
+            
             res.append(temp)
         return res
 
-# class Solution:
-#     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-#         def addVal(answer, node: Optional[TreeNode], depth):
-#             answer[depth].append(node.val)
-#             return answer
 
-#         if not root:
-#             return []
-        
-#         answer = []
-#         d = 0
-#         answer = addVa(answer, root, d)
-
-#         return self.levelOrder(root.left) + self.levelOrder(root.right)
-
-        # answer = [[root.val]]
-        # cur = root
-        # while cur.left or cur.right:
-        #     temp = []
-        #     if cur.left:
-        #         temp.append(cur.left.val)
-        #     if cur.right:
-        #         temp.append(cur.right.val)
-        #     answer.append(temp)
-        #     cur = cur.left if cur.left else cur.right
-
-        # print(answer)
-        
 
         
