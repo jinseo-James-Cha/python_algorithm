@@ -113,6 +113,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
 | [1098-largest-unique-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1098-largest-unique-number) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-three-consecutive-odds) |
@@ -455,6 +456,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [1066-fixed-point](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1066-fixed-point) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
 ## Interactive
