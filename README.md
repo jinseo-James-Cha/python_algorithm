@@ -370,6 +370,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1069-confusing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1069-confusing-number) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1088-number-of-days-in-a-month](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1088-number-of-days-in-a-month) |
+| [1090-armstrong-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1090-armstrong-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1500-count-largest-group) |
