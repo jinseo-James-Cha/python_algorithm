@@ -18,12 +18,11 @@ class Solution:
         # grid: List[List[str]]
         # visited List[List[bool]]
         # res: int
-        m = len(grid)
-        n = len(grid[0])
-        visited = [[False] * n for _ in range(m)]
+        N, M = len(grid), len(grid[0])
+        visited = [[False] * M for _ in range(N)]
         res = 0
-        for r in range(m):
-            for c in range(n):
+        for r in range(N):
+            for c in range(M):
                 if grid[r][c] == "1" and visited[r][c] == False:
                     visited[r][c] = True
                     res += 1
