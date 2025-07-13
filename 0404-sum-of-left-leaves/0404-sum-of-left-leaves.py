@@ -7,8 +7,7 @@
 from collections import deque
 class Solution:
     def sumOfLeftLeaves(self, root: Optional[TreeNode]) -> int:
-    
-
+        # v1 : bfs
         res = 0
         queue = deque([root])
         while queue:
