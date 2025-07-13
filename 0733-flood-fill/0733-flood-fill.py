@@ -3,6 +3,15 @@ class Solution:
         # 1. intuition
         # flood fill from image[sr][sc]
         # directly adjacent(up, down, left, right) - same color
+        # don't need to loop and it just needs to fill with target color only the adjacent cell and same color with starting one
+
+        # 2. complexity
+        # O(N) -> 50 * 50 -> 2500
+
+        # 3. data structure
+        # int... 
+
+
         if image[sr][sc] == color:
             return image
 
