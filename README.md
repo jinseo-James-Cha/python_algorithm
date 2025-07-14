@@ -394,6 +394,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0237-delete-node-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0908-middle-of-the-linked-list) |
+| [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
