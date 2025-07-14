@@ -1,49 +1,26 @@
-
-
-# IN OUT
-# 1  1
-# 2  2
-# 3  3
-# 4  5  
-# example of 4 steps
-# 1111
-# 121
-# 112
-# 211
-# 22
-# is it finonacci sequence ?!
-
 class Solution:
     def climbStairs(self, n: int) -> int:
-        # top-down without memoization -> time limit exceeded
-        # memoization in cache
-        # cache = [-1] * 46
-        # cache[0] = 0
-        # cache[1] = 1
-        # cache[2] = 2
-        # def fibo(n):
-        #     if cache[n] > -1:
-        #         return cache[n]
-        #     else:
-        #         cache[n] = fibo(n-2) + fibo(n-1)
-        #     return cache[n]
-
-        # return fibo(n)
-
-        # bottom-up
-        
-        if n <=3:
+        # v2: bottom-up
+        if n <= 2:
             return n
-        cache = [0] * (n+1)
-        cache[1] = 1
-        cache[2] = 2
-        cache[3] = 3
-        for i in range(4, n+1):
-            cache[i] = cache[i-2] + cache[i-1]
-
-        return cache[-1]                
-            
-
-
-
         
+        dp = [0] * (n + 1)
+        dp[1], dp[2] = 1, 2
+
+        for i in range(3, n + 1):
+            dp[i] = dp[i - 1] + dp[i - 2]
+        return dp[n]
+
+        # v1: top-down -> TLE
+        # memo = {}
+
+        # if n <= 2:
+        #     return n
+        # if n in memo:
+        #     return memo[n]
+        
+        # memo[n] = self.climbStairs(n - 1) + self.climbStairs(n - 2)
+
+        # return memo[n] 
+        
+
