@@ -10,6 +10,6 @@ class Solution:
             if not node:
                 return 0
             
-            return max(1 + dfs(node.left), 1 + dfs(node.right))
+            return 1 + max(dfs(node.left), dfs(node.right))
         return dfs(root)
         
