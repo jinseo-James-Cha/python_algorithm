@@ -4,32 +4,13 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-# DFS - stack or recursive
-# class Solution:
-#     def maxDepth(self, root: Optional[TreeNode]) -> int:
-#         if not root:
-#             return 0
-        
-#         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
-
-#BFS - queue
-from collections import deque
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        if not root:
-            return 0
-
-        depth = 0
-        q = deque()
-        q.append(root)
-        while q:
-            depth += 1
-            for _ in range(len(q)):
-                node = q.popleft()
-                if node.left:
-                    q.append(node.left)
-                if node.right:
-                    q.append(node.right)
+        def dfs(node: TreeNode):
+            if not node:
+                return 0
+            
+            return max(1 + dfs(node.left), 1 + dfs(node.right))
         
-        return depth
+        return dfs(root)
+        
