@@ -11,6 +11,5 @@ class Solution:
                 return 0
             
             return max(1 + dfs(node.left), 1 + dfs(node.right))
-        
         return dfs(root)
         
