@@ -20,7 +20,5 @@ class Solution:
             dfs(node.right, res) 
 
         dfs(root1, leaves1)
-        print(leaves1)
         dfs(root2, leaves2)
-        print(leaves2)
         return leaves1 == leaves2
