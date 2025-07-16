@@ -29,7 +29,8 @@ class Solution:
 
         for r in range(n):
             for c in range(m):
-                if grid[r][c] == 1 and visited[r][c] == False:
+                if grid[r][c] == 1:
                     visited[r][c] = True
                     dfs(r,c)
-        return perimeter
+                    return perimeter
+        return 0
