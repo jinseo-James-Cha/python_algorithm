@@ -586,6 +586,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0783-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [0904-leaf-similar-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
@@ -621,6 +622,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
+| [0904-leaf-similar-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
@@ -678,6 +680,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0783-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [0904-leaf-similar-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
