@@ -1,10 +1,15 @@
 from collections import defaultdict, deque
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        # DFS
+
+
+
+
         # making adjacent list and check
         # using hashmap and num, list
-        if source == destination:
-            return True
+        # if source == destination:
+        #     return True
 
         adjacent_list = defaultdict(list)
         
@@ -12,7 +17,7 @@ class Solution:
             adjacent_list[u].append(v)
             adjacent_list[v].append(u)
 
-        # BFS
+        # # BFS
         seen = [False] * n
         seen[source] = True
         queue = deque([source])
