@@ -601,6 +601,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
 | [2384-root-equals-sum-of-children](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2384-root-equals-sum-of-children) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Depth-First Search
 |  |
@@ -644,6 +645,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
 | [2121-find-if-path-exists-in-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2121-find-if-path-exists-in-graph) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Breadth-First Search
 |  |
@@ -712,6 +714,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
 | [2384-root-equals-sum-of-children](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2384-root-equals-sum-of-children) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
 ## Binary Search Tree
 |  |
