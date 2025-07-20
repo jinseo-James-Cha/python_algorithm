@@ -841,6 +841,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0133-clone-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0133-clone-graph) |
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
+| [1916-find-center-of-star-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
 |  |
