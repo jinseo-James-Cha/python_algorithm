@@ -7,7 +7,7 @@
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         # using morris with inorder -> ascending order
-        # res[k]
+        # res[k-1]
 
         res = []
         current = root
