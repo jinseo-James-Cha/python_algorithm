@@ -5,23 +5,47 @@
 #         self.left = left
 #         self.right = right
 
-# try #2 stack
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        res = [] 
-        stack = []
-        curr = root
+        # Morris Traversal
+        res = []
+        current = root
+        while current:
+            if current.left is None:
+                res.append(current.val)
+                # visit
+                current = current.right 
+            else:
+                # next target
+                predecessor = current.left 
+                # move to left's rightmost node
+                while predecessor.right and predecessor.right != current:
+                    predecessor = predecessor.right
 
-        while curr or stack:
-            while curr:
-                stack.append(curr)
-                curr = curr.left
-
-            curr = stack.pop()
-            res.append(curr.val)
-            curr = curr.right
-        
+                # first visit -> create link(thread)
+                if predecessor.right is None:
+                    predecessor.right = current
+                    current = current.left
+                else: # second visit -> remove link and get value
+                    predecessor.right = None
+                    res.append(current.val)
+                    current = current.right
         return res
+
+        # res = [] 
+        # stack = []
+        # curr = root
+
+        # while curr or stack:
+        #     while curr:
+        #         stack.append(curr)
+        #         curr = curr.left
+
+        #     curr = stack.pop()
+        #     res.append(curr.val)
+        #     curr = curr.right
+        
+        # return res
 
 
 
