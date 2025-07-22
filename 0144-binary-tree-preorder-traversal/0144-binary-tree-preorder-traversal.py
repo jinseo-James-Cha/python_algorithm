@@ -22,11 +22,12 @@ class Solution:
                 # first visit -> create link
                 if predecessor.right is None:
                     predecessor.right = current
-                    res.append(current.val)
-                    current = current.left
+                    res.append(current.val) # preorder
+                    current = current.left 
                 else:
                     # second bisit -> remove link and move to right
                     predecessor.right = None
+                    # res.append(current.val) # inorder
                     current = current.right
         return res
 
