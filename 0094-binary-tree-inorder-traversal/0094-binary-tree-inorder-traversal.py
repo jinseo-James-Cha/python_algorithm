@@ -27,6 +27,7 @@ class Solution:
                     predecessor.right = current
                     current = current.left
                 else: # second visit -> remove link and get value
+                # 나의 왼쪽 섭트리의 맨 오른쪽 노드가 바로 나야 ! -> 나를 방문하고 오른쪽으로가 
                     predecessor.right = None
                     res.append(current.val)
                     current = current.right
