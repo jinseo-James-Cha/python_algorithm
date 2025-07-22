@@ -133,6 +133,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1656-count-good-triplets) |
+| [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -201,6 +202,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1319-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1319-unique-number-of-occurrences) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1500-count-largest-group](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1500-count-largest-group) |
+| [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2186-count-vowel-substrings-of-a-string) |
@@ -776,6 +778,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
+| [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Data Stream
 |  |
