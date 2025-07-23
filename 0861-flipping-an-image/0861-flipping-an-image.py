@@ -5,15 +5,21 @@ class Solution:
         # 3. return
 
         n = len(image)
-
-        # 1. flip
+        # v2:
         for i in range(n):
-            for j in range(n // 2):
-                image[i][j], image[i][n-j-1] = image[i][n-j-1], image[i][j]
-        
-        # 2. invert
-        for i in range(n):
-            for j in range(n):
-                image[i][j] = (image[i][j] + 1) % 2
-
+            for j in range(( n + 1 ) // 2):
+                image[i][j], image[i][~j] = image[i][~j] ^ 1, image[i][j] ^ 1
         return image
+
+        # v1 
+        # 1. flip
+        # for i in range(n):
+        #     for j in range(n // 2):
+        #         image[i][j], image[i][n-j-1] = image[i][n-j-1], image[i][j]
+        
+        # # 2. invert
+        # for i in range(n):
+        #     for j in range(n):
+        #         image[i][j] = (image[i][j] + 1) % 2
+
+        # return image
