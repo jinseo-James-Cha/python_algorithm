@@ -1,17 +1,17 @@
 class Solution:
     def reverse(self, x: int) -> int:
-        # using % and muliple by 10 for each loop?
-        answer = 0
-        is_x_negative = x < 0
-        x = abs(x) 
-        while x > 0:
-            if (answer * 10) + (x % 10) > 2**31 - 1:
-                return 0
-            elif ((answer * 10) + (x % 10)) * -1 <= 2**31 * -1:
-                return 0
+        INT_MAX = 2**31 - 1 # 2147483647
 
-            answer *= 10 # answer = answer * 10
-            answer += x % 10 # answer = answer + x % 10
+        sign = -1 if x < 0 else 1
+        x = abs(x)        
+        res = 0
+        while x != 0:
+            digit = x % 10
             x //= 10
 
-        return answer * -1 if is_x_negative else answer
+            if res > INT_MAX // 10 or (res == INT_MAX // 10 and digit > 7):
+                return 0
+            
+            res = res * 10 + digit
+        return res * sign
+        
