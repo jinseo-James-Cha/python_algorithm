@@ -61,6 +61,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0046-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0066-plus-one) |
@@ -334,6 +335,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
 | [0258-add-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0258-add-digits) |
@@ -548,6 +550,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0200-number-of-islands) |
 | [0422-valid-word-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0422-valid-word-square) |
