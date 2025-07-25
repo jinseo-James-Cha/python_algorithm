@@ -109,6 +109,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0762-find-anagram-mappings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0762-find-anagram-mappings) |
+| [0777-toeplitz-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-toeplitz-matrix) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
@@ -556,6 +557,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0422-valid-word-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0422-valid-word-square) |
 | [0463-island-perimeter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
+| [0777-toeplitz-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-toeplitz-matrix) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
