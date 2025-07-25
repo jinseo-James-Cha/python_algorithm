@@ -137,6 +137,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1656-count-good-triplets) |
+| [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -562,6 +563,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2737-row-with-maximum-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2737-row-with-maximum-ones) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
