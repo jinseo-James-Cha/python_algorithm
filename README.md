@@ -108,6 +108,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
+| [0747-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [0762-find-anagram-mappings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0762-find-anagram-mappings) |
 | [0777-toeplitz-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-toeplitz-matrix) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
@@ -449,6 +450,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0392-is-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
+| [0747-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
 ## Sorting
 |  |
