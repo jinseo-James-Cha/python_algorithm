@@ -73,6 +73,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0119-pascals-triangle-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0136-single-number) |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
@@ -176,6 +177,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0013-roman-to-integer](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0146-lru-cache) |
@@ -912,6 +914,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0200-number-of-islands) |
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
 | [2121-find-if-path-exists-in-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2121-find-if-path-exists-in-graph) |
