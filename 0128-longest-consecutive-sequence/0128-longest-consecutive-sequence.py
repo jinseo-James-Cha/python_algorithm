@@ -1,8 +1,5 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        # intuition
-        # how to make consecutive...
-        # O(n)
         nums_set = set(nums)
         longest_sequence = 0
         for num in nums_set:
