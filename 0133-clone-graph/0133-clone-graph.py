@@ -11,15 +11,15 @@ class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         # DFS
         # hash map
-        def dfs(node: Node, clone_map = {}) -> Node:
-            if node in clone_map:
-                return clone_map[node]
+        def dfs(node: Node, visited = {}) -> Node:
+            if node in visited:
+                return visited[node]
 
             cloned_node = Node(node.val)
-            clone_map[node] = cloned_node
+            visited[node] = cloned_node
 
             for neighbor in node.neighbors:
-                cloned_neighbor = dfs(neighbor, clone_map)
+                cloned_neighbor = dfs(neighbor, visited)
                 cloned_node.neighbors.append(cloned_neighbor)
             return cloned_node
 
