@@ -20,7 +20,7 @@ class Solution:
 
         def dfs(node, parent):   
             if node in seen:
-                return
+                return False
             seen.add(node)
             for neighbour in adjacent_list[node]:
                 if neighbour == parent:
