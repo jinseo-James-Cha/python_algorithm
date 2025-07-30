@@ -1,6 +1,25 @@
 from collections import defaultdict
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
+        if len(edges) != n-1:
+            return False
+            
+        def dfs(node: int):
+            if node in seen:
+                return
+            seen.add(node)
+            for l in adjacent_list[node]:
+                dfs(l)
+
+        adjacent_list = defaultdict(list)
+        for a, b in edges:
+            adjacent_list[a].append(b)
+            adjacent_list[b].append(a)
+        
+        seen = set()
+        dfs(0)
+        return len(seen) == n
+
         # 1. intuition
         # 0 ~ n - 1
         # edges[i] = [ai, bi] undirected <->
@@ -15,29 +34,30 @@ class Solution:
         # 3. data structure
         # hashmap: ajacent_list
         # array: seen
-        if len(edges) != n-1:
-            return False
+        # if len(edges) != n-1:
+        #     return False
 
-        def dfs(node, parent):   
-            if node in seen:
-                return False
-            seen.add(node)
-            for neighbour in adjacent_list[node]:
-                if neighbour == parent:
-                    continue
-                if neighbour in seen:
-                    return False
-                if not dfs(neighbour, node):
-                    return False
-            return True
+        # def dfs(node, parent):
+        #     if node in seen:
+        #         return False
+        #     seen.add(node)
+            
+        #     for neighbour in adjacent_list[node]:
+        #         if neighbour == parent:
+        #             continue
+        #         if neighbour in seen:
+        #             return False
+        #         if not dfs(neighbour, node):
+        #             return False
+        #     return True
                 
-        adjacent_list = defaultdict(list)
-        seen = set()
-        for a, b in edges:
-            adjacent_list[a].append(b)
-            adjacent_list[b].append(a)
+        # adjacent_list = defaultdict(list)
+        # seen = set()
+        # for a, b in edges:
+        #     adjacent_list[a].append(b)
+        #     adjacent_list[b].append(a)
 
-        return dfs(0, -1) and len(seen) == n
+        # return dfs(0, -1) and len(seen) == n
         
        
             
