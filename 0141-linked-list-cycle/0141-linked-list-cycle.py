@@ -9,15 +9,14 @@ class Solution:
             return False
 
         # Floyd's Cycle Finding Algorithm
-        fast = slow = head
-        while fast and fast.next:
+        slow = head
+        fast = head.next
+        while slow != fast:
+            if fast is None or fast.next is None:
+                return False
             fast = fast.next.next
             slow = slow.next
-
-            if fast == slow:
-                return True
-        
-        return False
+        return True
 
 
 
