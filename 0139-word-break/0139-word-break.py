@@ -28,14 +28,13 @@ class Solution:
         dp = [False] * len(s)
         for i in range(len(s)):
             if i == 0 or dp[i - 1]: # 첫 시작이거나 dp로 확인했을때 이전 단어가 true인 경우 leetcodedp에서 c인 경우 같은거지
-                curr = root
-                for j in range(i, len(s)):
-                    c = s[j]
-                    if c not in curr.children:
+                curr = root # trie 다시 순회하면서 단어 있나 검색
+                for j in range(i, len(s)): # 해당 스펠링부터 끝까지가 기준임
+                    c = s[j]  
+                    if c not in curr.children: # 없어? 그럼 브레이크 -> False야 그대로
                         break
                     
-                    curr = curr.children[c]
-                    if curr.is_word:
+                    curr = curr.children[c] # 있으면 더 들어가자 
+                    if curr.is_word: # 이 단어가 끝이있네? 그럼 true
                         dp[j] = True
-        print(dp)
         return dp[-1]
