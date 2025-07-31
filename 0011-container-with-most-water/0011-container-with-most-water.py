@@ -11,7 +11,10 @@ class Solution:
         left = 0
         right = len(height) - 1
         while left < right:
-            current_amount = min(height[left], height[right]) * (right - left)
+            w = right - left
+            h = min(height[left], height[right])
+            current_amount = h * w
+            
             maximum_amount = max(current_amount, maximum_amount)
 
             # move smaller line to the next
