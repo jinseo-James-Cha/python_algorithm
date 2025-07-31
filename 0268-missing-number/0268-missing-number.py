@@ -1,11 +1,14 @@
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        for i in range(len(nums)):
-            if i not in nums:
-                return i
-        return len(nums)
+        # Follow up: 
+        # Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
 
-        # answer = 0
-        # for i in range(len(nums)):
-        #     answer += i - nums[i]
-        # return answer + len(nums)
+
+        # v1
+        nums.sort()
+        res = len(nums)
+        for i, num in enumerate(nums):
+            if i != num:
+                res = i
+                break
+        return res
