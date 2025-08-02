@@ -6,14 +6,33 @@
 # O(N) because hash table lookup time is O(1)
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        d = {}
+        hashmap = {}
+
+        res = []
+        for i, num in enumerate(nums):
+            if target - num in hashmap:
+                res = [hashmap[target - num], i]
+                break
+            hashmap[num] = i
+        return res
+
+
+
+
+
+
+
+
+
+
+        # d = {}
         
-        for i,n in enumerate(nums):
-            t = target - n
-            if t in d:
-                return [i, d[t]]
-            d[n] = i
-        return []
+        # for i,n in enumerate(nums):
+        #     t = target - n
+        #     if t in d:
+        #         return [i, d[t]]
+        #     d[n] = i
+        # return []
 
 
 
