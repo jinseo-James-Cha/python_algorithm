@@ -8,27 +8,17 @@ class Solution:
         # 4 5 6 7 0 1 2 3
         # unique elements
         # return minimum element in this array
-        if len(nums) == 1:
-            return nums[0]
-        
-        if nums[-1] > nums[0]:
-            return nums[0]
-        
         left = 0
         right = len(nums) - 1
-        while left <= right:
+        while left < right:
             mid = (left + right) // 2
 
-            if nums[mid] > nums[mid + 1]:
-                return nums[mid + 1]
-            
-            if nums[mid] < nums[mid - 1]:
-                return nums[mid]
-
-            if nums[mid] > nums[0]:
-                left = mid + 1
+            if nums[mid] <= nums[right]:
+                right = mid
             else:
-                right = mid - 1
+                left = mid + 1
+        
+        return nums[left]
 
 
 
