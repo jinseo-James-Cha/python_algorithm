@@ -77,6 +77,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0134-gas-station](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0139-word-break) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
 | [0163-missing-ranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0163-missing-ranges) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -511,6 +512,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0069-sqrtx) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
