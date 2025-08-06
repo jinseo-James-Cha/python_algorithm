@@ -77,6 +77,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0134-gas-station](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
 | [0163-missing-ranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0163-missing-ranges) |
@@ -468,6 +469,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
