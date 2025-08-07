@@ -1,11 +1,11 @@
 # Goal
 - I will enter Google within Octber, 2025!!!!!!!
-- May goal: an easy question within 30min
+<!-- - May goal: an easy question within 30min
 - June goal: a medium question within 30min
-- June ~ July: finish first algorithm book
-- July goal: a hard question within 30min
+- June ~ July: finish first algorithm book -->
+<!-- - July goal: a hard question within 30min -->
 - July ~ Aug: finish second algorithm book
-- Aug goal: mock tests and interview
+- Aug goal:  mock tests and interview
 - Sep: Enter Google !!!
 
 # Python
