@@ -20,11 +20,10 @@ class Solution:
             
             return island
 
-        res = []
+        res = set()
         for r in range(n):
             for c in range(m):
                 if grid[r][c] == 1:
                     current = dfs(r, c, r, c, [(0,0)])
-                    if current not in res:
-                        res.append(current)
+                    res.add(tuple(current))
         return len(res)
