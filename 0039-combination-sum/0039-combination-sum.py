@@ -3,20 +3,20 @@ class Solution:
         self, candidates: List[int], target: int
     ) -> List[List[int]]:
 
-        results = []
+        res = []
 
-        def backtrack(remain, comb, start):
-            if remain == 0:
-                results.append(list(comb))
-                return
-            elif remain < 0:
-                return
 
+        def backtrack(start, remainder, combination):
+            if remainder == 0:
+                res.append(combination[:])
+                return
+            elif remainder < 0:
+                return
+            
             for i in range(start, len(candidates)):
-                comb.append(candidates[i])
-                backtrack(remain - candidates[i], comb, i)
-                comb.pop()
+                combination.append(candidates[i])
+                backtrack(i, remainder - candidates[i], combination)
+                combination.pop()
 
-        backtrack(target, [], 0)
-
-        return results
+        backtrack(0, target, [])
+        return res
