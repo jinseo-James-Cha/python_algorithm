@@ -89,6 +89,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0198-house-robber](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
+| [0216-combination-sum-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0228-summary-ranges) |
@@ -945,6 +946,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0046-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0078-subsets) |
+| [0216-combination-sum-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 ## Graph
 |  |
