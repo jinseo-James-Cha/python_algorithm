@@ -3,7 +3,7 @@ class Solution:
         res = []
         seen = set()
 
-        def backtrack(current, nums):
+        def backtrack(current):
             if len(current) == len(nums):
                 res.append(current[:])
             
@@ -11,11 +11,11 @@ class Solution:
                 if num not in seen:
                     current.append(num)
                     seen.add(num)
-                    backtrack(current, nums)
+                    backtrack(current)
                     current.pop()
                     seen.remove(num)
         
-        backtrack([], nums)
+        backtrack([])
         return res
 
 
