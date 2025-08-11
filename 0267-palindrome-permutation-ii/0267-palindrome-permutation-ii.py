@@ -37,7 +37,9 @@ class Solution:
                 if i > 0 and half_chars[i] == half_chars[i - 1] and not used[i - 1]:
                     continue
                 used[i] = True
-                backtrack(path + [half_chars[i]])
+                path.append(half_chars[i])
+                backtrack(path)
+                path.pop()                       
                 used[i] = False
 
         backtrack([])
