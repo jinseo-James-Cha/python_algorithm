@@ -2,17 +2,36 @@
 # hash map
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        window = {}
         longest = 0
+        seen = set()
         left = 0
         for right in range(len(s)):
-            if s[right] in window and window[s[right]] >= left:
-                # move +1 index for the saved index
-                left = window[s[right]] + 1
+            while s[right] in seen:
+                seen.remove(s[left])
+                left += 1
             
-            window[s[right]] = right
-            longest = max(longest, right - left + 1)
+            seen.add(s[right])
+            longest = max(longest, len(seen))
         return longest
+
+
+
+
+
+
+
+
+        # window = {}
+        # longest = 0
+        # left = 0
+        # for right in range(len(s)):
+        #     if s[right] in window and window[s[right]] >= left:
+        #         # move +1 index for the saved index
+        #         left = window[s[right]] + 1
+            
+        #     window[s[right]] = right
+        #     longest = max(longest, right - left + 1)
+        # return longest
 
 
 
