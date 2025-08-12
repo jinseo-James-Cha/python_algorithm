@@ -5,9 +5,7 @@ class Solution:
             if num > subs[-1]:
                 subs.append(num)
             else:
-                i = 0
-                while num > subs[i]:
-                    i += 1
+                i = bisect_left(subs, num)
                 subs[i] = num
         return len(subs)
 
