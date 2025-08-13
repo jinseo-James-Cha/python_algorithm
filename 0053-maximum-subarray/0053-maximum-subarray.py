@@ -5,9 +5,9 @@ class Solution:
 
         # take?
         # or restart?
-        max_sum = float(-inf)
-        current_sum = float(-inf)
-        for i in range(len(nums)):
+        max_sum = nums[0]
+        current_sum = nums[0]
+        for i in range(1, len(nums)):
             # compare nums[i] and current_sum which is current_sum + num[i]
             current_sum = max(nums[i], nums[i] + current_sum)
             max_sum = max(max_sum, current_sum)
