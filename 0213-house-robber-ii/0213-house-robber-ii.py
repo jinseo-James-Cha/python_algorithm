@@ -5,26 +5,39 @@ class Solution:
         # 맨 마지막을 선택할건지 말건지...
         # nums[1:] or nums[:-1]로 판단하는건디... 어떻게 이렇게 생각해낼수 있을까...
 
-        # bottom
-
-        # bottom-up / tabulation
+        # bottom-up optimatization
         if len(nums) == 1:
             return nums[0]
         
-        def bottom_up_dp(houses):
-            n = len(houses)
-            if n == 1:
-                return houses[0]
+        def bottom_up_opti(houses):
+            prev = 0
+            prev_prev = 0
+            for house in houses:
+                current = max(prev_prev + house, prev)
+                prev_prev = prev
+                prev = current
+            return prev
+        return max(bottom_up_opti(nums[1:]), bottom_up_opti(nums[:-1]))
 
-            dp = [0] * n
-            dp[0] = houses[0]
-            dp[1] = max(houses[0], houses[1])
-            for i in range(2, n):
-                dp[i] = max(dp[i-2]+houses[i], dp[i-1])
-            
-            return dp[-1]
+
+        # bottom-up / tabulation
+        # if len(nums) == 1:
+        #     return nums[0]
         
-        return max(bottom_up_dp(nums[1:]), bottom_up_dp(nums[:-1]))
+        # def bottom_up_dp(houses):
+        #     n = len(houses)
+        #     if n == 1:
+        #         return houses[0]
+
+        #     dp = [0] * n
+        #     dp[0] = houses[0]
+        #     dp[1] = max(houses[0], houses[1])
+        #     for i in range(2, n):
+        #         dp[i] = max(dp[i-2]+houses[i], dp[i-1])
+            
+        #     return dp[-1]
+        
+        # return max(bottom_up_dp(nums[1:]), bottom_up_dp(nums[:-1]))
 
 
 
