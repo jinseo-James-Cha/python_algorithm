@@ -5,6 +5,8 @@ class Solution:
         # 맨 마지막을 선택할건지 말건지...
         # nums[1:] or nums[:-1]로 판단하는건디... 어떻게 이렇게 생각해낼수 있을까...
 
+        # bottom
+
         # bottom-up / tabulation
         if len(nums) == 1:
             return nums[0]
