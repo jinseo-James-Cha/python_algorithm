@@ -3,19 +3,43 @@
 # need to solve a few more times
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
-        # DP - ninja
-        dp = [0] * len(text1) # 0 0 0 0
+        dp = [0] * len(text1)
         longest_length = 0
 
         for t2 in text2:
-            current_length = 0
+            current_num = 0
             for i, length in enumerate(dp):
-                if length > current_length:
-                    current_length = length
-                elif t2 == text1[i]:
-                    dp[i] = current_length + 1
-                    longest_length = max(longest_length, current_length + 1)
+                if length > current_num:
+                    current_num = length
+                elif text1[i] == t2:
+                    dp[i] = current_num + 1
+                    longest_length = max(longest_length, dp[i])
+        
         return longest_length
+
+
+
+
+
+
+
+
+
+
+
+        # DP - ninja
+        # dp = [0] * len(text1) # 0 0 0 0
+        # longest_length = 0
+
+        # for t2 in text2:
+        #     current_length = 0
+        #     for i, length in enumerate(dp):
+        #         if length > current_length:
+        #             current_length = length
+        #         elif t2 == text1[i]:
+        #             dp[i] = current_length + 1
+        #             longest_length = max(longest_length, current_length + 1)
+        # return longest_length
 
 
 
