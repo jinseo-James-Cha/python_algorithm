@@ -1,6 +1,9 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # maximum amount I can rob ?! -> DP question?!
+        # bottom-up / tabulation
+
+
         # top-down / memoization
         def calculate_rob(i):
             if i == 0:
@@ -15,6 +18,3 @@ class Solution:
             return memo[i]
         memo = {}
         return calculate_rob(len(nums)-1)
-        
-
-        # bottom-up / tabulation
