@@ -284,6 +284,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0482-license-key-formatting](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0482-license-key-formatting) |
+| [0583-delete-operation-for-two-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0583-delete-operation-for-two-strings) |
 | [0604-design-compressed-string-iterator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0604-design-compressed-string-iterator) |
 | [0647-palindromic-substrings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
@@ -493,6 +494,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
+| [0583-delete-operation-for-two-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0747-min-cost-climbing-stairs) |
