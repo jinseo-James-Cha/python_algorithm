@@ -575,6 +575,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0266-palindrome-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
+| [0401-binary-watch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0401-binary-watch) |
 | [0461-hamming-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0461-hamming-distance) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
@@ -970,6 +971,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0267-palindrome-permutation-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0267-palindrome-permutation-ii) |
 | [0291-word-pattern-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0291-word-pattern-ii) |
+| [0401-binary-watch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0401-binary-watch) |
 ## Graph
 |  |
 | ------- |
