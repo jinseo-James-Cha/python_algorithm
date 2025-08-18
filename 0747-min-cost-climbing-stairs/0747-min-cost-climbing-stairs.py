@@ -1,18 +1,24 @@
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
-        memo = {}
+        # bottom up
+        dp = [0] * (len(cost)+1) # [0,0,0,    0]
+        for i in range(2, len(cost) + 1):
+            dp[i] = min(dp[i-2] + cost[i-2], dp[i-1] + cost[i-1])
+        return dp[-1]
 
-        def dp(i):
-            # if i < 0:
-            #     return 0
-            if i == 0 or i == 1:
-                return cost[i]
-            if i not in memo:
-                memo[i] = cost[i] + min(dp(i-1), dp(i-2))
-            return memo[i]
+        # memo = {}
 
-        # 마지막 계단(len(cost)-1) 또는 그 전 계단(len(cost)-2)에서 한 번에 올라갈 수 있으므로
-        return min(dp(len(cost)-1), dp(len(cost)-2))
+        # def dp(i):
+        #     # if i < 0:
+        #     #     return 0
+        #     if i == 0 or i == 1:
+        #         return cost[i]
+        #     if i not in memo:
+        #         memo[i] = cost[i] + min(dp(i-1), dp(i-2))
+        #     return memo[i]
+
+        # # 마지막 계단(len(cost)-1) 또는 그 전 계단(len(cost)-2)에서 한 번에 올라갈 수 있으므로
+        # return min(dp(len(cost)-1), dp(len(cost)-2))
 
         # 1step or 2step -> minimize total cost
         # dp[len(cost)] -> top of the floor -> the answer
