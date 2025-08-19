@@ -158,6 +158,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -516,6 +517,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1236-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1250-longest-common-subsequence) |
 | [1764-maximum-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1764-maximum-repeating-substring) |
+| [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
 ## Sorting
 |  |
