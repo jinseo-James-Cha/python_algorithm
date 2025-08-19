@@ -1,16 +1,32 @@
 class Solution:
     def tribonacci(self, n: int) -> int:
-        # bottom up tabulation
+        # bottom up optimization
         if n == 0:
             return 0
         if n <= 2:
             return 1
-        dp = [0] * (n+1)
-        dp[0] = 0
-        dp[1], dp[2] = 1, 1
+        
+        first = 0
+        second = 1
+        third = 1
         for i in range(3, n+1):
-            dp[i] = dp[i-3] + dp[i-2] + dp[i-1]
-        return dp[n]
+            current = first + second + third
+            first = second
+            second = third
+            third = current
+        return third
+
+        # bottom up tabulation
+        # if n == 0:
+        #     return 0
+        # if n <= 2:
+        #     return 1
+        # dp = [0] * (n+1)
+        # dp[0] = 0
+        # dp[1], dp[2] = 1, 1
+        # for i in range(3, n+1):
+        #     dp[i] = dp[i-3] + dp[i-2] + dp[i-1]
+        # return dp[n]
 
 
         # top down memoization
