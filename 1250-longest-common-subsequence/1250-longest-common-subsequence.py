@@ -1,21 +1,24 @@
-
-# it's hard for me..
-# need to solve a few more times
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
-        dp = [0] * len(text1)
-        longest_length = 0
+        # backward
+        # dp[text1index][text2index]
 
-        for t2 in text2:
-            current_num = 0
-            for i, length in enumerate(dp):
-                if length > current_num:
-                    current_num = length
-                elif text1[i] == t2:
-                    dp[i] = current_num + 1
-                    longest_length = max(longest_length, dp[i])
+        # top down
+        def dp(t1_i, t2_i):
+            if t1_i == t1 or t2_i == t2:
+                return 0
+            
+            if (t1_i, t2_i) not in memo:
+                if text1[t1_i] == text2[t2_i]:
+                    memo[(t1_i, t2_i)] = 1 + dp(t1_i + 1, t2_i + 1)
+                else:
+                    memo[(t1_i, t2_i)] = max(dp(t1_i + 1, t2_i), dp(t1_i, t2_i + 1))
+                
+            return memo[(t1_i, t2_i)]
         
-        return longest_length
+        t1, t2 = len(text1), len(text2)
+        memo = {}
+        return dp(0,0)
 
 
 
@@ -26,6 +29,33 @@ class Solution:
 
 
 
+
+
+
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        # dp = [0] * len(text1)
+        # longest_length = 0
+
+        # for t2 in text2:
+        #     current_num = 0
+        #     for i, length in enumerate(dp):
+        #         if length > current_num:
+        #             current_num = length
+        #         elif text1[i] == t2:
+        #             dp[i] = current_num + 1
+        #             longest_length = max(longest_length, dp[i])
+        
+        # return longest_length
 
         # DP - ninja
         # dp = [0] * len(text1) # 0 0 0 0
