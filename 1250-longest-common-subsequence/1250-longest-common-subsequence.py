@@ -3,22 +3,38 @@ class Solution:
         # backward
         # dp[text1index][text2index]
 
-        # top down
-        def dp(t1_i, t2_i):
-            if t1_i == t1 or t2_i == t2:
-                return 0
-            
-            if (t1_i, t2_i) not in memo:
-                if text1[t1_i] == text2[t2_i]:
-                    memo[(t1_i, t2_i)] = 1 + dp(t1_i + 1, t2_i + 1)
+        # bottom up
+        n, m = len(text1), len(text2)
+        dp = [[0] * (m+1) for _ in range(n+1)]
+
+        # backward
+        for row in range(n-1, -1, -1):
+            for col in range(m-1, -1, -1):
+                if text1[row] == text2[col]:
+                    dp[row][col] = 1 + dp[row+1][col+1]
                 else:
-                    memo[(t1_i, t2_i)] = max(dp(t1_i + 1, t2_i), dp(t1_i, t2_i + 1))
+                    dp[row][col] = max(dp[row+1][col], dp[row][col+1])
+        return dp[0][0]
+
+
+
+
+        # top down
+        # def dp(t1_i, t2_i):
+        #     if t1_i == t1 or t2_i == t2:
+        #         return 0
+            
+        #     if (t1_i, t2_i) not in memo:
+        #         if text1[t1_i] == text2[t2_i]:
+        #             memo[(t1_i, t2_i)] = 1 + dp(t1_i + 1, t2_i + 1)
+        #         else:
+        #             memo[(t1_i, t2_i)] = max(dp(t1_i + 1, t2_i), dp(t1_i, t2_i + 1))
                 
-            return memo[(t1_i, t2_i)]
+        #     return memo[(t1_i, t2_i)]
         
-        t1, t2 = len(text1), len(text2)
-        memo = {}
-        return dp(0,0)
+        # t1, t2 = len(text1), len(text2)
+        # memo = {}
+        # return dp(0,0)
 
 
 
