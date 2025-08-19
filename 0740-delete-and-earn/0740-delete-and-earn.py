@@ -9,25 +9,45 @@ class Solution:
 
         # seems like I have to check all the possibilities...
         # one remove and remove if there is one..
+        # bottom up
 
-        # top down
+        if len(nums) == 1:
+            return nums[0]
+
         hashmap = defaultdict(int)
         max_number = 0
         for num in nums:
             hashmap[num] += num
             max_number = max(max_number, num)
         
+        dp = [0] * (max_number+1)
+        dp[1] = hashmap[1]
+        for i in range(2, max_number+1):
+            dp[i] = max(dp[i-2] + hashmap[i], dp[i-1])
+        return dp[max_number]
+        
 
-        def dp(num):
-            if num == 0:
-                return 0
-            if num == 1:
-                return hashmap[1]
+
+
+
+        # top down
+        # hashmap = defaultdict(int)
+        # max_number = 0
+        # for num in nums:
+        #     hashmap[num] += num
+        #     max_number = max(max_number, num)
+        
+
+        # def dp(num):
+        #     if num == 0:
+        #         return 0
+        #     if num == 1:
+        #         return hashmap[1]
             
-            if num not in memo:
-                memo[num] = max(dp(num-1), dp(num-2) + hashmap[num])
-            return memo[num]
+        #     if num not in memo:
+        #         memo[num] = max(dp(num-1), dp(num-2) + hashmap[num])
+        #     return memo[num]
 
-        memo = {}
-        return dp(max_number)
+        # memo = {}
+        # return dp(max_number)
 
