@@ -9,6 +9,27 @@ class Solution:
 
         # [i][j]   [i][j+1]
         # [i+1][j] [i+1][j+1]
+        
+        # bottom up
+        max_square = 0
+        rows = len(matrix) + 1
+        cols = len(matrix[0]) + 1
+        dp = [[0] * (cols) for _ in range(rows)]
+
+        for r in range(1, rows):
+            for c in range(1, cols):
+                if matrix[r-1][c-1] == "1":
+                    dp[r][c] = min(dp[r-1][c-1], dp[r-1][c], dp[r][c-1]) + 1
+                    max_square = max(max_square, dp[r][c])
+
+        return max_square * max_square
+        
+
+
+
+
+
+
         rows = len(matrix)
         cols = len(matrix[0])
         dp = [[0] * (cols + 1) for _ in range(rows + 1)]
@@ -22,19 +43,24 @@ class Solution:
         return maxsqlen * maxsqlen
 
 
-        # [
-        #     ["1","0","1","0","0"],
-        #     ["1","0","1","1","1"],
-        #     ["1","1","1","1","1"],
-        #     ["1","0","0","1","0"]
-        #     ]
-
-
-
-        # [
-        # [0, 0, 0, 0, 0, 0], 
-        # [0, 1, 0, 1, 0, 0], 
-        # [0, 1, 0, 1, 1, 1], 
-        # [0, 1, 1, 1, 2, 2], 
-        # [0, 1, 0, 0, 1, 0]
-        # ]
+        # top down
+        # def dp(i, j):
+        #     if i == 0 or j == 0:
+        #         return 0
+            
+        #     if (i,j) not in memo:
+        #         if matrix[i-1][j-1] == "1":
+        #             memo[(i,j)] = min(dp(i-1, j-1), dp(i-1, j), dp(i, j-1)) + 1
+        #         else:
+        #             memo[(i,j)] = 0
+            
+        #     return memo[(i,j)]
+        
+        # memo = {}
+        # rows = len(matrix) + 1
+        # cols = len(matrix[0]) + 1
+        # largest_square = 0
+        # for r in range(1, rows):
+        #     for c in range(1, cols):
+        #             largest_square = max(largest_square, dp(r, c))
+        # return largest_square * largest_square
