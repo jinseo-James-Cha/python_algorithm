@@ -1,5 +1,50 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
+        # amount == total amount
+        # return fewest number of coins -> dp?
+        # fewest or -1
+
+        # state -> number of coins, amount
+
+        # top down
+        def dp (target):
+            # base case
+            if target < 0:
+                return -1
+            if target == 0:
+                return 0
+            
+            fewest = float(inf)
+            if target not in memo:
+                for c in coins:
+                    res = dp(target - c)
+                    if res != -1:
+                        fewest = min(fewest, res + 1)
+                memo[target] = fewest if fewest != float(inf) else -1
+            
+            return memo[target]
+
+        memo = {}
+        return dp(amount)
+
+
+
+
+
+
+
+
+
+        # dp: bottom-up
+        dp = [float(inf)] * (amount + 1)
+        dp[0] = 0
+
+        for t in range(1, amount + 1):
+            for coin in coins:
+                if coin <= t:
+                    dp[t] = min(dp[t], 1 + dp[t - coin])
+        return dp[amount] if dp[amount] != float(inf) else -1
+
         # dp: top-down
         def dp(coins: List[int], target: int, memo: Dict[int, int]):
             # base case
