@@ -6,26 +6,35 @@ class Solution:
 
         # state -> number of coins, amount
 
-        # top down
-        def dp (target):
-            # base case
-            if target < 0:
-                return -1
-            if target == 0:
-                return 0
-            
-            fewest = float(inf)
-            if target not in memo:
-                for c in coins:
-                    res = dp(target - c)
-                    if res != -1:
-                        fewest = min(fewest, res + 1)
-                memo[target] = fewest if fewest != float(inf) else -1
-            
-            return memo[target]
+        # bottom up
+        dp = [float(inf)] * (amount+1)
+        dp[0] = 0
+        for target in range(1, amount+1):
+            for coin in coins:
+                if coin <= target:
+                    dp[target] = min(dp[target], 1 + dp[target - coin])
+        return dp[amount] if dp[amount] != float(inf) else -1
 
-        memo = {}
-        return dp(amount)
+
+        # top down
+        # def dp (target):
+        #     # base case
+        #     if target < 0:
+        #         return -1
+        #     if target == 0:
+        #         return 0
+            
+        #     fewest = float(inf)
+        #     if target not in memo:
+        #         for c in coins:
+        #             res = dp(target - c)
+        #             if res != -1:
+        #                 fewest = min(fewest, res + 1)
+        #         memo[target] = fewest if fewest != float(inf) else -1
+        #     return memo[target]
+
+        # memo = {}
+        # return dp(amount)
 
 
 
@@ -36,33 +45,33 @@ class Solution:
 
 
         # dp: bottom-up
-        dp = [float(inf)] * (amount + 1)
-        dp[0] = 0
+        # dp = [float(inf)] * (amount + 1)
+        # dp[0] = 0
 
-        for t in range(1, amount + 1):
-            for coin in coins:
-                if coin <= t:
-                    dp[t] = min(dp[t], 1 + dp[t - coin])
-        return dp[amount] if dp[amount] != float(inf) else -1
+        # for t in range(1, amount + 1):
+        #     for coin in coins:
+        #         if coin <= t:
+        #             dp[t] = min(dp[t], 1 + dp[t - coin])
+        # return dp[amount] if dp[amount] != float(inf) else -1
 
-        # dp: top-down
-        def dp(coins: List[int], target: int, memo: Dict[int, int]):
-            # base case
-            if target == 0:
-                return 0
-            if target in memo:
-                return memo[target]
+        # # dp: top-down
+        # def dp(coins: List[int], target: int, memo: Dict[int, int]):
+        #     # base case
+        #     if target == 0:
+        #         return 0
+        #     if target in memo:
+        #         return memo[target]
             
-            min_coins = float(inf)
-            for coin in coins:
-                if coin <= target:
-                    min_coins = min(min_coins, 1 + dp(coins, target - coin, memo))
+        #     min_coins = float(inf)
+        #     for coin in coins:
+        #         if coin <= target:
+        #             min_coins = min(min_coins, 1 + dp(coins, target - coin, memo))
             
-            memo[target] = min_coins
-            return memo[target]
+        #     memo[target] = min_coins
+        #     return memo[target]
 
-        res = dp(coins, amount, {})
-        return -1 if res == float(inf) else res
+        # res = dp(coins, amount, {})
+        # return -1 if res == float(inf) else res
 
         # this is not working
         # if amount == 0:
