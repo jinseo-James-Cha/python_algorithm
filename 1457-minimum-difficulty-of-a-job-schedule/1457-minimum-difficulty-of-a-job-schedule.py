@@ -1,5 +1,10 @@
 class Solution:
     def minDifficulty(self, jobDifficulty: List[int], d: int) -> int:
+        # bottom up
+        
+
+
+        # top down
         n = len(jobDifficulty)
         if n < d: # days more than jobs, everyday needs one job
             return -1
