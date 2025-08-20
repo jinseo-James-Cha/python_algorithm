@@ -5,6 +5,44 @@ class TrieNode:
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        # bottom up
+        dp = [False] * len(s)
+        
+        for i in range(len(s)):
+            for word in wordDict:
+                print(word)
+                if i < len(word) - 1:
+                    continue
+                if i == len(word) - 1 or dp[i-len(word)]:
+                    if s[i - len(word) + 1 : i + 1] == word:
+                        dp[i] = True
+                        break
+        return dp[-1]
+
+
+        # top down
+        # def dp(i):
+        #     if i < 0:
+        #         return True
+            
+        #     if i not in memo:    
+        #         memo[i] = False
+        #         for word in wordDict:
+        #             if s[i - len(word) + 1: i + 1] == word and dp(i - len(word)):
+        #                 memo[i] = True
+            
+        #     return memo[i]
+        
+        # memo = {}
+        # return dp(len(s) - 1)
+
+
+
+
+
+
+
+
         # 0. Analysis
         # true -> if s can be segmented into a space-separated sequence
         # True -> s == wordDict[0] + word[1]
