@@ -567,6 +567,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
+| [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [1066-fixed-point](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1066-fixed-point) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
@@ -578,6 +579,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
 | [0278-first-bad-version](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0278-first-bad-version) |
+| [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [2875-count-houses-in-a-circular-street](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2875-count-houses-in-a-circular-street) |
 ## Bit Manipulation
 |  |
