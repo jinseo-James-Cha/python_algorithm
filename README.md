@@ -150,6 +150,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1382-calculate-amount-paid-in-taxes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1382-calculate-amount-paid-in-taxes) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1457-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1524-string-matching-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1524-string-matching-in-an-array) |
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
@@ -518,6 +519,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
 | [1236-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1250-longest-common-subsequence) |
+| [1457-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1764-maximum-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1764-maximum-repeating-substring) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
