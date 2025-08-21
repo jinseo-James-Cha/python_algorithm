@@ -1,5 +1,20 @@
 class Solution:
     def numWays(self, n: int, k: int) -> int:
+        # bottom up constant space
+        if n <= 2:
+            return k**n
+        
+        one_back = k * k
+        two_back = k
+        for i in range(3, n+1):
+            current = (k-1) * one_back + (k-1) * two_back
+            two_back = one_back
+            one_back = current
+        return one_back
+
+
+
+
         # bottom up
         if n == 1:
             return k
