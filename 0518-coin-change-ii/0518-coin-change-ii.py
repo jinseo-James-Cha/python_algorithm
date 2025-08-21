@@ -6,6 +6,16 @@ class Solution:
 
         # no duplication combinations !
 
+        # bottom up optimization
+        dp = [0] * (amount + 1)
+        dp[0] = 1  # 0원을 만드는 방법은 아무것도 안 쓰는 경우 1개
+
+        for c in coins:  # 코인을 바깥 루프로
+            for j in range(c, amount + 1):  # j-c가 존재할 때만
+                dp[j] += dp[j - c]
+
+        return dp[amount]
+
         # bottom up
         n = len(coins)
         # dp[coins][amount]
