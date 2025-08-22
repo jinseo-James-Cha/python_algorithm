@@ -13,17 +13,15 @@ class Solution:
             if i == len(s): # I think even tho its over the len, it is still true..
                 return 1
             
+            if s[i] == "0":
+                return 0
+            
             if i not in memo:
-                one_letter = 0
-                two_letter = 0
-                if 1 <= int(s[i]) <= 9:
-                    one_letter = dp(i+1)
-                
-                if 10 <= int(s[i:i+2]) <= 26:
+                one_letter = dp(i+1)
+                two_letter = 0                    
+                if i + 1 < len(s) and 10 <= int(s[i:i+2]) <= 26:     
                     two_letter = dp(i+2)
-
                 memo[i] = one_letter + two_letter
-
             return memo[i]
         
         memo = {}
