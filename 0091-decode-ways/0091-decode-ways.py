@@ -1,5 +1,49 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
+        # state
+        # string and its index s[i:]
+        # decode complete? i == len(s)
+
+        # how to distinguish 06 -> two letter should be 10~26
+        # one letter should be 1 ~ 26
+
+        # action choose 1letter or 2letters
+        
+        def dp(i):
+            if i == len(s): # I think even tho its over the len, it is still true..
+                return 1
+            
+            if i not in memo:
+                one_letter = 0
+                two_letter = 0
+                if 1 <= int(s[i]) <= 9:
+                    one_letter = dp(i+1)
+                
+                if 10 <= int(s[i:i+2]) <= 26:
+                    two_letter = dp(i+2)
+
+                memo[i] = one_letter + two_letter
+
+            return memo[i]
+        
+        memo = {}
+        return dp(0)
+
+        # dp(2-1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # bottom-up
         if len(s) == 1:
             return 1 if s[0] != "0" else 0
