@@ -132,6 +132,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
+| [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
@@ -524,6 +525,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0747-min-cost-climbing-stairs) |
+| [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
 | [1236-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1250-longest-common-subsequence) |
@@ -625,6 +627,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0169-majority-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0191-number-of-1-bits) |
+| [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 ## Greedy
 |  |
 | ------- |
@@ -679,6 +682,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0225-implement-stack-using-queues](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0225-implement-stack-using-queues) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
+| [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 ## Enumeration
 |  |
 | ------- |
@@ -1037,4 +1041,8 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
