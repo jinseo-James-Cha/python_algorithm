@@ -135,6 +135,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 | [0978-valid-mountain-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0978-valid-mountain-array) |
+| [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
@@ -313,6 +314,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
 | [0851-goat-latin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0851-goat-latin) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
+| [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [1075-index-pairs-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1075-index-pairs-of-a-string) |
 | [1089-remove-vowels-from-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1089-remove-vowels-from-a-string) |
 | [1123-single-row-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1123-single-row-keyboard) |
@@ -385,6 +387,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0908-middle-of-the-linked-list) |
+| [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
@@ -644,6 +647,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0605-can-place-flowers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0605-can-place-flowers) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0680-valid-palindrome-ii) |
+| [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [1448-maximum-69-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-maximum-69-number) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
