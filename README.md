@@ -137,6 +137,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0978-valid-mountain-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0978-valid-mountain-array) |
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-delete-columns-to-make-sorted) |
+| [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
@@ -238,6 +239,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
 | [0762-find-anagram-mappings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0762-find-anagram-mappings) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
+| [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
 | [1098-largest-unique-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1098-largest-unique-number) |
@@ -317,6 +319,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-delete-columns-to-make-sorted) |
+| [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1075-index-pairs-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1075-index-pairs-of-a-string) |
 | [1089-remove-vowels-from-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1089-remove-vowels-from-a-string) |
 | [1123-single-row-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1123-single-row-keyboard) |
