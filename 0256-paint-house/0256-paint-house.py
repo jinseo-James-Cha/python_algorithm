@@ -11,15 +11,18 @@ class Solution:
         # top down
         n = len(costs)
         def dp(i, color):
+            # 마지막 집이면 현재 색 비용 반환
+            if i == n - 1:
+                return costs[i][color]
+
             total_cost = costs[i][color]
             if (i, color) not in memo:
-                if i < len(costs) - 1:
-                    if color == 0:
-                        total_cost += min(dp(i+1, 1), dp(i+1, 2))
-                    elif color == 1:
-                        total_cost += min(dp(i+1, 0), dp(i+1, 2))
-                    else:
-                        total_cost += min(dp(i+1, 0), dp(i+1, 1))
+                if color == 0:
+                    total_cost += min(dp(i+1, 1), dp(i+1, 2))
+                elif color == 1:
+                    total_cost += min(dp(i+1, 0), dp(i+1, 2))
+                else:
+                    total_cost += min(dp(i+1, 0), dp(i+1, 1))
                 memo[(i, color)] = total_cost
 
             return memo[(i, color)]
