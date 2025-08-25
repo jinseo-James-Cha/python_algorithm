@@ -7,14 +7,28 @@ class Solution:
         # days -> i
         # action -> buy or skip / sell or skip
 
+        # bottom up optimize
+        hold = -prices[0]
+        free = 0
+        for i in range(1, len(prices)):
+            tmp = hold
+            hold = max(hold, free - prices[i])
+            free = max(free, tmp + prices[i] - fee)
+        
+        return free
+
+
+
+
+
         # bottom up
         dp_hold = [0] * len(prices)
         dp_free = [0] * len(prices)
 
         dp_hold[0] = -prices[0]
         for i in range(1, len(prices)):
-            dp_hold[i] = max(dp_hold[i-1], dp_free[i-1] - prices[i])
-            dp_free[i] = max(dp_free[i-1], dp_hold[i-1] + prices[i] - fee)
+            dp_hold[i] = max(dp_hold[i-1], dp_free[i-1] - prices[i]) # 어제꺼 홀딩 or 지금 매수
+            dp_free[i] = max(dp_free[i-1], dp_hold[i-1] + prices[i] - fee) # 어제꺼 그대로, 매도
         return dp_free[-1]
 
 
