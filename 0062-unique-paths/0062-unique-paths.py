@@ -3,6 +3,17 @@ class Solution:
         # state
         # i for rows
         # j for cols
+
+        # bottom up
+        dp = [[1] * n for _ in range(m)]
+        for i in range(1, m):
+            for j in range(1, n):
+                dp[i][j] = dp[i-1][j] + dp[i][j-1]
+        
+        return dp[m-1][n-1]
+
+
+        # top down
         def dp(i, j):
             if i == 0 or j == 0:
                 return 1
