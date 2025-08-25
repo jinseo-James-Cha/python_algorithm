@@ -4,6 +4,15 @@ class Solution:
         # i for rows
         # j for cols
 
+        # bottom up constant space optimization
+        prev = [1] * n
+        for i in range(1, m):
+            current = [1] * n
+            for j in range(1, n): 
+                current[j] = current[j-1] + prev[j]
+            prev = current
+        return prev[n-1]
+
         # bottom up
         dp = [[1] * n for _ in range(m)]
         for i in range(1, m):
