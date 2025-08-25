@@ -16,6 +16,6 @@ class Solution:
         memo = {}
         m,n = len(matrix), len(matrix[0])
         res = float(inf)
-        for col in range(m):
+        for col in range(n):
             res = min(res, dp(n-1, col))
         return res
