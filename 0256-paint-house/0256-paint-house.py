@@ -7,11 +7,34 @@ class Solution:
         # state
         # days
         # prev color ?
+
+        # bottom up
+        n = len(costs)
+        dp = [[0] * 3 for _ in range(n)]
+        
+        for i in range(3):
+            dp[0][i] = costs[0][i]
+        
+        for i in range(1, n):
+            for j in range(3):
+                total_cost = costs[i][j]
+                if j == 0:
+                    total_cost += min(dp[i-1][1], dp[i-1][2])
+                elif j == 1:
+                    total_cost += min(dp[i-1][0], dp[i-1][2])
+                else:
+                    total_cost += min(dp[i-1][0], dp[i-1][1])
+                dp[i][j] = total_cost
+        
+        return min(dp[n-1])
+
+
+
+
         
         # top down
         n = len(costs)
         def dp(i, color):
-            # 마지막 집이면 현재 색 비용 반환
             if i == n - 1:
                 return costs[i][color]
 
