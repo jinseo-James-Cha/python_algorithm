@@ -6,7 +6,22 @@ class Solution:
 
         # state
         # days
-        # prev color ?
+        # prev color 
+
+        # bottom up optimization
+        n = len(costs)
+        prev_row = [x for x in costs[0]]
+        for i in range(1, n):
+            current_row = costs[i][:]
+            
+            current_row[0] += min(prev_row[1], prev_row[2])
+            current_row[1] += min(prev_row[0], prev_row[2])
+            current_row[2] += min(prev_row[0], prev_row[1])
+
+            prev_row = current_row
+
+        return min(prev_row)
+
 
         # bottom up
         n = len(costs)
