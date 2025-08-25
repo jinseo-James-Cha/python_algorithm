@@ -7,6 +7,19 @@ class Solution:
         # days -> i
         # action -> buy or skip / sell or skip
 
+        # bottom up
+        dp_hold = [0] * len(prices)
+        dp_free = [0] * len(prices)
+
+        dp_hold[0] = -prices[0]
+        for i in range(1, len(prices)):
+            dp_hold[i] = max(dp_hold[i-1], dp_free[i-1] - prices[i])
+            dp_free[i] = max(dp_free[i-1], dp_hold[i-1] + prices[i] - fee)
+        return dp_free[-1]
+
+
+
+        # top down
         def dp(i, holding):
             if i == len(prices):
                 return 0
