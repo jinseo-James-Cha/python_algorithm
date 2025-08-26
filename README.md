@@ -128,6 +128,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0605-can-place-flowers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0605-can-place-flowers) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
@@ -550,6 +551,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0647-palindromic-substrings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
@@ -607,6 +609,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [1066-fixed-point](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1066-fixed-point) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
@@ -951,6 +954,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0219-contains-duplicate-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0594-longest-harmonious-subsequence) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
@@ -1007,12 +1011,14 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Rolling Hash
 |  |
 | ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0694-number-of-distinct-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0694-number-of-distinct-islands) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Monotonic Stack
 |  |
