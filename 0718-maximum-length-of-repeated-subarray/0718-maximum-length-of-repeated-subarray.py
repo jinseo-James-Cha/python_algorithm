@@ -4,6 +4,22 @@ class Solution:
         # state
         # len i and j
 
+        # bottom up optimization
+        m,n = len(nums1), len(nums2)
+        prev = [0] * n
+        res = 0
+
+        for i in range(m):
+            curr = [0] * n
+            for j in range(n):
+                if nums1[i] == nums2[j]:
+                    curr[j] = 1 + (prev[j-1] if j > 0 else 0) 
+                else:
+                    curr[j] = 0
+                res = max(res, curr[j])
+            prev = curr
+        return res
+
         # bottom up
         m,n = len(nums1), len(nums2)
         dp = [[0] * n for _ in range(m)]
