@@ -11,6 +11,25 @@ class Solution:
         # state
         # n, current_target
 
+        # bottom up space O(target) 
+        prev = [0] * (target + 1)
+        prev[0] = 1
+
+        for i in range(n):
+            curr = [0] * (target + 1)
+            for j in range(1, target + 1):
+                ways = 0
+                for x in range(1, k+1):
+                    if j >= x:
+                        ways = (ways + prev[j-x]) % (10**9 + 7)
+                curr[j] = ways
+            prev = curr
+        return prev[-1]
+
+
+
+
+
         # bottom up
         dp = [[0] * (target+1) for _ in range(n+1)]
         dp[0][0] = 1
