@@ -24,7 +24,7 @@ class Solution:
                         ways = (ways + prev[j-x]) % (10**9 + 7)
                 curr[j] = ways
             prev = curr
-        return prev[-1]
+        return prev[target]
 
 
 
