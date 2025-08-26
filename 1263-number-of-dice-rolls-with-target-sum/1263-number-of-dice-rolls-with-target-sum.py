@@ -24,7 +24,7 @@ class Solution:
             
             if (dices, current_target) not in memo:
                 ways = 0
-                for f in range(1, k+1):
+                for f in range(1, min(k, current_target) +1):
                     ways = (ways + dp(dices-1, current_target-f)) % (10**9 + 7)
                 memo[(dices, current_target)] = ways 
             return memo[(dices, current_target)]
