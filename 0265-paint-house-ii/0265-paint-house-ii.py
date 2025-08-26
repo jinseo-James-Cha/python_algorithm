@@ -9,11 +9,8 @@ class Solution:
                 min_cost = float(inf)
                 for c in range(k):
                     if c != col:
-                        current_cost = dp(row+1, c) + costs[row][col]
-                        min_cost = min(min_cost, current_cost)
-                
-                memo[(row, col)] = min_cost
-            
+                        min_cost = min(min_cost, dp(row+1, c))
+                memo[(row, col)] = min_cost + costs[row][col]
             return memo[(row, col)]
         
         n = len(costs) # houses
