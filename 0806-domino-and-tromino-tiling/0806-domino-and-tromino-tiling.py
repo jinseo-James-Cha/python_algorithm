@@ -2,6 +2,32 @@ class Solution:
     def numTilings(self, n: int) -> int:
         # state
         # n
+
+        # the candidates who can come at the end of the tiles
+        # |
+        # -
+        # ㄱ
+        # ㅢ
+
+        MOD = 10**9 + 7
+
+        @cache
+        def dp(i, previous_full):
+            if i > n:
+                return 0
+            if i == n:
+                if previous_full:
+                    return 1
+                else:
+                    return 0
+            
+            if not previous_full:
+                return dp(i+1, True) + dp(i+1, False)
+
+            return dp(i+1, True) + dp(i+2, True) + dp(i+2, False)*2
+        
+        return dp(0, True) % MOD
+
         MOD = 10**9 + 7
         memo = {}
         
