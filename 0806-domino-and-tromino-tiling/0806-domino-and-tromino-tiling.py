@@ -9,8 +9,26 @@ class Solution:
         # ㄱ
         # ㅢ
 
-        MOD = 10**9 + 7
 
+
+
+        MOD = 10**9 + 7
+        F, T, B = {0:1, 1: 1}, {1: 0}, {1 : 0}
+        for i in range(2, n+1):
+            F[i] = F[i-1] + F[i-2] + T[i-1] + B[i-1]
+            T[i] = B[i-1] + F[i-2]
+            B[i] = T[i-1] + F[i-2]
+        return F[n] % MOD
+
+
+
+
+
+
+
+
+
+        # top down
         @cache
         def dp(i, previous_full):
             if i > n:
