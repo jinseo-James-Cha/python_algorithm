@@ -146,6 +146,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0981-delete-columns-to-make-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-delete-columns-to-make-sorted) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
+| [1025-minimum-cost-for-tickets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-minimum-cost-for-tickets) |
 | [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
 | [1066-fixed-point](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1066-fixed-point) |
@@ -557,6 +558,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0806-domino-and-tromino-tiling](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0806-domino-and-tromino-tiling) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
+| [1025-minimum-cost-for-tickets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-minimum-cost-for-tickets) |
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
 | [1236-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1250-longest-common-subsequence) |
