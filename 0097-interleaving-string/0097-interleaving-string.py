@@ -30,6 +30,6 @@ class Solution:
 
             return False
     
-        if len(s3) > len(s1) + len(s2):
+        if len(s3) != len(s1) + len(s2):
             return False
         return dp(0, 0, 0)
