@@ -1,18 +1,55 @@
+# I wrote the memo
 class Solution:
     def numTilings(self, n: int) -> int:
+        MOD = 10**9 + 7
         # state
         # n
 
-        # the candidates who can come at the end of the tiles
-        # |
-        # -
-        # ㄱ
-        # ㅢ
+        # Bottom up
+        if n <= 2:
+            return n
+        
+        dp_full = [0] * (n+1)
+        dp_partial = [0] * (n+1)
+        
+        # base_case
+        dp_full[1], dp_full[2] = 1, 2
+        dp_partial[2] = 1
+
+        for i in range(3, n+1):
+            dp_full[i] = (dp_full[i-1] + dp_full[i-2] + 2*dp_partial[i-1]) % MOD
+            dp_partial[i] = (dp_full[i-2] + dp_partial[i-1]) % MOD
+        return dp_full[n]
 
 
 
 
-        MOD = 10**9 + 7
+        # top down
+        @cache
+        def dp_partial(i):
+            if i <= 1:
+                return 0
+            if i == 2:
+                return 1
+            
+            return (dp_fully(i-2) + dp_partial(i-1)) % MOD
+
+        @cache
+        def dp_fully(i):
+            if i <= 2:
+                return n
+            
+            return (dp_fully(i-1) + dp_fully(i-2) + 2*dp_partial(i-1)) % MOD
+        
+        return dp_fully(n)
+
+
+
+       
+
+
+
+
         F, T, B = {0:1, 1: 1}, {1: 0}, {1 : 0}
         for i in range(2, n+1):
             F[i] = F[i-1] + F[i-2] + T[i-1] + B[i-1]
