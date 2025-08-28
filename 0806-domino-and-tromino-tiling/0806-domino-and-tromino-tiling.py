@@ -4,6 +4,22 @@ class Solution:
         MOD = 10**9 + 7
         # state
         # n
+        # bottom up optimization
+        if n <= 2:
+            return n
+        f_two_back = 1
+        f_one_back = 2
+        p_one_back = 1
+        for i in range(3, n+1):
+            f_current = (f_two_back + f_one_back + 2*p_one_back) % MOD
+            p_current = (f_two_back + p_one_back) % MOD
+
+            f_two_back = f_one_back
+            f_one_back = f_current
+            p_one_back = p_current
+        return f_one_back
+
+
 
         # Bottom up
         if n <= 2:
