@@ -15,7 +15,25 @@ class Solution:
         # DP
         # state
         # days -> i
+        
+        # bottom up
+        last_day = days[-1]
+        days_set = set(days)
+        dp = [0] * (last_day + 1)
 
+        for i in range(1, last_day + 1):
+            if i not in days_set:
+                dp[i] = dp[i-1]
+            else:
+                day_pass = dp[i-1] + costs[0]
+                week_pass = dp[max(0, i-7)] + costs[1]
+                month_pass = dp[max(0, i-30)] + costs[2]
+                dp[i] = min(day_pass, week_pass, month_pass)
+        
+        return dp[last_day]
+            
+
+        # top down
         @cache
         def dp(i):
             if i > days[-1]:
