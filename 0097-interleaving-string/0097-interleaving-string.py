@@ -4,6 +4,24 @@ class Solution:
         
         # state
         # index of s3
+        if len(s3) != len(s1) + len(s2):
+            return False
+        dp = [[False] * (len(s2) + 1) for _ in range(len(s1) + 1)]
+        for i in range(len(s1) + 1):
+            for j in range(len(s2) + 1):
+                if i == 0 and j == 0:
+                    dp[i][j] = True
+                elif i == 0:
+                    dp[i][j] = dp[i][j - 1] and s2[j - 1] == s3[i + j - 1]
+                elif j == 0:
+                    dp[i][j] = dp[i - 1][j] and s1[i - 1] == s3[i + j - 1]
+                else:
+                    dp[i][j] = (
+                        dp[i - 1][j] and s1[i - 1] == s3[i + j - 1]
+                    ) or (dp[i][j - 1] and s2[j - 1] == s3[i + j - 1])
+        return dp[len(s1)][len(s2)]
+
+        # Top down
         @cache
         def dp(i, i_s1, i_s2):
             if i != len(s3) and i_s1 == len(s1) and i_s2 == len(s2):
