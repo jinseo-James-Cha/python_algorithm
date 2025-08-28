@@ -16,6 +16,24 @@ class Solution:
         # state
         # days -> i
 
+        @cache
+        def dp(i):
+            if i > days[-1]:
+                return 0
+            
+            if i not in days_set:
+                return dp(i+1)
+            
+            day_pass = costs[0] + dp(i+1)
+            week_pass = costs[1] + dp(i+7)
+            month_pass = costs[2] + dp(i+30)
+
+            return min(day_pass, week_pass, month_pass)
+
+        days_set = set(days)
+        return dp(0)
+        
+
         travel_days = set(days) # to look up faster
         last_day = days[-1] # ascending order 
         
