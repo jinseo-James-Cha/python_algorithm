@@ -28,6 +28,6 @@ class Solution:
 
         m = ceil(n / 25) 
         for k in range(1, m + 1):
-            if dp(k, k) > 1 - 1e-5:
+            if dp(k, k) > 1 - 10**-5:
                 return 1.0
         return dp(m, m)
