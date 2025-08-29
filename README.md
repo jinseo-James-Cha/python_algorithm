@@ -203,6 +203,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3790-fruits-into-baskets-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3790-fruits-into-baskets-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -429,6 +430,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
+| [3790-fruits-into-baskets-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3790-fruits-into-baskets-ii) |
 ## Counting
 |  |
 | ------- |
@@ -624,6 +626,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
+| [3790-fruits-into-baskets-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3790-fruits-into-baskets-ii) |
 ## Interactive
 |  |
 | ------- |
@@ -1099,4 +1102,12 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0826-soup-servings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0826-soup-servings) |
+## Segment Tree
+|  |
+| ------- |
+| [3790-fruits-into-baskets-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3790-fruits-into-baskets-ii) |
+## Ordered Set
+|  |
+| ------- |
+| [3790-fruits-into-baskets-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3790-fruits-into-baskets-ii) |
 <!---LeetCode Topics End-->
