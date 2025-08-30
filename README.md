@@ -140,6 +140,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
 | [0978-valid-mountain-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0978-valid-mountain-array) |
@@ -250,6 +251,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
 | [0762-find-anagram-mappings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0762-find-anagram-mappings) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
@@ -442,6 +444,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0594-longest-harmonious-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -480,6 +483,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
 | [0826-soup-servings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0826-soup-servings) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1069-confusing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1069-confusing-number) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
@@ -749,6 +753,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0258-add-digits) |
+| [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 ## Tree
 |  |
 | ------- |
