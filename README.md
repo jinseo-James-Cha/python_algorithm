@@ -996,6 +996,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0175-combine-two-tables](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0175-combine-two-tables) |
 | [0584-find-customer-referee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0584-find-customer-referee) |
+| [1258-article-views-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1258-article-views-i) |
 | [1974-find-customers-with-positive-revenue-this-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1974-find-customers-with-positive-revenue-this-year) |
 | [3282-calculate-compressed-mean](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3282-calculate-compressed-mean) |
 | [3284-find-expensive-cities](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3284-find-expensive-cities) |
