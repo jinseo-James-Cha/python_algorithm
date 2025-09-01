@@ -5,13 +5,26 @@ class Solution:
         # 2 : 1 2 1 0
         # 3 : 1 3 3 1
 
-        dp = [[1] * (rowIndex + 1) for _ in range(rowIndex + 1)]
+        if rowIndex < 2:
+            return [1] * (rowIndex+1)
         
-        # base case
+        prev = [1] * 2
         for i in range(2, rowIndex + 1):
+            current = [1] * (len(prev) + 1)
             for j in range(1, i):
-                dp[i][j] = dp[i-1][j-1] + dp[i-1][j]
-        return dp[rowIndex]
+                current[j] = prev[j-1] + prev[j]
+            prev = current
+        return prev
+
+
+
+        # dp = [[1] * (rowIndex + 1) for _ in range(rowIndex + 1)]
+        
+        # # base case
+        # for i in range(2, rowIndex + 1):
+        #     for j in range(1, i):
+        #         dp[i][j] = dp[i-1][j-1] + dp[i-1][j]
+        # return dp[rowIndex]
 
 
 
