@@ -5,6 +5,15 @@ class Solution:
         # 2 : 1 2 1 0
         # 3 : 1 3 3 1
 
+        row = [1] * (rowIndex + 1)
+
+        for i in range(2, rowIndex + 1):
+            # 뒤에서부터 업데이트
+            for j in range(i-1, 0, -1):
+                row[j] = row[j-1] + row[j]
+
+        return row
+
         if rowIndex < 2:
             return [1] * (rowIndex+1)
         
