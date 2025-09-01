@@ -1,5 +1,27 @@
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
+        # 0 : 1 0 0 0
+        # 1 : 1 1 0 0
+        # 2 : 1 2 1 0
+        # 3 : 1 3 3 1
+
+        dp = [[1] * (rowIndex + 1) for _ in range(rowIndex + 1)]
+        
+        # base case
+        for i in range(2, rowIndex + 1):
+            for j in range(1, i):
+                dp[i][j] = dp[i-1][j-1] + dp[i-1][j]
+        return dp[rowIndex]
+
+
+
+
+
+
+
+
+
+
         # 0 1 2 3
         # 0: 1
         # 1: 1 1
@@ -14,19 +36,18 @@ class Solution:
         # 2 dp[2] = [1, 2, 1] 
         # 3 dp[3]
 
-        dp = [[1] * i for i in range(1, 3)]
-        if rowIndex <= 1:
-            return dp[rowIndex]
+        # dp = [[1] * i for i in range(1, 3)]
+        # if rowIndex <= 1:
+        #     return dp[rowIndex]
         
-        # print(dp)
-        # need to add values from rowIndex 2
-        # 1 , 2,  1
-        # row[row][i] = row[row-1][i-1] + [i]
-        for i in range(2, rowIndex + 1):
-            temp = [1] * (i + 1)
-            # temp[0] = temp[-1] = 1
-            for j in range(1, i):
-                temp[j] = dp[-1][j-1] + dp[-1][j]
-            dp.append(temp)
-        return dp[rowIndex]
+        # # print(dp)
+        # # need to add values from rowIndex 2
+        # # 1 , 2,  1
+        # # row[row][i] = row[row-1][i-1] + [i]
+        # for i in range(2, rowIndex + 1):
+        #     temp = [1] * (i + 1)
+        #     for j in range(1, i):
+        #         temp[j] = dp[-1][j-1] + dp[-1][j]
+        #     dp.append(temp)
+        # return dp[rowIndex]
         
