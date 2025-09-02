@@ -467,6 +467,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0070-climbing-stairs) |
+| [0096-unique-binary-search-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0096-unique-binary-search-trees) |
 | [0168-excel-sheet-column-title](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0171-excel-sheet-column-number) |
 | [0189-rotate-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0189-rotate-array) |
@@ -548,6 +549,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0070-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0091-decode-ways) |
+| [0096-unique-binary-search-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0097-interleaving-string) |
 | [0118-pascals-triangle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0119-pascals-triangle-ii) |
@@ -770,6 +772,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0094-binary-tree-inorder-traversal) |
+| [0096-unique-binary-search-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0101-symmetric-tree) |
@@ -901,6 +904,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0094-binary-tree-inorder-traversal) |
+| [0096-unique-binary-search-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0101-symmetric-tree) |
@@ -946,6 +950,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Binary Search Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
