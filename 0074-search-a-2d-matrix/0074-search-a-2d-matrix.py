@@ -7,18 +7,57 @@ class Solution:
         # binary search - > sorted ok
         # first binary search for lower bound for matrix[i][0]
         # second find the exact target in matrix[i]
-        row_num = -1
-        for r in range(m):
-            if matrix[r][0] == target:
-                return True
-            elif matrix[r][0] < target:
-                row_num = r
-        # if not found, return False
-        if row_num < 0:
+        def get_lower_bound(nums, target):
+            left = 0
+            right = len(nums)
+            while left < right:
+                mid = (left + right) // 2
+                if nums[mid] <= target:
+                    left = mid + 1
+                else:
+                    right = mid
+            
+            return left-1
+        
+        def check_target(nums, target):
+            left = 0
+            right = len(nums) - 1
+            while left <= right:
+                mid = (left + right) // 2
+                if nums[mid] == target:
+                    return True
+                elif nums[mid] > target:
+                    right = mid - 1
+                else:
+                    left = mid + 1
             return False
 
-        for c in range(n):
-            if matrix[row_num][c] == target:
-                return True
+        found_row_num = get_lower_bound([matrix[i][0] for i in range(m)], target)
+        if found_row_num < 0:
+            return False
 
-        return False    
+        return check_target(matrix[found_row_num], target)
+
+
+            
+
+
+
+
+
+        # brute force -> O(n*m)
+        # row_num = -1
+        # for r in range(m):
+        #     if matrix[r][0] == target:
+        #         return True
+        #     elif matrix[r][0] < target:
+        #         row_num = r
+        # # if not found, return False
+        # if row_num < 0:
+        #     return False
+
+        # for c in range(n):
+        #     if matrix[row_num][c] == target:
+        #         return True
+
+        # return False    
