@@ -1,5 +1,21 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        height, width = len(matrix), len(matrix[0])
+
+        row = height - 1
+        col = 0
+        
+        while col < width and row >= 0:
+            if matrix[row][col] > target:
+                row -= 1
+            elif matrix[row][col] < target:
+                col += 1
+            else:
+                return True
+        return False
+
+
+        # divide and conquer
         if not matrix:
             return False
         
