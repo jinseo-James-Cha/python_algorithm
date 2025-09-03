@@ -17,4 +17,4 @@ class Solution:
             
             return validateBST(node.left, node.val, minimum) and validateBST(node.right,maximum, node.val)
 
-        return validateBST(root.left, root.val, float(-inf)) and validateBST(root.right, float(inf), root.val)
+        return validateBST(root, float(inf), float(-inf))
