@@ -4,21 +4,17 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from math import inf
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        # DFS recursive
-        # left.val < node.val < right.val
-        def validBST(node: TreeNode, minimum: int, maximum: int) -> bool:
+        
+        def validateBST(node, maximum, minimum):
             if not node:
                 return True
-            
-            if node.val <= minimum:
-                return False
             if node.val >= maximum:
                 return False
+            if node.val <= minimum:
+                return False
             
-            return validBST(node.left, minimum, node.val) and validBST(node.right, node.val, maximum)
-        
-        return validBST(root, -inf, inf)
-        
+            return validateBST(node.left, node.val, minimum) and validateBST(node.right,maximum, node.val)
+
+        return validateBST(root.left, root.val, float(-inf)) and validateBST(root.right, float(inf), root.val)
