@@ -1,7 +1,7 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        # matrix[i][j] increasing order
-        # matrix[i][0] increasing ordr
+    
+
 
         # 2d -> 1d and then binary search?
         arr = []
@@ -58,14 +58,6 @@ class Solution:
 
         # return check_target(matrix[found_row_num], target)
 
-
-            
-
-
-
-
-
-        # brute force -> O(n*m)
         # row_num = -1
         # for r in range(m):
         #     if matrix[r][0] == target:
