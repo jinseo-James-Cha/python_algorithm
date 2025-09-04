@@ -61,6 +61,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0039-combination-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
+| [0051-n-queens](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0055-jump-game) |
@@ -1098,6 +1099,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0039-combination-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0078-subsets) |
 | [0095-unique-binary-search-trees-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0095-unique-binary-search-trees-ii) |
