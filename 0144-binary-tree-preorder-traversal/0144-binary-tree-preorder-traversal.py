@@ -6,6 +6,37 @@
 #         self.right = right
 class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        # morris
+        res = []
+        curr = root
+        while curr:
+            if curr.left is None:
+                res.append(curr.val)
+                curr = curr.right
+            else:
+                pred = curr.left
+                while pred.right and pred.right != curr:
+                    pred = pred.right
+                
+                if pred.right is None:
+                    res.append(curr.val)
+                    pred.right = curr
+                    curr = curr.left
+                else:
+                    pred.right = None
+                    curr = curr.right
+        return res
+
+
+
+
+
+
+
+
+
+
+
         # v2 : Morris -> space(1)
         res = []
         current = root
