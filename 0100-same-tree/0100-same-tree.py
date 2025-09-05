@@ -4,8 +4,35 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        # BFS
+
+        def check(pp:TreeNode, qq:TreeNode):
+            if not pp and not qq:
+                return True
+            if not pp or not qq:
+                return False
+            if pp.val != qq.val:
+                return False
+            return True
+        queue = deque([(p, q)])
+        while queue:
+            curr_p, curr_q = queue.popleft()
+
+            if not check(curr_p, curr_q):
+                return False
+            
+            if curr_p:
+                queue.append((curr_p.left, curr_q.left))
+                queue.append((curr_p.right, curr_q.right))
+            
+        return True
+
+
+
+
         # DFS
         if not p and not q:
             return True
