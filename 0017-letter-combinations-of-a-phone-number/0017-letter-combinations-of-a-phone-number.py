@@ -13,18 +13,18 @@ class Solution:
         digits_to_letters['8'] = ['t', 'u', 'v']
         digits_to_letters['9'] = ['w', 'x', 'y', 'z']
 
-        def backtrack(i, curr):
+        def backtrack(curr):
             if len(curr) == len(digits):
                 res.append("".join(curr))
                 return
             
-            for letter in digits_to_letters[digits[i]]:
+            for letter in digits_to_letters[digits[len(curr)]]:
                 curr.append(letter)
-                backtrack(i+1, curr)
+                backtrack(curr)
                 curr.pop()
         
         res = []
-        backtrack(0, [])
+        backtrack([])
         return res
 
 
