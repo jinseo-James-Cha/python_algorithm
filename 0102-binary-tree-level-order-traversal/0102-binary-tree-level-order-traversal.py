@@ -7,6 +7,25 @@
 from collections import deque
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        # BFS
+        if not root:
+            return []
+            
+        res = []
+        queue = deque([root])
+        while queue:
+            current = []
+            for _ in range(len(queue)):
+                node = queue.popleft()
+                current.append(node.val)
+
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            res.append(current)
+
+        return res
         # 1. intuition
         # BFS every queue make temp [] and put into res at the end of each loop
 
