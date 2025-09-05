@@ -43,11 +43,3 @@ class Solution:
                     subBoxes[r//3][c//3].add(val)
         
         backtrack(0)
-        
-        
-        
-        
-        
-
-        
-    
