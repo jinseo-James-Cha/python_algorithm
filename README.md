@@ -294,6 +294,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0013-roman-to-integer](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0022-generate-parentheses) |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0091-decode-ways) |
@@ -547,6 +548,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0062-unique-paths) |
@@ -1101,6 +1103,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0046-permutations) |
