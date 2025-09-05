@@ -7,6 +7,28 @@
 
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        # dfs
+        def dfs(node):
+            if node is None:
+                return
+            
+            dfs(node.left)
+            res.append(node.val)
+            dfs(node.right)
+        
+        res = []
+        dfs(root)
+        return res
+
+
+
+
+
+
+
+
+
+
         # morris traversal
         res = []
         curr = root
