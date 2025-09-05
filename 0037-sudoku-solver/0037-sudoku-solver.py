@@ -4,44 +4,50 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-        
+        # Backtracking
         def backtrack(i):
-            if i == len(empties):
+            if i == len(blanks):
                 return True
-
-            r, c = empties[i]
-            for num in map(str, range(1, 10)): # 1~9 and str mapping
-                if num not in rows[r] and num not in cols[c] and num not in subBoxes[r // 3][c // 3]:
-                
-                    rows[r].add(num)
-                    cols[c].add(num)
-                    subBoxes[int(r / 3)][int(c / 3)].add(num)
-                    board[r][c] = num
-
+            
+            row, col = blanks[i]
+            for candi in map(str, range(1, 10)):
+                if candi not in rows[row] and candi not in cols[col] and candi not in subBoxes[row//3][col//3]:
+                    rows[row].add(candi)
+                    cols[col].add(candi)
+                    subBoxes[row//3][col//3].add(candi)
+                    board[row][col] = candi
+                    
                     if backtrack(i+1):
                         return True
-
-                    rows[r].remove(num)
-                    cols[c].remove(num)
-                    subBoxes[int(r / 3)][int(c / 3)].remove(num)
-                    board[r][c] = "."
-            
+                    
+                    rows[row].remove(candi)
+                    cols[col].remove(candi)
+                    subBoxes[row//3][col//3].remove(candi)
+                    board[row][col] = "."
             return False
-
+        
+        
         rows = defaultdict(set)
         cols = defaultdict(set)
         subBoxes = [[set() for _ in range(3)] for _ in range(3)]
-        empties = []
-        for row in range(9):
-            for col in range(9):
-                if board[row][col] != ".":
-                    rows[row].add(board[row][col])
-                    cols[col].add(board[row][col])
-                    subBoxes[row // 3][col // 3].add(board[row][col])
+        blanks = []
+        
+        for r in range(9):
+            for c in range(9):
+                val = board[r][c]
+                if val == ".":
+                    blanks.append((r,c))
                 else:
-                    empties.append((row, col))
+                    rows[r].add(val)
+                    cols[c].add(val)
+                    subBoxes[r//3][c//3].add(val)
         
         backtrack(0)
+        
+        
+        
+        
+        
 
         
     
