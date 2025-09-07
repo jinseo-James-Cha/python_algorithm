@@ -2,10 +2,11 @@ from collections import defaultdict
 class Solution:
     def findLongestWord(self, s: str, dictionary: List[str]) -> str:
         def is_subsequence(word: str, source: str) -> bool:
-            i = 0
-            for c in source:
-                if i < len(word) and word[i] == c:
+            i = j = 0
+            while i < len(word) and j < len(source):
+                if word[i] == source[j]:
                     i += 1
+                j += 1
             return i == len(word)
 
         ans = ""
