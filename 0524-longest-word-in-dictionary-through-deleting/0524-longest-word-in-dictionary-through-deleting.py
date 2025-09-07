@@ -1,6 +1,21 @@
 from collections import defaultdict
 class Solution:
     def findLongestWord(self, s: str, dictionary: List[str]) -> str:
+        def is_subsequence(word: str, source: str) -> bool:
+            i = 0
+            for c in source:
+                if i < len(word) and word[i] == c:
+                    i += 1
+            return i == len(word)
+
+        ans = ""
+        for word in dictionary:
+            if is_subsequence(word, s):
+                if len(word) > len(ans) or (len(word) == len(ans) and word < ans):
+                    ans = word
+        return ans
+
+
         res = ""
 
         for word in dictionary:
