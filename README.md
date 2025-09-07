@@ -173,6 +173,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1319-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1319-unique-number-of-occurrences) |
 | [1382-calculate-amount-paid-in-taxes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1382-calculate-amount-paid-in-taxes) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -604,6 +605,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1236-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1263-number-of-dice-rolls-with-target-sum) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1764-maximum-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1764-maximum-repeating-substring) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
@@ -765,6 +767,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
