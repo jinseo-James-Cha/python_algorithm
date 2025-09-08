@@ -1,5 +1,25 @@
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
+        # sliding window
+        def helper(target):
+            if target < 0:
+                return 0
+
+            res = 0
+            left = 0
+            curr = 0
+            for right in range(len(nums)):
+                curr += nums[right]
+                while curr > target:
+                    curr -= nums[left]
+                    left += 1
+                res += right - left + 1
+            return res
+                
+        return helper(goal) - helper(goal-1)
+
+
+
         # prefix sum
         freq = {0: 1}
         res,curr = 0, 0
