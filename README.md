@@ -148,6 +148,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
+| [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
 | [0978-valid-mountain-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0978-valid-mountain-array) |
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
@@ -264,6 +265,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0762-find-anagram-mappings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0762-find-anagram-mappings) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
+| [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
@@ -1027,6 +1029,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0643-maximum-average-subarray-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -1062,6 +1065,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0238-product-of-array-except-self](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0560-subarray-sum-equals-k) |
+| [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 ## Heap (Priority Queue)
