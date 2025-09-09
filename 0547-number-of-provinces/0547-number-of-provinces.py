@@ -12,14 +12,14 @@ class Solution:
 
         n = len(isConnected)
         res = 0
-        visited_cities = [False] * (n+1)
+        visited_cities = [False] * n
         adjacent_list = defaultdict(list)
         for i in range(n):
             for j in range(n):
                 if i != j and isConnected[i][j] == 1:
-                    adjacent_list[i+1].append(j+1)
+                    adjacent_list[i].append(j)
             
-        for city in range(1, n+1):
+        for city in range(n):
             if visited_cities[city] == False:
                 res += 1
                 dfs(city)
