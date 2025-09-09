@@ -73,6 +73,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0073-set-matrix-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0078-subsets) |
+| [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0118-pascals-triangle) |
@@ -375,6 +376,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0020-valid-parentheses) |
+| [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0144-binary-tree-preorder-traversal) |
@@ -1109,6 +1111,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 ## Bucket Sort
 |  |
