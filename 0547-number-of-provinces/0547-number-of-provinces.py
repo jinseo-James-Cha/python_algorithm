@@ -13,6 +13,8 @@ class UnionFind:
     def union_set(self, x, y):
         xset = self.find(x)
         yset = self.find(y)
+        if xset == yset:
+            return False
         if self.rank[xset] < self.rank[yset]:
             self.parent[xset] = yset
         elif self.rank[xset] > self.rank[yset]:
@@ -20,7 +22,7 @@ class UnionFind:
         else:
             self.parent[yset] = xset
             self.rank[xset] += 1
-
+        return True
 
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
@@ -32,9 +34,8 @@ class Solution:
 
         for i in range(n):
             for j in range(i + 1, n):
-                if isConnected[i][j] == 1 and uf.find(i) != uf.find(j):
+                if isConnected[i][j] == 1 and uf.union_set(i,j):
                     res -= 1
-                    uf.union_set(i, j)
         
         return res
 
