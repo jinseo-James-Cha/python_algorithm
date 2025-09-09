@@ -5,19 +5,14 @@ class Solution:
         def dfs(city):
             visited_cities[city] = True
 
-            for next_city in adjacent_list[city]:
-                if visited_cities[next_city] == False:
+            for next_city in range(n):
+                if isConnected[city][next_city] == 1 and visited_cities[next_city] == False:
                     dfs(next_city)
 
 
         n = len(isConnected)
         res = 0
         visited_cities = [False] * n
-        adjacent_list = defaultdict(list)
-        for i in range(n):
-            for j in range(n):
-                if i != j and isConnected[i][j] == 1:
-                    adjacent_list[i].append(j)
             
         for city in range(n):
             if visited_cities[city] == False:
