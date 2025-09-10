@@ -1,25 +1,23 @@
-# V2 - I don't need Sliding window or two pointer for this question...
-# like the below
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        profit = 0
-        
-        for i in range(1, len(prices)):
-            if prices[i] > prices[i-1]:
-                profit += prices[i] - prices[i-1]
-        
-        return profit
+        @cache
+        def dp(i, isHoldingStock):
+            if i == len(prices):
+                return 0
+            
+            # two decision by isHoldingStock
+            do_nothing = dp(i+1, isHoldingStock) 
+            do_something = 0
+            if isHoldingStock:
+                # sell
+                do_something = dp(i+1, False) + prices[i]
+            else:
+                do_something = dp(i+1, True) - prices[i]
+            
+            return max(do_nothing, do_something)
 
-# let me start with Two pointer and then I will study sliding window. good.
-# let's gogogo
 
-# class Solution:
-#     def maxProfit(self, prices: List[int]) -> int:
-#         answer = 0
-        
-#         left = 0
-#         for right in range(1, len(prices)):
-#             if prices[left] < prices[right]:
-#                 answer += prices[right] - prices[left]
-#             left += 1
-#         return answer
+
+        return dp(0,False)
+
+                
