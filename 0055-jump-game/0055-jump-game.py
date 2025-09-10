@@ -1,5 +1,6 @@
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
+        # Greedy
         destination_index = len(nums) - 1
 
         for i in range(destination_index - 1, -1, -1):
