@@ -22,8 +22,8 @@ class UnionFind:
             self.parent[xset] = yset
         else:
             self.parent[xset] = yset
-            yset += 1
-        
+            self.rank[yset] += 1        
+            
         return True
 
 class Solution:
