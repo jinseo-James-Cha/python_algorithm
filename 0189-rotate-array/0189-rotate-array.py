@@ -3,10 +3,17 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        def rotate(nums, start, end):
+            while start < end:
+                nums[start], nums[end] = nums[end], nums[start]
+                start += 1
+                end -= 1
 
+
+        # i like this solution
         n = len(nums)
-        a = [0] * n
-        for i in range(n):
-            a[(i+k) % n] = nums[i]
-        
-        nums[:] = a
+        k %= n
+
+        rotate(nums, 0, n-1)
+        rotate(nums, 0, k-1)
+        rotate(nums, k, n-1)
