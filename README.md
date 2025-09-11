@@ -111,6 +111,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0265-paint-house-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0265-paint-house-ii) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0271-encode-and-decode-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0271-encode-and-decode-strings) |
+| [0274-h-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
@@ -636,6 +637,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0242-valid-anagram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
+| [0274-h-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -1233,6 +1235,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Counting Sort
 |  |
 | ------- |
+| [0274-h-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0274-h-index) |
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
 ## Shortest Path
 |  |
