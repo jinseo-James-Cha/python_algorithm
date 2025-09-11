@@ -1,6 +1,41 @@
 from collections import defaultdict, deque
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        def dfs(vertex, visited):
+            if vertex == destination:
+                return True
+            
+            visited.add(vertex)
+            for neighbor in adjacent_list[vertex]:
+                if neighbor not in visited:
+                    if dfs(neighbor, visited):
+                        return True
+            
+            return False
+
+        adjacent_list = defaultdict(list)
+        for a, b in edges:
+            adjacent_list[a].append(b)
+            adjacent_list[b].append(a)
+        
+        return dfs(source, set())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # DFS
         def dfs(node: int) -> bool:
             if node == destination:
