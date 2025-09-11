@@ -1,6 +1,51 @@
 from collections import defaultdict, deque
+
+class UnionFind:
+    def __init__(self, size):
+        self.parent = list(range(size))
+        self.rank = [0] * size
+    
+    def find(self, x):
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
+
+    def union(self, x, y):
+        xset, yset = self.find(x), self.find(y)
+        if xset == yset:
+            return False
+        
+        if self.rank[xset] > self.rank[yset]:
+            self.parent[yset] = xset
+        elif self.rank[xset] < self.rank[yset]:
+            self.parent[xset] = yset
+        else:
+            self.parent[xset] = yset
+            self.rank[yset] += 1
+        
+        return True
+    
+    def isConnected(self, x, y):
+        return self.find(x) == self.find(y)
+
+
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        uf = UnionFind(n)
+        for a, b in edges:
+            uf.union(a,b)
+        
+        return uf.isConnected(source, destination)
+
+
+
+
+
+
+
+
+
+
         adjacent_list = defaultdict(list)
         
         for u, v in edges:
