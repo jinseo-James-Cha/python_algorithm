@@ -1,6 +1,30 @@
 from collections import defaultdict, deque
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        adjacent_list = defaultdict(list)
+        
+        for u, v in edges:
+            adjacent_list[u].append(v)
+            adjacent_list[v].append(u)
+
+        # BFS
+        queue = deque([source])
+        visited = [False] * n
+        visited[source] = True
+
+        while queue:
+            vertex = queue.popleft()
+            if vertex == destination:
+                return True
+            
+            for neighbor in adjacent_list[vertex]:
+                if visited[neighbor] == False:
+                    visited[neighbor] = True
+                    queue.append(neighbor)
+        
+        return False
+
+        # DFS
         def dfs(vertex, visited):
             if vertex == destination:
                 return True
@@ -19,22 +43,6 @@ class Solution:
             adjacent_list[b].append(a)
         
         return dfs(source, set())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         # DFS
         def dfs(node: int) -> bool:
