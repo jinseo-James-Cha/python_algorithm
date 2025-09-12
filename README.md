@@ -1182,6 +1182,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
+| [0511-all-paths-from-source-lead-to-destination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0511-all-paths-from-source-lead-to-destination) |
 | [0547-number-of-provinces](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
@@ -1252,4 +1253,8 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
+## Topological Sort
+|  |
+| ------- |
+| [0511-all-paths-from-source-lead-to-destination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0511-all-paths-from-source-lead-to-destination) |
 <!---LeetCode Topics End-->
