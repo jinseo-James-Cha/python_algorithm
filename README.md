@@ -121,6 +121,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0414-third-maximum-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0414-third-maximum-number) |
@@ -256,6 +257,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0389-find-the-difference) |
@@ -512,6 +514,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0326-power-of-three](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0342-power-of-four) |
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
+| [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
@@ -1045,12 +1048,14 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0604-design-compressed-string-iterator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0604-design-compressed-string-iterator) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Randomized
 |  |
 | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 ## Sliding Window
 |  |
