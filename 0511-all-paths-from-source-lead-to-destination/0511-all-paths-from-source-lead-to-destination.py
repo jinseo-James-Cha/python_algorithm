@@ -8,7 +8,7 @@ class Solution:
             if not adjacent_list[node] and node != destination:
                 return False
 
-            # destination인데 outgoing edge가 있다면 실패
+            # destination인데 outgoing edge-> 실패
             if node == destination and adjacent_list[node]:
                 return False
 
@@ -20,7 +20,7 @@ class Solution:
             state[node] = 2
             return True
 
-        state = [0] * n  # 0: unvisited, 1: visiting, 2: safe(검증 완료)
+        state = [0] * n
         adjacent_list = defaultdict(list)
         for a, b in edges:
             adjacent_list[a].append(b)
