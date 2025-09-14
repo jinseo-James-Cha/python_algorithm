@@ -18,7 +18,7 @@ class Solution:
         
         # left to right till the maximum
         cur_standard = height[0]
-        for i in range(1, highest_bar_index): # 1, 7
+        for i in range(1, highest_bar_index):
             if cur_standard > height[i]:
                 res += cur_standard - height[i]
             else:
