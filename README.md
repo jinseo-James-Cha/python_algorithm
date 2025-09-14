@@ -60,6 +60,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
@@ -388,6 +389,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0143-reorder-list) |
@@ -416,6 +418,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0019-remove-nth-node-from-end-of-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0125-valid-palindrome) |
@@ -578,6 +581,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0055-jump-game) |
@@ -1145,6 +1149,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 ## Bucket Sort
