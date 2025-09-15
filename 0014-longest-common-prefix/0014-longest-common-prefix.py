@@ -6,6 +6,38 @@
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
+        # divide and conquer
+        if not strs:
+            return ""
+        
+        def LCP(left, right):
+            mid_len = min(len(left), len(right))
+            for i in range(mid_len):
+                if left[i] != right[i]:
+                    return left[:i]
+            return left[:mid_len]
+        
+        def divide_and_conquer(strs, left, right):
+            if left == right:
+                return strs[left]
+            else:
+                mid = (left + right) // 2
+                lcpLeft = divide_and_conquer(strs, left, mid)
+                lcpRight = divide_and_conquer(strs, mid+1, right)
+                return  LCP(lcpLeft, lcpRight)
+
+        return divide_and_conquer(strs, 0, len(strs) - 1)
+
+
+
+
+
+
+
+
+
+
+
         min_len = 200
         min_str = ""
         for i in range(len(strs)):
