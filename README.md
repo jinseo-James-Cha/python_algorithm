@@ -165,6 +165,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-minimum-cost-for-tickets) |
 | [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
+| [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
 | [1066-fixed-point](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1066-fixed-point) |
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
@@ -804,6 +805,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
+| [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -987,6 +989,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
 | [1005-univalued-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1005-univalued-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
+| [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
