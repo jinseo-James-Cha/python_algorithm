@@ -8,31 +8,31 @@ class Solution:
         directions = [(-1,0), (1,0), (0,1), (0,-1)] 
 
         # save fresh oranges
-        freshes = set()
-        rottons = []
+        freshes = 0
+        queue = deque()
         for i in range(m):
             for j in range(n):
                 if grid[i][j] == 1:
-                    freshes.add((i,j))
+                    freshes += 1
                 elif grid[i][j] == 2:
-                    rottons.append((i,j))
+                    queue.append((i,j))
         
+        if freshes == 0:
+            return 0
+
         # bfs
-        res = 0
-        queue = deque(rottons)
-        while queue:
-            removed = False
+        minute = 0
+        while queue and freshes > 0:
             for _ in range(len(queue)):
                 r, c = queue.popleft()
                 for dr, dc in directions:
                     next_r, next_c = r+dr, c+dc
-                    if 0 <= next_r < m and 0 <= next_c < n and (next_r, next_c) in freshes:
+                    if 0 <= next_r < m and 0 <= next_c < n and grid[next_r][next_c] == 1:
                         queue.append((next_r, next_c))
-                        freshes.remove((next_r, next_c))
-                        removed = True
-            if removed:
-                res += 1
-        return res if len(freshes) == 0 else -1
+                        grid[next_r][next_c] = 2
+                        freshes -= 1
+            minute += 1
+        return minute if freshes == 0 else -1
 
 
 
