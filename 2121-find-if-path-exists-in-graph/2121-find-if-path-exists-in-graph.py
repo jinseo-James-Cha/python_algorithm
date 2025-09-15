@@ -31,19 +31,35 @@ class UnionFind:
 
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        # BFS
+        if not edges:
+            return True
+        
+        adjacent_list = defaultdict(list)
+        for u, v in edges:
+            adjacent_list[u].append(v)
+            adjacent_list[v].append(u)
+        
+        visited = [False] * n
+        visited[source] = True
+        queue = deque([source])
+        while queue:
+            vertex = queue.popleft()
+            if vertex == destination:
+                return True
+            
+            visited[vertex] = True
+            for neighbor in adjacent_list[vertex]:
+                if not visited[neighbor]:
+                    queue.append(neighbor)
+        return False
+        
+        # Union Find
         uf = UnionFind(n)
         for a, b in edges:
             uf.union(a,b)
         
         return uf.isConnected(source, destination)
-
-
-
-
-
-
-
-
 
 
         adjacent_list = defaultdict(list)
@@ -128,7 +144,7 @@ class Solution:
                 return True
             
             for next_node in adjacent_list[curr_node]:
-                if not seen[next_node]:
+                if not visited[next_node]:
                     seen[next_node] = True
                     queue.append(next_node)
 
