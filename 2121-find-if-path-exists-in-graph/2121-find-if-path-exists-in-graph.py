@@ -48,9 +48,9 @@ class Solution:
             if vertex == destination:
                 return True
             
-            visited[vertex] = True
             for neighbor in adjacent_list[vertex]:
                 if not visited[neighbor]:
+                    visited[neighbor] = True
                     queue.append(neighbor)
         return False
         
