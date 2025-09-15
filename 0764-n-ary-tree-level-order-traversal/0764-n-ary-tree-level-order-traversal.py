@@ -11,21 +11,15 @@ class Solution:
         if not root:
             return []
         
-        res = [[root.val]]
+        res = []
         queue = deque([root])
         while queue:
             temp = []
             for _ in range(len(queue)):
                 node = queue.popleft()
-                for child in node.children:
-                    temp.append(child.val)
-                    queue.append(child)
+                temp.append(node.val)
+                queue.extend(node.children)
+            
             if temp:
                 res.append(temp)
         return res
-            
-
-            
-
-        
-        
