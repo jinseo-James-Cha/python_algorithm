@@ -938,6 +938,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0694-number-of-distinct-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0694-number-of-distinct-islands) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0744-network-delay-time) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -985,6 +986,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0694-number-of-distinct-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0694-number-of-distinct-islands) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
@@ -1144,6 +1146,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0023-merge-k-sorted-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
+| [0744-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
@@ -1222,6 +1225,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0511-all-paths-from-source-lead-to-destination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0511-all-paths-from-source-lead-to-destination) |
 | [0547-number-of-provinces](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
@@ -1289,6 +1293,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
+| [0744-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0744-network-delay-time) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
