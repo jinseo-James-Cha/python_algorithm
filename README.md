@@ -195,6 +195,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1656-count-good-triplets) |
+| [1706-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1706-min-cost-to-connect-all-points) |
 | [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
@@ -1225,6 +1226,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
+| [1706-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1706-min-cost-to-connect-all-points) |
 | [1916-find-center-of-star-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
@@ -1241,6 +1243,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
+| [1706-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1706-min-cost-to-connect-all-points) |
 | [2121-find-if-path-exists-in-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 ## Brainteaser
 |  |
@@ -1290,6 +1293,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
+| [1706-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
