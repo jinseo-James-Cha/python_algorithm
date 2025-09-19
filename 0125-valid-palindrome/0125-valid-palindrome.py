@@ -5,7 +5,8 @@ class Solution:
         right = len(s) - 1
         while left < right:
             # skip non alphanumeric letter from both pointers
-            if not s[left].isalnum():
+            while left < right and not s[left].isalnum():
+            # if not s[left].isalnum():
                 left += 1
                 continue
             if not s[right].isalnum():
@@ -28,7 +29,7 @@ class Solution:
 #             if (a >= "a" and a <= "z") or (a >= "A" and a <= "Z") or (a >= "0" and a <= "9"):
 #                 new_s += a.lower()
 
-#             # if not a.isalpha(): above or this
+#             # if not a.isalnum(): above or this
 #                 # continue
 #         # two pointer
 #         left = 0
