@@ -6,7 +6,8 @@
 <!-- - July goal: a hard question within 30min -->
 - July ~ Aug: finish second algorithm book
 - Aug goal:  mock tests and interview
-- Sep: Enter Google !!!
+- Sep: Practice interviews
+- Oct: Enter Google !!!
 
 # Python
 - started daily algorithm PS at 14th Apr, 2025
