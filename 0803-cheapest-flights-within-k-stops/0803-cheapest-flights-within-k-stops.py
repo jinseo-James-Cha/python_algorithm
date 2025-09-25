@@ -19,13 +19,6 @@ class Solution:
         
         return -1 if dist[dst] == float('inf') else dist[dst]
 
-
-
-
-
-
-
-
         
         # no negative values -> dijkstra?
         graph = defaultdict(list)
