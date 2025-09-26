@@ -2,6 +2,46 @@ from collections import defaultdict, deque
 import heapq
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        
+        # dijkstra
+        graph = defaultdict(list)
+        for u, v, p in flights:
+            graph[u].append((v, p))
+
+        stops = [float('inf')] * n
+
+        pq = [(0, src, 0)]
+        while pq:
+            dist, node, step = heapq.heappop(pq)
+            if step > stops[node] or step > k+1:
+                continue
+            
+            stops[node] = step
+
+            if node == dst:
+                return dist
+
+            for neighbor, price in graph[node]:
+                heapq.heappush(pq, (dist+price, neighbor, step+1))
+        
+        return -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # from, to, price = flights[i]
         # at most k stops
 
