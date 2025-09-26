@@ -1,4 +1,3 @@
-from collections import defaultdict
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
         # dijkstra
@@ -7,7 +6,7 @@ class Solution:
             return 0 <= x < len(heights) and 0 <= y < len(heights[0])
 
         row, col = len(heights), len(heights[0])
-        dist_matrix = [[float(inf)] * col for _ in range(row)]
+        dist_matrix = [[float('inf')] * col for _ in range(row)]
         dist_matrix[0][0] = 0
         
         visited = [[False] * col for _ in range(row)]
