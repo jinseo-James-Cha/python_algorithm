@@ -3,6 +3,21 @@ import heapq
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         
+        # bellman-ford
+        dist = [float(inf)] * n
+        dist[src] = 0
+
+        for _ in range(k+1):
+            temp = dist[:]
+            for u, v, w in flights:
+                if dist[u] != float(inf) and dist[u] + w < temp[v]:
+                    temp[v] = dist[u] + w
+            dist = temp
+        
+        return -1 if dist[dst] == float(inf) else dist[dst]
+
+
+
         # dijkstra
         graph = defaultdict(list)
         for u, v, p in flights:
