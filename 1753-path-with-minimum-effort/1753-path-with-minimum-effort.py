@@ -17,6 +17,8 @@ class Solution:
         while pq:
             max_diff, r, c = heapq.heappop(pq)
             visited[r][c] = True
+            if r+1 == rows and c+1 == cols:
+                return max_diff
             
             for dy, dx in DIR:
                 next_x, next_y = r+dy, c+dx
