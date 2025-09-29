@@ -1258,6 +1258,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0803-cheapest-flights-within-k-stops](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
+| [1101-parallel-courses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1101-parallel-courses) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1706-min-cost-to-connect-all-points) |
 | [1916-find-center-of-star-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1916-find-center-of-star-graph) |
@@ -1337,6 +1338,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0310-minimum-height-trees) |
 | [0511-all-paths-from-source-lead-to-destination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0511-all-paths-from-source-lead-to-destination) |
+| [1101-parallel-courses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1101-parallel-courses) |
 ## Eulerian Circuit
 |  |
 | ------- |
