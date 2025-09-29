@@ -115,6 +115,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0256-paint-house](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0256-paint-house) |
 | [0265-paint-house-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0265-paint-house-ii) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
+| [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0283-move-zeroes) |
@@ -344,6 +345,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0266-palindrome-permutation) |
 | [0267-palindrome-permutation-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0267-palindrome-permutation-ii) |
+| [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0271-encode-and-decode-strings) |
 | [0290-word-pattern](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0290-word-pattern) |
 | [0291-word-pattern-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0291-word-pattern-ii) |
@@ -930,6 +932,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0332-reconstruct-itinerary) |
@@ -987,6 +990,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
@@ -1240,6 +1244,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0133-clone-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0133-clone-graph) |
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
+| [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
@@ -1326,6 +1331,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
+| [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0511-all-paths-from-source-lead-to-destination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0511-all-paths-from-source-lead-to-destination) |
 ## Eulerian Circuit
 |  |
