@@ -19,15 +19,11 @@ class Solution:
             if in_degree[i] == 0:
                 pq.append((i, 1))
         
-        # if cyclic
-        if not pq:
-            return -1
-        
-        taken_courses = []
+        taken_count = 0
         min_semester = 1
         while pq:
             curr_course, semester = pq.popleft()
-            taken_courses.append(curr_course)
+            taken_count += 1
             min_semester = semester
 
             for neighbor in adj_list[curr_course]:
@@ -35,7 +31,7 @@ class Solution:
                 if in_degree[neighbor] == 0:
                     pq.append((neighbor, semester + 1))
         
-        return -1 if n != len(taken_courses) else min_semester
+        return -1 if n != taken_count else min_semester
 
 
 
