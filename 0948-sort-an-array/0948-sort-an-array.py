@@ -1,5 +1,29 @@
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
+        # n log n -> heap sort
+        def max_heapify(heap_size, index):
+            left, right = 2 * index + 1, 2 * index + 2
+            largest = index
+            if left < heap_size and nums[largest] < nums[left]:
+                largest = left
+            
+            if right < heap_size and nums[largest] < nums[right]:
+                largest = right
+            
+            if largest != index:
+                nums[largest], nums[index] = nums[index], nums[largest]
+                max_heapify(heap_size, largest)
+        
+        for i in range(len(nums)//2 - 1, -1, -1):
+            max_heapify(len(nums), i)
+
+        for i in range(len(nums) - 1, 0, -1):
+            nums[i], nums[0] = nums[0], nums[i]
+            max_heapify(i, 0)
+        
+        return nums
+  
+
         # bottom up
         def merge(left_list, right_list):
             left_index, right_index = 0,0
