@@ -5,6 +5,23 @@ class Solution:
         """
         # order by red while blue
         #           0   1     2
+        
+        # one pass - two(three pointers) pointers
+        left = curr = 0
+        right = len(nums) - 1
+        while curr <= right:
+            if nums[curr] == 2:
+                nums[curr], nums[right] = nums[right], nums[curr]
+                right -= 1
+            elif nums[curr] == 0:
+                nums[left], nums[curr] = nums[curr], nums[left]
+                left += 1
+            curr += 1    
+
+
+
+        
+        
         # just sort by ascending order
         # selection sort
         for i in range(len(nums)):
