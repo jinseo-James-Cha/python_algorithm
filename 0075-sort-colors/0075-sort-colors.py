@@ -16,7 +16,9 @@ class Solution:
             elif nums[curr] == 0:
                 nums[left], nums[curr] = nums[curr], nums[left]
                 left += 1
-            curr += 1    
+                curr += 1
+            else:
+                curr += 1    
 
 
 
