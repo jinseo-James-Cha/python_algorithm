@@ -2,6 +2,45 @@ from math import inf
 
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
+        # 1. sort arr by counting sort
+        # 2. find minimum abs val
+        # 3. add a pair if its minimum val
+
+        min_num = min(arr)
+        max_num = max(arr)
+        count = [0] *(max_num - min_num + 1)
+        for num in arr:
+            count[num - min_num] += 1
+        
+        # accumulated count
+        for i in range(1, len(count)):
+            count[i] += count[i-1]
+        
+        sorted_arr = [0] * len(arr)
+        for num in reversed(arr):
+            sorted_arr[count[num - min_num] - 1] = num
+        
+        # find minimum absolute difference and save pairs
+        minimum_abs_diff = float('inf')
+        res = []
+        for i in range(len(sorted_arr) - 1):
+            curr_diff = abs(sorted_arr[i] - sorted_arr[i+1])
+            if minimum_abs_diff == curr_diff:
+                res.append([sorted_arr[i], sorted_arr[i+1]])
+            elif minimum_abs_diff > curr_diff:
+                minimum_abs_diff = curr_diff
+                res = [[sorted_arr[i], sorted_arr[i+1]]]
+        return res
+    
+    
+
+
+
+
+
+
+
+
         ### Problem
         # distict integer
         # pair of minimum absolute difference
