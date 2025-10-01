@@ -3,6 +3,21 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        # counting sort
+        count = [0, 0, 0]
+        for num in nums:
+            count[num] += 1
+
+        index = 0
+        for i in range(3):  # 0,1,2
+            for _ in range(count[i]):
+                nums[index] = i
+                index += 1
+
+
+
+
+
         # order by red while blue
         #           0   1     2
         
