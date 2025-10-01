@@ -10,26 +10,22 @@ class Solution:
         max_num = max(arr)
         count = [0] *(max_num - min_num + 1)
         for num in arr:
-            count[num - min_num] += 1
+            count[num - min_num] = 1
         
-        # accumulated count
-        for i in range(1, len(count)):
-            count[i] += count[i-1]
-        
-        sorted_arr = [0] * len(arr)
-        for num in reversed(arr):
-            sorted_arr[count[num - min_num] - 1] = num
-        
-        # find minimum absolute difference and save pairs
-        minimum_abs_diff = max_num - min_num
+        min_diff = max_num - min_num
+        prev = 0
         res = []
-        for i in range(len(sorted_arr) - 1):
-            curr_diff = abs(sorted_arr[i] - sorted_arr[i+1])
-            if minimum_abs_diff == curr_diff:
-                res.append([sorted_arr[i], sorted_arr[i+1]])
-            elif minimum_abs_diff > curr_diff:
-                minimum_abs_diff = curr_diff
-                res = [[sorted_arr[i], sorted_arr[i+1]]]
+        for curr in range(1, len(count)):
+            if count[curr] == 0:
+                continue
+            
+            diff = curr - prev
+            if diff == min_diff:
+                res.append([prev + min_num, curr + min_num])
+            elif diff < min_diff:
+                res = [[prev + min_num, curr + min_num]]
+                min_diff = diff
+            prev = curr
         return res
     
     
