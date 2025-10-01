@@ -21,7 +21,7 @@ class Solution:
             sorted_arr[count[num - min_num] - 1] = num
         
         # find minimum absolute difference and save pairs
-        minimum_abs_diff = float('inf')
+        minimum_abs_diff = max_num - min_num
         res = []
         for i in range(len(sorted_arr) - 1):
             curr_diff = abs(sorted_arr[i] - sorted_arr[i+1])
