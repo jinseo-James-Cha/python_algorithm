@@ -127,6 +127,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
@@ -269,6 +270,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0290-word-pattern) |
 | [0291-word-pattern-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0291-word-pattern-ii) |
+| [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
@@ -502,6 +504,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0594-longest-harmonious-subsequence) |
@@ -681,6 +684,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0389-find-the-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0389-find-the-difference) |
@@ -780,6 +784,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0191-number-of-1-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2422-query-kth-smallest-trimmed-number) |
@@ -1184,6 +1189,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0023-merge-k-sorted-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
 | [0744-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -1226,6 +1232,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0164-maximum-gap) |
+| [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
 ## Merge Sort
@@ -1369,5 +1376,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2422-query-kth-smallest-trimmed-number) |
 <!---LeetCode Topics End-->
