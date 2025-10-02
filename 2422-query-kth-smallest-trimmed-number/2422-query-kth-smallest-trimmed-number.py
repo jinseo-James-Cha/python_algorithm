@@ -5,7 +5,7 @@ class Solution:
         answer = []
         for k, trim in queries:
             trimmed = [(num[-trim:], i) for i, num in enumerate(nums)]
-            trimmed.sort(key=lambda x: (x[0], x[1]))
+            trimmed.sort()
             answer.append(trimmed[k-1][1])
         return answer
 
