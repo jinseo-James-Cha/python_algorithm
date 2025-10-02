@@ -7,7 +7,7 @@ class Solution:
         counts = Counter(nums)
         for num, freq in counts.items():
             buckets[freq].append(num)
-        
+
         flat_list = [item for sublist in buckets for item in sublist]
         return flat_list[::-1][:k]
 
