@@ -8,7 +8,7 @@ class Solution:
         is_next = False
         res = ListNode()
         dummy = res
-        while l1 or l2:
+        while l1 or l2 or is_next:
             l1_num = 0
             l2_num = 0
 
@@ -35,9 +35,6 @@ class Solution:
             dummy.next = new_node
             dummy = dummy.next
         
-        if is_next:
-            new_node = ListNode(1)
-            dummy.next = new_node
         return res.next
 
         
