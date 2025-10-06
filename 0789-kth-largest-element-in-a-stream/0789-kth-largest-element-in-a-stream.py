@@ -3,27 +3,47 @@
 # save till kth 
 import heapq
 class KthLargest:
-
-    def __init__(self, k: int, nums: List[int]):
-        self.k = k
-        self.scores = nums
-        heapq.heapify(self.scores)
-
-        # pop till len equals to k
-        # so we keep only kth values
-        for i in range(len(self.scores) - self.k):
-            heapq.heappop(self.scores)
+    def __init__(self, k, nums):
+        self.heap = []
+        self.kth = k
+        for num in nums:
+            heapq.heappush(self.heap, num)
+            if len(self.heap) > k:
+                heapq.heappop(self.heap)
 
     def add(self, val: int) -> int:
-        # empty scores -> return the new val
-        if len(self.scores) == 0:
-            heapq.heappush(self.scores, val)
-            return val
+        heapq.heappush(self.heap, val)
+        if len(self.heap) > self.kth:
+            heapq.heappop(self.heap)
+        return self.heap[0]
 
-        heapq.heappush(self.scores, val)
-        if len(self.scores) > self.k:
-            heapq.heappop(self.scores)
-        return self.scores[0]
+
+
+
+
+
+
+
+    # def __init__(self, k: int, nums: List[int]):
+    #     self.k = k
+    #     self.scores = nums
+    #     heapq.heapify(self.scores)
+
+    #     # pop till len equals to k
+    #     # so we keep only kth values
+    #     for i in range(len(self.scores) - self.k):
+    #         heapq.heappop(self.scores)
+
+    # def add(self, val: int) -> int:
+    #     # empty scores -> return the new val
+    #     if len(self.scores) == 0:
+    #         heapq.heappush(self.scores, val)
+    #         return val
+
+    #     heapq.heappush(self.scores, val)
+    #     if len(self.scores) > self.k:
+    #         heapq.heappop(self.scores)
+    #     return self.scores[0]
 
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
