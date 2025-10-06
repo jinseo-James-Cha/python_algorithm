@@ -198,6 +198,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1524-string-matching-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1524-string-matching-in-an-array) |
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
@@ -708,6 +709,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1137-height-checker](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-height-checker) |
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -738,6 +740,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
 | [3790-fruits-into-baskets-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3790-fruits-into-baskets-ii) |
@@ -848,6 +851,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
 | [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
@@ -1204,6 +1208,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
 | [1127-last-stone-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1127-last-stone-weight) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
+| [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
