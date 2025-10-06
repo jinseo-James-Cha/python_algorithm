@@ -7,13 +7,36 @@ class Solution:
         # return weakest rows for k much
         # 2 4 1 2 5
         # 2 0 3 1 4
+
+        # brute force - > check by column
+        added = set()
+        res = []
+        for col in range(len(mat[0])):
+            for row in range(len(mat)):
+                if mat[row][col] == 0 and row not in added:
+                    added.add(row)
+                    res.append(row)
+                
+                if len(added) == k:
+                    return res
+        
+        if len(res) < k:
+            for i in range(k):
+                if i not in added:
+                    added.add(i)
+                    res.append(i)
+                
+                if len(added) == k:
+                    break
+        
+        return res
         
         # bucket 
-        buckets = [[] for _ in range(len(mat[0]) + 1)]
-        for i, m in enumerate(mat):
-            soldiers = m.count(1)
-            buckets[soldiers].append(i)
+        # buckets = [[] for _ in range(len(mat[0]) + 1)]
+        # for i, m in enumerate(mat):
+        #     soldiers = m.count(1)
+        #     buckets[soldiers].append(i)
         
-        res = [x for bucket in buckets for x in bucket]
-        return res[:k]
+        # res = [x for bucket in buckets for x in bucket]
+        # return res[:k]
 
