@@ -116,6 +116,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0240-search-a-2d-matrix-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0243-shortest-word-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0243-shortest-word-distance) |
 | [0252-meeting-rooms](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
 | [0256-paint-house](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0256-paint-house) |
 | [0265-paint-house-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0265-paint-house-ii) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
@@ -461,6 +462,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0202-happy-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0246-strobogrammatic-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0246-strobogrammatic-number) |
+| [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0344-reverse-string) |
@@ -689,6 +691,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0217-contains-duplicate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
@@ -809,6 +812,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
 | [0605-can-place-flowers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0605-can-place-flowers) |
@@ -1193,6 +1197,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
@@ -1203,6 +1208,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
