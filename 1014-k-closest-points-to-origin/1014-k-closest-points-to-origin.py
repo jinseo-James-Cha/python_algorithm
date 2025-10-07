@@ -2,6 +2,39 @@ import heapq
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         # as k much, we need the answers
+
+        # quickselect
+        def dist(p):
+            return p[0] ** 2 + p[1] ** 2
+
+        def partition(left, right):
+            pivot = dist(points[right])
+            i = left
+            for j in range(left, right):
+                if dist(points[j]) <= pivot:
+                    points[i], points[j] = points[j], points[i]
+                    i += 1
+            points[i], points[right] = points[right], points[i]
+            return i
+
+        def quickselect(left, right, k):
+            if left <= right:
+                pivot_index = partition(left, right)
+                if pivot_index == k:
+                    return
+                elif pivot_index < k:
+                    quickselect(pivot_index + 1, right, k)
+                else:
+                    quickselect(left, pivot_index - 1, k)
+
+        quickselect(0, len(points) - 1, k)
+        return points[:k]
+
+
+
+
+
+
         # priority queue -> max heap
         
         max_heap = []
