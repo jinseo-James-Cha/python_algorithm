@@ -186,6 +186,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1098-largest-unique-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1098-largest-unique-number) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1127-last-stone-weight) |
 | [1137-height-checker](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-height-checker) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
@@ -824,6 +825,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0680-valid-palindrome-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1448-maximum-69-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-maximum-69-number) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -1223,6 +1225,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1014-k-closest-points-to-origin) |
 | [1074-high-five](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1074-high-five) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1127-last-stone-weight) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
