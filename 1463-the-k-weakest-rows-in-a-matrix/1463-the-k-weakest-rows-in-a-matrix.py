@@ -8,6 +8,31 @@ class Solution:
         # 2 4 1 2 5
         # 2 0 3 1 4
 
+        # binary search for first 0
+        def binary_search(row):
+            left = 0
+            right = len(row)
+            while left < right:
+                mid = (left + right) // 2
+                if row[mid] == 1:
+                    left = mid + 1
+                else:
+                    right = mid
+            return left
+        
+        soldiers = []
+        for i, m in enumerate(mat):
+            soldiers.append((binary_search(m) , i))
+
+        soldiers.sort()
+
+        res = []
+        for i in range(k):
+            res.append(soldiers[i][1])
+        return res
+
+
+
         # brute force - > check by column
         added = set()
         res = []
