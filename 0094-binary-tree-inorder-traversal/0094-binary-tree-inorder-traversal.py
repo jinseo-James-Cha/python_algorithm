@@ -6,7 +6,28 @@
 #         self.right = right
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        
+        # morris
+        res = []
+        curr = root
+        while curr:
+            if curr.left is None:
+                res.append(curr.val)
+                curr = curr.right
+            else:
+                pred = curr.left
+                while pred.right and pred.right != curr:
+                    pred = pred.right
+                
+                if pred.right is None:
+                    pred.right = curr
+                    curr = curr.left
+                else:
+                    pred.right = None
+                    res.append(curr.val)
+                    curr = curr.right
+        return res
+
+
 
 
         # recursive
