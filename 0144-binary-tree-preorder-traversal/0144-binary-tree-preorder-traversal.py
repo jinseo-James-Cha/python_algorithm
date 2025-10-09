@@ -6,6 +6,25 @@
 #         self.right = right
 class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        # preorder
+        def preorder(node):
+            if not node:
+                return
+            
+            res.append(node.val)
+            preorder(node.left)
+            preorder(node.right)
+        
+        res = []
+        preorder(root)
+        return res
+
+
+
+
+
+
+
         # morris
         res = []
         curr = root
