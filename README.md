@@ -925,6 +925,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0250-count-univalue-subtrees) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
@@ -978,6 +979,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0250-count-univalue-subtrees) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
@@ -1093,6 +1095,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0250-count-univalue-subtrees) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
