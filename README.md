@@ -370,6 +370,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0290-word-pattern](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0290-word-pattern) |
 | [0291-word-pattern-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0291-word-pattern-ii) |
 | [0293-flip-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0293-flip-game) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
@@ -936,6 +937,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0250-count-univalue-subtrees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0250-count-univalue-subtrees) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -992,6 +994,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0332-reconstruct-itinerary) |
@@ -1050,6 +1053,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
@@ -1108,6 +1112,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0250-count-univalue-subtrees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0250-count-univalue-subtrees) |
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -1161,6 +1166,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0225-implement-stack-using-queues](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0225-implement-stack-using-queues) |
 | [0271-encode-and-decode-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
