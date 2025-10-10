@@ -33,20 +33,19 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        def rdeserialize(l):
+        def rdeserialize(q):
             """ a recursive helper function for deserialization."""
-            if l[0] == 'None':
-                l.pop(0)
+            if q[0] == 'None':
+                q.popleft()
                 return None
                 
-            root = TreeNode(l[0])
-            l.pop(0)
-            root.left = rdeserialize(l)
-            root.right = rdeserialize(l)
-            return root
+            node = TreeNode(int(q.popleft()))
+            node.left = rdeserialize(q)
+            node.right = rdeserialize(q)
+            return node
 
-        data_list = data.split(',')
-        root = rdeserialize(data_list)
+        queue = deque(data.split(','))
+        root = rdeserialize(queue)
         return root
         
 
