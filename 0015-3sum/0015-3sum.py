@@ -1,5 +1,45 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
+        # two pointers for nums[i] = nums[j] + nums[k]
+        # target == nums[left] + nums[right]
+        # 1 == -1 + 2
+        def two_pointers(numbers, target):
+            res = []
+            left = 0
+            right = len(numbers) - 1 
+            while left < right:
+                curr_num = numbers[left] + numbers[right]
+                if curr_num + target == 0 :
+                    res.append([target, numbers[left], numbers[right]])
+                    right -= 1
+                    left += 1
+                elif  curr_num + target > 0:
+                    right -= 1
+                else:
+                    left += 1
+            return res
+
+        res = []
+        used = set()
+        nums.sort()
+        for i in range(len(nums) - 2):
+            triplets = two_pointers(nums[i+1:], nums[i])
+            if triplets:
+                for tri in triplets:
+                    if tuple(tri) not in used:
+                        res.append(tri)
+                        used.add(tuple(tri))
+        return res
+
+
+
+
+
+
+
+
+
+
         # uhm i j k -> n^3 -> two pointers -> O(N^2)
         res = []
 
