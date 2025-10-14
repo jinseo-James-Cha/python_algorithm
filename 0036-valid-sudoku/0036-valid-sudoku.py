@@ -1,7 +1,39 @@
 # v2: optimize
 # O(N^2)
+from collections import defaultdict
 class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:   
+    def isValidSudoku(self, board: List[List[str]]) -> bool: 
+
+        row_set = defaultdict(set)
+        col_set = defaultdict(set)
+        sub_box_set = [[set() for _ in range(3)] for _ in range(3)]
+        for r in range(9):
+            for c in range(9):
+                str_num = board[r][c]
+                if str_num == ".":
+                    continue
+                
+                if str_num in row_set[r] or str_num in col_set[c] or str_num in sub_box_set[r//3][c//3]:
+                    return False
+                else:
+                    row_set[r].add(str_num)
+                    col_set[c].add(str_num)
+                    sub_box_set[r//3][c//3].add(str_num)
+        return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         rows = [set() for _ in range(9)] # this is the kick
         columns = [set() for _ in range(9)] # this is the kick
         subBoxes = [[set() for _ in range(3)] for _ in range(3)] # subBoxes[][] = set()
