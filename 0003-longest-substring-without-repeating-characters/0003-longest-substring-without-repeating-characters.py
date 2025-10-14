@@ -2,6 +2,25 @@
 # hash map
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
+        # sliding window
+        left = 0
+        curr_subs = set()
+        max_len = 0
+        for right in range(len(s)):
+            while s[right] in curr_subs:
+                curr_subs.remove(s[left])
+                left += 1
+            
+            curr_subs.add(s[right])
+            max_len = max(max_len, len(curr_subs))
+        return max_len
+
+
+
+
+
+
+
         longest = 0
         seen = set()
         left = 0
