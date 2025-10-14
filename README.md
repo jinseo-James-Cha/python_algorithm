@@ -260,6 +260,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0012-integer-to-roman](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0073-set-matrix-zeroes) |
@@ -347,6 +348,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0020-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0058-length-of-last-word](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0072-edit-distance) |
@@ -1188,6 +1190,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0209-minimum-size-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
