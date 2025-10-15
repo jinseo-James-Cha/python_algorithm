@@ -2,6 +2,47 @@ class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:
             return []
+        
+        top, right, bottom, left = 0, len(matrix[0])-1, len(matrix)-1, 0 
+
+        res = []
+        while top <= bottom and left <= right:
+            # to right
+            for next_right in range(left, right+1): 
+                res.append(matrix[top][next_right])
+            top += 1 
+            
+            # to bottom
+            for next_bottom in range(top, bottom+1):
+                res.append(matrix[next_bottom][right])
+            right -= 1
+            
+            # to left
+            if top <= bottom:
+                for next_left in range(right, left-1, -1):
+                    res.append(matrix[bottom][next_left])
+                bottom -= 1
+            
+            # to top
+            if left <= right:
+                for next_top in range(bottom, top-1, -1):
+                    res.append(matrix[next_top][left])
+                left += 1
+        return res
+
+
+
+
+
+
+
+
+
+
+
+
+        if not matrix:
+            return []
 
         top = left = 0
         right = len(matrix[0]) - 1
