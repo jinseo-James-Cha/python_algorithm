@@ -1,5 +1,29 @@
+from collections import Counter
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+
+        counts = Counter(s)
+        for t_c in t:
+            if t_c not in counts:
+                return False
+            
+            counts[t_c] -= 1
+            if counts[t_c] < 0:
+                return False
+        return True
+
+
+
+
+
+
+
+
+
+
+
         hashmap = {}
         for letter in s:
             hashmap[letter] = hashmap.get(letter, 0) + 1
