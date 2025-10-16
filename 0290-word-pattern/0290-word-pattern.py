@@ -1,5 +1,33 @@
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
+        hash_map = {}
+        used_words = set()
+
+        s_list = s.split(" ")
+        if len(pattern) != len(s_list):
+            return False
+            
+        for p_char, s_word in zip(pattern, s_list):
+            if p_char not in hash_map:
+                if s_word in used_words:
+                    return False
+                hash_map[p_char] = s_word
+                used_words.add(s_word)
+            else:
+                if hash_map[p_char] != s_word:
+                    return False
+        return True
+
+
+
+
+
+
+
+
+
+
+
         
         hashmap = {}
         registered = set()
