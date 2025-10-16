@@ -1,6 +1,31 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         char_map = {}
+        used = set()
+        for i in range(len(s)):
+            if s[i] not in char_map:
+                if t[i] in used:
+                    return False
+                char_map[s[i]] = t[i]
+                used.add(t[i])
+            else:
+                if char_map[s[i]] != t[i]:
+                    return False
+        return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+        char_map = {}
 
         for sc, tc in zip(s, t):
             if sc in char_map:
