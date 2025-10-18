@@ -1,29 +1,23 @@
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
+        if len(nums) == 0:
+            return []
+
+        ranges = []
+        num_set = set(nums)
+        for num in nums:
+            if num - 1 not in num_set:
+                current_num = num
+                current_range = [current_num, current_num]
+                while current_num + 1 in num_set:
+                    current_num += 1
+                    current_range[-1] = current_num
+                ranges.append(current_range)
+        
         res = []
-        # two pointer
-        # 0 1 2 4 5 7
-        # L
-        # R R R
-        #       L
-        #       R R
-        #           L
-        #           R
-
-        # 0 <= nums.length <= 20
-        if not nums:
-            return res
-
-        i = 0
-        while i < len(nums):
-            start = nums[i]
-            while i + 1 < len(nums) and nums[i] + 1 == nums[i + 1]:
-                i += 1
-            
-            if start != nums[i]:
-                res.append(str(start) + "->" + str(nums[i]))
+        for a, b in ranges:
+            if a != b:
+                res.append(str(a) + "->" + str(b))
             else:
-                res.append(str(nums[i]))
-            i += 1
+                res.append(str(a))
         return res
-            
