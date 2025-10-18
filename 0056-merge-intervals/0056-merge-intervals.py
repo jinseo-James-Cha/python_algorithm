@@ -1,5 +1,42 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        # intervals -> sweep line algorithm?
+        events = []
+        for start, end in intervals:
+            events.append((start, -1))
+            events.append((end, 1))
+        
+        events.sort(key=lambda x:[x[0], x[1]])
+
+        res = []
+        curr = [float('inf'), -float('inf')]
+        curr_val = 0
+        for num, val in events:
+            curr_val += val
+            if val < 0 and num < curr[0]:
+                curr[0] = num
+            elif val > 0 and num > curr[1]:
+                curr[1] = num
+            
+            if curr_val == 0:
+                res.append(curr)
+                curr = [float('inf'), -float('inf')]
+        return res
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # intervals A and B will never overlap when A.end < B.start
 
         # if A.end < B.start, NO OVERLAP
