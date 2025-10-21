@@ -96,6 +96,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0135-candy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
@@ -445,6 +446,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0143-reorder-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0155-min-stack) |
 | [0224-basic-calculator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0225-implement-stack-using-queues) |
@@ -563,6 +565,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0069-sqrtx](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0096-unique-binary-search-trees) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0168-excel-sheet-column-title](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0171-excel-sheet-column-number) |
 | [0189-rotate-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0189-rotate-array) |
