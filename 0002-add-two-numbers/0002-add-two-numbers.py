@@ -9,7 +9,7 @@ class Solution:
         dummy = res
         is_carry = False
 
-        while l1 or l2:
+        while l1 or l2 or is_carry:
             l1_val = 0 
             if l1 is not None:
                 l1_val = l1.val
@@ -25,7 +25,5 @@ class Solution:
             dummy.next = curr_node
             dummy = dummy.next
         
-        if is_carry:
-            dummy.next = ListNode(is_carry)
         return res.next
         
