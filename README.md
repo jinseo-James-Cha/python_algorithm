@@ -8,7 +8,7 @@
 - Aug goal:  mock tests and interview
 - Sep: Practice interviews
 - Oct: Apply many companies to see where I am
-- Nov: Apply Google
+- Nov: Enter Google !
 
 # Python
 - started daily algorithm PS at 14th Apr, 2025
