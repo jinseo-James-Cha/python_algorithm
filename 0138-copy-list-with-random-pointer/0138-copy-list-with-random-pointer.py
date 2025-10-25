@@ -9,27 +9,27 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        if not head:
+        if head is None:
             return head
-        
-        def cloneNode(node):
+
+        def cloneOldToNew(node):
             if node:
-                if node in visited:
-                    return visited[node]
+                if node in copied_hashmap:
+                    return copied_hashmap[node]
                 else:
-                    newNode = Node(node.val, None, None)
-                    visited[node] = newNode
-                    return visited[node]
+                    copied_node = Node(node.val, None, None)
+                    copied_hashmap[node] = copied_node
+                    return copied_hashmap[node]
             return None
 
         old_node = head
-        new_node = Node(head.val, None, None)
-        visited = {}
-        visited[old_node] = new_node
+        new_node = Node(old_node.val, None, None)
+        copied_hashmap = {}
+        copied_hashmap[old_node] = new_node
         while old_node:
-            new_node.random = cloneNode(old_node.random)
-            new_node.next = cloneNode(old_node.next)
+            new_node.next = cloneOldToNew(old_node.next)
+            new_node.random = cloneOldToNew(old_node.random)
 
-            old_node = old_node.next
             new_node = new_node.next
-        return visited[head]
+            old_node = old_node.next
+        return copied_hashmap[head]
