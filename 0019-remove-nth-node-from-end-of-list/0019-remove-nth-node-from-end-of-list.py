@@ -40,14 +40,13 @@ class Solution:
 
         dummy = ListNode(0)
         dummy.next = head
-        first = dummy
-        second = dummy
+        left = dummy
+        right = dummy
         for i in range(n + 1):
-            first = first.next
-            print(first)
+            right = right.next
 
-        while first is not None:
-            first = first.next
-            second = second.next
-        second.next = second.next.next
+        while right is not None:
+            right = right.next
+            left = left.next
+        left.next = left.next.next
         return dummy.next
