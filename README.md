@@ -615,6 +615,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Linked List
 |  |
@@ -828,6 +829,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
 | [2659-number-of-even-and-odd-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2659-number-of-even-and-odd-bits) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Memoization
 |  |
 | ------- |
