@@ -8,18 +8,16 @@ class Solution:
         if not head:
             return head
         
-        dummy = head
-        greater, less = ListNode(0, head), ListNode(0, head)
-        greater_head = greater
-        less_head = less
-        while dummy:
-            if dummy.val >= x:
-                greater.next = dummy
+        greater = greater_head = ListNode(0)
+        less = less_head = ListNode(0)
+        while head:
+            if head.val >= x:
+                greater.next = head
                 greater = greater.next
             else:
-                less.next = dummy
+                less.next = head
                 less = less.next
-            dummy = dummy.next
+            head = head.next
         
         if greater.next:
             greater.next = None
