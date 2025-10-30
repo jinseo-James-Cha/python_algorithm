@@ -1,56 +1,55 @@
-# I like this problem, will solve again later !
-
-# I wanna use this deque...why not?!
-# ah no!
-# The functions get and put must each run in O(1) average time complexity.
-# insertions and deletions 0(1) -> linked list
-# we keep moving node in cache to the end if its used the most recent
-# finally, we use doubly linked list
-class DoublyLinkedListNode:
-    def __init__(self, key: int, val: int):
+class DoublyListNode:
+    def __init__(self, key, val):
         self.key = key
         self.val = val
-        self.next = self.prev = None
+        self.prev = None
+        self.next = None
 
 class LRUCache:
+
     def __init__(self, capacity: int):
         self.capacity = capacity
-        self.hashmap = {}
-
-        self.head = DoublyLinkedListNode(-1, -1)
-        self.tail = DoublyLinkedListNode(-1, -1)
+        self.dic = {}
+        self.head = DoublyListNode(-1, -1)
+        self.tail = DoublyListNode(-1, -1)
         self.head.next = self.tail
         self.tail.prev = self.head
 
-    def add_to_tail(self, node: DoublyLinkedListNode) -> None:
-        prev_node = self.tail.prev
-        node.prev = prev_node
-        node.next = self.tail
-        prev_node.next = node
-        self.tail.prev = node
-    
-    def remove_node(self, node: DoublyLinkedListNode) -> None:
-        node.prev.next = node.next
-        node.next.prev = node.prev    
-
     def get(self, key: int) -> int:
-        if key not in self.hashmap:
+        if key not in self.dic:
             return -1
         
-        self.remove_node(self.hashmap[key])
-        self.add_to_tail(self.hashmap[key])
-        return self.hashmap[key].val
-
+        node = self.dic[key]
+        self.remove(node)
+        self.add(node)
+        return node.val
+        
     def put(self, key: int, value: int) -> None:
-        if key in self.hashmap:
-            self.remove_node(self.hashmap[key])
-        node = DoublyLinkedListNode(key, value)
-        self.hashmap[key] = node
+        if key in self.dic:
+            old_node = self.dic[key]
+            self.remove(old_node)
+        
+        new_node = DoublyListNode(key, value)
+        self.dic[key] = new_node
+        self.add(new_node)
 
-        if len(self.hashmap) > self.capacity:
-            del self.hashmap[self.head.next.key]
-            self.remove_node(self.head.next)
-        self.add_to_tail(node)
+        if len(self.dic) > self.capacity:
+            node_to_delete = self.head.next
+            self.remove(node_to_delete)
+            del self.dic[node_to_delete.key]
+        
+    def add(self, node):
+        prev_end = self.tail.prev
+        prev_end.next = node
+
+        node.prev = prev_end
+        node.next = self.tail
+        self.tail.prev = node
+    
+    def remove(self, node):
+        node.prev.next = node.next
+        node.next.prev = node.prev
+        
 
 
 # Your LRUCache object will be instantiated and called as such:
