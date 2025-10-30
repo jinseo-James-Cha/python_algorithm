@@ -6,25 +6,34 @@
 #         self.right = right
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
-        
-        
-        # inorder = left -> root -> right
-        # postorder = left -> right -> root
         def dfs(left_idx, right_idx):
             if left_idx > right_idx:
                 return None
             
             val = postorder.pop()
             root = TreeNode(val)
-            val_idx = inorder_index[val]
-            
-            root.right = dfs(val_idx+1, right_idx)
-            root.left = dfs(left_idx, val_idx-1)
+            root_idx = inorder_idx[val]
+
+            root.right = dfs(root_idx+1, right_idx)
+            root.left = dfs(left_idx, root_idx-1)
             return root
         
-        inorder_index = {val: idx for idx, val in enumerate(inorder)}
-        return dfs(0, len(inorder)-1)
-    
-    
-    
-    
+        inorder_idx = { v: k for k, v in enumerate(inorder)}
+        return dfs(0, len(postorder)-1)
+
+
+        def dfs(left_idx, right_idx):
+            if left_idx > right_idx:
+                return None
+            
+            val = postorder.pop() # 3
+            root = TreeNode(val)
+            
+            index = idx_map[val] # 1
+
+            root.right = dfs(index+1, right_idx) # 2, 4
+            root.left = dfs(left_idx, index - 1) # 0, 0
+            return root
+        
+        idx_map = {val: idx for idx, val in enumerate(inorder)}
+        return dfs(0, len(inorder) - 1)
