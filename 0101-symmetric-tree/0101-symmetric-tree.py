@@ -27,12 +27,6 @@ class Solution:
 
 
 
-
-
-
-
-
-
         def is_mirror(left, right):
             if not left and not right:
                 return True
