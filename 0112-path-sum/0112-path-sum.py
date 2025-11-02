@@ -6,28 +6,19 @@
 #         self.right = right
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
-        # DFS recursive 
-        if not root:
-            return False
         
-        targetSum -= root.val
-        if not root.left and not root.right:
-            return targetSum == 0
         
-        return self.hasPathSum(root.left, targetSum) or self.hasPathSum(root.right, targetSum)
 
-        # DFS Stack
-        if not root:
-            return False
-        
-        de = [(root, targetSum - root.val)]
-        while de:
-            node, curr_sum = de.pop()
-            if not node.left and not node.right and curr_sum == 0:
-                return True
-            if node.right:
-                de.append((node.right, curr_sum - node.right.val))
-            if node.left:
-                de.append((node.left, curr_sum - node.left.val))
+        def dfs(node, targetNum):
+            if not node:
+                return False
 
-        return False
+            if not node.left and not node.right:
+                return targetNum-node.val == 0
+            
+            return dfs(node.left, targetNum - node.val) or dfs(node.right, targetNum - node.val)
+        
+        return dfs(root, targetSum)
+        
+
+                
