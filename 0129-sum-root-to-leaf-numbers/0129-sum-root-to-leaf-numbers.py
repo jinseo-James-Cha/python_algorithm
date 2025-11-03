@@ -7,42 +7,58 @@
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         # Morris preorder
-        root_to_leaf = curr_number = 0
+        # root_to_leaf = curr_number = 0
 
-        curr = root
-        while curr:
-            if curr.left is None:
-                curr_number = curr_number * 10 + curr.val
-                if curr.right is None:
-                    root_to_leaf += curr_number
-                curr = curr.right
-            else:
-                predecessor = curr.left
-                steps = 1
-                while predecessor.right and predecessor.right != curr:
-                    predecessor = predecessor.right
-                    steps += 1
+        # curr = root
+        # while curr:
+        #     if curr.left is None:
+        #         curr_number = curr_number * 10 + curr.val
+        #         if curr.right is None:
+        #             root_to_leaf += curr_number
+        #         curr = curr.right
+        #     else:
+        #         predecessor = curr.left
+        #         steps = 1
+        #         while predecessor.right and predecessor.right != curr:
+        #             predecessor = predecessor.right
+        #             steps += 1
                 
-                if predecessor.right is None:
-                    curr_number = curr_number * 10 + curr.val
-                    predecessor.right = curr
-                    curr = curr.left
-                else:
-                    if predecessor.left is None:
-                        root_to_leaf += curr_number
+        #         if predecessor.right is None:
+        #             curr_number = curr_number * 10 + curr.val
+        #             predecessor.right = curr
+        #             curr = curr.left
+        #         else:
+        #             if predecessor.left is None:
+        #                 root_to_leaf += curr_number
 
-                    for _ in range(steps):
-                        curr_number //= 10
-                    predecessor.right = None
-                    curr = curr.right
+        #             for _ in range(steps):
+        #                 curr_number //= 10
+        #             predecessor.right = None
+        #             curr = curr.right
+            
+        # return root_to_leaf
+
+
+
+        # bfs
+        root_to_leaf = 0
+        queue = [(root, 0)]
+        while queue:
+            curr_node, curr_total = queue.pop()
+            if curr_node is not None:
+                curr_total = curr_total * 10 + curr_node.val
+                if curr_node.left is None and curr_node.right is None:
+                    root_to_leaf += curr_total
+                else:
+                    queue.append((curr_node.left, curr_total))
+                    queue.append((curr_node.right, curr_total))
             
         return root_to_leaf
 
 
 
-        # sum root to leaf
-        # parent * 10 -> child..
         
+        # dfs
         def dfs(node, totalSum):
             if not node:
                 return 0
