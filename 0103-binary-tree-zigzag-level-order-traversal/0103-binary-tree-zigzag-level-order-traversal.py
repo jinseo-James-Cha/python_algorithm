@@ -15,19 +15,19 @@ class Solution:
         res = []
         while queue:
             size = len(queue)
-            temp = []
+            temp = deque()
             for _ in range(size):
                 curr_node = queue.popleft()
-                temp.append(curr_node.val)
+                if isFromLeft:
+                    temp.append(curr_node.val)
+                else:
+                    temp.appendleft(curr_node.val)
+                
                 if curr_node.left:
                     queue.append(curr_node.left)
                 if curr_node.right:
                     queue.append(curr_node.right)
-            if isFromLeft:
-                res.append(temp)
-                isFromLeft = False
-            else:
-                temp.reverse()
-                res.append(temp)
-                isFromLeft = True
+            
+            res.append(list(temp))
+            isFromLeft = not isFromLeft
         return res
