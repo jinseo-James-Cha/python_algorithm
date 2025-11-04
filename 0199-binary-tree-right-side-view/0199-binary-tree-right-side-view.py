@@ -1,32 +1,26 @@
-from collections import deque
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        # right value on each depth.
-        # BFS?!
-        res = []
         if not root:
-            return res
+            return []
         
         queue = deque([root])
+        res = []
         while queue:
-            level_size = len(queue)
-
-            for i in range(level_size):
-                node = queue.popleft()
-                if node.left:
-                    queue.append(node.left)
-                if node.right:
-                    queue.append(node.right)
-
-                # record this level's last node to the result array
-                if i == level_size - 1:
-                    res.append(node.val)
+            size = len(queue)
+            for _ in range(size):
+                curr_node = queue.popleft()
+                if curr_node.left:
+                    queue.append(curr_node.left)
+                if curr_node.right:
+                    queue.append(curr_node.right)
+            res.append(curr_node.val)
         return res
-           
-                  
+
+
