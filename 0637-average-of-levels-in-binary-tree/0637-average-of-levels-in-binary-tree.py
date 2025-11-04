@@ -7,19 +7,17 @@
 from collections import deque
 class Solution:
     def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
-        # bfs
-        res = []
         queue = deque([root])
+        res = []
         while queue:
-            sum_of_level = 0
-            size_of_level = len(queue)
-            for _ in range(size_of_level):
-                node = queue.popleft()
-                sum_of_level += node.val
-                if node.left:
-                    queue.append(node.left)
-                if node.right:
-                    queue.append(node.right)
-            res.append(sum_of_level / size_of_level)
+            size = len(queue)
+            total = 0
+            for _ in range(size):
+                curr_node = queue.popleft()
+                total += curr_node.val
+                if curr_node.left:
+                    queue.append(curr_node.left)
+                if curr_node.right:
+                    queue.append(curr_node.right)
+            res.append(float(total / size))
         return res
-            
