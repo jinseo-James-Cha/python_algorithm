@@ -1,6 +1,6 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        # char '1' or '0' -> '2' if visited
+        # char '1' or '0' -> '0' if visited
         m, n = len(grid), len(grid[0])
         res = 0
         DIRS = [(-1,0), (1,0), (0,1), (0,-1)] # up down right left
@@ -9,7 +9,7 @@ class Solution:
             return 0 <= row < len(grid) and 0 <= col < len(grid[0])
 
         def dfs(row, col):
-            grid[row][col] = '2' # visited
+            grid[row][col] = '0' # visited
 
             for dy, dx in DIRS:
                 next_r, next_c = dy+row, dx+col
