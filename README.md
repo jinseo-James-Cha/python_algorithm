@@ -1047,6 +1047,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0145-binary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
@@ -1114,6 +1115,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0133-clone-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0226-invert-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
@@ -1403,6 +1405,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
@@ -1500,6 +1503,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
 | [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0310-minimum-height-trees) |
