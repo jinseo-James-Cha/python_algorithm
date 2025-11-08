@@ -173,6 +173,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
+| [0945-snakes-and-ladders](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
@@ -924,6 +925,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0777-toeplitz-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-toeplitz-matrix) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
+| [0945-snakes-and-ladders](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -1141,6 +1143,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
+| [0945-snakes-and-ladders](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-snakes-and-ladders) |
 | [1005-univalued-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1005-univalued-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
