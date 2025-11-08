@@ -1,29 +1,30 @@
-from collections import defaultdict, deque
+from collections import deque, defaultdict
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        # [a,b] =>     b -> a
-
-        # topology algorithm
-        adj = defaultdict(list)
-        indegrees = {}
-        for dest, src in prerequisites:
-            adj[src].append(dest)
-            indegrees[dest] = indegrees.get(dest, 0) + 1
+        # topological sort - kahn's algorithm
         
-        # start with zero indegree
-        zero_indegrees = deque()
+        # 1. graph and indegree
+        graph = defaultdict(list)
+        indegree = [0] * numCourses # 0~numCourses-1
+        # b -> a
+        for a, b in prerequisites:
+            graph[b].append(a)
+            indegree[a] += 1
+        
+        # 2. add initial if indegree == 0
+        queue = deque()
+        res = []
         for i in range(numCourses):
-            if i not in indegrees:
-                zero_indegrees.append(i)
+            if indegree[i] == 0:
+                queue.append(i)
         
-        answer = []
-        while zero_indegrees:
-            current = zero_indegrees.popleft()
-            answer.append(current)
+        while queue:
+            node = queue.popleft()
+            res.append(node)
 
-            for neighbor in adj[current]:
-                indegrees[neighbor] -= 1
-                if indegrees[neighbor] == 0:
-                    zero_indegrees.append(neighbor)
+            for neighbor in graph[node]:
+                indegree[neighbor] -= 1
+                if indegree[neighbor] == 0:
+                    queue.append(neighbor)
         
-        return answer if len(answer) == numCourses else []
+        return res if numCourses == len(res) else []
