@@ -1,19 +1,19 @@
 # Goal
-- I will enter Google within Octber, 2025!!!!!!!
-<!-- - May goal: an easy question within 30min
+<!--- I will enter Google within Octber, 2025!!!!!!!
+ - May goal: an easy question within 30min
 - June goal: a medium question within 30min
 - June ~ July: finish first algorithm book -->
-<!-- - July goal: a hard question within 30min -->
+<!-- - July goal: a hard question within 30min 
 - July ~ Aug: finish second algorithm book
 - Aug goal:  mock tests and interview
 - Sep: Practice interviews
 - Oct: Apply many companies to see where I am
-- Nov: Enter Google !
+- Nov: Enter Google !-->
+- Everyday 1 question
 
 # Python
 - started daily algorithm PS at 14th Apr, 2025
 - in 2025, target the number of PS in Leetcode: 400-Easy 200-Medium 100-Hard
-- Goal is to enter "Google"
 - Data Structures:
 ```
 Arrays: Manipulation, searching, sorting.
