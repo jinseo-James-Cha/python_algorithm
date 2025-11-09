@@ -1,31 +1,33 @@
+import heapq
 class Solution:
     def snakesAndLadders(self, board: List[List[int]]) -> int:
-        
-
-        # BFS - dijkstra algorithm - shortest path with weight and directed
+        # shortest path - bfs - dijkstra algorithm
+        # but this weight is the same with 1, so can be optimized with BFS.
         n = len(board)
-        cells = [None] * (n*n + 1)
+        cells = [None] * (n**2 + 1)
         label = 1
-        cols = list(range(n))
+        columns = list(range(n))
         for row in range(n-1, -1, -1):
-            for col in cols:
+            for col in columns:
                 cells[label] = (row, col)
                 label += 1
-            cols.reverse()
+            columns.reverse()
         
-        dist = [-1] * (n*n+1)
+        # dijkstra algorithm
+        dist = [-1] * (n**2 + 1)
         dist[1] = 0
-        queue = [(0, 1)]
-        while queue:
-            curr_d, curr_cell = heapq.heappop(queue)
-            if curr_d != dist[curr_cell]:
+        q = [(0, 1)]
+        while q:
+            d, curr = heapq.heappop(q) # reach curr by d times
+            if dist[curr] != d:
                 continue
-            
-            for nxt in range(curr_cell+1, min(curr_cell+6, n*n) + 1):
-                row, column = cells[nxt]
-                destination = (board[row][column] if board[row][column] != -1 else nxt)
 
-                if dist[destination] == -1 or dist[curr_cell] + 1 < dist[destination]:
-                    dist[destination] = dist[curr_cell] + 1
-                    heapq.heappush(queue, (dist[destination], destination))
-        return dist[n*n]
+            for nxt in range(curr+1, min(curr+6, n**2) + 1):
+                row, col = cells[nxt]
+                destination = board[row][col] if board[row][col] != -1 else nxt
+                if dist[destination] == -1 or dist[destination] > dist[curr] + 1:
+                    dist[destination] = dist[curr] + 1
+                    heapq.heappush(q, (dist[destination], destination))
+        return dist[n**2]
+            
+
