@@ -1,30 +1,30 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        if not digits:
-            return []
+        # all possible ? -> backtrack
 
-        digits_to_letters = {}
-        digits_to_letters['2'] = ['a', 'b', 'c']
-        digits_to_letters['3'] = ['d', 'e', 'f']
-        digits_to_letters['4'] = ['g', 'h', 'i']
-        digits_to_letters['5'] = ['j', 'k', 'l']
-        digits_to_letters['6'] = ['m', 'n', 'o']
-        digits_to_letters['7'] = ['p', 'q', 'r', 's']
-        digits_to_letters['8'] = ['t', 'u', 'v']
-        digits_to_letters['9'] = ['w', 'x', 'y', 'z']
+        telephone_buttons = {}
+        telephone_buttons['1'] = []
+        telephone_buttons['2'] = ['a', 'b', 'c']
+        telephone_buttons['3'] = ['d', 'e', 'f']
+        telephone_buttons['4'] = ['g', 'h', 'i']
+        telephone_buttons['5'] = ['j', 'k', 'l']
+        telephone_buttons['6'] = ['m', 'n', 'o']
+        telephone_buttons['7'] = ['p', 'q', 'r', 's']
+        telephone_buttons['8'] = ['t', 'u', 'v']
+        telephone_buttons['9'] = ['w', 'x', 'y', 'z']
 
-        def backtrack(curr):
+        def backtrack(i, curr):
             if len(curr) == len(digits):
                 res.append("".join(curr))
                 return
             
-            for letter in digits_to_letters[digits[len(curr)]]:
+            for letter in telephone_buttons[digits[i]]:
                 curr.append(letter)
-                backtrack(curr)
+                backtrack(i+1, curr)
                 curr.pop()
         
         res = []
-        backtrack([])
+        backtrack(0, [])
         return res
-
-
+            
+            
