@@ -262,6 +262,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3790-fruits-into-baskets-ii) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Hash Table
 |  |
 | ------- |
@@ -348,6 +349,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## String
 |  |
 | ------- |
@@ -472,6 +474,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Two Pointers
 |  |
 | ------- |
@@ -894,6 +897,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Trie
 |  |
 | ------- |
@@ -1369,6 +1373,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Bucket Sort
 |  |
 | ------- |
