@@ -7,7 +7,7 @@ class Solution:
         def is_within_bounds(row, col):
             return 0 <= row < len(board) and 0 <= col < len(board[0])
 
-        def dfs(word_index, row, col, visited):
+        def backtrack(word_index, row, col, visited):
             if board[row][col] != word[word_index]:
                 return False
             
@@ -18,8 +18,9 @@ class Solution:
             for dy, dx in DIRS:
                 next_r, next_c = dy+row, dx+col
                 if is_within_bounds(next_r, next_c) and (next_r, next_c) not in visited:
-                    if dfs(word_index+1, next_r, next_c, visited):
+                    if backtrack(word_index+1, next_r, next_c, visited):
                         return True
+            
             visited.remove((row, col))
             return False
 
@@ -27,6 +28,6 @@ class Solution:
         for row in range(m):
             for col in range(n):
                 if board[row][col] == word[0]:
-                    if dfs(0, row, col, set()):
+                    if backtrack(0, row, col, set()):
                         return True
         return False
