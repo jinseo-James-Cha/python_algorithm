@@ -249,6 +249,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2737-row-with-maximum-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2737-row-with-maximum-ones) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2875-count-houses-in-a-circular-street](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2875-count-houses-in-a-circular-street) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
@@ -627,6 +628,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2383-add-two-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2383-add-two-integers) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2432-number-of-zero-filled-subarrays) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2998-count-symmetric-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2998-count-symmetric-integers) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
@@ -976,6 +978,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0204-count-primes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0258-add-digits) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Tree
 |  |
