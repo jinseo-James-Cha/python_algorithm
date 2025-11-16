@@ -20,6 +20,7 @@ class Solution:
                 else:
                     new_num = int(first_num / second_num)
                 stack.append(new_num)
+                
         return stack[-1]
 
             
