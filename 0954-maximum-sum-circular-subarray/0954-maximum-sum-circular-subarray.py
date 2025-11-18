@@ -1,32 +1,26 @@
 class Solution:
     def maxSubarraySumCircular(self, nums: List[int]) -> int:
-        # circular nums
-        # maximum subarray
+        curr_max_sum = nums[0]
+        total_max_sum = nums[0]
 
-        def maxKadane(numbers):
-            current = 0 
-            max_sum = float(-inf)
-            for num in numbers:
-                current = max(num, current+num)
-                max_sum = max(max_sum, current)
+        curr_min_sum = nums[0]
+        total_min_sum = nums[0]
 
-            return max_sum
+        total_sum = nums[0]
+
+        for i in range(1, len(nums)):
+            curr_max_sum = max(nums[i], curr_max_sum + nums[i])
+            total_max_sum = max(total_max_sum, curr_max_sum)
+
+            curr_min_sum = min(nums[i], curr_min_sum + nums[i])
+            total_min_sum = min(total_min_sum, curr_min_sum)
+
+            total_sum += nums[i]
         
-        def minKadane(numbers):
-            current = 0
-            min_sum = float(inf)
-            for num in numbers:
-                current = min(num, current+num)
-                min_sum = min(min_sum, current)
-            return min_sum
-
-        n = len(nums)
-        max_kadane_sum = maxKadane(nums)
-
-        total_sum = sum(nums)
-        min_kadane_sum = minKadane(nums)
-        max_circular = total_sum - min_kadane_sum
-        if max_circular == 0:
-            return max_kadane_sum
+        print(curr_max_sum, total_max_sum, curr_min_sum, total_min_sum)
         
-        return max(max_kadane_sum, max_circular)
+        # if all nums are negative -3 -2 -1
+        if total_sum - total_min_sum == 0:
+            return total_max_sum
+        
+        return max(total_max_sum, total_sum - total_min_sum)
