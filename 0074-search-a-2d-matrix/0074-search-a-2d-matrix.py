@@ -1,6 +1,29 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        # stair case
+        # think the 2d as 1d array...
+        # and use binary search
+        # target binary search
+        # 0 1 2 3
+        # 4 5 6 7
+        # 8 9 10 11
+        m, n = len(matrix), len(matrix[0])
+        left = 0
+        right = m*n - 1
+        while left <= right:
+            mid = (left + right) // 2
+            row, col = divmod(mid, n)
+            if matrix[row][col] == target:
+                return True
+            elif matrix[row][col] > target:
+                right -= 1
+            else:
+                left += 1        
+        return False
+
+
+
+        
+        # stair case # O(m * n)
         # start from left bottom
         # if its greater than target -> move up
         # if its less than target -> move right
