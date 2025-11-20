@@ -102,6 +102,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0152-maximum-product-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
+| [0162-find-peak-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0163-missing-ranges) |
 | [0164-maximum-gap](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0164-maximum-gap) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -816,6 +817,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0069-sqrtx](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0222-count-complete-tree-nodes) |
