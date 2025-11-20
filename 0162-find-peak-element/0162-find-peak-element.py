@@ -1,5 +1,19 @@
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
+        # binary search
+        left = 0
+        right = len(nums) - 1 # should be one of index
+        while left < right: # left == right is the answer
+            mid = (left + right) // 2
+            if nums[mid] < nums[mid+1]:
+                left = mid + 1
+            else:
+                right = mid
+        return left
+
+
+
+        # recursive
         # peek => greater than neighbors
         # find a peek and return its "index"
         # if multiple, return any of them
