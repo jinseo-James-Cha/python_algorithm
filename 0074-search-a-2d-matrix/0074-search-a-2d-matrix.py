@@ -1,5 +1,34 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        # stair case
+        # start from left bottom
+        # if its greater than target -> move up
+        # if its less than target -> move right
+
+        m, n = len(matrix), len(matrix[0])
+        row, col = m-1, 0 # bottom left
+        while 0 <= row < m and 0 <= col < n:
+            curr_num = matrix[row][col]
+            if curr_num == target:
+                return True
+            elif curr_num > target:
+                row -=1
+            else:
+                col += 1
+        
+        return False
+
+
+
+
+
+
+
+
+
+
+
+
         # v4 / O(log(n*m))
         m, n = len(matrix), len(matrix[0])
         left, right = 0, m * n - 1
