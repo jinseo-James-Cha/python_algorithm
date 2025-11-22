@@ -1,9 +1,6 @@
-# There is an integer array nums sorted in ascending order (with distinct values).
-# and O(log n)
-# -> Binary Search ?!
-
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
+    
         # using Binary search, but its partially not sorted !?
         # like 12345 -> 45123
         # one index has bigger than next index
