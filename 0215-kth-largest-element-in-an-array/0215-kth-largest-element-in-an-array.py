@@ -1,6 +1,21 @@
 import heapq
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
+        n = len(nums)
+        heapq.heapify(nums)
+
+        for _ in range(n - k):
+            heapq.heappop(nums)
+        
+        return heapq.heappop(nums)
+
+
+
+
+
+
+
+
         # counting sort
         min_num = min(nums)
         max_num = max(nums)
@@ -10,7 +25,6 @@ class Solution:
             count_idx = num - min_num
             counts[count_idx] += 1
         
-        print(counts)
         remain = k
         for num in range(len(counts) -1, -1, -1):
             remain -= counts[num]
