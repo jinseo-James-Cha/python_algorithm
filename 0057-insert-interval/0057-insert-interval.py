@@ -3,52 +3,30 @@ class Solution:
         if not intervals:
             return [newInterval]
         
-        i = 0
-        is_inserted = False
         events = []
-        while i < len(intervals):
-            start, end = intervals[i]
-            if is_inserted:
-                events.append(intervals[i])
-                i += 1
-            else:
-                new_start, new_end = newInterval
-                if start < new_start:
-                    events.append(intervals[i])
-                    i += 1
-                elif start > new_start:
-                    events.append(newInterval)
-                    is_inserted = True
-                else:
-                    if end <= new_end:
-                        events.append(intervals[i])
-                        i += 1
-                    else:
-                        events.append(newInterval)
-                        is_inserted = True
-        events.extend(intervals[i:])
-        if len(events) == len(intervals):
-            events.append(newInterval)
-        
-        new_events = []
-        for start, end in events:
-            new_events.append((start, -1))
-            new_events.append((end, 1))
-        
-        new_events.sort()
+        for s, e in intervals:
+            events.append((s, 1))
+            events.append((e, -1))
+
+        s0, e0 = newInterval
+        events.append((s0, 1))
+        events.append((e0, -1))
+
+        events.sort(key=lambda x: (x[0], -x[1]))
 
         res = []
-        curr_num = 0
-        curr_list = [float('inf'), -float('inf')]
-        for num, val in new_events:
-            curr_num += val
-            if val < 0 and curr_list[0] > num:
-                curr_list[0] = num
-            elif val > 0 and curr_list[1] < num:
-                curr_list[1] = num
+        active = 0
+        cur_start = None
+        for t, val in events:
+            prev_active = active
+            active += val
 
-            if curr_num == 0:
-                res.append(curr_list)
-                curr_list = [float('inf'), -float('inf')] 
+            # 0 -> >0 : 새로운 병합 구간 시작
+            if prev_active == 0 and active > 0:
+                cur_start = t
+
+            # >0 -> 0 : 병합 구간 끝 (닫기)
+            if prev_active > 0 and active == 0:
+                res.append([cur_start, t])
+                cur_start = None
         return res
-
