@@ -21,11 +21,9 @@ class Solution:
             prev_active = active
             active += val
 
-            # 0 -> >0 : 새로운 병합 구간 시작
             if prev_active == 0 and active > 0:
                 cur_start = t
 
-            # >0 -> 0 : 병합 구간 끝 (닫기)
             if prev_active > 0 and active == 0:
                 res.append([cur_start, t])
                 cur_start = None
