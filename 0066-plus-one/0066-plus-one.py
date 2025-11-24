@@ -1,7 +1,17 @@
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        s = ''.join([str(a) for a in digits])
-        s = str(int(s) + 1)
-        answer = [int(a) for a in s]
-        return answer
+        if digits[-1] + 1 < 10:
+            digits[-1] += 1
+            return digits
         
+        carry = 1
+        res = []
+        for num in reversed(digits):
+            res.append((num + carry) % 10) # res[0, ]
+            carry = int((num + carry) // 10) 
+        
+        if carry:
+            res.append(1)
+
+        res.reverse()
+        return res
