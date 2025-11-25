@@ -8,9 +8,7 @@ class Solution:
             n_factorial *= i
         
         res = 0
-        while n_factorial > 0:
-            if n_factorial % 10 != 0:
-                break
+        while n_factorial % 10 == 0:
             res += 1
             n_factorial //= 10
         return res
