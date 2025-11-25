@@ -1,5 +1,17 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
+        # optimized bottom up dp 
+        if n <= 2:
+            return n
+        
+        prev_prev = 1
+        prev = 2
+        for _ in range(3, n+1):
+            curr = prev_prev + prev
+            prev_prev = prev
+            prev = curr
+        return prev
+
         # bottom up dp
         if n <= 2:
             return n
