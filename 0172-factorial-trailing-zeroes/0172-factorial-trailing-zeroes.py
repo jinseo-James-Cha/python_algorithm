@@ -2,22 +2,15 @@ from collections import Counter
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         
-        def fatorial(n: int):
-            if n <= 2:
-                return n
-            
-            if n not in memo:
-                memo[n] = fatorial(n-1) + factorial(n-2)
-            
-            return memo[n]
-        
-        memo = {}
-        num = factorial(n)
+        # Calculate n!
+        n_factorial = 1
+        for i in range(2, n + 1):
+            n_factorial *= i
         
         res = 0
-        while num > 0:
-            if num % 10 != 0:
+        while n_factorial > 0:
+            if n_factorial % 10 != 0:
                 break
             res += 1
-            num //= 10
+            n_factorial //= 10
         return res
