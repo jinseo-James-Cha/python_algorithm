@@ -5,12 +5,14 @@ class TrieNode:
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        # BFS
+
+
         # bottom up
         dp = [False] * len(s)
         
         for i in range(len(s)):
             for word in wordDict:
-                print(word)
                 if i < len(word) - 1:
                     continue
                 if i == len(word) - 1 or dp[i-len(word)]:
