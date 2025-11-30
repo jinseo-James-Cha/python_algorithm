@@ -14,7 +14,6 @@ class Solution:
                 lis[lis_idx] = nums[i]
             else:
                 lis.append(nums[i])
-        print(lis)
         return len(lis)
 
 
