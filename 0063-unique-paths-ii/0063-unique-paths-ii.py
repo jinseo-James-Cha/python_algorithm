@@ -1,5 +1,55 @@
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
+        # unique path
+        # can I modify the grid?
+        # only 1, 0?
+        # dp top down
+        # two ways from left or above
+        # current = left possibility + above possibility
+        # 0 0 0 -> 1 1 1
+        # 0 1 0 -> 1 0 1
+        # 0 0 0 -> 1 1 2
+
+        # 1 0 -> 0 0
+        def dp(row, col): # 2 2 -> dp(1, 2) + dp(2, 1) -> dp(0, 2) + dp(1, 1)=0 -> dp
+            # base case -> obstacle? return 0
+            # base case -> always 1 for row 0 or col 0
+            if row == 0 and col == 0:
+                if obstacleGrid[row][col] == 1:
+                    return 0
+                return 1
+            if row < 0 or col < 0:
+                return 0
+
+            if obstacleGrid[row][col] == 1:
+                return 0                
+            
+            if (row, col) not in memo:
+                path = 0
+                if row == 0:
+                    path = dp(row, col-1)
+                if col == 0:
+                    path = dp(row-1, col)
+                else:
+                    path = dp(row-1, col) + dp(row, col-1)
+                memo[(row, col)] = path
+            print(memo)
+            return memo[(row, col)]
+            
+        memo = {}
+        m,n = len(obstacleGrid), len(obstacleGrid[0])
+        return dp(m-1, n-1)
+
+
+
+
+
+
+
+
+
+
+
         # bottom up
         m, n = len(obstacleGrid), len(obstacleGrid[0])
         dp = [[0] * n for _ in range(m)]
