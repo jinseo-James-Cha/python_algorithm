@@ -11,6 +11,37 @@ class Solution:
         # 0 0 0 -> 1 1 2
 
         # 1 0 -> 0 0
+        # dp bottom up
+        m,n = len(obstacleGrid), len(obstacleGrid[0])
+        dp = [[0] * n for _ in range(m)]
+        if obstacleGrid[0][0] == 1:
+            return 0
+        else:
+            dp[0][0] = 1
+        
+        for row in range(1, m):
+            if obstacleGrid[row][0] != 1:
+                dp[row][0] = dp[row-1][0]
+        
+        for col in range(1, n):
+            if obstacleGrid[0][col] != 1:
+                dp[0][col] = dp[0][col-1]
+        
+        for row in range(1, m):
+            for col in range(1, n):
+                if obstacleGrid[row][col] == 1:
+                    dp[row][col] = 0
+                else:
+                    dp[row][col] = dp[row-1][col] + dp[row][col-1]
+        return dp[m-1][n-1]
+
+
+
+
+
+
+
+        # DP top down
         def dp(row, col): # 2 2 -> dp(1, 2) + dp(2, 1) -> dp(0, 2) + dp(1, 1)=0 -> dp
             # base case -> obstacle? return 0
             # base case -> always 1 for row 0 or col 0
