@@ -1,3 +1,4 @@
+import heapq
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         # index start row0, col0 -> end m-1, n-1
@@ -6,6 +7,30 @@ class Solution:
         # 1 3 1
         # 1 5 1
         # 4 2 1
+        
+        # dijkstra algorithm - weighted shortest path
+        m, n = len(grid), len(grid[0])
+        q = [(grid[0][0], 0, 0)] # sum, row, col
+        visited = set((0,0)) # started
+        DIRS = [(1,0), (0,1)]
+
+        while q:
+            curr_sum, row, col = heapq.heappop(q)
+            if row == m-1 and col == n-1:
+                return curr_sum
+            
+            for dy, dx in DIRS:
+                next_r, next_c = row+dy, col+dx
+                if next_r < m and next_c < n and (next_r, next_c) not in visited:
+                    visited.add((next_r, next_c))
+                    heapq.heappush(q, (curr_sum + grid[next_r][next_c], next_r, next_c))
+        return -1
+
+        
+        
+        
+        
+        
         # dp - bottom up
         m, n = len(grid), len(grid[0])
         dp = [[0] * n for _ in range(m)]
