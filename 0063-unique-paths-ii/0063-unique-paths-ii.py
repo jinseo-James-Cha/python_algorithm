@@ -14,26 +14,27 @@ class Solution:
         def dp(row, col): # 2 2 -> dp(1, 2) + dp(2, 1) -> dp(0, 2) + dp(1, 1)=0 -> dp
             # base case -> obstacle? return 0
             # base case -> always 1 for row 0 or col 0
-            if row == 0 and col == 0:
-                if obstacleGrid[row][col] == 1:
-                    return 0
-                return 1
+
+            # out of bound
             if row < 0 or col < 0:
                 return 0
 
+            # base case 
             if obstacleGrid[row][col] == 1:
-                return 0                
+                return 0
+            
+            if row == 0 and col == 0:
+                return 1
             
             if (row, col) not in memo:
                 path = 0
                 if row == 0:
                     path = dp(row, col-1)
-                if col == 0:
+                elif col == 0:
                     path = dp(row-1, col)
                 else:
                     path = dp(row-1, col) + dp(row, col-1)
                 memo[(row, col)] = path
-            print(memo)
             return memo[(row, col)]
             
         memo = {}
