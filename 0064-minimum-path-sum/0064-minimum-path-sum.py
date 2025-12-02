@@ -6,6 +6,26 @@ class Solution:
         # 1 3 1
         # 1 5 1
         # 4 2 1
+        # dp - bottom up
+        m, n = len(grid), len(grid[0])
+        dp = [[0] * n for _ in range(m)]
+        # base case
+        row_sum = 0
+        for row in range(m):
+            row_sum += grid[row][0]
+            dp[row][0] = row_sum
+        
+        col_sum = 0
+        for col in range(n):
+            col_sum += grid[0][col]
+            dp[0][col] = col_sum
+        
+        for row in range(1, m):
+            for col in range(1, n):
+                dp[row][col] = min(dp[row-1][col], dp[row][col-1]) + grid[row][col]
+
+        return dp[m-1][n-1]
+
 
         # dp - top down
         m, n = len(grid), len(grid[0])
