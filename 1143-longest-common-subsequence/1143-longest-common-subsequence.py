@@ -17,12 +17,24 @@ class Solution:
         k 1 1 1 1 1 1 1 1
         v 1 1 1 1 1 1 1 1
 
-        """ 
-        # dp bottom up
+        """
+        # dp bottom up forward
+        text1_len, text2_len = len(text1), len(text2)
+        dp = [[0] * (text1_len+1) for _ in range(text2_len+1)]
+        for row in range(1, text2_len+1):
+            for col in range(1, text1_len+1):
+                if text1[col-1] == text2[row-1]:
+                    dp[row][col] = dp[row-1][col-1] + 1
+                else:
+                    dp[row][col] = max(dp[row-1][col], dp[row][col-1])
+        return dp[text2_len][text1_len]
+
+
+
+        # dp bottom up backward
         text1_len, text2_len = len(text1), len(text2)
         dp = [[0] * (text1_len+1) for _ in range(text2_len+1)]
         
-        # backward
         for row in range(text2_len - 1, -1, -1):
             for col in range(text1_len -1 , -1, -1):
                 if text1[col] == text2[row]:
