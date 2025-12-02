@@ -4,7 +4,19 @@ class Solution:
           a b c d e
         a 1 1 1 1 1
         c 1 1 2 2 2
-        e 1 1 2 2 3        
+        e 1 1 2 2 3
+
+          b s b i n i n m
+        j 0 0 0 0 0 0 0 0
+        m 0 0 0 0 0 0 0 1
+        j 0 0 0 0 0 0 0 1
+        k 0 0 0 0 0 0 0 1
+        b 1 1 1 1 1 1 1 1 - > this is the problem b has 2 so it is 2
+        k 1 1 1 1 1 1 1 1
+        j 1 1 1 1 1 1 1 1
+        k 1 1 1 1 1 1 1 1
+        v 1 1 1 1 1 1 1 1
+
         """ 
         def dp(text1_idx, text2_idx):
             # base case
@@ -12,12 +24,17 @@ class Solution:
                 return 0
             
             if (text1_idx, text2_idx) not in memo:
-                matched = int(tex1[text1_idx] == text2[text2_idx])
-                memo[(text1_idx, text2_idx)] = max(dp(text1_idx-1, text2_idx), dp(text1_idx, text2_idx-1)) + matched
-            return memo[(row, text2_idx)]
+                lcs = 0
+                if text1[text1_idx] == text2[text2_idx]:
+                    lcs = dp(text1_idx-1, text2_idx-1) + 1
+                else:
+                    lcs = max(dp(text1_idx-1, text2_idx), dp(text1_idx, text2_idx-1))
+                memo[(text1_idx, text2_idx)] =  lcs
+            return memo[(text1_idx, text2_idx)]
         
         memo = {}
         m, n = len(text1), len(text2)
+        return dp(m-1, n-1)
 
 
 
