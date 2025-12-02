@@ -18,6 +18,24 @@ class Solution:
         v 1 1 1 1 1 1 1 1
 
         """ 
+        # dp bottom up
+        text1_len, text2_len = len(text1), len(text2)
+        dp = [[0] * (text1_len+1) for _ in range(text2_len+1)]
+        
+        # backward
+        for row in range(text2_len - 1, -1, -1):
+            for col in range(text1_len -1 , -1, -1):
+                if text1[col] == text2[row]:
+                    dp[row][col] = dp[row+1][col+1] + 1
+                else:
+                    dp[row][col] = max(dp[row+1][col], dp[row][col+1])
+
+        return dp[0][0]
+
+
+
+
+        # dp top down
         def dp(text1_idx, text2_idx):
             # base case
             if text1_idx < 0 or text2_idx < 0:
