@@ -1,5 +1,42 @@
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
+        # index start row0, col0 -> end m-1, n-1
+        # shortest path with weight -> Dijkstra bfs
+        # only move down or right
+        # 1 3 1
+        # 1 5 1
+        # 4 2 1
+
+        # dp - top down
+        m, n = len(grid), len(grid[0])
+        def dp(row, col): # 3, 3 -> min(dp(2, 3), dp(3, 2)) + grid[3][3]
+            if row == 0 and col == 0:
+                return grid[row][col]
+           
+            if (row,col) not in memo:
+                minimum = 0
+                if row == 0:
+                    minimum = dp(row, col-1) + grid[row][col]
+                elif col == 0:
+                    minimum = dp(row-1, col) + grid[row][col]
+                else:
+                    minimum = min(dp(row-1, col), dp(row, col-1)) + grid[row][col]
+                memo[(row, col)] = minimum
+            return memo[(row, col)]
+        memo = {}
+        return dp(m-1, n-1)
+
+
+
+
+
+
+
+
+
+
+
+
         # bottom up
         m,n = len(grid), len(grid[0])
         dp = [[0] * n for _ in range(m)]
