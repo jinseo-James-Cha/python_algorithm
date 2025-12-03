@@ -206,6 +206,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1126-minimum-cost-to-connect-sticks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1127-last-stone-weight) |
 | [1137-height-checker](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-height-checker) |
+| [1144-decrease-elements-to-make-array-zigzag](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-decrease-elements-to-make-array-zigzag) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -931,6 +932,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1126-minimum-cost-to-connect-sticks) |
+| [1144-decrease-elements-to-make-array-zigzag](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-decrease-elements-to-make-array-zigzag) |
 | [1448-maximum-69-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-maximum-69-number) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1762-furthest-building-you-can-reach](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-furthest-building-you-can-reach) |
