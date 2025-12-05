@@ -1,5 +1,41 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        # babad
+        # b left right and left >= 0 and right <= len(s)
+        # keeping expanding til its end index or not matched
+
+        def findPalindrome(left, right, s):
+            while left >= 0 and right < len(s) and s[left] == s[right]:
+                left -= 1
+                right += 1
+            
+            return s[left+1:right]
+        
+        res = ""
+        for i in range(len(s)):
+            even_palindrome = findPalindrome(i, i+1, s)
+            odd_palindrome = findPalindrome(i, i, s)
+
+            if len(res) < len(even_palindrome):
+                res = even_palindrome
+            
+            if len(res) < len(odd_palindrome):
+                res = odd_palindrome
+
+        return res
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         def expand_around_center(s, left, right):
             while left >= 0 and right < len(s) and s[left] == s[right]:
                 left -= 1
