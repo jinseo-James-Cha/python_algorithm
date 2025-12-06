@@ -1,6 +1,46 @@
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
+        def dp(word1_idx, word2_idx):
+            if word1_idx == 0:
+                return word2_idx
+            if word2_idx == 0:
+                return word1_idx
             
+            if (word1_idx, word2_idx) not in memo:
+                # matched
+                min_distance = 0
+                if word1[word1_idx-1] == word2[word2_idx-1]:
+                    min_distance = dp(word1_idx-1, word2_idx-1)
+                else:
+                    # insert
+                    insert_distance = dp(word1_idx, word2_idx-1)
+                    # delete
+                    delete_distance = dp(word1_idx-1, word2_idx)
+                    # replace
+                    replace_distance = dp(word1_idx-1, word2_idx-1)
+
+                    min_distance = min(insert_distance, delete_distance, replace_distance) + 1
+
+                memo[(word1_idx, word2_idx)] = min_distance
+
+            return memo[(word1_idx, word2_idx)]
+        memo = {}
+        return dp(len(word1), len(word2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+        # bottom up
+        
 
 
         # minimum number of operations word1 -> word2
