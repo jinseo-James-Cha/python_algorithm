@@ -7,6 +7,24 @@ class Solution:
         at most 2 transactions -> buy and sell?
         # in a day, I can do buy, sell, or skip
         """
+        # dp bottom up
+        n = len(prices)
+        # dp[day][transactionRemaining][isHolding]
+        dp = [[[0] * 2 for _ in range(3)] for __ in range(n + 1)]
+        for day in range(n-1, -1, -1):
+            for transactionRemaining in range(1, 3):
+                for isHolding in range(2):
+                    doNothing = dp[day+1][transactionRemaining][isHolding]
+                    doSomething = 0
+                    if isHolding:
+                        doSomething = prices[day] + dp[day+1][transactionRemaining-1][0]
+                    else:
+                        doSomething = -prices[day] + dp[day+1][transactionRemaining][1]
+                    dp[day][transactionRemaining][isHolding] = max(doNothing, doSomething)
+        return dp[0][2][0]
+
+
+        # dp top down
         def dp(day, transactionTime, isHolding):
             if day == len(prices):
                 return 0
