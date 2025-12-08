@@ -1,5 +1,28 @@
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
+        # dp top down
+        def dp(row, col):
+            if row < 0 or col < 0:
+                return 0
+            
+            if (row, col) not in memo:
+                if matrix[row][col] == "0":
+                    memo[(row, col)] = 0
+                else:
+                    square = min(dp(row-1, col), dp(row, col-1), dp(row-1, col-1)) + 1
+                    memo[(row, col)] = square
+            return memo[(row, col)]
+
+        memo = {}
+        rows = len(matrix)
+        cols = len(matrix[0])
+        largest_square = 0
+        # guarantee all cells called once
+        for r in range(rows):
+            for c in range(cols):
+                    largest_square = max(largest_square, dp(r, c))
+        return largest_square * largest_square
+
         # square = 1, 4, 9, 16
 
         # 00 01 02 03 04 05
@@ -44,23 +67,23 @@ class Solution:
 
 
         # top down
-        # def dp(i, j):
-        #     if i == 0 or j == 0:
-        #         return 0
+        def dp(i, j):
+            if i == 0 or j == 0:
+                return 0
             
-        #     if (i,j) not in memo:
-        #         if matrix[i-1][j-1] == "1":
-        #             memo[(i,j)] = min(dp(i-1, j-1), dp(i-1, j), dp(i, j-1)) + 1
-        #         else:
-        #             memo[(i,j)] = 0
+            if (i,j) not in memo:
+                if matrix[i-1][j-1] == "1":
+                    memo[(i,j)] = min(dp(i-1, j-1), dp(i-1, j), dp(i, j-1)) + 1
+                else:
+                    memo[(i,j)] = 0
             
-        #     return memo[(i,j)]
+            return memo[(i,j)]
         
-        # memo = {}
-        # rows = len(matrix) + 1
-        # cols = len(matrix[0]) + 1
-        # largest_square = 0
-        # for r in range(1, rows):
-        #     for c in range(1, cols):
-        #             largest_square = max(largest_square, dp(r, c))
-        # return largest_square * largest_square
+        memo = {}
+        rows = len(matrix) + 1
+        cols = len(matrix[0]) + 1
+        largest_square = 0
+        for r in range(1, rows):
+            for c in range(1, cols):
+                    largest_square = max(largest_square, dp(r, c))
+        return largest_square * largest_square
