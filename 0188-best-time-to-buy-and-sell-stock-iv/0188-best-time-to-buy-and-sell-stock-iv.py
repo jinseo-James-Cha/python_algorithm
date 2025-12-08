@@ -1,6 +1,29 @@
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         # maximum profit -> dp?
+        # dp top down
+        def dp(day, transactionTime, isHoldingStock):
+            nonlocal k
+            if day == len(prices):
+                return 0
+            
+            if transactionTime == k:
+                return 0
+
+            if (day, transactionTime, isHoldingStock) not in memo:
+                doNothing = dp(day + 1, transactionTime, isHoldingStock)
+                doSomething = 0
+                if isHoldingStock:
+                    doSomething = prices[day] + dp(day+1, transactionTime+1, False)
+                else:
+                    doSomething = -prices[day] + dp(day+1, transactionTime, True)
+                memo[(day, transactionTime, isHoldingStock)] = max(doNothing, doSomething)
+            return memo[(day, transactionTime, isHoldingStock)]
+        
+        memo = {}
+        return dp(0, 0, False)
+        
+
 
         # state 
         # - which day -> i
@@ -25,33 +48,29 @@ class Solution:
         return dp[0][k][0]
 
 
-
-
-
-
         # top down
-        # def dp(i, transactionTime, holdingStock):
-        #     # two base cases
-        #     if i == len(prices):
-        #         return 0
-        #     if transactionTime == k:
-        #         return 0
+        def dp(i, transactionTime, holdingStock):
+            # two base cases
+            if i == len(prices):
+                return 0
+            if transactionTime == k:
+                return 0
             
-        #     if (i, transactionTime, holdingStock) not in memo:
-        #         doNothing = dp(i+1, transactionTime, holdingStock)
-        #         doSomething = 0
-        #         # can sell if holding a stock
-        #         if holdingStock:
-        #             doSomething = prices[i] + dp(i+1, transactionTime + 1, False)
-        #         else:
-        #             doSomething = -prices[i] + dp(i+1, transactionTime, True)
-        #         memo[(i, transactionTime, holdingStock)] = max(doNothing, doSomething)
+            if (i, transactionTime, holdingStock) not in memo:
+                doNothing = dp(i+1, transactionTime, holdingStock)
+                doSomething = 0
+                # can sell if holding a stock
+                if holdingStock:
+                    doSomething = prices[i] + dp(i+1, transactionTime + 1, False)
+                else:
+                    doSomething = -prices[i] + dp(i+1, transactionTime, True)
+                memo[(i, transactionTime, holdingStock)] = max(doNothing, doSomething)
 
             
-        #     return memo[(i, transactionTime, holdingStock)]
+            return memo[(i, transactionTime, holdingStock)]
 
-        # memo = {}
-        # return dp(0, 0, False)
+        memo = {}
+        return dp(0, 0, False)
                 
             
 
