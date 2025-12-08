@@ -6,9 +6,7 @@ class Solution:
         largest_square = 0
         for row in range(1, m+1):
             for col in range(1, n+1):
-                if matrix[row-1][col-1] == "0":
-                    dp[row][col] = 0
-                else:
+                if matrix[row-1][col-1] != "0":
                     dp[row][col] = min(dp[row-1][col-1], dp[row-1][col], dp[row][col-1]) + 1
                     largest_square = max(largest_square, dp[row][col])
         
