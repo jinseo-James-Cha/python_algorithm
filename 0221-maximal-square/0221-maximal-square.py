@@ -1,5 +1,23 @@
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
+        # dp bottom up
+        m,n = len(matrix), len(matrix[0])
+        dp = [[0] * (n+1) for _ in range(m+1)] # dp[row][col]
+        largest_square = 0
+        for row in range(1, m+1):
+            for col in range(1, n+1):
+                if matrix[row-1][col-1] == "0":
+                    dp[row][col] = 0
+                else:
+                    dp[row][col] = min(dp[row-1][col-1], dp[row-1][col], dp[row][col-1]) + 1
+                    largest_square = max(largest_square, dp[row][col])
+        
+        return largest_square * largest_square
+
+
+
+
+
         # dp top down
         def dp(row, col):
             if row < 0 or col < 0:
