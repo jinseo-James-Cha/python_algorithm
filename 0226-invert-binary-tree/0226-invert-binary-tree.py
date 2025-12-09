@@ -4,31 +4,22 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        # BFS stack preferred
         if not root:
             return None
         
-        stack = [root]
-        while stack:
-            node = stack.pop()
-            
-            node.left, node.right = node.right, node.left
-            if node.left:
-                stack.append(node.left)
-            if node.right:
-                stack.append(node.right)
+        dummy = root
+        queue = deque([dummy])
+        
+        while queue:
+            curr_node = queue.popleft()
+            curr_node.left, curr_node.right = curr_node.right, curr_node.left
+            if curr_node.left:
+                queue.append(curr_node.left)
+            if curr_node.right:
+                queue.append(curr_node.right)
         return root
 
-        # DFS recursive
-        if not root:
-            return None
-        
-        root.left, root.right = root.right, root.left
-        self.invertTree(root.left)
-        self.invertTree(root.right)
-        return root
-
-        
         
