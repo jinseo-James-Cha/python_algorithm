@@ -10,9 +10,7 @@ class Solution:
         if not root:
             return None
         
-        dummy = root
-        queue = deque([dummy])
-        
+        queue = deque([root])
         while queue:
             curr_node = queue.popleft()
             curr_node.left, curr_node.right = curr_node.right, curr_node.left
