@@ -7,6 +7,16 @@
 from collections import deque
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
+        if not root:
+            return 0
+        
+        return self.countNodes(root.left) + self.countNodes(root.right) + 1
+
+
+
+
+
+
         # what do we need to have?
         # idk... let me count the number of node
         count = 0
