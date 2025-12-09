@@ -7,6 +7,24 @@
 from collections import deque
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
+        # BFS
+        if not root:
+            return 0
+        queue = deque([root])
+        res = 0
+        while queue:
+            res += len(queue)
+            for _ in range(len(queue)):
+                curr_node = queue.popleft()
+                if curr_node.left:
+                    queue.append(curr_node.left)
+                if curr_node.right:
+                    queue.append(curr_node.right)
+        return res
+
+        
+
+        # DFS
         if not root:
             return 0
         
