@@ -3,6 +3,15 @@ class Solution:
         if x < 2:
             return x
         
-        left = int(e ** (0.5 * log(x)))
-        right = left + 1
-        return left if right * right > x else right
+        left = 2
+        right = x // 2
+        while left <= right:
+            mid = (left + right) // 2
+            target = mid * mid
+            if target > x:
+                right = mid - 1
+            elif target < x:
+                left = mid + 1
+            else:
+                return mid
+        return right
