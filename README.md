@@ -267,6 +267,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3429-special-array-i) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3583-count-special-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3583-count-special-triplets) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -665,6 +666,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Linked List
@@ -1526,6 +1528,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0292-nim-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0292-nim-game) |
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Game Theory
 |  |
 | ------- |
@@ -1536,6 +1539,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0062-unique-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Monotonic Queue
 |  |
