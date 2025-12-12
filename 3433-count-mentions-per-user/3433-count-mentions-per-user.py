@@ -4,7 +4,6 @@ class Solution:
         # 2. offline event -> ["OFFLINE", "time", "id1"] -> time+60 -> online
 
         events.sort(key=lambda x: (int(x[1]), x[0] == "MESSAGE")) # OFFLINE FIRST
-        print(events)
 
         users_timestamp = [0] * numberOfUsers
         res = [0] * numberOfUsers
