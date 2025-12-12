@@ -12,11 +12,6 @@ class Solution:
             min_col[x] = min(min_col[x], y)
             max_col[x] = max(max_col[x], y)
         
-        # minrow [-, -, 1, -]
-        # maxrow [-, -, 1, -]
-        # mincol [-, 2, -, -]
-        # maxcol [-, 2, -, -]
-        
         res = 0
         for x, y in buildings:
             if min_row[y] < x < max_row[y] and min_col[x] < y < max_col[x]:
