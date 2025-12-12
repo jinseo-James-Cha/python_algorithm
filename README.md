@@ -266,6 +266,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3429-special-array-i) |
+| [3433-count-mentions-per-user](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3433-count-mentions-per-user) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3531-count-covered-buildings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3531-count-covered-buildings) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
@@ -583,6 +584,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
+| [3433-count-mentions-per-user](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3433-count-mentions-per-user) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -669,6 +671,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
+| [3433-count-mentions-per-user](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3433-count-mentions-per-user) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -834,6 +837,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2422-query-kth-smallest-trimmed-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
+| [3433-count-mentions-per-user](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3531-count-covered-buildings) |
 ## Binary Search
 |  |
