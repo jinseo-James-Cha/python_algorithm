@@ -30,11 +30,11 @@ class Solution:
             
             res[businessLine_hashmap[businessLine[i]]].append(code[i])
         
-        ans = []
-        for r in res:
-            if r:
-                r.sort()
-                ans.extend(r)
+        # ans = []
+        # for r in res:
+        #     if r:
+        #         r.sort()
+        #         ans.extend(r)
         
-        return ans
+        return sorted(res[0]) + sorted(res[1]) + sorted(res[2]) + sorted(res[3])
 
