@@ -271,6 +271,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3531-count-covered-buildings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3531-count-covered-buildings) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3583-count-special-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3583-count-special-triplets) |
+| [3606-coupon-code-validator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3606-coupon-code-validator) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -370,6 +371,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
 | [3531-count-covered-buildings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3583-count-special-triplets) |
+| [3606-coupon-code-validator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3606-coupon-code-validator) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
@@ -473,6 +475,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
+| [3606-coupon-code-validator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3606-coupon-code-validator) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Stack
@@ -839,6 +842,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
 | [3433-count-mentions-per-user](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3606-coupon-code-validator) |
 ## Binary Search
 |  |
 | ------- |
