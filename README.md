@@ -245,6 +245,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2058-concatenation-of-array) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
@@ -667,6 +668,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1500-count-largest-group](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1500-count-largest-group) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2383-add-two-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2383-add-two-integers) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
@@ -789,6 +791,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1764-maximum-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1764-maximum-repeating-substring) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
 ## Sorting
 |  |
