@@ -1,5 +1,18 @@
 class Solution:
     def getDescentPeriods(self, prices: List[int]) -> int:
+        # dp
+        n = len(prices)
+        res = 1
+        prev = 1
+        for i in range(1, n):
+            if prices[i] == prices[i-1] -1:
+                prev += 1
+            else:
+                prev = 1
+            res += prev
+        return res
+
+
         n = len(prices)
         curr = [prices[0]]
         descents = []
@@ -12,7 +25,6 @@ class Solution:
         if curr:
             descents.append(curr[:])
         
-        print(descents)
         # 3 -> 1 -> 1
         # 32 -> 2 + 1 -> 3
         # 321 -> 3 + 2 + 1  -> 6
