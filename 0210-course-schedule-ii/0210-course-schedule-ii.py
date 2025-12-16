@@ -1,30 +1,31 @@
-from collections import deque, defaultdict
+from collections import defaultdict, deque
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        # topological sort - kahn's algorithm
-        
-        # 1. graph and indegree
-        graph = defaultdict(list)
-        indegree = [0] * numCourses # 0~numCourses-1
-        # b -> a
-        for a, b in prerequisites:
-            graph[b].append(a)
-            indegree[a] += 1
-        
-        # 2. add initial if indegree == 0
-        queue = deque()
-        res = []
-        for i in range(numCourses):
-            if indegree[i] == 0:
-                queue.append(i)
-        
-        while queue:
-            node = queue.popleft()
-            res.append(node)
+        # directed acyclic graph -> kahn's algorithm with topological sort
+        # visit node that having no directed edge and visit its neighbor and minus 1
+        # if it is indegree 0, then insert into the queue
 
-            for neighbor in graph[node]:
+        hashmap = defaultdict(list)
+        indegree = defaultdict(int)
+        for dest, src in prerequisites:
+            hashmap[src].append(dest)
+            indegree[dest] += 1
+        
+        # initialize with root node
+        queue = deque()
+        for course in range(numCourses):
+            if indegree[course] == 0:
+                queue.append(course)
+
+        # loop
+        tookCourses = []
+        while queue:
+            currCourse = queue.popleft()
+            tookCourses.append(currCourse)
+
+            for neighbor in hashmap[currCourse]:
                 indegree[neighbor] -= 1
                 if indegree[neighbor] == 0:
                     queue.append(neighbor)
         
-        return res if numCourses == len(res) else []
+        return tookCourses if len(tookCourses) == numCourses else []
