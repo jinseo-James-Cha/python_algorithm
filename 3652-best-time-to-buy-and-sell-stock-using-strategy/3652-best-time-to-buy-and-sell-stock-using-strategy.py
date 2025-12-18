@@ -28,10 +28,12 @@ class Solution:
         
         res = profitSum[n]
 
-        for i in range(k - 1, n):
-            leftProfit = profitSum[i - k + 1]
-            rightProfit = profitSum[n] - profitSum[i + 1]
-            changeProfit = priceSum[i + 1] - priceSum[i - k // 2 + 1]
+        # i means the right point of modification
+        # 4 2 8
+        for i in range(k - 1, n): # 2 - 1, 3 -> i : 1, 2
+            leftProfit = profitSum[i - k + 1] # 1 - 2 + 1 = 0
+            rightProfit = profitSum[n] - profitSum[i + 1] # profitSum[3] - profitSum[2]
+            changeProfit = priceSum[i + 1] - priceSum[i - k // 2 + 1] # priceSum[2] - priceSum[1]
             res = max(res, leftProfit + rightProfit + changeProfit)
         return res
 
