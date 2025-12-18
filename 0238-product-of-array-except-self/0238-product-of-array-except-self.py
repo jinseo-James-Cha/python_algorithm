@@ -12,7 +12,6 @@ class Solution:
         for i in range(1, len(nums)):
             res[i] = curr
             curr *= nums[i]
-        print(res, curr) # [0, 1, 2, 6] 24
 
         curr = nums[-1]
         for j in range(len(nums)-2,-1, -1): # 2
