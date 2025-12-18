@@ -278,6 +278,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3616-make-array-elements-equal-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -1364,6 +1365,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Data Stream
 |  |
 | ------- |
@@ -1407,6 +1409,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3616-make-array-elements-equal-to-zero) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
