@@ -1,15 +1,21 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
-        found_index = []
-        for i in range(len(s)):
-            if s[i] in 'aeiouAEIOU':
-                found_index.append(i)
+        vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
+        stack_vowels = []
 
-        left = 0
-        right = len(found_index) - 1
-        array_s = list(s)
-        while left < right:
-            array_s[found_index[left]], array_s[found_index[right]] = array_s[found_index[right]], array_s[found_index[left]]
-            left += 1
-            right -= 1
-        return ''.join(array_s)
+        for ch in s:
+            if ch in vowels:
+                stack_vowels.append(ch)
+        
+        
+        # IceCreAm
+        # vowels [I, e, e, A]
+        res = ""
+        for ch in s:
+            if ch not in vowels:
+                res += ch
+            else:
+                v = stack_vowels.pop()
+                res += v
+        
+        return res
