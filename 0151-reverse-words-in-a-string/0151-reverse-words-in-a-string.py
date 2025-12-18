@@ -1,18 +1,11 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
-        stack = []
-        curr = ""
-        for i in range(len(s)):
-            if s[i] != " ":
-                curr += s[i]
-            elif curr:
-                stack.append(curr)
-                curr = ""
+        s_list = s.split(" ")
         
-        # curr still has the last word
-        res = ""
-        res += curr + " " if curr else ""
-        while stack:
-            res += stack.pop() + " "
+        reversed_s_list = []
+        while s_list:
+            curr = s_list.pop()
+            if curr:
+                reversed_s_list.append(curr)
         
-        return res[:-1]
+        return " ".join(reversed_s_list)
