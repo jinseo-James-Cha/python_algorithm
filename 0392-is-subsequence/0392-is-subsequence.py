@@ -1,5 +1,29 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
+        if len(s) == 0:
+            return True
+        s_idx = 0
+        for t_ch in t:
+            if s[s_idx] == t_ch:
+                s_idx += 1
+            
+            if s_idx == len(s):
+                return True
+        
+        return False
+
+
+
+
+
+
+
+
+
+
+
+
+
         source_len, target_len = len(s), len(t)
 
         # the source string is empty
