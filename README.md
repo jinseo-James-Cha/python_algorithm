@@ -140,6 +140,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
+| [0334-increasing-triplet-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0334-increasing-triplet-subsequence) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
@@ -959,6 +960,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0134-gas-station](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0135-candy) |
 | [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
+| [0334-increasing-triplet-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0334-increasing-triplet-subsequence) |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
