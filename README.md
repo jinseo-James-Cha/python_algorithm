@@ -191,6 +191,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-delete-columns-to-make-sorted) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
+| [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1014-k-closest-points-to-origin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-minimum-cost-for-tickets) |
@@ -888,6 +889,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
+| [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1066-fixed-point](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1066-fixed-point) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
@@ -1371,6 +1373,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
@@ -1415,6 +1418,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0560-subarray-sum-equals-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
 | [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2059-unique-length-3-palindromic-subsequences) |
