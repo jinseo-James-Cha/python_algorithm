@@ -255,6 +255,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -372,6 +373,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
