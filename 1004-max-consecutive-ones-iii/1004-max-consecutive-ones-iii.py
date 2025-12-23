@@ -1,24 +1,17 @@
 class Solution:
     def longestOnes(self, nums: List[int], k: int) -> int:
-        # [1,1,1,0,0,0,1,1,1,1,0] and k = 2
-        # [1,1,1,0,0,1,1,1,1,1,1] maxinum length = 6
-        # make temp k and move one by one with sliding window
-        # multiple 1 and k much 0 in window and length for maximym
-
-
+        # sliding window
         left = 0
-        curr = 0
-        ans = 0
+        curr_len = 0
+        max_len = 0
         for right in range(len(nums)):
             if nums[right] == 0:
-                curr += 1
+                curr_len += 1
             
-            while curr > k:
+            while curr_len > k:
                 if nums[left] == 0:
-                    curr -= 1
+                    curr_len -= 1
                 left += 1
             
-            ans = max(ans, right - left + 1)
-        return ans
-
-
+            max_len = max(max_len, right - left + 1)
+        return max_len
