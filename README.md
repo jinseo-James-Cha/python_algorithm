@@ -368,6 +368,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1500-count-largest-group](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1500-count-largest-group) |
+| [1657-determine-if-two-strings-are-close](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -480,6 +481,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1524-string-matching-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1657-determine-if-two-strings-are-close](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1657-determine-if-two-strings-are-close) |
 | [1764-maximum-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1764-maximum-repeating-substring) |
 | [1768-merge-strings-alternately](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1768-merge-strings-alternately) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -626,6 +628,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1657-determine-if-two-strings-are-close](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1657-determine-if-two-strings-are-close) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
@@ -862,6 +865,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1657-determine-if-two-strings-are-close](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2274-keep-multiplying-found-values-by-two) |
