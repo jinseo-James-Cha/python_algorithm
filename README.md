@@ -213,6 +213,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1144-decrease-elements-to-make-array-zigzag](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-decrease-elements-to-make-array-zigzag) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1207-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1207-unique-number-of-occurrences) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
@@ -360,6 +361,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1098-largest-unique-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1098-largest-unique-number) |
 | [1123-single-row-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1123-single-row-keyboard) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [1207-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1207-unique-number-of-occurrences) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1319-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1319-unique-number-of-occurrences) |
