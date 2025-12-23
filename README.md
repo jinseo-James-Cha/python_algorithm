@@ -227,6 +227,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1524-string-matching-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1524-string-matching-in-an-array) |
 | [1552-build-an-array-with-stack-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1552-build-an-array-with-stack-operations) |
@@ -803,6 +804,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1764-maximum-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1764-maximum-repeating-substring) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
@@ -1376,6 +1378,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
