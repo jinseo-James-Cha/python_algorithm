@@ -37,8 +37,3 @@ class Solution:
             leaves = new_leaves
         
         return leaves
-
-
-
-
-
