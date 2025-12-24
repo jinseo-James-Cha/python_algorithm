@@ -1,39 +1,41 @@
-from collections import defaultdict, deque
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
-        # MHT -> remove leaves until > 2
-        # undirected
+        # move from the leaf to Centroids..
+        # if n is even num, we can have 2 centroids
+        # if n is odd num, we can have 1 centroid
 
+        # topological sort
+        # leaf -> indegree remove -> center...
+
+        # edge cases
         if n <= 2:
             return [i for i in range(n)]
-        
-        adj_list = [set() for i in range(n)]
+
+        adj = defaultdict(set)
         for a, b in edges:
-            # undirected
-            adj_list[a].add(b)
-            adj_list[b].add(a)
+            adj[a].add(b)
+            adj[b].add(a)
         
-        # initial node -> in_degree ==1
+        # get leaf
         leaves = []
-        for i in range(n):
-            if len(adj_list[i]) == 1:
-                leaves.append(i)
-        
+        for node in range(n):
+            if len(adj[node]) == 1:
+                leaves.append(node)
+
+        # loop until reaching centroids..
         remaining_leaves = n
         while remaining_leaves > 2:
             remaining_leaves -= len(leaves)
 
             new_leaves = []
-
-            # all leaves take out
             while leaves:
                 leaf = leaves.pop()
-                neighbor = adj_list[leaf].pop()
+                neighbor = adj[leaf].pop()
                 
-                adj_list[neighbor].remove(leaf)
-                if len(adj_list[neighbor]) == 1:
+                adj[neighbor].remove(leaf)
+                if len(adj[neighbor]) == 1:
                     new_leaves.append(neighbor)
             
             leaves = new_leaves
-        
         return leaves
+            
