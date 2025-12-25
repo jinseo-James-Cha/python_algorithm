@@ -1,5 +1,16 @@
+import heapq
 class Solution:
     def maximumHappinessSum(self, happiness: List[int], k: int) -> int:
+        # max heap
+        max_heap = [-h for h in happiness]
+        heapq.heapify(max_heap)
+
+        total_happiness = 0
+        for i in range(k):
+            total_happiness += max(-heapq.heappop(max_heap) - i, 0)
+        return total_happiness
+
+
         # 1 <= k <= n
 
         # n children stadning in a QUEUE
