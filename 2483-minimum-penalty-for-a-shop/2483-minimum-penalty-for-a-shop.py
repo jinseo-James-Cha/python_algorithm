@@ -31,7 +31,7 @@ class Solution:
 
         minimum_panalty = curr_panalty
         minimum_hour = 0
-        for hour in range(n): # YYNY , 3
+        for hour in range(n):
             if customers[hour] == 'Y':
                 curr_panalty -= 1
             else:
