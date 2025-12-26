@@ -24,10 +24,11 @@ class Solution:
         # 32121
         n = len(customers)
         
-        curr_panalty = 0
-        for hour in range(n):
-            if customers[hour] == 'Y':
-                curr_panalty += 1
+        curr_panalty = sum( ch == "Y" for ch in customers)
+        # curr_panalty = 0
+        # for hour in range(n):
+        #     if customers[hour] == 'Y':
+        #         curr_panalty += 1
 
         minimum_panalty = curr_panalty
         minimum_hour = 0
