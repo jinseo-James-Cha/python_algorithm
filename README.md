@@ -463,6 +463,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0583-delete-operation-for-two-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0583-delete-operation-for-two-strings) |
 | [0604-design-compressed-string-iterator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0604-design-compressed-string-iterator) |
 | [0647-palindromic-substrings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0647-palindromic-substrings) |
+| [0649-dota2-senate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0649-dota2-senate) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
@@ -1001,6 +1002,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0605-can-place-flowers) |
+| [0649-dota2-senate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0649-dota2-senate) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -1073,6 +1075,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0225-implement-stack-using-queues](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0225-implement-stack-using-queues) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
+| [0649-dota2-senate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0649-dota2-senate) |
 | [0933-number-of-recent-calls](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-number-of-recent-calls) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1802-number-of-students-unable-to-eat-lunch) |
