@@ -14,7 +14,11 @@ class Solution:
                 r_queue.append(i)
             else:
                 d_queue.append(i)
-        
+        #    8
+        #     
+        # n = 5
+
+        # 0, 2
         while r_queue and d_queue:
             r_turn = r_queue.popleft()
             d_turn = d_queue.popleft()
