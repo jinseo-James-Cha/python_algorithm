@@ -539,6 +539,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1552-build-an-array-with-stack-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1552-build-an-array-with-stack-operations) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2211-count-collisions-on-a-road](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2211-count-collisions-on-a-road) |
 | [2390-removing-stars-from-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2390-removing-stars-from-a-string) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
@@ -597,6 +598,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1679-max-number-of-k-sum-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1768-merge-strings-alternately](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1768-merge-strings-alternately) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Simulation
@@ -752,6 +754,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0908-middle-of-the-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0908-middle-of-the-linked-list) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
