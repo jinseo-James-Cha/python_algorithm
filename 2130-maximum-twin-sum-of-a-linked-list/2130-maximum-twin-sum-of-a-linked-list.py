@@ -5,6 +5,31 @@
 #         self.next = next
 class Solution:
     def pairSum(self, head: Optional[ListNode]) -> int:
+        slow, fast = head, head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        
+        # reverse from the second half where slow pointer is.
+        prev = None
+        curr = slow
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
+        
+        # iterate till the second half end
+        maximum_twin_sum = 0
+        first_half = head
+        while prev:
+            maximum_twin_sum = max(maximum_twin_sum, first_half.val + prev.val)
+            first_half = first_half.next
+            prev = prev.next
+        return maximum_twin_sum
+        
+
+
         # always even number...
         # if n 4
         # I move ->
