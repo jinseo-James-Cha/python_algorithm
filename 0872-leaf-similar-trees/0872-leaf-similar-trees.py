@@ -4,10 +4,25 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from collections import deque
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
+        leaves1 = []
+        leaves2 = []
+
+        def dfs(root, leaves):
+            if not root:
+                return
+            
+            if not root.left and not root.right:
+                leaves.append(root.val)
+            dfs(root.left, leaves)
+            dfs(root.right, leaves)
         
+        dfs(root1, leaves1)
+        dfs(root2, leaves2)
+        return leaves1 == leaves2
+
+
         def dfs(root):
             leaves = []
             if not root:
