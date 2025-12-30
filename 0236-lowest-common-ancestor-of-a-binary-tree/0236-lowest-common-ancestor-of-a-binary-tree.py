@@ -7,16 +7,31 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        if not root:
-            return None
-        
-        if root == p or root == q:
-            return root
-        
-        left = self.lowestCommonAncestor(root.left, p, q)
-        right = self.lowestCommonAncestor(root.right, p, q)
+        # LCA
+        # between p and q as the lowest 
+        # who is the common ancestor for the both p and q.
+        def dfs(root):
+            nonlocal lca
+            if not root:
+                return False
+            
+            # if p or q reaches curr_node .. return its.
+            left = dfs(root.left)
+            right = dfs(root.right)
+            myself = root == p or root == q
 
-        if left and right:
-            return root
-        
-        return left if left is not None else right
+            if left + myself + right >= 2:
+                lca = root
+            
+            return left or myself or right
+            
+
+            # how to stop when we meet one of p or q
+            # and keep moving lower ?
+            # p and q will be root left or right.. how to check them?
+            # 4 ways... and if 2 >= return root
+        lca = None
+        dfs(root)
+        return lca
+
+            
