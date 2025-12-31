@@ -28,22 +28,22 @@ class UnionFind:
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         # DFS
-        def dfs(city):
-            visited[city] = True
+        # def dfs(city):
+        #     visited[city] = True
 
-            for j in range(len(isConnected)):
-                if isConnected[city][j] and not visited[j]:
-                    dfs(j)
+        #     for j in range(len(isConnected)):
+        #         if isConnected[city][j] and not visited[j]:
+        #             dfs(j)
 
-        n = len(isConnected)
-        num_of_province = 0
-        visited = [False] * n
+        # n = len(isConnected)
+        # num_of_province = 0
+        # visited = [False] * n
 
-        for i in range(n):
-            if not visited[i]:
-                num_of_province += 1
-                dfs(i)
-        return num_of_province
+        # for i in range(n):
+        #     if not visited[i]:
+        #         num_of_province += 1
+        #         dfs(i)
+        # return num_of_province
 
         """
         n cities, some connected and some not -> connectivity question
@@ -71,6 +71,8 @@ class Solution:
                     if uf.union(i, j):
                         num_of_province -= 1
         
+        print(uf.parent) 
+        print(uf.rank)
         return num_of_province
 
         
