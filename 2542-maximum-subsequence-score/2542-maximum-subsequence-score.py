@@ -31,10 +31,11 @@ class Solution:
         top_k_sum = sum(top_k_heap)
         heapq.heapify(top_k_heap)
 
-        # [(2, 4), (3, 3), (1, 2), (3, 1)]
-        # 6, [1,2,3]
+        # pairs [(2, 4), (3, 3), (1, 2), (3, 1)]
+        # top_k_heap [2,3,1] => 6,
+        
         answer = top_k_sum * pairs[k-1][1]
-
+        # answer = 6 * paris[3-1][1] -> pairs[k-1] !! because it was sorted by Descending order already !
         for i in range(k, len(nums1)):
             top_k_sum -= heapq.heappop(top_k_heap)
             top_k_sum += pairs[i][0]
