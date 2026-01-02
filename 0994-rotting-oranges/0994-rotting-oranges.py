@@ -19,17 +19,16 @@ class Solution:
             return 0
         
         DIRS = [(1,0), (-1,0), (0,1), (0,-1)]
-        max_minute = 0
-        rotten_oranges = 0
+        total_minute = 0
         while queue:
             size = len(queue)
             for _ in range(size):
                 row, col, minute = queue.popleft()
-                max_minute = max(max_minute, minute)
                 for dy, dx in DIRS:
                     next_row, next_col = row+dy, col+dx
                     if (0 <= next_row < m and 0 <= next_col < n) and grid[next_row][next_col] == 1:
                         queue.append((next_row, next_col, minute+1))
                         grid[next_row][next_col] = 2
-                        rotten_oranges += 1
-        return max_minute if fresh_oranges == rotten_oranges else -1
+                        fresh_oranges -= 1
+            total_minute += 1
+        return total_minute-1 if fresh_oranges == 0 else -1
