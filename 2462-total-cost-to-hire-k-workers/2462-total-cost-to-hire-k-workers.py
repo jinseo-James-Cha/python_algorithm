@@ -1,6 +1,37 @@
 import heapq
 class Solution:
     def totalCost(self, costs: List[int], k: int, candidates: int) -> int:
+        # 1 Priority Queue
+        pq = []
+        # head
+        for i in range(candidates):
+            pq.append((costs[i], 0))
+        # tail
+        for i in range(max(candidates, len(costs) - candidates), len(costs)):
+            pq.append((costs[i], 1))
+        
+        # 0 1 2 3 4 , 2
+        head_idx = candidates
+        tail_idx = len(costs) - candidates - 1 
+        
+        heapq.heapify(pq)
+        total_cost = 0
+
+        for _ in range(k):
+            cost, section_id = heapq.heappop(pq)
+            total_cost += cost
+            if head_idx <= tail_idx:
+                if section_id == 0:
+                    heapq.heappush(pq, (costs[head_idx], 0))
+                    head_idx += 1
+                else:
+                    heapq.heappush(pq, (costs[tail_idx], 1))
+                    tail_idx -= 1
+        return total_cost
+
+
+
+
         # i worker costs[i] => 0 ~ n-1
         # K workers will be hired
         
@@ -60,6 +91,8 @@ class Solution:
                     right -= 1
         return total_cost
 
+# 1 2 3 4 7 candi 3
+# 123 4 max(3, 5-3, 5)
 
         # queue = deque()
         # for i, cost in enumerate(costs):
