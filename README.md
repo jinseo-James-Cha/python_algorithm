@@ -249,6 +249,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -1069,6 +1070,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1496-lucky-numbers-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
 | [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2352-equal-row-and-column-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2352-equal-row-and-column-pairs) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
@@ -1311,6 +1313,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
