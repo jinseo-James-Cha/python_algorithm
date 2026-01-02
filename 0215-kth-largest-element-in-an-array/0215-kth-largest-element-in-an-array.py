@@ -15,11 +15,16 @@ class Solution:
         """
         pq = []
         for num in nums:
-            if len(pq) < k:
-                heapq.heappush(pq, num)
-            elif pq[0] < num:
+            heapq.heappush(pq, num)
+
+            if len(pq) > k:
                 heapq.heappop(pq)
-                heapq.heappush(pq, num)
+
+            # if len(pq) < k:
+            #     heapq.heappush(pq, num)
+            # elif pq[0] < num:
+            #     heapq.heappop(pq)
+            #     heapq.heappush(pq, num)
         return heapq.heappop(pq)
         # [3,2,1,5,6,4]
 
