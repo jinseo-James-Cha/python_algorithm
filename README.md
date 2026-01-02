@@ -193,6 +193,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-delete-columns-to-make-sorted) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
+| [0994-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1014-k-closest-points-to-origin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
@@ -1062,6 +1063,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0945-snakes-and-ladders](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
+| [0994-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -1302,6 +1304,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0841-keys-and-rooms) |
 | [0945-snakes-and-ladders](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-snakes-and-ladders) |
+| [0994-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0994-rotting-oranges) |
 | [1005-univalued-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1005-univalued-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
