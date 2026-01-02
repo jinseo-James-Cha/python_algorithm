@@ -269,6 +269,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2422-query-kth-smallest-trimmed-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2542-maximum-subsequence-score](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2542-maximum-subsequence-score) |
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -896,6 +897,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2274-keep-multiplying-found-values-by-two](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2542-maximum-subsequence-score](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2542-maximum-subsequence-score) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3433-count-mentions-per-user](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3433-count-mentions-per-user) |
@@ -1024,6 +1026,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1762-furthest-building-you-can-reach](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-furthest-building-you-can-reach) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2542-maximum-subsequence-score](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2542-maximum-subsequence-score) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -1531,6 +1534,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2336-smallest-number-in-infinite-set](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2336-smallest-number-in-infinite-set) |
 | [2422-query-kth-smallest-trimmed-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2422-query-kth-smallest-trimmed-number) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2542-maximum-subsequence-score](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2542-maximum-subsequence-score) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## String Matching
