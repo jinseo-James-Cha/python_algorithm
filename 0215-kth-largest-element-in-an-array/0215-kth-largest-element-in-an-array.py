@@ -13,7 +13,7 @@ class Solution:
         3 7 8
           3 7 8
         """
-        pq = []
+        pq = [] # min-heap
         for num in nums:
             heapq.heappush(pq, num)
 
@@ -25,6 +25,6 @@ class Solution:
             # elif pq[0] < num:
             #     heapq.heappop(pq)
             #     heapq.heappush(pq, num)
-        return heapq.heappop(pq)
+        return pq[0]
         # [3,2,1,5,6,4]
 
