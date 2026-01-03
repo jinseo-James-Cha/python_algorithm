@@ -180,6 +180,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0777-toeplitz-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-toeplitz-matrix) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
+| [0875-koko-eating-bananas](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0875-koko-eating-bananas) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
@@ -934,6 +935,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0875-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
 | [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1066-fixed-point](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1066-fixed-point) |
