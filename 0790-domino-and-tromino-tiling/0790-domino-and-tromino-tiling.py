@@ -1,6 +1,23 @@
 class Solution:
     def numTilings(self, n: int) -> int:
         MOD = 10**9 + 7
+        # bottom up
+        if n <= 2:
+            return n
+        
+        full = [0] * (n+1)
+        partial = [0] * (n+1)
+        
+        full[1] = 1
+        full[2] = 2
+        partial[2] = 1
+        for i in range(3, n+1):
+            full[i] = (full[i-2] + full[i-1] + (partial[i-1] * 2)) % MOD
+            partial[i] = full[i-2] + partial[i-1]
+        return full[n]
+
+
+        # Top down
         def dp_partial(i):
             if i == 2:
                 return 1
