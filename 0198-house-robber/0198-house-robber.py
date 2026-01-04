@@ -1,5 +1,17 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        # bottom up optimize
+        if len(nums) == 1:
+            return nums[0]
+        
+        two_back = nums[0]
+        one_back = max(nums[0], nums[1])
+        for i in range(2, len(nums)):
+            temp = one_back
+            one_back = max(two_back + nums[i], temp)
+            two_back = temp
+        return one_back
+
         # bottom up
         if len(nums) == 1:
             return nums[0]
