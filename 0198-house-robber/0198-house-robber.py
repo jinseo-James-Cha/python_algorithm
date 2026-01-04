@@ -7,9 +7,11 @@ class Solution:
         two_back = nums[0]
         one_back = max(nums[0], nums[1])
         for i in range(2, len(nums)):
-            temp = one_back
-            one_back = max(two_back + nums[i], temp)
-            two_back = temp
+            
+            current = max(two_back + nums[i], one_back)
+            
+            two_back = one_back
+            one_back = current
         return one_back
 
         # bottom up
