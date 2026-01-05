@@ -19,6 +19,16 @@ class Solution:
 
         => dp m, n -> m-1,n + m, n-1
         """
+        # bottom up
+        dp = [[1] * n for _ in range(m)]
+        for row in range(1, m):
+            for col in range(1, n):
+                dp[row][col] = dp[row-1][col] + dp[row][col-1]
+        
+        return dp[m-1][n-1]
+
+
+        # top down
         def dp(row, col):
             if row == 0 or col == 0:
                 return 1
