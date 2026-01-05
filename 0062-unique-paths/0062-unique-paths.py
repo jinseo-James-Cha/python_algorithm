@@ -19,6 +19,14 @@ class Solution:
 
         => dp m, n -> m-1,n + m, n-1
         """
+        # bottom up optimize
+        current = [1] * n
+        for row in range(1, m):
+            for col in range(1, n):
+                current[col] += current[col-1]
+        return current[n-1]
+
+
         # bottom up
         dp = [[1] * n for _ in range(m)]
         for row in range(1, m):
