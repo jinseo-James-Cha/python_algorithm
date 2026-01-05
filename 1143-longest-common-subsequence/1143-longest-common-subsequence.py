@@ -1,6 +1,21 @@
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
-        # dp
+        # dp forward
+        def dp(i, j):
+            if i == len(text1) or j == len(text2):
+                return 0
+            
+            if (i, j) not in memo:
+                if text1[i] == text2[j]:
+                    memo[(i, j)] = dp(i+1, j+1) + 1
+                else:
+                    memo[(i, j)] = max(dp(i+1, j), dp(i, j+1))
+            return memo[(i,j)]
+        memo = {}
+        return dp(0, 0)
+        
+        
+        # dp backward
         m, n = len(text1), len(text2)
 
         def dp(text1_idx, text2_idx):
