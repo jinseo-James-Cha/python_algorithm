@@ -7,6 +7,21 @@ class Solution:
 
         t1: sell price - buy price - fee + t2: ...
         """
+        # dp bottom up
+        dp_hold = [0] * len(prices)
+        dp_free = [0] * len(prices)
+
+        dp_hold[0] = -prices[0]
+        for i in range(1, len(prices)):
+            dp_hold[i] = max(dp_hold[i-1], dp_free[i-1] - prices[i])
+            dp_free[i] = max(dp_free[i-1], dp_hold[i-1] + prices[i] - fee)
+        
+        return dp_free[-1]
+
+
+
+
+        # dp top down
         def dp(i, is_holding):
             if i == len(prices):
                 return 0
