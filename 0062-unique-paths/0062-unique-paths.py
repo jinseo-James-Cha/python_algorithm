@@ -1,53 +1,32 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        # state
-        # i for rows
-        # j for cols
+        """
+        m, n grid
+        start = [0, 0]
+        end = [m-1, n-1]
+        move = Down or Right
 
-        # bottom up constant space optimization
-        current = [1] * n
-        for i in range(1, m):
-            for j in range(1, n): 
-                current[j] += current[j-1]
-        return current[n-1]
-
-        # bottom up
-        dp = [[1] * n for _ in range(m)]
-        for i in range(1, m):
-            for j in range(1, n):
-                dp[i][j] = dp[i-1][j] + dp[i][j-1]
+        for example
+        3 * 6
         
-        return dp[m-1][n-1]
+        S00 01 02 03 04 05
+         10 11 12 13 14 15
+         20 21 22 23 24 E25
 
+        1 1 1 1 1 1
+        1 2 3 4 5 6
+        1 3 6 10 15 21
 
-        # top down
-        def dp(i, j):
-            if i == 0 or j == 0:
+        => dp m, n -> m-1,n + m, n-1
+        """
+        def dp(row, col):
+            if row == 0 or col == 0:
                 return 1
             
-            if (i,j) not in memo:
-                memo[(i,j)] = dp(i-1, j) + dp(i, j-1)
-
-            return memo[(i,j)]
+            if (row, col) not in memo:
+                memo[(row, col)] = dp(row-1, col) + dp(row, col-1)
+            
+            return memo[(row, col)]
         
         memo = {}
         return dp(m-1, n-1)
-
-
-
-
-
-
-
-
-
-
-        # grid[m - 1][n - 1] = grid[m-2][n-1] + grid[m-1][n-2]
-
-        # bottom up
-        dp = [[1 for _ in range(n)] for _ in range(m)] 
-        for r in range(1, m): 
-            for c in range(1, n):
-                dp[r][c] = dp[r-1][c] + dp[r][c-1]
-        
-        return dp[m-1][n-1]
