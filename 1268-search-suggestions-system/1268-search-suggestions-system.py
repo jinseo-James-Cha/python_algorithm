@@ -26,15 +26,7 @@ class Trie:
             curr = curr.children[letter]
         curr.is_word = True
     
-    # def startWith(self, prefix):
-    #     curr = self.root
-    #     for letter in prefix:
-    #         if letter not in curr.children:
-    #             return False
-    #         curr = curr.children[letter]
-    #     return True
-    
-    def dfs_with_prefix(self, curr: Node, word: str):
+    def dfs_with_prefix(self, curr, word):
         if len(self.result_buffer) == 3:
             return
         
