@@ -220,6 +220,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1207-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1207-unique-number-of-occurrences) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
 | [1293-three-consecutive-odds](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
@@ -491,6 +492,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1143-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1143-longest-common-subsequence) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1250-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1250-longest-common-subsequence) |
+| [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1524-string-matching-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1524-string-matching-in-an-array) |
@@ -898,6 +900,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1098-largest-unique-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1098-largest-unique-number) |
 | [1137-height-checker](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-height-checker) |
+| [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
@@ -947,6 +950,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
@@ -1055,6 +1059,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0211-design-add-and-search-words-data-structure](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
 | [1075-index-pairs-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1075-index-pairs-of-a-string) |
+| [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Matrix
 |  |
@@ -1544,6 +1549,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1126-minimum-cost-to-connect-sticks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1127-last-stone-weight) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
+| [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-furthest-building-you-can-reach) |
