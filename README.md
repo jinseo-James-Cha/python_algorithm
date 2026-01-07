@@ -174,6 +174,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0735-asteroid-collision](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0747-min-cost-climbing-stairs) |
@@ -540,6 +541,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0739-daily-temperatures) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -1587,6 +1589,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0042-trapping-rain-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0739-daily-temperatures) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Bucket Sort
