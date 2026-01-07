@@ -1,17 +1,30 @@
 class StockSpanner:
-
     def __init__(self):
-        self.prev_prices = []
+        self.span_price = [] # (price, day)
 
     def next(self, price: int) -> int:
         span = 1
-        for prev_price in reversed(self.prev_prices):
-            if price >= prev_price:
-                span += 1
-            else:
-                break
-        self.prev_prices.append(price)
+        while self.span_price and self.span_price[-1][1] <= price:
+            span += self.span_price.pop()[0]
+        
+        self.span_price.append((span, price))
+        print(self.span_price)
         return span
+            
+
+    # brute force
+    # def __init__(self):
+    #     self.prev_prices = []
+
+    # def next(self, price: int) -> int:
+    #     span = 1
+    #     for prev_price in reversed(self.prev_prices):
+    #         if price >= prev_price:
+    #             span += 1
+    #         else:
+    #             break
+    #     self.prev_prices.append(price)
+    #     return span
         
 
 
