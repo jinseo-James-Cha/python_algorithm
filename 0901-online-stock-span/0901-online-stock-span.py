@@ -8,7 +8,6 @@ class StockSpanner:
             span += self.span_price.pop()[0]
         
         self.span_price.append((span, price))
-        print(self.span_price)
         return span
             
 
