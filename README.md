@@ -546,6 +546,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0775-n-ary-tree-preorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
+| [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
 | [0933-increasing-order-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-increasing-order-search-tree) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1552-build-an-array-with-stack-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1552-build-an-array-with-stack-operations) |
@@ -1453,6 +1454,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0604-design-compressed-string-iterator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0604-design-compressed-string-iterator) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-number-of-recent-calls) |
 | [2336-smallest-number-in-infinite-set](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2336-smallest-number-in-infinite-set) |
 ## Randomized
@@ -1490,6 +1492,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-number-of-recent-calls) |
 ## Iterator
 |  |
@@ -1590,6 +1593,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Bucket Sort
