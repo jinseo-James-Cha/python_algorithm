@@ -24,7 +24,6 @@ class Solution:
 
         if count == k:
             reversedHead = reverseLinkedList(head, k)
-
             head.next = self.reverseKGroup(ptr, k)
             return reversedHead
         return head
