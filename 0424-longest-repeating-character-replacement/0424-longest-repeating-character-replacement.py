@@ -1,26 +1,20 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        # I can change any character and change it to any other up
-        """
-
-        ABAB
-        L
-        F
-        """
-
-        all_letters = set(s)
+        left = 0
+        frequency_map = {}
+        max_frequency = 0
+        
         max_length = 0
-        for letter in all_letters:
-            start = 0
-            count = 0
-            for end in range(len(s)):
-                if s[end] == letter:
-                    count += 1
-                
-                while not end - start +1 - count <= k:
-                    if s[start] == letter:
-                        count -= 1
-                    start+=1
-                
-                max_length = max(max_length, end - start +1)
+
+        for right in range(len(s)):
+            frequency_map[s[right]] = frequency_map.get(s[right], 0) + 1
+
+            max_frequency = max(max_frequency, frequency_map[s[right]])
+
+            is_valid = (right - left + 1 - max_frequency <= k)
+            if not is_valid:
+                frequency_map[s[left]] -= 1
+                left += 1
+            
+            max_length = right - left + 1
         return max_length
