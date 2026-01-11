@@ -351,6 +351,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
+| [0424-longest-repeating-character-replacement](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -466,6 +467,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
+| [0424-longest-repeating-character-replacement](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0433-minimum-genetic-mutation) |
 | [0434-number-of-segments-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0434-number-of-segments-in-a-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -1477,6 +1479,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0076-minimum-window-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0219-contains-duplicate-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0643-maximum-average-subarray-i) |
