@@ -459,6 +459,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0345-reverse-vowels-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
+| [0388-longest-absolute-file-path](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0388-longest-absolute-file-path) |
 | [0389-find-the-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0394-decode-string) |
@@ -540,6 +541,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0224-basic-calculator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
+| [0388-longest-absolute-file-path](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0388-longest-absolute-file-path) |
 | [0394-decode-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0394-decode-string) |
 | [0445-add-two-numbers-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
@@ -1251,6 +1253,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0310-minimum-height-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0332-reconstruct-itinerary) |
+| [0388-longest-absolute-file-path](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0388-longest-absolute-file-path) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
 | [0417-pacific-atlantic-water-flow](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0417-pacific-atlantic-water-flow) |
