@@ -1,5 +1,23 @@
 class Solution:
     def licenseKeyFormatting(self, s: str, k: int) -> str:
+        new_s = ""
+        for ch in s:
+            if ch == "-":
+                continue
+            elif ch.isalpha():
+                new_s += ch.upper()
+            elif ch.isnumeric:
+                new_s += ch
+                
+        res = [] 
+        for i in range(len(new_s), -1, -k):
+            curr = new_s[max(0,i-k):i]
+            if curr:
+                res.append(curr)
+        
+        return "-".join(reversed(res))
+
+        
         chars = []
         for ch in s:
             if ch == '-':
