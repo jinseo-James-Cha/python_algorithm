@@ -1,5 +1,20 @@
 class Solution:
     def divisorGame(self, n: int) -> bool:
+        def can_win(current_n):
+            if current_n == 1:
+                return False
+            
+            if current_n not in memo:
+                memo[current_n] = False
+                for x in range(1, current_n):
+                    if current_n % x == 0:
+                        if not can_win(current_n - x):
+                            memo[current_n] = True            
+            return memo[current_n]
+        memo = {}
+        return can_win(n)
+
+
         def getOptimalX(current_n):
             for x_candidate in range(1, current_n):
                 if current_n % x_candidate == 0:
