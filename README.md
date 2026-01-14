@@ -722,6 +722,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1013-fibonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1014-k-closest-points-to-origin) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1025-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-divisor-game) |
 | [1069-confusing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1069-confusing-number) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1082-sum-of-digits-in-the-minimum-number) |
@@ -858,6 +859,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-minimum-cost-for-tickets) |
+| [1025-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-divisor-game) |
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
 | [1137-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1143-longest-common-subsequence) |
@@ -1704,12 +1706,14 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0292-nim-game) |
+| [1025-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-divisor-game) |
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Game Theory
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0292-nim-game) |
+| [1025-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-divisor-game) |
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
 ## Combinatorics
 |  |
