@@ -11,11 +11,11 @@ class Solution:
             return ""
         
         def LCP(left, right):
-            mid_len = min(len(left), len(right))
-            for i in range(mid_len):
+            min_len = min(len(left), len(right))
+            for i in range(min_len):
                 if left[i] != right[i]:
                     return left[:i]
-            return left[:mid_len]
+            return left[:min_len]
         
         def divide_and_conquer(strs, left, right):
             if left == right:
