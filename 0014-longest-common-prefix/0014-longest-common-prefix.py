@@ -6,6 +6,39 @@
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
+        # Binary search
+        if not strs:
+            return ""
+
+        min_len = float('inf')
+        for s in strs:
+            min_len = min(min_len, len(s))
+
+        def isCommonPrefix(mid):
+            baseStr = strs[0][:mid]
+            for i in range(1, len(strs)):
+                if not strs[i].startswith(baseStr):
+                    return False
+            return True
+
+        res = ""
+        left = 1
+        right = min_len
+        while left <= right:
+            mid = (left + right) // 2
+            if isCommonPrefix(mid):
+                left = mid + 1
+            else:
+                right = mid -1
+        return strs[0][:(left + right) // 2]
+
+
+
+
+
+
+
+
         # divide and conquer
         if not strs:
             return ""
