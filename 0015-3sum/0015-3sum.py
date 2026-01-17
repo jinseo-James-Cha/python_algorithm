@@ -30,16 +30,6 @@ class Solution:
                         res.append(tri)
                         used.add(tuple(tri))
         return res
-
-
-
-
-
-
-
-
-
-
         # uhm i j k -> n^3 -> two pointers -> O(N^2)
         res = []
 
