@@ -718,6 +718,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
 | [0445-add-two-numbers-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0445-add-two-numbers-ii) |
+| [0788-rotated-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0788-rotated-digits) |
 | [0795-k-th-symbol-in-grammar](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0795-k-th-symbol-in-grammar) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
 | [0826-soup-servings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0826-soup-servings) |
@@ -855,6 +856,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0747-min-cost-climbing-stairs) |
+| [0788-rotated-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0788-rotated-digits) |
 | [0790-domino-and-tromino-tiling](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0790-domino-and-tromino-tiling) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0806-domino-and-tromino-tiling) |
