@@ -3,16 +3,13 @@ class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
         left = 0
         max_days = 0
-        fruit_basket = defaultdict(int)
-        fruit_set = set()
+        fruit_basket = {}
         for right in range(len(fruits)):
-            fruit_basket[fruits[right]] += 1
-            fruit_set.add(fruits[right])
-            
-            while len(fruit_set) > 2:
+            fruit_basket[fruits[right]] = fruit_basket.get(fruits[right], 0) + 1           
+            while len(fruit_basket) > 2:
                 fruit_basket[fruits[left]] -= 1
                 if fruit_basket[fruits[left]] == 0:
-                    fruit_set.remove(fruits[left])
+                    del fruit_basket[fruits[left]]
                 left += 1
             
             max_days = max(max_days, right - left + 1)
