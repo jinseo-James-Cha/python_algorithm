@@ -10,11 +10,11 @@ class Solution:
             
             # we do think only local name
             # 1. remove after @
-            local_name_list = local_name.split('+')
-            local_name = local_name_list[0]
+            if '+' in local_name:
+                local_name = local_name[:local_name.index('+')]
             local_name = local_name.replace('.', '')
             
-            return local_name + '@' +domain_name
+            return local_name + '@' + domain_name
         
         receive_emails = set()
         for email in emails:
