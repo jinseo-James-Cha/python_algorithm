@@ -1297,6 +1297,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0975-range-sum-of-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0975-range-sum-of-bst) |
 | [1005-univalued-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1005-univalued-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
+| [1042-flower-planting-with-no-adjacent](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
@@ -1358,6 +1359,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1005-univalued-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1005-univalued-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
+| [1042-flower-planting-with-no-adjacent](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
@@ -1796,4 +1798,8 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1014-k-closest-points-to-origin) |
 | [1266-minimum-time-visiting-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1266-minimum-time-visiting-all-points) |
+## Graph Theory
+|  |
+| ------- |
+| [1042-flower-planting-with-no-adjacent](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1042-flower-planting-with-no-adjacent) |
 <!---LeetCode Topics End-->
