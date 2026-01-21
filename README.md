@@ -177,6 +177,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0904-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0904-fruit-into-baskets) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
+| [0929-unique-email-addresses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0929-unique-email-addresses) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [0945-snakes-and-ladders](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
@@ -360,6 +361,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
 | [0762-find-anagram-mappings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0762-find-anagram-mappings) |
 | [0904-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0904-fruit-into-baskets) |
+| [0929-unique-email-addresses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0929-unique-email-addresses) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
@@ -486,6 +488,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0851-goat-latin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0851-goat-latin) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [0925-long-pressed-name](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0925-long-pressed-name) |
+| [0929-unique-email-addresses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0929-unique-email-addresses) |
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-delete-columns-to-make-sorted) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
