@@ -3,8 +3,7 @@ class Solution:
         seen = set()
 
         def backtrack(combination, used_index):
-            if combination:
-                if tuple(combination) not in seen:
+            if combination and tuple(combination) not in seen:
                     seen.add(tuple(combination))
 
             for i, num in enumerate(tiles):
