@@ -14,6 +14,27 @@ class Solution:
 
         return minimum number....        
         """
+        adj_list = defaultdict(list)
+        directions = set()
+        # a -> b
+        for a, b in connections:
+            adj_list[a].append(b)
+            adj_list[b].append(a)
+            directions.add((a,b))
+            
+        number_of_change = 0
+        queue = deque([0])
+        visited = set()
+        while queue:
+            curr_city = queue.popleft()
+            visited.add(curr_city)
+            
+            for neighbor in adj_list[curr_city]:
+                if neighbor not in visited:
+                    if (curr_city, neighbor) in directions:
+                        number_of_change += 1
+                    queue.append(neighbor)
+        return number_of_change
 
         def dfs(city):
             nonlocal minimum_changed_edges
