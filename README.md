@@ -621,6 +621,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1019-squares-of-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
+| [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1237-find-positive-integer-solution-for-a-given-equation) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1768-merge-strings-alternately](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1768-merge-strings-alternately) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -738,6 +739,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1137-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-n-th-tribonacci-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1236-n-th-tribonacci-number) |
+| [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1237-find-positive-integer-solution-for-a-given-equation) |
 | [1266-minimum-time-visiting-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1266-minimum-time-visiting-all-points) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1448-maximum-69-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-maximum-69-number) |
@@ -975,6 +977,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1237-find-positive-integer-solution-for-a-given-equation) |
 | [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
@@ -988,6 +991,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0278-first-bad-version](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [0865-robot-room-cleaner](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0865-robot-room-cleaner) |
+| [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1237-find-positive-integer-solution-for-a-given-equation) |
 | [2875-count-houses-in-a-circular-street](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2875-count-houses-in-a-circular-street) |
 ## Bit Manipulation
 |  |
