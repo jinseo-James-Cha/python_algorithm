@@ -14,6 +14,7 @@ class Solution:
 
         return minimum number....        
         """
+        # BFS
         adj_list = defaultdict(list)
         directions = set()
         # a -> b
@@ -24,18 +25,20 @@ class Solution:
             
         number_of_change = 0
         queue = deque([0])
-        visited = set()
+        visited = [False] * n
         while queue:
             curr_city = queue.popleft()
-            visited.add(curr_city)
+            visited[curr_city] = True
             
             for neighbor in adj_list[curr_city]:
-                if neighbor not in visited:
+                if  not visited[neighbor]:
                     if (curr_city, neighbor) in directions:
                         number_of_change += 1
                     queue.append(neighbor)
         return number_of_change
 
+
+        # DFS
         def dfs(city):
             nonlocal minimum_changed_edges
             visited[city] = True
