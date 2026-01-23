@@ -1,11 +1,15 @@
 class Solution:
     def largestTimeFromDigits(self, arr: List[int]) -> str:
         def backtrack(curr, used_idx):
+            nonlocal max_time
             if len(curr) == 4:
                 # validate time
                 hh, mm = curr[0]+curr[1], curr[2]+curr[3]
                 if 0 <= int(hh) <= 23 and 0 <= int(mm) <= 59:
-                    combinations.append("".join(curr[:]))
+                    current_time_str = hh + ":" + mm
+                    max_time = max(max_time, current_time_str)
+
+
             
             for i in range(len(arr)):
                 if i not in used_idx:
@@ -18,11 +22,6 @@ class Solution:
                     used_idx.remove(i)
                     
         
-        combinations = []
+        max_time = ""
         backtrack([], set())
-        if not combinations:
-            return ""
-        
-        combinations.sort(reverse=True)
-        hh,mm = combinations[0][:2], combinations[0][2:]
-        return hh + ":" + mm
+        return max_time
