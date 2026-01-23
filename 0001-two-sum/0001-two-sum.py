@@ -1,12 +1,12 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # return indices one pair and not the same index
+        # naive solution
+        # 2 loop
 
-        res = [0, 0]
-        hashmap = {}
-        for i, num in enumerate(nums):
-            if target - num in hashmap:
-                res = [hashmap[target-num], i]
-            else:
-                hashmap[num] = i
-        return res
+        n = len(nums)
+        for i in range(n-1):
+            for j in range(i+1, n):
+                if nums[i] + nums[j] == target:
+                    return [i,j]
+        
+        return [0, 1]
