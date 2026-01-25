@@ -11,7 +11,6 @@ class Solution:
         successor = None
 
         while root:
-            print(root.val)
             if p.val >= root.val:
                 root = root.right
             else:
