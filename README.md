@@ -747,6 +747,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1090-armstrong-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1090-armstrong-number) |
 | [1137-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-n-th-tribonacci-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1185-day-of-the-week](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1185-day-of-the-week) |
 | [1236-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1236-n-th-tribonacci-number) |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1237-find-positive-integer-solution-for-a-given-equation) |
 | [1266-minimum-time-visiting-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1266-minimum-time-visiting-all-points) |
