@@ -51,6 +51,19 @@ class Solution:
         4 2 4 2 3
 
         """
+        res = prices[:]
+        idx_stack = []
+        for i, p in enumerate(prices):
+            while idx_stack and p <= prices[idx_stack[-1]]:
+                res[idx_stack.pop()] -= p
+            idx_stack.append(i)
+        return res
+
+
+
+
+
+
         # monotonic stack
         res = prices[:]
         idx_stack = []
