@@ -53,11 +53,11 @@ class Solution:
         """
         # monotonic stack
         res = prices[:]
-        stack = []
+        idx_stack = []
         for i in range(len(prices)):
-            while stack and prices[stack[-1]] >= prices[i]:
-                res[stack.pop()] -= prices[i]
-            stack.append(i)
+            while idx_stack and prices[idx_stack[-1]] >= prices[i]:
+                res[idx_stack.pop()] -= prices[i]
+            idx_stack.append(i)
         return res
 
 
