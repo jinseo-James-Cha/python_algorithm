@@ -1,3 +1,4 @@
+from collections import deque
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
         # special discount
@@ -50,6 +51,19 @@ class Solution:
         4 2 4 2 3
 
         """
+        # monotonic stack
+        res = prices[:]
+        stack = []
+        for i in range(len(prices)):
+            while stack and prices[stack[-1]] >= prices[i]:
+                res[stack.pop()] -= prices[i]
+            stack.append(i)
+        return res
+
+
+
+
+        # brute force
         res = [-1] * len(prices)
         for i in range(len(prices)):
             flag = False
