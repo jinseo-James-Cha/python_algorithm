@@ -3,32 +3,31 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        red_idx = 0
-        blue_idx = len(nums)-1
+        colors = [0, 0, 0]
+        for num in nums:
+            colors[num] += 1
+
         curr_idx = 0
-        while curr_idx <= blue_idx:
-            if nums[curr_idx] == 0:
-                nums[red_idx], nums[curr_idx] = nums[curr_idx], nums[red_idx]
-                red_idx += 1
-                curr_idx += 1
-            elif nums[curr_idx] == 2:
-                nums[blue_idx], nums[curr_idx] = nums[curr_idx], nums[blue_idx]
-                blue_idx -= 1
-            else:
+        for color in range(3):
+            for _ in range(colors[color]):
+                nums[curr_idx] = color
                 curr_idx += 1
 
-        # red, white, blue = 0, 0, 0
-        # for num in nums:
-        #     if num == 0:
-        #         red += 1
-        #     elif num == 1:
-        #         white += 1
+        # red_idx = 0
+        # blue_idx = len(nums)-1
+        # curr_idx = 0
+        # while curr_idx <= blue_idx:
+        #     if nums[curr_idx] == 0:
+        #         nums[red_idx], nums[curr_idx] = nums[curr_idx], nums[red_idx]
+        #         red_idx += 1
+        #         curr_idx += 1
+        #     elif nums[curr_idx] == 2:
+        #         nums[blue_idx], nums[curr_idx] = nums[curr_idx], nums[blue_idx]
+        #         blue_idx -= 1
         #     else:
-        #         blue += 1
+        #         curr_idx += 1
+
         
-        # nums[0:red] = [0] * red
-        # nums[red:red+white] = [1] * white
-        # nums[red+white:] = [2] * blue
 
 
         # # counting sort
