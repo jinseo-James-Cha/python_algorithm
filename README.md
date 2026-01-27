@@ -469,6 +469,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0392-is-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
+| [0402-remove-k-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0402-remove-k-digits) |
 | [0408-valid-word-abbreviation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0408-valid-word-abbreviation) |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
@@ -555,6 +556,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0388-longest-absolute-file-path](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0388-longest-absolute-file-path) |
 | [0394-decode-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0402-remove-k-digits) |
 | [0445-add-two-numbers-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
@@ -1073,6 +1075,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0135-candy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0135-candy) |
 | [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
 | [0334-increasing-triplet-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0334-increasing-triplet-subsequence) |
+| [0402-remove-k-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -1647,6 +1650,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0042-trapping-rain-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0084-largest-rectangle-in-histogram) |
+| [0402-remove-k-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
