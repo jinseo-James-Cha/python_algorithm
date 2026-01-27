@@ -3,31 +3,29 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        colors = [0, 0, 0]
-        for num in nums:
-            colors[num] += 1
-
+        red_idx = 0
+        blue_idx = len(nums)-1
         curr_idx = 0
-        for color in range(3):
-            for _ in range(colors[color]):
-                nums[curr_idx] = color
+        while curr_idx <= blue_idx:
+            if nums[curr_idx] == 0:
+                nums[red_idx], nums[curr_idx] = nums[curr_idx], nums[red_idx]
+                red_idx += 1
+                curr_idx += 1
+            elif nums[curr_idx] == 2:
+                nums[blue_idx], nums[curr_idx] = nums[curr_idx], nums[blue_idx]
+                blue_idx -= 1
+            else:
                 curr_idx += 1
 
-        # red_idx = 0
-        # blue_idx = len(nums)-1
-        # curr_idx = 0
-        # while curr_idx <= blue_idx:
-        #     if nums[curr_idx] == 0:
-        #         nums[red_idx], nums[curr_idx] = nums[curr_idx], nums[red_idx]
-        #         red_idx += 1
-        #         curr_idx += 1
-        #     elif nums[curr_idx] == 2:
-        #         nums[blue_idx], nums[curr_idx] = nums[curr_idx], nums[blue_idx]
-        #         blue_idx -= 1
-        #     else:
-        #         curr_idx += 1
+        # colors = [0, 0, 0]
+        # for num in nums:
+        #     colors[num] += 1
 
-        
+        # curr_idx = 0
+        # for color in range(3):
+        #     for _ in range(colors[color]):
+        #         nums[curr_idx] = color
+        #         curr_idx += 1
 
 
         # # counting sort
