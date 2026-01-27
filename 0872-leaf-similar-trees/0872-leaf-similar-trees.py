@@ -6,6 +6,28 @@
 #         self.right = right
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
+         # inorder traversal for the both separately and check result1 == result2
+        
+        def dfs_inorder(node, leaves):
+            if not node:
+                return
+            
+            left = dfs_inorder(node.left, leaves)
+            right = dfs_inorder(node.right, leaves)
+            
+            if not left and not right:
+                leaves.append(node.val)
+                
+            return leaves
+        
+        root1_leaves = []
+        root2_leaves = []
+        dfs_inorder(root1, root1_leaves)
+        dfs_inorder(root2, root2_leaves)
+        
+        return root1_leaves == root2_leaves
+
+
         leaves1 = []
         leaves2 = []
 
