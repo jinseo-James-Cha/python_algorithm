@@ -12,14 +12,14 @@ class Solution:
             if not node:
                 return
             
-            left = dfs_inorder(node.left, leaves)
-            right = dfs_inorder(node.right, leaves)
-            
-            if not left and not right:
+            if not node.left and not node.right:
                 leaves.append(node.val)
-                
-            return leaves
-        
+
+            dfs_inorder(node.left, leaves)
+            dfs_inorder(node.right, leaves)
+            
+            
+                        
         root1_leaves = []
         root2_leaves = []
         dfs_inorder(root1, root1_leaves)
