@@ -12,9 +12,6 @@ class Solution:
         return "".join(final_stack).lstrip('0') or "0"
 
 
-
-
-
         # remove k digits from all num...
         # check all combinations?
         # backtrack.. -> Memory over flow..
