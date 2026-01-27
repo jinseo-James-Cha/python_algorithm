@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
-         # inorder traversal for the both separately and check result1 == result2
+         # postorder traversal for the both separately and check result1 == result2
         
         def dfs_inorder(node, leaves):
             if not node:
