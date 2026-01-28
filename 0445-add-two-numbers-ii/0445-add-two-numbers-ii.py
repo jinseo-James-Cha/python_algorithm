@@ -5,6 +5,44 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        def reverseLinkedList(root):
+            prev = None
+            curr = root
+            while curr:
+                temp = curr.next
+                curr.next = prev
+                prev = curr
+                curr = temp
+            
+            return prev
+        
+        reverse_l1 = reverseLinkedList(l1)
+        reverse_l2 = reverseLinkedList(l2)
+        carry = 0
+        head = ListNode()
+        dummy = head
+        while reverse_l1 or reverse_l2:
+            curr_l1_val, curr_l2_val = 0, 0
+            if reverse_l1:
+                curr_l1_val = reverse_l1.val
+                reverse_l1 = reverse_l1.next
+            
+            if reverse_l2:
+                curr_l2_val = reverse_l2.val
+                reverse_l2 = reverse_l2.next
+            
+            total = carry + curr_l1_val + curr_l2_val
+            node = ListNode(total % 10)
+            dummy.next = node
+            dummy = dummy.next
+            carry = total // 10
+        
+        if carry:
+            dummy.next = ListNode(carry)
+        
+        # return reverse back
+        return reverseLinkedList(head.next)
+
         # l1.var + l1.var + prev(0 default 1 from previous sums) % 10
         # go to the end of each list and save
         def reverse_linkedlist(root):
