@@ -1231,6 +1231,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0617-merge-two-binary-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0669-trim-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0669-trim-a-binary-search-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -1309,6 +1310,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0617-merge-two-binary-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0669-trim-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0669-trim-a-binary-search-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0694-number-of-distinct-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0694-number-of-distinct-islands) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
@@ -1447,6 +1449,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0617-merge-two-binary-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0669-trim-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0669-trim-a-binary-search-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -1483,6 +1486,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0501-find-mode-in-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0669-trim-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0669-trim-a-binary-search-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0783-search-in-a-binary-search-tree) |
