@@ -5,6 +5,36 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        # stack
+        s1, s2 = [], []
+        while l1:
+            s1.append(l1.val)
+            l1 = l1.next
+        
+        while l2:
+            s2.append(l2.val)
+            l2 = l2.next
+        
+        carry = 0
+        curr = ListNode()
+        while s1 or s2:
+            curr_s1, curr_s2 = 0, 0
+            if s1:
+                curr_s1 = s1.pop()
+            
+            if s2:
+                curr_s2 = s2.pop()
+            
+            total = carry + curr_s1 + curr_s2
+            curr.val = total % 10
+            carry = total // 10
+            next_node = ListNode(carry)
+            next_node.next = curr
+            curr = next_node
+        
+        return curr.next if carry == 0 else curr
+
+
         def reverseLinkedList(root):
             prev = None
             curr = root
@@ -13,7 +43,6 @@ class Solution:
                 curr.next = prev
                 prev = curr
                 curr = temp
-            
             return prev
         
         reverse_l1 = reverseLinkedList(l1)
