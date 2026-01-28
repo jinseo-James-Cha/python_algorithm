@@ -47,15 +47,15 @@ class Solution:
         deleting_ch = []
         for k, v in count.items():
             if v in num_occupied:
-                deleting_ch.append(k) # c
+                deleting_ch.append(k)
             else:
                 num_occupied.add(v)
 
         res = 0
         while deleting_ch:
-            curr = deleting_ch.pop() # c
-            curr_num = count[curr] # 2
-            while curr_num > 0 and curr_num in num_occupied: # 2 > 0 and 2 in num_occupied
+            curr = deleting_ch.pop()
+            curr_num = count[curr]
+            while curr_num > 0 and curr_num in num_occupied:
                 res += 1
                 curr_num -= 1
             
