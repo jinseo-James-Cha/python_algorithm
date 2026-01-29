@@ -1,6 +1,42 @@
 import heapq
+
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        # minimum number of conference room ..
+        # -> how many meetings are intersection
+        # -> sweep line algorithm
+
+
+        events = []
+        for start, end in intervals:
+            events.append((start, 1))
+            events.append((end, -1))
+        
+        events.sort()
+
+        max_room_used = 0
+        curr_room = 0
+        for time, score in events:
+            curr_room += score
+            max_room_used = max(max_room_used, curr_room)
+        return max_room_used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # priority queue
         intervals.sort(key=lambda x: x[0])
 
