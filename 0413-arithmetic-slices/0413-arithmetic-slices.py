@@ -28,7 +28,19 @@ class Solution:
          L
              R    R - L + R - L = 1-0 + 2-0 => 3
         """
-
+        
+        # dp
+        dp = [0] * len(nums)
+        res = 0
+        for i in range(2, len(nums)):
+            if nums[i] - nums[i-1] == nums[i-1] - nums[i-2]:
+                dp[i] = 1 + dp[i-1]
+                res += dp[i]
+        return res
+        
+        
+        
+        # sliding window
         if len(nums) <= 2:
             return 0
         
@@ -36,7 +48,6 @@ class Solution:
         for i in range(len(nums)-1):
             diff[i] = nums[i+1] - nums[i]
         
-        # sliding window
         arithmetic_count = 0
         left = 0
         for right in range(len(diff)):
