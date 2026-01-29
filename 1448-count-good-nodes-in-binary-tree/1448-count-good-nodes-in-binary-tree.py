@@ -7,6 +7,38 @@
 from collections import deque
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
+        # x node is good if in the path from root to x, there is no nodes with greater value
+
+        # root
+        # BFS -> and max renewal by level and +1
+        countGoodNodes = 0
+        queue = deque([(root, root.val)])
+        while queue: # (1, 3), (4, 3)
+            size = len(queue)
+            for _ in range(size):
+                curr_node, curr_max = queue.popleft()
+                if curr_node.val >= curr_max:
+                    countGoodNodes += 1
+                
+                if curr_node.left:
+                    queue.append((curr_node.left, max(curr_max, curr_node.val)))
+                
+                if curr_node.right:
+                    queue.append((curr_node.right, max(curr_max, curr_node.val)))
+        return countGoodNodes
+
+
+
+
+
+
+
+
+
+
+
+
+
         # good node == root -> x there are no nodes with a value greater than X
         #          3
         #       1      4
