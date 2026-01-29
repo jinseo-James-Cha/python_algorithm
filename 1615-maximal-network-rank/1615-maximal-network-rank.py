@@ -46,22 +46,25 @@ class Solution:
 
         2-5 : 3 + 2 => 5
         """
+        # how can I optimize this?
+        # like I need to sort them by descending order with len of loads
+        # dictionary can do?
 
-        adj_list = [[] for _ in range(n)]
-        adj = defaultdict(set)
+        degree = [0] * n
+        road_set = set()
         for a, b in roads:
-            adj_list[a].append(b)
-            adj_list[b].append(a)
-
-            adj[a].add(b)
-            adj[b].add(a)
+            degree[a] += 1
+            degree[b] += 1
+            road_set.add((a,b))
         
-        # greedy
+        # brute force 
+        # o(n^2)
         max_network_rank = 0
         for i in range(n-1):
             for j in range(i+1, n):
-                total = len(adj_list[i] + adj_list[j])
-                total -= 1 if i in adj[j] else 0
+                total = degree[i] + degree[j]
+                if (i, j) in road_set or (j, i) in road_set:
+                    total -= 1
                 max_network_rank = max(max_network_rank, total)
         return max_network_rank
 
