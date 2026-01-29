@@ -739,6 +739,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
 | [0445-add-two-numbers-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0445-add-two-numbers-ii) |
+| [0650-2-keys-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0650-2-keys-keyboard) |
 | [0788-rotated-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0788-rotated-digits) |
 | [0795-k-th-symbol-in-grammar](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0795-k-th-symbol-in-grammar) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
@@ -876,6 +877,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0518-coin-change-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0647-palindromic-substrings) |
+| [0650-2-keys-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0650-2-keys-keyboard) |
 | [0678-valid-parenthesis-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
