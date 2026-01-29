@@ -141,6 +141,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
+| [0413-arithmetic-slices](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0413-arithmetic-slices) |
 | [0414-third-maximum-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0414-third-maximum-number) |
 | [0417-pacific-atlantic-water-flow](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0417-pacific-atlantic-water-flow) |
 | [0422-valid-word-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0422-valid-word-square) |
@@ -867,6 +868,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0392-is-subsequence) |
+| [0413-arithmetic-slices](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
 | [0518-coin-change-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0583-delete-operation-for-two-strings) |
@@ -1537,6 +1539,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0076-minimum-window-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0219-contains-duplicate-ii) |
+| [0413-arithmetic-slices](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0413-arithmetic-slices) |
 | [0424-longest-repeating-character-replacement](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0594-longest-harmonious-subsequence) |
