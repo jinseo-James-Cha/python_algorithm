@@ -418,6 +418,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3803-count-residue-prefixes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3803-count-residue-prefixes) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## String
 |  |
@@ -542,6 +543,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3606-coupon-code-validator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3606-coupon-code-validator) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3803-count-residue-prefixes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3803-count-residue-prefixes) |
 ## Stack
 |  |
 | ------- |
