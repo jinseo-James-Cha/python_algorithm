@@ -1,3 +1,44 @@
+# Neccessary Hard Questions
+## 1. Dynamic Programming (Partitioning & Optimization)
+
+* **1335: Minimum Difficulty of a Job Schedule** (Hard)
+* **410: Split Array Largest Sum** (Hard) - Binary Search on Answer / DP
+* **1043: Partition Array for Maximum Sum** (Medium)
+* **322: Coin Change** (Medium) - Classic Knapsack variant
+* **1143: Longest Common Subsequence** (Medium) - String DP
+* **72: Edit Distance** (Hard) - String manipulation optimization
+
+## 2. Graph (Shortest Path & Connectivity)
+* **743: Network Delay Time** (Medium) - Standard Dijkstra 
+* **787: Cheapest Flights Within K Stops** (Medium) - Dijkstra with constraints
+* **207: Course Schedule** (Medium) - Cycle Detection / Topological Sort
+* **210: Course Schedule II** (Medium) - Topological Sort implementation
+* **547: Number of Provinces** (Medium) - Union-Find (Disjoint Set Union)
+* **200: Number of Islands** (Medium) - Fundamental BFS/DFS 
+
+## 3. Sliding Window & Monotonic Stack (Efficiency)
+
+* **3: Longest Substring Without Repeating Characters** (Medium)
+* **42: Trapping Rain Water** (Hard) - Two Pointers / Monotonic Stack
+* **84: Largest Rectangle in Histogram** (Hard) - Monotonic Stack logic
+* **239: Sliding Window Maximum** (Hard) - Monotonic Queue optimization
+* **76: Minimum Window Substring** (Hard)
+
+## 4. Tree & Recursion (Structural Logic)
+
+* **236: Lowest Common Ancestor of a Binary Tree** (Medium)
+* **297: Serialize and Deserialize Binary Tree** (Hard) - System design foundation
+* **102: Binary Tree Level Order Traversal** (Medium)
+* **124: Binary Tree Maximum Path Sum** (Hard)
+
+## 5. Advanced Data Structures (Trie & Heap)
+
+* **208: Implement Trie (Prefix Tree)** (Medium)
+* **212: Word Search II** (Hard) - Backtracking with Trie
+* **23: Merge k Sorted Lists** (Hard) - Priority Queue optimization
+* **295: Find Median from Data Stream** (Hard) - Two-Heap approach
+
+
 # Goal
 - Everyday 1 LC question
 
