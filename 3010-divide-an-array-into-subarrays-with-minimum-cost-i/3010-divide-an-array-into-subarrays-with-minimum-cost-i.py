@@ -23,6 +23,30 @@ class Solution:
         if n == 3:
             return sum(nums)
 
+        # set maximum value
+        a, b = 51, 51
+        # a <= b
+        for i in range(1, n):
+            if nums[i] < a:
+                b = a
+                a = nums[i]
+            elif nums[i] < b:
+                b = nums[i]
+            
+            # exit case
+            if a == 1 and b == 1:
+                break
+        return nums[0] + a + b
+
+
+
+
+        # Heapq
+        n = len(nums)
+        # edge cases..
+        if n == 3:
+            return sum(nums)
+
         res = nums[0]
         copied = nums[1:]
         heapq.heapify(copied)
