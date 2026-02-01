@@ -29,19 +29,4 @@ class Solution:
         for _ in range(2):
             res += heapq.heappop(copied)
         return res
-        
-        n = len(nums)
-        # edge cases..
-        if n == 3:
-            return sum(nums)
-
-        # the first element is always included
-        # find two minimum values.
-        res = nums[0]
-
-        copied_nums = nums[1:]
-        heapq.heapify(copied_nums)
-        res += copied_nums[0] + copied_nums[1]
-        return res
-
 
