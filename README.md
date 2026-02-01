@@ -286,6 +286,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2737-row-with-maximum-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2737-row-with-maximum-ones) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2875-count-houses-in-a-circular-street](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2875-count-houses-in-a-circular-street) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
@@ -971,6 +972,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2542-maximum-subsequence-score](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2542-maximum-subsequence-score) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3433-count-mentions-per-user](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3531-count-covered-buildings) |
@@ -1191,6 +1193,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2998-count-symmetric-integers) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Number Theory
 |  |
 | ------- |
