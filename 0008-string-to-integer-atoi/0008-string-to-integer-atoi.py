@@ -1,37 +1,40 @@
-# a 32-bit signed integer.
-# - +
-# skip front 0 
-# round 
-
-# s consists of English letters (lower-case and upper-case), 
-# digits (0-9), ' ', '+', '-', and '.'.
-
-
 class Solution:
     def myAtoi(self, s: str) -> int:
-        s = s.strip()  # Remove leading/trailing spaces
-        if not s:
+        INT_MAX = 2**31 - 1
+        INT_MIN = -2**31
+
+        # step 1
+        # remove whitespace
+        s = s.lstrip(" ")
+
+        if len(s) == 0:
             return 0
 
-        sign, i, res = 1, 0, 0
+        sign = 1
+        res = 0
+        for i, ch in enumerate(s):
+            # step 2
+            if ch == "+" or ch == "-":
+                if i != 0:
+                    break
+                
+                if ch == "-":
+                    sign = -1
+                continue
 
-        # Check for sign
-        if s[0] == '-':
-            sign = -1
-            i += 1
-        elif s[0] == '+':
-            i += 1
+            # step 3
+            if ch == "0":
+                if res == 0:
+                    continue
+            
+            if not ch.isnumeric():
+                break
 
-        while i < len(s) and s[i].isdigit():
-            res = res * 10 + int(s[i])
+            digit = int(ch)
+            # step 4
+            if (res > INT_MAX // 10) or (res == INT_MAX // 10 and digit > INT_MAX % 10):
+                return INT_MAX if sign == 1 else INT_MIN
 
-            # Handle overflow
-            if sign * res > 2**31 - 1:
-                return 2**31 - 1
-            if sign * res < -2**31:
-                return -2**31
-            i += 1
+            res = 10 * res + digit
 
         return sign * res
-
-        
