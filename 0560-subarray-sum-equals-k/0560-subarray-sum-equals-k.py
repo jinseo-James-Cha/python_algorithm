@@ -6,9 +6,6 @@ class Solution:
         prefix_sum_map = defaultdict(int)
         prefix_sum_map[0] = 1
         curr_prefix_sum = 0
-        # 1 1 1
-        # curr = 1 + 0
-        # 
         for num in nums:
             curr_prefix_sum += num
             
