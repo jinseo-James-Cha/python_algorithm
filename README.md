@@ -40,7 +40,7 @@
 
 
 # Goal
-- Everyday 1 LC question
+- Everyday minimum 1 LC question
 
 # Python
 - Daily algorithm!
