@@ -192,6 +192,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0463-island-perimeter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0485-max-consecutive-ones) |
+| [0495-teemo-attacking](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0495-teemo-attacking) |
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0518-coin-change-ii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0524-longest-word-in-dictionary-through-deleting) |
@@ -705,6 +706,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0289-game-of-life](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0289-game-of-life) |
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
+| [0495-teemo-attacking](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0495-teemo-attacking) |
 | [0735-asteroid-collision](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0735-asteroid-collision) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
