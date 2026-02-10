@@ -1,22 +1,43 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        # 1 2 3 4
-        # 1 = right 2 * 3 * 4
-        # 2 = left1 *  right3 * 4 
-        # 3 = left1*2 * right4
-        # 4 = left 1*2*3
+        """
+        1 2 3 4
 
-        # -> way
-        res = [1] * len(nums)
-        curr = nums[0]
-        for i in range(1, len(nums)):
-            res[i] = curr
-            curr *= nums[i]
+        1: 2 * 3 * 4 all from right
+        2: 1 * 3 * 4 1 left 2 right
+        3: 1 * 2 * 4 2 left 1 right
+        4: 1 * 2 * 3 all from left
 
-        curr = nums[-1]
-        for j in range(len(nums)-2,-1, -1): # 2
-            res[j] *= curr
-            curr *= nums[j]
+        -> 
+        prev = nums[0]
         
-        return res
+        """
+        # two pass o(n)
+        # product -> way and then <- way
+        
+        answer = [1] * len(nums)
+        
+        # ->
+        prev = nums[0]
+        for i in range(1, len(nums)):
+            answer[i] = prev
+            prev *= nums[i]
 
+        # <- 
+        prev = nums[-1]
+        for i in range(len(nums) - 2, -1, -1):
+            answer[i] *= prev
+            prev *= nums[i]
+        
+        return answer
+
+
+        # naive solution - brute force
+        # time complexity - O(n^2)
+        answer = [1] * len(nums)
+        for i in range(len(nums)):
+            for j in range(len(nums)):
+                if i != j:
+                    answer[i] *= nums[j]
+        
+        return answer
