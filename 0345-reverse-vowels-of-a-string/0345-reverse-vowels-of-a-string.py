@@ -1,5 +1,22 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
+        vowels = "aeiouAEIOU"
+        stack = []
+        
+        res = [None] * len(s)
+        
+        for i, ch in enumerate(s):
+            if ch in vowels:
+                stack.append(ch)
+            else:
+                res[i] = ch
+        
+        for i,a in enumerate(res):
+            if a == None:
+                res[i] = stack.pop()
+        
+        return "".join(res)
+
         vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
         stack_vowels = []
 
