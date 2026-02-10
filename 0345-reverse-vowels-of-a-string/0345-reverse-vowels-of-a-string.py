@@ -3,13 +3,13 @@ class Solution:
         left = 0
         right = len(s) - 1
         s_list = list(s)
-        vowels = "aeiouAEIOU"
+        vowels = set("aeiouAEIOU")
 
         while left < right:
-            while left < len(s) and s_list[left] not in vowels:
+            while left < right and s_list[left] not in vowels:
                 left += 1
             
-            while right >= 0 and s_list[right] not in vowels:
+            while left < right and s_list[right] not in vowels:
                 right -= 1
 
             if left < right:
