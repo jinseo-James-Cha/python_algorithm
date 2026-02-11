@@ -1,5 +1,21 @@
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        # priority queue
+        # 0 ------- 30 start 31 ..
+        # 
+        # 30
+        intervals.sort()
+
+        rooms = []
+        heapq.heappush(rooms, intervals[0][1]) # add first's end time
+        
+        for start, end in intervals[1:]:
+            if start >= rooms[0]:
+                heapq.heappop(rooms)
+            
+            heapq.heappush(rooms, end)
+        return len(rooms)
+
         # sweep line
         events = []
         for start, end in intervals:
