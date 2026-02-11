@@ -300,6 +300,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
+| [1854-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1854-maximum-population-year) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
@@ -749,6 +750,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1657-determine-if-two-strings-are-close](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1657-determine-if-two-strings-are-close) |
+| [1854-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1854-maximum-population-year) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
@@ -1678,6 +1680,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1094-car-pooling](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1094-car-pooling) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1732-find-the-highest-altitude](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1732-find-the-highest-altitude) |
+| [1854-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1854-maximum-population-year) |
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2483-minimum-penalty-for-a-shop) |
