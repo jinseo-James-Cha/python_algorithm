@@ -1,5 +1,25 @@
 class Solution:
     def minIncrementForUnique(self, nums: List[int]) -> int:
+        n = len(nums)
+        max_val = max(nums)
+        min_increments = 0
+
+        freq_count = [0] * (max_val + n)
+        for num in nums:
+            freq_count[num] += 1
+        
+        for i in range(len(freq_count)):
+            if freq_count[i] <= 1:
+                continue
+            
+            duplicates = freq_count[i] - 1
+            freq_count[i+1] += duplicates
+            freq_count[i] = 1
+            min_increments += duplicates
+        return min_increments
+
+
+
         # 1 2 2
         # 1 2 3 -> 1
 
