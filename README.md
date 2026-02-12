@@ -299,6 +299,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1822-sign-of-the-product-of-an-array) |
+| [1827-minimum-operations-to-make-the-array-increasing](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1827-minimum-operations-to-make-the-array-increasing) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [1854-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1854-maximum-population-year) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -1164,6 +1165,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1762-furthest-building-you-can-reach](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-furthest-building-you-can-reach) |
+| [1827-minimum-operations-to-make-the-array-increasing](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1827-minimum-operations-to-make-the-array-increasing) |
 | [1847-largest-subarray-length-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1847-largest-subarray-length-k) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
