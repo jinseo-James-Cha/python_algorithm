@@ -1,5 +1,38 @@
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
+        open_indices = []
+        good_indices = set()
+
+        for i, ch in enumerate(s):
+            if ch != "(" and ch != ")":
+                good_indices.add(i)
+            elif ch == "(":
+                open_indices.append(i)
+            else:
+                if not open_indices:
+                    continue
+                
+                good_indices.add(open_indices.pop())
+                good_indices.add(i)
+        
+        res = ""
+        for i, ch in enumerate(s):
+            if i in good_indices:
+                res += ch
+        return res
+
+
+
+
+
+
+
+
+
+
+
+
+
         open_parenthese = 0
         pairs = 0
         for ch in s:
