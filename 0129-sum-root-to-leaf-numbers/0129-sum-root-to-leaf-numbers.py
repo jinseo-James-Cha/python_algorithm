@@ -4,9 +4,28 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-    
+        # bfs
+        total_sum = 0
+        queue = deque([(root, 0)])
+        while queue:
+            curr, curr_sum = queue.popleft()
+            if curr.left:
+                queue.append((curr.left, curr_sum*10 + curr.val))
+            
+            if curr.right:
+                queue.append((curr.right, curr_sum*10 + curr.val))
+            
+            if not curr.left and not curr.right:
+                total_sum += (curr_sum*10) + curr.val
+        
+        return total_sum
+
+
+
+        # dfs
         def dfs(node, curr):
             if not node.left and not node.right:
                 total.append(curr+node.val)
