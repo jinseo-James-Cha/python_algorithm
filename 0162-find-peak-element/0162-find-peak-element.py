@@ -1,11 +1,27 @@
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
+    
+        # binary search
+        # log n
+        left = 0
+        right = len(nums) - 1
+        while left < right:
+            mid = (left + right) // 2
+            if nums[mid] < nums[mid+1]: # peak is in the right side
+                left = mid + 1
+            else:
+                right = mid
+        return left
+
+
+
         # goal: return index of peak element
         # peak element is i < i+1 > i+2 and i+1 is the peak
         # -> save index is hashmap who has greater than left one
         # <- check index in hashmap who has greater than right one
         # return an element in hashmap
-
+        # time = O of n
+        # space = O of n
         greater_indices = set([0])
         # ->
         for i in range(1, len(nums)):
