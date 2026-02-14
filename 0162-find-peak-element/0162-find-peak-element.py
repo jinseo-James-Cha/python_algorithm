@@ -1,5 +1,40 @@
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
+        # goal: return index of peak element
+        # peak element is i < i+1 > i+2 and i+1 is the peak
+        # -> save index is hashmap who has greater than left one
+        # <- check index in hashmap who has greater than right one
+        # return an element in hashmap
+
+        greater_indices = set([0])
+        # ->
+        for i in range(1, len(nums)):
+            if nums[i-1] < nums[i]:
+                greater_indices.add(i)
+
+        # <-
+        if len(nums)-1 in greater_indices:
+            return len(nums) - 1
+
+        for j in range(len(nums)-2, -1, -1):
+            if nums[j] <= nums[j+1] and j in greater_indices:
+                greater_indices.remove(j)
+        
+        return greater_indices.pop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         """
         log n solution
         binary search
