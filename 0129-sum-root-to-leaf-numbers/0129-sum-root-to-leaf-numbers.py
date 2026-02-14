@@ -6,6 +6,34 @@
 #         self.right = right
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
+    
+        def dfs(node, curr):
+            if not node.left and not node.right:
+                total.append(curr+node.val)
+                return
+            
+            if node.left:
+                dfs(node.left, (curr+node.val) * 10)
+            
+            if node.right:
+                dfs(node.right, (curr+node.val) * 10)
+	
+
+        total = []
+        dfs(root, 0)
+        return sum(total)
+
+
+
+
+
+
+
+
+
+
+
+
         # Morris preorder
         # root_to_leaf = curr_number = 0
 
