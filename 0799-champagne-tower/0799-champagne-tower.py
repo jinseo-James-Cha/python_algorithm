@@ -8,21 +8,21 @@ class Solution:
 
 
 
-        # 0
-        # 0 0
-        # 0 0 0 (2,1) -> (1,0) + (1,1) -> (r-1, c-1) + (r-1, c)
-        # 0 0 0 0
+        # 4
+        # 1.5 1.5
+        # 0.25 0.25+0.25 0.25 (2,1) -> (1,0) + (1,1) -> (r-1, c-1) + (r-1, c)
 
         # dp bottom up
-        dp = [[0.0] * (r+1) for r in range(query_row+2)]
+        dp = [[0.0] * (r + 1) for r in range(query_row + 1)]
         dp[0][0] = poured
 
-        for r in range(query_row + 1):
+        for r in range(query_row):
             for c in range(r + 1):
                 overflow = max(0.0, dp[r][c] - 1.0) / 2.0
                 if overflow > 0:
                     dp[r+1][c] += overflow
                     dp[r+1][c+1] += overflow
+        print(dp)
         
         return min(1.0, dp[query_row][query_glass])
 
