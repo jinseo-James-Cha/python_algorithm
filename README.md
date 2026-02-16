@@ -296,6 +296,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1732-find-the-highest-altitude](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1732-find-the-highest-altitude) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-furthest-building-you-can-reach) |
+| [1762-buildings-with-an-ocean-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-buildings-with-an-ocean-view) |
 | [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
@@ -638,6 +639,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1504-count-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1504-count-submatrices-with-all-ones) |
 | [1552-build-an-array-with-stack-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1552-build-an-array-with-stack-operations) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1762-buildings-with-an-ocean-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-buildings-with-an-ocean-view) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2211-count-collisions-on-a-road](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2211-count-collisions-on-a-road) |
@@ -1766,6 +1768,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1504-count-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1504-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1762-buildings-with-an-ocean-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-buildings-with-an-ocean-view) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Bucket Sort
 |  |
