@@ -1118,6 +1118,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0401-binary-watch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0401-binary-watch) |
 | [0461-hamming-distance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0461-hamming-distance) |
 | [0645-set-mismatch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0645-set-mismatch) |
+| [0693-binary-number-with-alternating-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0693-binary-number-with-alternating-bits) |
 | [0795-k-th-symbol-in-grammar](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0795-k-th-symbol-in-grammar) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [1318-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1318-minimum-flips-to-make-a-or-b-equal-to-c) |
