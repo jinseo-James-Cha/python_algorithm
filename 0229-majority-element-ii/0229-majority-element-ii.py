@@ -4,6 +4,9 @@ class Solution:
         # There can be at most one majority element which is more than ⌊n/2⌋ times.
         # There can be at most two majority elements which are more than ⌊n/3⌋ times.
         # There can be at most three majority elements which are more than ⌊n/4⌋ times.
+        # element1, count1
+        # element2, count2
+        # However it doesn't gaurantee it is the actual count of its element.
 
         if not nums:
             return []
