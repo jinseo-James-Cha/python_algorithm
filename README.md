@@ -217,6 +217,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0762-find-anagram-mappings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0762-find-anagram-mappings) |
 | [0777-toeplitz-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-toeplitz-matrix) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
+| [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
 | [0849-maximize-distance-to-closest-person](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0849-maximize-distance-to-closest-person) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0875-koko-eating-bananas](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0875-koko-eating-bananas) |
@@ -1226,6 +1227,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0463-island-perimeter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0463-island-perimeter) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
 | [0777-toeplitz-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-toeplitz-matrix) |
+| [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0945-snakes-and-ladders](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-snakes-and-ladders) |
@@ -1422,6 +1424,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
+| [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
 | [0841-keys-and-rooms](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0841-keys-and-rooms) |
 | [0872-leaf-similar-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0872-leaf-similar-trees) |
 | [0904-leaf-similar-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0904-leaf-similar-trees) |
@@ -1487,6 +1490,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0801-is-graph-bipartite](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0813-all-paths-from-source-to-target](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0813-all-paths-from-source-to-target) |
+| [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
 | [0841-keys-and-rooms](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0841-keys-and-rooms) |
 | [0945-snakes-and-ladders](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-snakes-and-ladders) |
 | [0994-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0994-rotting-oranges) |
@@ -1958,4 +1962,8 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1042-flower-planting-with-no-adjacent](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1615-maximal-network-rank](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1615-maximal-network-rank) |
+## Union-Find
+|  |
+| ------- |
+| [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
 <!---LeetCode Topics End-->
