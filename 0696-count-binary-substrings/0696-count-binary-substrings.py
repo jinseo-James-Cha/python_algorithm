@@ -2,6 +2,13 @@
 # and check min num of next each one.
 class Solution(object):
     def countBinarySubstrings(self, s):
+        # make the substring group and save the group
+        # and get min value for neighbor => answer
+        # 00 11 00 11
+        # [2, 2, 2, 2]
+        # index 0 and 1 => min(2, 2)
+        # means 00 11 group can make 2 => 00 11 and 0 1
+
         groups = [1]
         for i in range(1, len(s)):
             if s[i-1] != s[i]:
@@ -64,7 +71,6 @@ class Solution(object):
 # v2 can be answer but it has TLE
 # 1 <= s.length <= 10**5
 # should be less than n**2
-
 # class Solution:
 #     def countBinarySubstrings(self, s: str) -> int:
 #         count = 0
@@ -83,7 +89,7 @@ class Solution(object):
 #         return count
         
 
-# # this version something wrong.. keep getting wrong cases..
+# this version something wrong.. keep getting wrong cases..
 # class Solution:
 #     def countBinarySubstrings(self, s: str) -> int:
 #         # s has "0" or "1"
@@ -115,11 +121,10 @@ class Solution(object):
 #                     flag = False
 #                     temp += s[j]
 #             if not flag and len(temp) % 2 == 0:
-#                 # gotta check count("0") == count("1")
 #                 if temp.count("0") == temp.count("1"):
 #                     count += 1
 #                     result.append(temp)
-#         print(result)
+#         # print(result)
 #         return count
                     
 
