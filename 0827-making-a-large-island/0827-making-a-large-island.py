@@ -1,95 +1,79 @@
 class Solution:
     def largestIsland(self, grid: List[List[int]]) -> int:
-        # coloring !
+        """
+        Question:
+        - cell has 0 or 1
+        - in the matrix and there are islands which are 1 and all connected.
+        - return maximum size of island if I CHANGE a 0 to 1.
+
+        => get maximum size of islands that can connect by one 0 cell in between
+
+        Intuitive Solutions
+        1. coloring the cells by its label and check 0 cells if there is any neighbor islands
+        2. cell connections and size ? => Union-Find question
+
+
+        1 1 0
+        1 0 1
+        0 1 1
+
+        2 2 0
+        2 0 3
+        0 3 3
+
+        2: 3
+        3: 3
+        """
+
+        # I can color the island from 2 (0 and 1 are taken)
         n = len(grid)
-        
-        # 0,1은 사용중이라 2부터 시작
-        island_id = 2
-        area = {}
-        
-        def dfs(r, c):
-            if r < 0 or r >= n or c < 0 or c >= n or grid[r][c] != 1:
-                return 0
-            
-            grid[r][c] = island_id
-            size = 1
-            
-            for dr, dc in [(1,0),(-1,0),(0,1),(0,-1)]:
-                size += dfs(r+dr, c+dc)
-            
-            return size
-        
-        # 1️⃣ 각 섬 라벨링
-        for r in range(n):
-            for c in range(n):
-                if grid[r][c] == 1:
-                    area[island_id] = dfs(r, c)
+        island_id = 2 
+        id_size_hashmap = {}
+
+        def is_within_bounds(row, col):
+            return 0 <= row < len(grid) and 0 <= col < len(grid[0])
+
+        DIRS = [(1,0), (-1,0), (0,1), (0,-1)]
+        def dfs(row, col, island_id):
+            grid[row][col] = island_id
+
+            curr = 1
+            for dr, dc in DIRS:
+                next_row, next_col = row + dr, col + dc
+                if is_within_bounds(next_row, next_col) and grid[next_row][next_col] == 1:
+                    curr += dfs(next_row, next_col, island_id)
+            return curr
+
+
+        for row in range(n):
+            for col in range(n):
+                if grid[row][col] == 1:
+                    id_size_hashmap[island_id] = dfs(row, col, island_id)
                     island_id += 1
         
         res = 0
-        for size in area.values():
+        for size in id_size_hashmap.values():
             res = max(res, size)
-        
-        # 2️⃣ 0을 1로 바꿔보기
-        for r in range(n):
-            for c in range(n):
-                if grid[r][c] == 0:
-                    seen = set()
-                    new_size = 1
+
+        # now check only 0 can have 
+        for row in range(n):
+            for col in range(n):
+                if grid[row][col] == 0:
+                    # I found 0 and check its neighbor and if it is not the same neighbor, I can add the size of id
+                    added_id = set()
+                    # my size as default
+                    curr_size = 1
+
+                    for dr, dc in DIRS:
+                        next_r, next_c = row+dr, col+dc
+                        if is_within_bounds(next_r, next_c) and grid[next_r][next_c] > 1:
+                            neighbor_id = grid[next_r][next_c]
+                            if neighbor_id not in added_id:
+                                curr_size += id_size_hashmap[neighbor_id]
+                                added_id.add(neighbor_id)
                     
-                    for dr, dc in [(1,0),(-1,0),(0,1),(0,-1)]:
-                        nr, nc = r+dr, c+dc
-                        if 0 <= nr < n and 0 <= nc < n:
-                            id_ = grid[nr][nc]
-                            if id_ > 1 and id_ not in seen:
-                                new_size += area[id_]
-                                seen.add(id_)
-                    
-                    res = max(res, new_size)
-        
+                    res = max(res, curr_size)
         return res
 
 
-
-        """
-        10
-        01
-
-        wildcard used or not
-        if not used, I can change to 1 and wildcard used and keep checking other cells
-        if used and 0, stop the loop
-
-        dfs(row, col)
-        """
-        # def is_within_bounds(row, col):
-        #     return 0 <= row < len(grid) and 0 <= col < len(grid[0])
-
-        # DIRS = [(1,0), (-1,0), (0,1), (0,-1)]
-        # def dfs(row, col, wildcard, visited):
-        #     visited.add((row, col))
-
-        #     curr = 0
-        #     if grid[row][col] == 1:
-        #         curr = 1
-        #     elif wildcard:
-        #         curr = 1
-        #         wildcard = False
-
-        #     for dy, dx in DIRS:
-        #         next_row, next_col = row+dy, col+dx
-        #         if is_within_bounds(next_row, next_col) and (next_row, next_col) not in visited:
-        #             if grid[next_row][next_col]:
-        #                 curr += dfs(next_row, next_col, wildcard, visited)
-        #             elif wildcard:
-        #                 curr += dfs(next_row, next_col, wildcard, visited)
-            
-        #     return curr
-
-        # n = len(grid)
-        # res = 0
-        # for row in range(n):
-        #     for col in range(n):
-        #         if grid[row][col]:
-        #             total_size = dfs(row, col, True, set())
-        #             res = max(res, total_size)
-        # return res
+        
