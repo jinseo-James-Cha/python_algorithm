@@ -1,5 +1,75 @@
+class UnionFind:
+    def __init__(self, size):
+        self.parent = list(range(size))
+        self.rank = [1] * size
+    
+    def find(self, x):
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
+    
+    def union(self, x, y):
+        xset, yset = self.find(x), self.find(y)
+        if xset == yset:
+            return False
+        
+        if self.rank[xset] < self.rank[yset]:
+            self.parent[xset] = yset
+            self.rank[yset] += self.rank[xset]
+        else:
+            self.parent[yset] = xset
+            self.rank[xset] += self.rank[yset]
+        
+        return True
+
 class Solution:
     def largestIsland(self, grid: List[List[int]]) -> int:
+        n = len(grid)
+        uf = UnionFind(n*n)
+        DIRS = [(1,0), (-1,0), (0,1), (0,-1)]
+        
+        def is_within_bounds(row, col):
+            return 0 <= row < len(grid) and 0 <= col < len(grid[0])
+
+        for row in range(n):
+            for col in range(n):
+                if grid[row][col] == 1:
+                    # flatten 2D index to 1D
+                    curr = (n * row) + col
+                    
+                    for dr, dc in DIRS:
+                        next_r, next_c = row+dr, col+dc
+                        if is_within_bounds(next_r, next_c) and grid[next_r][next_c] == 1:
+                            neighbor = (n*next_r) + next_c
+                            uf.union(curr, neighbor)
+        
+        res = 0
+        has_zero = False
+
+        for row in range(n):
+            for col in range(n):
+                if grid[row][col] == 0:
+                    has_zero = True
+                    curr_size = 1
+                    unique_roots = set()
+                    
+                    for dr, dc in DIRS:
+                        next_r, next_c = row+dr, col+dc
+                        if is_within_bounds(next_r, next_c) and grid[next_r][next_c] == 1:
+                            neighbor = (n * next_r) + next_c
+                            root = uf.find(neighbor)
+                            unique_roots.add(root)
+                    
+                    for root in unique_roots:
+                        curr_size += uf.rank[root]
+                    
+                    res = max(res, curr_size)
+        
+        if not has_zero:
+            return n * n
+        return res
+
+
         """
         Question:
         - cell has 0 or 1
@@ -11,7 +81,6 @@ class Solution:
         Intuitive Solutions
         1. coloring the cells by its label and check 0 cells if there is any neighbor islands
         2. cell connections and size ? => Union-Find question
-
 
         1 1 0
         1 0 1
@@ -74,6 +143,3 @@ class Solution:
                     
                     res = max(res, curr_size)
         return res
-
-
-        
