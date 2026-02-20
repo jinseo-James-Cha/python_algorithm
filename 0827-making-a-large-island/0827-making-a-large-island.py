@@ -24,6 +24,11 @@ class UnionFind:
 
 class Solution:
     def largestIsland(self, grid: List[List[int]]) -> int:
+        # Key point
+        # Flatten
+        # 2D matrix -> 1D
+        # (num_Of_Col * curr_row) + curr_col
+
         n = len(grid)
         uf = UnionFind(n*n)
         DIRS = [(1,0), (-1,0), (0,1), (0,-1)]
