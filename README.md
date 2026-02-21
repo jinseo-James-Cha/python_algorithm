@@ -1681,6 +1681,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0184-department-highest-salary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0184-department-highest-salary) |
 | [0197-rising-temperature](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0197-rising-temperature) |
 | [0584-find-customer-referee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0584-find-customer-referee) |
+| [1193-monthly-transactions-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1193-monthly-transactions-i) |
 | [1258-article-views-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1258-article-views-i) |
 | [1908-recyclable-and-low-fat-products](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1908-recyclable-and-low-fat-products) |
 | [1974-find-customers-with-positive-revenue-this-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1974-find-customers-with-positive-revenue-this-year) |
