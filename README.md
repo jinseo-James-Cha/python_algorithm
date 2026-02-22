@@ -565,6 +565,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0981-delete-columns-to-make-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-delete-columns-to-make-sorted) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1021-remove-outermost-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1021-remove-outermost-parentheses) |
+| [1062-longest-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1062-longest-repeating-substring) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1075-index-pairs-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1075-index-pairs-of-a-string) |
 | [1079-letter-tile-possibilities](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1079-letter-tile-possibilities) |
@@ -968,6 +969,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1025-minimum-cost-for-tickets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-minimum-cost-for-tickets) |
 | [1025-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1025-divisor-game) |
 | [1043-partition-array-for-maximum-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1043-partition-array-for-maximum-sum) |
+| [1062-longest-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1062-longest-repeating-substring) |
 | [1086-divisor-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1086-divisor-game) |
 | [1137-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1143-longest-common-subsequence) |
@@ -1078,6 +1080,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0875-koko-eating-bananas](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0875-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
 | [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
+| [1062-longest-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1062-longest-repeating-substring) |
 | [1066-fixed-point](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1066-fixed-point) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
@@ -1765,6 +1768,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1062-longest-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1062-longest-repeating-substring) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
@@ -1772,6 +1776,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0572-subtree-of-another-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0694-number-of-distinct-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0694-number-of-distinct-islands) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1062-longest-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1062-longest-repeating-substring) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Monotonic Stack
 |  |
@@ -1973,4 +1978,8 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
+## Suffix Array
+|  |
+| ------- |
+| [1062-longest-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1062-longest-repeating-substring) |
 <!---LeetCode Topics End-->
