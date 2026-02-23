@@ -5,5 +5,5 @@
 SELECT e.name as Employee
   FROM Employee e
   JOIN Employee m ON e.ManagerId = m.id
-   AND e.salary > m.salary
+ WHERE e.salary > m.salary
 ;
