@@ -1,5 +1,61 @@
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        #  0 5 10 15 20 25 30
+        #A - -  -  -  -  -  -
+        #B   -  -
+        #C         - -
+
+        # check intervals by start order
+        
+        # case 1: non-overlapping
+        # if prev.end < curr.start
+        #   update prev = curr
+
+        # case 2: overlapping
+        # if prev.end >= curr.start
+        #   append curr
+
+        # every time get lengh of the queue
+        intervals.sort(key=lambda x:x[0])
+
+        pq = [intervals[0][1]] # 30 -> 10,30
+        max_len = 1
+
+        for i in range(1, len(intervals)):
+            curr_start, curr_end = intervals[i]
+            minimum_end = pq[0] # 10
+
+            if minimum_end > curr_start:
+                heapq.heappush(pq, curr_end)
+            else:
+                heapq.heappop(pq)
+                heapq.heappush(pq, curr_end)
+
+            max_len = max(max_len, len(pq))
+
+        return max_len
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # priority queue
         # 0 ------- 30 start 31 ..
         # 
