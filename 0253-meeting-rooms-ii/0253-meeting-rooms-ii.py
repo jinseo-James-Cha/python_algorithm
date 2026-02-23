@@ -21,40 +21,16 @@ class Solution:
         pq = [intervals[0][1]] # 30 -> 10,30
         max_len = 1
 
-        for i in range(1, len(intervals)):
-            curr_start, curr_end = intervals[i]
-            minimum_end = pq[0] # 10
+        for curr_start, curr_end in intervals[1:]:
+            minimum_end = pq[0]
 
-            if minimum_end > curr_start:
-                heapq.heappush(pq, curr_end)
-            else:
+            if minimum_end <= curr_start:
                 heapq.heappop(pq)
-                heapq.heappush(pq, curr_end)
-
+                
+            heapq.heappush(pq, curr_end)
             max_len = max(max_len, len(pq))
 
         return max_len
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         # priority queue
         # 0 ------- 30 start 31 ..
