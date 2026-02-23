@@ -1,5 +1,48 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        #  1 2 3 4 5 6 7 8 9 10
+        #A - - -
+        #B    - - - - -
+        #C               - - -
+
+        # to check intervals by start time.. 
+        # case 1:
+        # A.end < B.start -> Non-overlapping found
+        #  append B     
+
+        # case 2:
+        # A.end >= B.start -> overlapping
+        # update A.start, max(A.end, B.end)
+
+        intervals.sort(key=lambda x:x[0])
+        non_overlapping = [intervals[0]]
+        for i in range(1, len(intervals)):
+            prev = non_overlapping[-1]
+            curr = intervals[i]
+            if prev[1] < curr[0]:
+                non_overlapping.append(curr)
+            else:
+                non_overlapping[-1] = [prev[0], max(prev[1], curr[1])]
+        
+        return non_overlapping
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # intervals -> sweep line algorithm?
         events = []
         for start, end in intervals:
@@ -22,20 +65,6 @@ class Solution:
                 res.append(curr)
                 curr = [float('inf'), -float('inf')]
         return res
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         # intervals A and B will never overlap when A.end < B.start
 
