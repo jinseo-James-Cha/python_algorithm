@@ -18,7 +18,8 @@ class Solution:
         # every time get lengh of the queue
         intervals.sort(key=lambda x:x[0])
 
-        pq = [intervals[0][1]] # 30 -> 10,30
+        pq = []
+        heapq.heappush(pq, intervals[0][1])
         max_len = 1
 
         for curr_start, curr_end in intervals[1:]:
@@ -28,9 +29,7 @@ class Solution:
                 heapq.heappop(pq)
                 
             heapq.heappush(pq, curr_end)
-            max_len = max(max_len, len(pq))
-
-        return max_len
+        return len(pq)
 
         # priority queue
         # 0 ------- 30 start 31 ..
@@ -47,6 +46,7 @@ class Solution:
             
             heapq.heappush(rooms, end)
         return len(rooms)
+
 
         # sweep line
         events = []
