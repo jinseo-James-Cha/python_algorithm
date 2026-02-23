@@ -1,8 +1,9 @@
 # Write your MySQL query statement below
-SELECT a.NAME AS Employee
-  FROM Employee AS a 
-  JOIN Employee AS b ON (a.ManagerId = b.Id)
- WHERE a.Salary > b.Salary
-; 
+# self join
 
 
+SELECT e.name as Employee
+  FROM Employee e
+  JOIN Employee m ON e.ManagerId = m.id
+   AND e.salary > m.salary
+;
