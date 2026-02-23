@@ -7,12 +7,14 @@
 #- group by department
 #- max salary by department
 
-SELECT d.name as Department, e.name as Employee, e.salary as Salary
+SELECT d.name AS Department,
+       e.name AS Employee,
+       e.salary AS Salary
   FROM Employee e
-  JOIN Department d on(e.departmentId = d.id)
+  JOIN Department d ON e.departmentId = d.id
  WHERE (e.departmentId, e.salary) IN (
     SELECT m.departmentId, MAX(m.salary)
       FROM Employee m
      GROUP BY m.departmentID
-    )
+ )
 ;
