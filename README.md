@@ -1687,6 +1687,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0180-consecutive-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0180-consecutive-numbers) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0181-employees-earning-more-than-their-managers) |
 | [0184-department-highest-salary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0184-department-highest-salary) |
+| [0185-department-top-three-salaries](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0185-department-top-three-salaries) |
 | [0197-rising-temperature](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0197-rising-temperature) |
 | [0262-trips-and-users](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0262-trips-and-users) |
 | [0584-find-customer-referee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0584-find-customer-referee) |
