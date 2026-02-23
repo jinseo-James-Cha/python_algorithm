@@ -7,6 +7,37 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        # Lowest Common Ancester
+        # me? -> 1
+        # left? -> 1
+        # right? -> 1
+        # if 2 == this is the answer
+
+        # this is not Binary Search Tree, so I don't care the range.
+        def dfs(node, p, q):
+            nonlocal res
+            if not node:
+                return 0
+            
+            score = 0
+            if node == p or node == q:
+                score += 1
+            
+            if dfs(node.left, p, q):
+                score += 1
+            
+            if dfs(node.right, p, q):
+                score += 1
+            
+            if score == 2:
+                res = node
+            
+            return score
+        
+        res = None
+        dfs(root, p, q)
+        return res
+
         # LCA
         # between p and q as the lowest 
         # who is the common ancestor for the both p and q.
