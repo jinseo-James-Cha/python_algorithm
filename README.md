@@ -1401,6 +1401,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0310-minimum-height-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0332-reconstruct-itinerary) |
+| [0339-nested-list-weight-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0339-nested-list-weight-sum) |
 | [0388-longest-absolute-file-path](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0388-longest-absolute-file-path) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
@@ -1476,6 +1477,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0310-minimum-height-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0339-nested-list-weight-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0339-nested-list-weight-sum) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
 | [0417-pacific-atlantic-water-flow](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0417-pacific-atlantic-water-flow) |
