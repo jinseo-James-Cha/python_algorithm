@@ -17,7 +17,7 @@ class Solution:
         
         return pq[0]
 
-        # using bucket sort
+        # using counting sort
         min_val, max_val = min(nums), max(nums) # 1 , 6
         bucket = [0] * (max_val - min_val +1) # 6 - 1 + 1 => 6
 
