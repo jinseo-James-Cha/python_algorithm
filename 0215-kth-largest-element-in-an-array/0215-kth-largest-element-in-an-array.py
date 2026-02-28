@@ -1,17 +1,20 @@
 import heapq
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        # min heap
-        # insert in to heapq
-        # check size if > k and then we need to pop the minimum .
-        # return min heap's first one.
+        # brute force
+        # sort by descending and then nums[k-1]
+        # sort by ascending and then nums[-k]
 
+        # using min heap
+        # adding each element and then pop the minimum in the queue if len(queue) == k
+        # it contains k size elements and the first elements will be the answer
         pq = []
         for num in nums:
             heapq.heappush(pq, num)
 
             if len(pq) > k:
                 heapq.heappop(pq)
+        
         return pq[0]
 
 
@@ -31,6 +34,21 @@ class Solution:
 
 
 
+
+
+
+        # min heap
+        # insert in to heapq
+        # check size if > k and then we need to pop the minimum .
+        # return min heap's first one.
+
+        pq = []
+        for num in nums:
+            heapq.heappush(pq, num)
+
+            if len(pq) > k:
+                heapq.heappop(pq)
+        return pq[0]
 
         # counting sort
         min_val = min(nums)
