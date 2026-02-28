@@ -5,19 +5,32 @@ class Solution:
         # sort by descending and then nums[k-1]
         # sort by ascending and then nums[-k]
 
-        # using min heap
+        # using min heap 
+        # o(n log n)
         # adding each element and then pop the minimum in the queue if len(queue) == k
         # it contains k size elements and the first elements will be the answer
         pq = []
         for num in nums:
             heapq.heappush(pq, num)
-
             if len(pq) > k:
                 heapq.heappop(pq)
         
         return pq[0]
 
+        # using bucket sort
+        min_val, max_val = min(nums), max(nums) # 1 , 6
+        bucket = [0] * (max_val - min_val +1) # 6 - 1 + 1 => 6
 
+        for num in nums:
+            bucket[num-min_val] += 1
+        
+        for i in range(len(bucket)-1, -1, -1):
+            k -= bucket[i]
+
+            if k <= 0:
+                return i+min_val
+        
+        return -1
 
 
 
