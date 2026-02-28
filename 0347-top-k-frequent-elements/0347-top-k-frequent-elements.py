@@ -4,18 +4,18 @@ class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         # priority queue
         # O(n log n)
-        # counts = Counter(nums)
+        counts = Counter(nums)
 
-        # pq = []
-        # for num, freq in counts.items():
-        #     heapq.heappush(pq, (-freq, num))
+        pq = []
+        for num, freq in counts.items():
+            heapq.heappush(pq, (-freq, num))
         
-        # res = []
-        # for i in range(k):
-        #     freq, num = heapq.heappop(pq)
-        #     res.append(num)
+        res = []
+        for i in range(k):
+            freq, num = heapq.heappop(pq)
+            res.append(num)
         
-        # return res
+        return res
 
         # bucket sort
         # O(n)
