@@ -290,6 +290,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1504-count-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1504-count-submatrices-with-all-ones) |
 | [1524-string-matching-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1524-string-matching-in-an-array) |
 | [1552-build-an-array-with-stack-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1552-build-an-array-with-stack-operations) |
+| [1570-dot-product-of-two-sparse-vectors](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
@@ -447,6 +448,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1500-count-largest-group](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1500-count-largest-group) |
+| [1570-dot-product-of-two-sparse-vectors](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1657-determine-if-two-strings-are-close](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -706,6 +708,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1028-interval-list-intersections](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1028-interval-list-intersections) |
 | [1083-two-sum-less-than-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1083-two-sum-less-than-k) |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1237-find-positive-integer-solution-for-a-given-equation) |
+| [1570-dot-product-of-two-sparse-vectors](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1768-merge-strings-alternately](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1768-merge-strings-alternately) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -1634,6 +1637,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-number-of-recent-calls) |
+| [1570-dot-product-of-two-sparse-vectors](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [2336-smallest-number-in-infinite-set](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2336-smallest-number-in-infinite-set) |
 ## Randomized
 |  |
