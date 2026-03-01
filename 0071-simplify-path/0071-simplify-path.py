@@ -5,7 +5,6 @@ class Solution:
         # previous dir -> ..
         # //, /// -> /
 
-        rules = {'.', '..'}
         path_list = path.split('/')
         res_list = []
 
