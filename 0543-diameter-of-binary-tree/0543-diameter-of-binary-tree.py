@@ -9,22 +9,18 @@
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         # DFS
-        # left edge + right edge?
-        diameter = 0
-        def moveToNextDepth(node):
+       
+        def dfs(node):
             if not node:
                 return -1
             nonlocal diameter
 
-            # move till the leaf 
-            left_path = moveToNextDepth(node.left) 
-            right_path = moveToNextDepth(node.right)
-
-            # out and +2 
+            left_path = dfs(node.left) 
+            right_path = dfs(node.right)
             diameter = max(diameter, left_path + right_path + 2)
-            print(node.val, diameter)
 
             return max(left_path, right_path) + 1
 
-        moveToNextDepth(root)
+        diameter = 0
+        dfs(root)
         return diameter
