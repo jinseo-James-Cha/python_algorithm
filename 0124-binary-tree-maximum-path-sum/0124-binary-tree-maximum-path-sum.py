@@ -8,16 +8,16 @@ class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         maxPath = -float('inf')
 
-        def gainFromSubTree(node):
+        def dfs(node):
             nonlocal maxPath
             if not node:
                 return 0
             
-            gainFromLeft = max(gainFromSubTree(node.left), 0)
-            gainFromRight = max(gainFromSubTree(node.right), 0)
+            gainFromLeft = max(dfs(node.left), 0)
+            gainFromRight = max(dfs(node.right), 0)
 
             maxPath = max(maxPath, gainFromLeft + gainFromRight + node.val)
             return max(gainFromLeft + node.val, gainFromRight + node.val)
 
-        gainFromSubTree(root)
+        dfs(root)
         return maxPath
