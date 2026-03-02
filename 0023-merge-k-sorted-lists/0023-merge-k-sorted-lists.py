@@ -9,30 +9,31 @@ import heapq
 class HeapNode:
     def __init__(self, node):
         self.node = node
-
+    
     def __lt__(self, other):
-        # Define comparison based on ListNode's value
         return self.node.val < other.node.val
 
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        # using min heap -> heapq
         
-        # put all linked list in to heapq
-        heap = []
+        # take out minimum using min heap
+
+        pq = []
         for head in lists:
             if head:
-                heapq.heappush(heap, HeapNode(head))
+                heapq.heappush(pq, HeapNode(head))
         
-        res = ListNode(-1)
-        cur = res
-        while heap:
-            heap_node = heapq.heappop(heap)
+        res = ListNode()
+        dummy = res
+        while pq:
+            heap_node = heapq.heappop(pq)
+            
             smallest_node = heap_node.node
-            cur.next = smallest_node
-            cur = cur.next
+            dummy.next = smallest_node
+            dummy = dummy.next
 
             if smallest_node.next:
-                heapq.heappush(heap, HeapNode(smallest_node.next))
-
+                smallest_node = smallest_node.next
+                heapq.heappush(pq, HeapNode(smallest_node))
+        
         return res.next
