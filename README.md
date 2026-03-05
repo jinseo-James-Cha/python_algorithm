@@ -475,6 +475,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3606-coupon-code-validator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3606-coupon-code-validator) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3713-longest-balanced-substring-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3713-longest-balanced-substring-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3803-count-residue-prefixes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3803-count-residue-prefixes) |
@@ -608,6 +609,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
 | [3606-coupon-code-validator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3606-coupon-code-validator) |
+| [3713-longest-balanced-substring-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3713-longest-balanced-substring-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3803-count-residue-prefixes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3803-count-residue-prefixes) |
@@ -780,6 +782,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
 | [3583-count-special-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3583-count-special-triplets) |
+| [3713-longest-balanced-substring-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3713-longest-balanced-substring-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Math
 |  |
@@ -1292,6 +1295,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2998-count-symmetric-integers) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3713-longest-balanced-substring-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3713-longest-balanced-substring-i) |
 ## Number Theory
 |  |
 | ------- |
