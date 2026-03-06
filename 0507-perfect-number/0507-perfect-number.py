@@ -1,5 +1,8 @@
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
+        if num == 1:
+            return False
+
         i = 1
         total_sum = 0
         while i * i <= num:
