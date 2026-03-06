@@ -1,5 +1,6 @@
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
+        # Time complexity : O(Square Root num)
         if num == 1:
             return False
 
