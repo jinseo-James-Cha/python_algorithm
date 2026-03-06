@@ -823,6 +823,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
 | [0445-add-two-numbers-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0445-add-two-numbers-ii) |
+| [0507-perfect-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0507-perfect-number) |
 | [0650-2-keys-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0650-2-keys-keyboard) |
 | [0788-rotated-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0788-rotated-digits) |
 | [0795-k-th-symbol-in-grammar](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0795-k-th-symbol-in-grammar) |
