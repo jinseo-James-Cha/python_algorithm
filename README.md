@@ -173,6 +173,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0269-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0274-h-index) |
+| [0280-wiggle-sort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0280-wiggle-sort) |
 | [0283-move-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0283-move-zeroes) |
 | [0289-game-of-life](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0300-longest-increasing-subsequence) |
@@ -1031,6 +1032,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0274-h-index) |
+| [0280-wiggle-sort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0280-wiggle-sort) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
@@ -1195,6 +1197,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0135-candy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
+| [0280-wiggle-sort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0280-wiggle-sort) |
 | [0334-increasing-triplet-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0334-increasing-triplet-subsequence) |
 | [0402-remove-k-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0409-longest-palindrome) |
