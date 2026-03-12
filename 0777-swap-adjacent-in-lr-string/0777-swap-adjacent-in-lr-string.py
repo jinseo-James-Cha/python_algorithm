@@ -1,7 +1,14 @@
 class Solution:
     def canTransform(self, start: str, result: str) -> bool:
-        # XL -> LX
-        # RX -> XR
+        # XL -> LX  => L keeps moving to left side in result
+        # RX -> XR => R keeps moving to right side in result
+
+        # two pointer
+        # find index where it is not X
+        # 1. return False if not the same
+        # 2. return False if L is right side in result
+        # 3. return False if R is left side in result
+
         if start.count('X') != result.count('X'):
             return False
 
