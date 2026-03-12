@@ -571,6 +571,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
 | [0696-count-binary-substrings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0696-count-binary-substrings) |
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
+| [0777-swap-adjacent-in-lr-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-swap-adjacent-in-lr-string) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
 | [0851-goat-latin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0851-goat-latin) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
@@ -717,6 +718,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0680-valid-palindrome-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0696-count-binary-substrings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0696-count-binary-substrings) |
+| [0777-swap-adjacent-in-lr-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-swap-adjacent-in-lr-string) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0908-middle-of-the-linked-list) |
