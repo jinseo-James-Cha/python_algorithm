@@ -14,10 +14,6 @@ class Solution:
 
         for i in range(1, len(intervals)):
             curr = intervals[i]
-            # if pq[0] > curr[0]:
-            #     heapq.heappush(pq, curr[1])
-            #     minimum_room = max(minimum_room, len(pq))
-            # else:
             while pq and curr[0] >= pq[0]:
                 heapq.heappop(pq)
             heapq.heappush(pq, curr[1])
