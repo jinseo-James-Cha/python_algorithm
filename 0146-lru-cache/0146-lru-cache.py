@@ -1,8 +1,18 @@
 """
 Least Recently Used Cache => get or put is also considered as Used => place at the end.
 
-get(), put() => time complexity O(1) => hashmap
-insert and delete O(1) -> linked list -> both ways -> doubly linked list
+- Store key-value pair
+- Update key-value pair
+
+Get
+- Given a key, if exists, return the value. If it doesn't, return -1.
+- When an existing key is fetched, remove from the list and then Move it to the back.
+
+Put
+- If key is already exists, remove from the list and cache
+- When a new key-value pair is added, create a new linked list node and put it at the back.
+- When a new key-value pair is added and the size of the data structure exceeds capacity, remove the linked list node at the front.
+
 """
 
 class DoublyLinkedList:
@@ -22,8 +32,6 @@ class LRUCache:
 
         self.head.next = self.tail
         self.tail.prev = self.head
-
-        
 
     def get(self, key: int) -> int:
         if key not in self.cache:
