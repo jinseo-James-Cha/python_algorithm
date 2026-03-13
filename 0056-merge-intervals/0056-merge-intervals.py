@@ -10,10 +10,9 @@ class Solution:
         merged = [intervals[0]]
 
         for i in range(1, len(intervals)):
-            prev = merged[-1] # 1,3
-            curr = intervals[i] # 2 6
+            prev = merged[-1]
+            curr = intervals[i]
 
-            # overlapped
             if prev[1] >= curr[0]:
                 merged[-1] = [prev[0], max(prev[1], curr[1])]
             else:
