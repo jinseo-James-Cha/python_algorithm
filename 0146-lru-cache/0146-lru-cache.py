@@ -53,6 +53,7 @@ class LRUCache:
         self.cache[key] = new_node
         self.add(new_node)
 
+        # check capacity and remove first one if more than capacity
         if len(self.cache) > self.capacity:
             first_node = self.head.next
             self.remove(first_node)
