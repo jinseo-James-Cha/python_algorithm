@@ -1,50 +1,63 @@
-class DoublyListNode:
+"""
+Least Recently Used Cache => get or put is also considered as Used => place at the end.
+
+get(), put() => time complexity O(1) => hashmap
+insert and delete O(1) -> linked list -> both ways -> doubly linked list
+"""
+
+class DoublyLinkedList:
     def __init__(self, key, val):
         self.key = key
         self.val = val
-        self.prev = None
         self.next = None
+        self.prev = None
 
 class LRUCache:
 
     def __init__(self, capacity: int):
         self.capacity = capacity
-        self.dic = {}
-        self.head = DoublyListNode(-1, -1)
-        self.tail = DoublyListNode(-1, -1)
+        self.cache = {}
+        self.head = DoublyLinkedList(-1,-1)
+        self.tail = DoublyLinkedList(-1,-1)
+
         self.head.next = self.tail
         self.tail.prev = self.head
 
+        
+
     def get(self, key: int) -> int:
-        if key not in self.dic:
+        if key not in self.cache:
             return -1
         
-        node = self.dic[key]
-        self.remove(node)
-        self.add(node)
-        return node.val
+        curr = self.cache[key]
+        self.remove(curr)
+        self.add(curr)
+        return curr.val
         
     def put(self, key: int, value: int) -> None:
-        if key in self.dic:
-            old_node = self.dic[key]
+        # check key and remove old if exists
+        if key in self.cache:
+            old_node = self.cache[key]
             self.remove(old_node)
         
-        new_node = DoublyListNode(key, value)
-        self.dic[key] = new_node
+        # create new node and add in the tail
+        new_node = DoublyLinkedList(key, value)
+        self.cache[key] = new_node
         self.add(new_node)
 
-        if len(self.dic) > self.capacity:
-            node_to_delete = self.head.next
-            self.remove(node_to_delete)
-            del self.dic[node_to_delete.key]
-        
+        if len(self.cache) > self.capacity:
+            first_node = self.head.next
+            self.remove(first_node)
+            del self.cache[first_node.key]
+    
     def add(self, node):
-        prev_end = self.tail.prev
-        prev_end.next = node
+        prev_tail = self.tail.prev
+        
+        prev_tail.next = node
+        node.prev = prev_tail
 
-        node.prev = prev_end
-        node.next = self.tail
         self.tail.prev = node
+        node.next = self.tail
     
     def remove(self, node):
         node.prev.next = node.next
