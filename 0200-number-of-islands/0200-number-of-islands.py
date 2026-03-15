@@ -1,5 +1,33 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
+        def is_within_bounds(row, col):
+            return 0 <= row < len(grid) and 0 <= col < len(grid[0])
+
+        DIRS = [(1,0), (-1,0), (0,1), (0,-1)]
+        def dfs(row, col, i_id):
+            grid[row][col] = str(i_id)
+
+            for dr, dc in DIRS:
+                next_row, next_col = row + dr, col + dc
+                if is_within_bounds(next_row, next_col) and grid[next_row][next_col] == "1":
+                    dfs(next_row, next_col, i_id)
+
+
+        m, n = len(grid), len(grid[0])
+        island_id = 2
+        for row in range(m):
+            for col in range(n):
+                if grid[row][col] == "1":
+                    dfs(row, col, island_id)
+                    island_id += 1
+        return island_id - 2
+
+
+
+
+
+
+
         # '1' => land or '0' => water
         # return number of islands
         
@@ -32,22 +60,6 @@ class Solution:
                     island_id += 1
 
         return island_id - 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         # char '1' or '0' -> '0' if visited
         m, n = len(grid), len(grid[0])
