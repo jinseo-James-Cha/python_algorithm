@@ -7,60 +7,24 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        # iterative version
-        # save parent[child] = parent
-        # save ancestor of all p
-        # loop until q not in ancestor
-        parent = {root: None}
-        stack = [root]
-        while p not in parent or q not in parent:
-            curr = stack.pop()
-            if curr.left:
-                parent[curr.left] = curr
-                stack.append(curr.left)
-            
-            if curr.right:
-                parent[curr.right] = curr
-                stack.append(curr.right)
-        
-        ancestors = set()
-        while p:
-            ancestors.add(p)
-            p = parent[p]
-        
-        while q not in ancestors:
-            q = parent[q]
-        
-        return q
+        # bfs
 
-        """
-        left true
-        right true 
-        i am the LCA
+        # dfs
+        # score
 
-        """
-        def dfs(node, p, q):
-            nonlocal res
+        def dfs(node):
+            nonlocal lca
             if not node:
                 return 0
             
-            score = 0
-            if node == p or node == q:
-                score += 1
+            left = dfs(node.left)
+            right = dfs(node.right)
+            myself = 1 if node == p or node == q else 0
+            if left + right + myself >= 2:
+                lca = node
             
-            if dfs(node.left, p, q):
-                score += 1
-            
-            if dfs(node.right, p, q):
-                score += 1
-
-            if score == 2:
-                res = node
-            
-            return score
+            return left or right or myself
         
-        res = None
-        dfs(root, p, q)
-        return res
-
-
+        lca = None
+        dfs(root)
+        return lca
