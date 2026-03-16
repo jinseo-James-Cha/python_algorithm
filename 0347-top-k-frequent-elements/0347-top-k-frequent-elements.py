@@ -1,6 +1,8 @@
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        # bucket sort
+        # O(n)
         frequency = {}
         for num in nums:
             frequency[num] = frequency.get(num, 0) + 1
