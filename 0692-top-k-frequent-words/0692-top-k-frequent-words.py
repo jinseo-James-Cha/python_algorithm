@@ -2,7 +2,7 @@ from collections import defaultdict
 import heapq
 class Solution:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
-        # min heap version 2
+        # max heap version 2
         frequency = {}
         for word in words:
             frequency[word] = frequency.get(word, 0) + 1
@@ -18,7 +18,7 @@ class Solution:
 
         
 
-        # min heap version 1
+        # min heap & bucket sort
         # get frequence by word
         frequency = {}
         for word in words:
