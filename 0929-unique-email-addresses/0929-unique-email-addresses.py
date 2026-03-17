@@ -4,6 +4,25 @@
 
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
+        forward_emails = set()
+        
+        def getForwardLocalName(local_name):
+            if "+" in local_name:
+                local_name = local_name[:local_name.index("+")]
+            
+            return local_name.replace(".", "")
+        
+        for email in emails:
+            separated_email = email.split("@")
+            local_name = separated_email[0]
+            domain_name = separated_email[1]
+            
+            forward_local_name = getForwardLocalName(local_name)
+            forward_emails.add(forward_local_name+"@"+domain_name)
+        
+        return len(forward_emails)
+
+
         def getForwardEmail(email):
             email_list = email.split('@')
             local_name, domain_name = email_list[0], email_list[1]
