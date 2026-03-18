@@ -8,7 +8,7 @@ class Solution:
         res = []
         for num in reversed(digits):
             res.append((num + carry) % 10)
-            carry = int((num + carry) // 10) 
+            carry = (num + carry) // 10 
         
         if carry:
             res.append(1)
