@@ -230,6 +230,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0778-swim-in-rising-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
+| [0833-find-and-replace-in-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0833-find-and-replace-in-string) |
 | [0849-maximize-distance-to-closest-person](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0849-maximize-distance-to-closest-person) |
 | [0861-flipping-an-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0861-flipping-an-image) |
 | [0875-koko-eating-bananas](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0875-koko-eating-bananas) |
@@ -438,6 +439,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0740-delete-and-earn](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0740-delete-and-earn) |
 | [0762-find-anagram-mappings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0762-find-anagram-mappings) |
+| [0833-find-and-replace-in-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0833-find-and-replace-in-string) |
 | [0904-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0904-fruit-into-baskets) |
 | [0929-unique-email-addresses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0929-unique-email-addresses) |
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
@@ -574,6 +576,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0734-sentence-similarity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0734-sentence-similarity) |
 | [0777-swap-adjacent-in-lr-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0777-swap-adjacent-in-lr-string) |
 | [0818-similar-rgb-color](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0818-similar-rgb-color) |
+| [0833-find-and-replace-in-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0833-find-and-replace-in-string) |
 | [0851-goat-latin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0851-goat-latin) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -1056,6 +1059,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0594-longest-harmonious-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0594-longest-harmonious-subsequence) |
 | [0645-set-mismatch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0645-set-mismatch) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
+| [0833-find-and-replace-in-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0833-find-and-replace-in-string) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0948-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1014-k-closest-points-to-origin) |
