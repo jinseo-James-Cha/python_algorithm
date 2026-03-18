@@ -7,7 +7,7 @@ class Solution:
         carry = 1
         res = []
         for num in reversed(digits):
-            res.append((num + carry) % 10) # res[0, ]
+            res.append((num + carry) % 10)
             carry = int((num + carry) // 10) 
         
         if carry:
@@ -15,3 +15,22 @@ class Solution:
 
         res.reverse()
         return res
+
+        """
+        brute force
+        join them and convet to int and +1
+        """
+        
+        total_int = 0
+        for i in range(len(digits)):
+            total_int = total_int*10 + digits[i]
+            
+        total_int += 1
+        
+        res = []
+        while total_int > 0: # 1 2 4
+            res.append(total_int % 10) # 4 2 1
+            total_int //= 10 # 12  1 0
+            
+        return res[::-1]
+        
