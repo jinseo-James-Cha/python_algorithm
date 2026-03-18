@@ -1,5 +1,29 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        """
+        1 2 3 4 5 6 7 8 9 10
+        - - -
+          - - - - -
+                      - - -
+        sort
+        check overlapping
+        [1,3]
+        if prev_end >= next's start 2 => overlapping -> until max of their end
+        """
+        intervals.sort()
+        overlapping = [intervals[0]]
+        
+        for i in range(1, len(intervals)):
+            prev_start, prev_end = overlapping[-1]
+            curr_start, curr_end = intervals[i]
+            
+            if prev_end >= curr_start:
+                overlapping[-1] = [prev_start, max(prev_end, curr_end)]
+            else:
+                overlapping.append([curr_start, curr_end])
+        
+        return overlapping
+
         # v2 sweep line
         # o(n log n)
         events = []
