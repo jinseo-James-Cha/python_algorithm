@@ -20,9 +20,6 @@ class Solution:
         while left <= right:
             length = (left + right) // 2
 
-            if length < max_len:
-                break
-
             seen = set()
             updated = False
             for i in range(len(s) - length + 1): # 6 - 3 + 1
