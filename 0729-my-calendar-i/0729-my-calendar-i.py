@@ -5,18 +5,16 @@ class MyCalendar:
        -  -  -
           -  -  -
              -  -
-    (10, 20) (15 25) x, (5 15) x
-    (20, 2)
-
+    (10, 20) (15 25)
+      s   e  
     """
-
     def __init__(self):
         self.bookings = []
         
 
     def book(self, startTime: int, endTime: int) -> bool:
         for s, e in self.bookings:
-            if s < endTime and startTime < e:
+            if not (endTime <= s or startTime >= e):
                 return False
         self.bookings.append((startTime, endTime))
         return True
