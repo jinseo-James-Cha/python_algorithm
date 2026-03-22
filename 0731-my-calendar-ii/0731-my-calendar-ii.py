@@ -6,38 +6,36 @@ class MyCalendarTwo:
         self.timeline = {}
 
     def book(self, startTime: int, endTime: int) -> bool:
-        self.timeline[start] = self.timeline.get(start, 0) + 1
-        self.timeline[end] = self.timeline.get(end, 0) - 1
-
-        self.timeline.sort()
+        self.timeline[startTime] = self.timeline.get(startTime, 0) + 1
+        self.timeline[endTime] = self.timeline.get(endTime, 0) - 1
 
         curr = 0
-        for time in self.timeline:
+        for time in sorted(self.timeline):
             curr += self.timeline[time]
             if curr >= 3:
-                self.timeline[start] -= 1
-                self.timeline[end] += 1
+                self.timeline[startTime] -= 1
+                self.timeline[endTime] += 1
                 return False
 
         return True
 
 
     # O(N^2)
-    def __init__(self):
-        self.bookings = []
-        self.double_bookings = []
+    # def __init__(self):
+    #     self.bookings = []
+    #     self.double_bookings = []
 
-    def book(self, startTime: int, endTime: int) -> bool:
-        for ds, de in self.double_bookings:
-            if ds < endTime and startTime < de:
-                return False
+    # def book(self, startTime: int, endTime: int) -> bool:
+    #     for ds, de in self.double_bookings:
+    #         if ds < endTime and startTime < de:
+    #             return False
             
-        for s, e in self.bookings:
-            if s < endTime and startTime < e:
-                self.double_bookings.append((max(s, startTime), min(e, endTime)))
+    #     for s, e in self.bookings:
+    #         if s < endTime and startTime < e:
+    #             self.double_bookings.append((max(s, startTime), min(e, endTime)))
 
-        self.bookings.append((startTime, endTime))
-        return True
+    #     self.bookings.append((startTime, endTime))
+    #     return True
 
         
     # O(N^2)
