@@ -334,6 +334,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2058-concatenation-of-array) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-find-the-difference-of-two-arrays) |
@@ -472,6 +473,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-find-the-difference-of-two-arrays) |
@@ -617,6 +619,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2211-count-collisions-on-a-road](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2211-count-collisions-on-a-road) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -2035,6 +2038,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0310-minimum-height-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0310-minimum-height-trees) |
 | [0511-all-paths-from-source-lead-to-destination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0511-all-paths-from-source-lead-to-destination) |
 | [1101-parallel-courses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1101-parallel-courses) |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -2058,6 +2062,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1042-flower-planting-with-no-adjacent](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1615-maximal-network-rank](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1615-maximal-network-rank) |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Union-Find
 |  |
 | ------- |
