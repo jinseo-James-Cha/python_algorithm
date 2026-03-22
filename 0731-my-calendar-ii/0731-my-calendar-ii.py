@@ -10,7 +10,7 @@ class MyCalendarTwo:
         self.timeline[endTime] = self.timeline.get(endTime, 0) - 1
 
         curr = 0
-        for time in sorted(self.timeline):
+        for time in sorted(self.timeline.keys()):
             curr += self.timeline[time]
             if curr >= 3:
                 self.timeline[startTime] -= 1
