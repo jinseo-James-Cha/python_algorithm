@@ -1,17 +1,23 @@
+from bisect import bisect_left
 class MyCalendar:
-    """
-    10 15 20 25 30
-    -  -  -
-       -  -  -
-          -  -  -
-             -  -
-    (10, 20) (15 25)
-      s   e  
-    """
     def __init__(self):
         self.bookings = []
         
+    # O(N log N)
+    def book(self, startTime: int, endTime: int) -> bool:
+        idx = bisect_left((startTime, endTime))
 
+        if i > 0 and self.bookings[i - 1][1] > startTime:
+            return False
+
+        if i < len(self.bookings) and self.bookings[i][0] < endTime:
+            return False
+        
+        self.bookings.insert(i, (startTime, endTime))
+        return True
+
+
+    # O(N^2)
     def book(self, startTime: int, endTime: int) -> bool:
         for s, e in self.bookings:
             if not (endTime <= s or startTime >= e):
