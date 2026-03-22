@@ -1,23 +1,42 @@
+from sortedcontainers import SortedDict
+
 class MyCalendarTwo:
-    # sweep line
-    # O(N log N)
-
+    # SortedDict, sweep line
+    # O(log N)
     def __init__(self):
-        self.timeline = {}
+        self.timeline = SortedDict()
 
-    def book(self, startTime: int, endTime: int) -> bool:
-        self.timeline[startTime] = self.timeline.get(startTime, 0) + 1
-        self.timeline[endTime] = self.timeline.get(endTime, 0) - 1
+    def book(self, start, end):
+        self.timeline[start] = self.timeline.get(start, 0) + 1
+        self.timeline[end] = self.timeline.get(end, 0) - 1
 
         curr = 0
-        for time in sorted(self.timeline.keys()):
+        for time in self.timeline:
             curr += self.timeline[time]
             if curr >= 3:
-                self.timeline[startTime] -= 1
-                self.timeline[endTime] += 1
+                self.timeline[start] -= 1
+                self.timeline[end] += 1
                 return False
-
         return True
+    
+    # sweep line
+    # O(N log N)
+    # def __init__(self):
+    #     self.timeline = {}
+
+    # def book(self, startTime: int, endTime: int) -> bool:
+    #     self.timeline[startTime] = self.timeline.get(startTime, 0) + 1
+    #     self.timeline[endTime] = self.timeline.get(endTime, 0) - 1
+
+    #     curr = 0
+    #     for time in sorted(self.timeline.keys()):
+    #         curr += self.timeline[time]
+    #         if curr >= 3:
+    #             self.timeline[startTime] -= 1
+    #             self.timeline[endTime] += 1
+    #             return False
+
+    #     return True
 
 
     # O(N^2)
