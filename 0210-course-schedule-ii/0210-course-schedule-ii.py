@@ -1,31 +1,43 @@
 from collections import defaultdict, deque
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        # directed acyclic graph -> kahn's algorithm with topological sort
-        # visit node that having no directed edge and visit its neighbor and minus 1
-        # if it is indegree 0, then insert into the queue
+        """
+        b take first and then can a
 
-        hashmap = defaultdict(list)
-        indegree = defaultdict(int)
-        for dest, src in prerequisites:
-            hashmap[src].append(dest)
-            indegree[dest] += 1
+        [1,0],[2,0],[3,1],[3,2]]
+
+        0 -> 1, 2
+        1 -> 3
+        2 -> 3
+        3
         
-        # initialize with root node
+        0, 1, 2, 3
+        or 0, 2, 1, 3
+
+        directed acyclic graph
+        -> kahn's algorithm with topological sort
+        tracking indegree and 0 and then can take the course
+        """
+        graph = defaultdict(list)
+        indegree = [0] * numCourses
+        for a, b in prerequisites:
+            graph[b].append(a)
+            indegree[a] += 1
+
+        # initiate with indegree 0
         queue = deque()
         for course in range(numCourses):
             if indegree[course] == 0:
                 queue.append(course)
 
-        # loop
-        tookCourses = []
+        res = []
         while queue:
-            currCourse = queue.popleft()
-            tookCourses.append(currCourse)
+            curr_course = queue.popleft()
+            res.append(curr_course)
 
-            for neighbor in hashmap[currCourse]:
-                indegree[neighbor] -= 1
-                if indegree[neighbor] == 0:
-                    queue.append(neighbor)
+            for next_course in graph[curr_course]:
+                indegree[next_course] -= 1
+                if indegree[next_course] == 0:
+                    queue.append(next_course)
         
-        return tookCourses if len(tookCourses) == numCourses else []
+        return res if len(res) == numCourses else []
