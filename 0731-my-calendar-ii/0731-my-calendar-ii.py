@@ -1,5 +1,6 @@
 class MyCalendarTwo:
     # sweep line
+    # O(N log N)
 
     def __init__(self):
         self.timeline = {}
@@ -19,8 +20,6 @@ class MyCalendarTwo:
                 return False
 
         return True
-
-
 
 
     # O(N^2)
