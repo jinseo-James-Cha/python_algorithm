@@ -5,7 +5,7 @@ class MyCalendar:
         
     # O(N log N)
     def book(self, startTime: int, endTime: int) -> bool:
-        idx = bisect_left((startTime, endTime))
+        i = bisect_left(self.bookings, (startTime, endTime))
 
         if i > 0 and self.bookings[i - 1][1] > startTime:
             return False
@@ -18,12 +18,12 @@ class MyCalendar:
 
 
     # O(N^2)
-    def book(self, startTime: int, endTime: int) -> bool:
-        for s, e in self.bookings:
-            if not (endTime <= s or startTime >= e):
-                return False
-        self.bookings.append((startTime, endTime))
-        return True
+    # def book(self, startTime: int, endTime: int) -> bool:
+    #     for s, e in self.bookings:
+    #         if not (endTime <= s or startTime >= e):
+    #             return False
+    #     self.bookings.append((startTime, endTime))
+    #     return True
         
 
 
