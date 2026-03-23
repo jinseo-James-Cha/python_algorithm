@@ -16,6 +16,16 @@ class Solution:
 
         we start from bread because it needs only initial ingredients
 
+        graph
+        bread -> sandwitch, burger
+
+        indegree
+        sandwitch = 1
+        burger = 1
+
+        -> indegree is based on idx
+        indegree[i]
+        sandwitch-> sandwitch_idx -> indegree[sandwitch_idx] -= 1
         """
         n = len(recipes)
         set_supplies = set(supplies)
