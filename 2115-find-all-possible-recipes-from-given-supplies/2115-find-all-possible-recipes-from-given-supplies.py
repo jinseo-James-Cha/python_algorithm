@@ -40,13 +40,10 @@ class Solution:
         for i, recipe in enumerate(recipes):
             recipe_to_idx[recipe] = i
 
-        # pq = [0]
         res = []
         while pq:
             recipe_idx = pq.popleft()
-            complete_recipe = recipes[recipe_idx]
-            
-            # register
+            complete_recipe = recipes[recipe_idx]            
             res.append(complete_recipe)
 
             # check other ingredients to use this new recipe
