@@ -57,7 +57,7 @@ class Solution:
 
         # binary search for possible answers 0~ max safeness
         left = 0
-        right = safeness
+        right = safeness - 1
         res = -1
         while left <= right:
             mid = (left + right) // 2
