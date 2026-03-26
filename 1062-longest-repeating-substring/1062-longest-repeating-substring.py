@@ -1,52 +1,42 @@
 class Solution:
     def longestRepeatingSubstring(self, s: str) -> int:
-        # brute force
-        # check all substrings and it exists in a set it is repeating substring and return the max len
-        substrings = set()
+        # dp
+        # length = len(s)
+        # dp = [[0] * (length + 1) for _ in range(length + 1)]
+        # max_length = 0
+
+        # for i in range(1, length + 1):
+        #     for j in range(i + 1, length + 1):
+        #         if s[i - 1] == s[j - 1]:
+        #             dp[i][j] = dp[i - 1][j - 1] + 1
+        #             max_length = max(max_length, dp[i][j])
+        # return max_length
+
+
+        # binary search range 0 ~ len(s)-1
+        # a b c d e
+        def is_found_repeating_substring(s, size):
+            seen = set()
+            for i in range(len(s) - size + 1):
+                curr = s[i : i + size]
+                if curr in seen:
+                    return True
+                seen.add(curr)
+            return False
+
+
+        left = 0
+        right = len(s) - 1 # this is the maximum len of repeating without overlaps
         max_len = 0
-        for i in range(len(s)):
-            
-            curr = s[i]
-            if curr not in substrings:
-                substrings.add(curr)
-            elif max_len < 1:
-                max_len = 1
-            
-            for j in range(i+1, len(s)):
-                curr += s[j]
-                if curr not in substrings:
-                    substrings.add(curr)
-                elif max_len < len(curr):
-                    max_len = len(curr)
+        while left <= right:
+            mid = (left + right) // 2
+            if is_found_repeating_substring(s, mid):
+                max_len = max(max_len, mid)
+                left = mid + 1
+            else:
+                right = mid - 1
         return max_len
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        # dp
-        length = len(s)
-        dp = [[0] * (length + 1) for _ in range(length + 1)]
-        max_length = 0
-
-        for i in range(1, length + 1):
-            for j in range(i + 1, length + 1):
-                if s[i - 1] == s[j - 1]:
-                    dp[i][j] = dp[i - 1][j - 1] + 1
-                    max_length = max(max_length, dp[i][j])
-        return max_length
 
 
         # brute force
