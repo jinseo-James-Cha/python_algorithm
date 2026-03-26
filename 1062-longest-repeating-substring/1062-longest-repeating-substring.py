@@ -1,3 +1,4 @@
+from collections import deque
 class Solution:
     def longestRepeatingSubstring(self, s: str) -> int:
         # dp
@@ -14,7 +15,7 @@ class Solution:
 
 
         # binary search range 0 ~ len(s)-1
-        # a b c d e
+        # time complexity: O(n^2 log n)
         def is_found_repeating_substring(s, size):
             seen = set()
             for i in range(len(s) - size + 1):
@@ -24,13 +25,27 @@ class Solution:
                 seen.add(curr)
             return False
 
+        def version(s, size):
+            curr = s[:size]
+            queue = deque(curr)
+            seen = set()
+            seen.add(tuple(curr))
+            for i in range(size, len(s)):
+                queue.popleft()
+                queue.append(s[i])
+                t = tuple(queue)
+                if t in seen:
+                    return True
+                seen.add(t)
+            return False
 
-        left = 0
+
+        left = 1
         right = len(s) - 1 # this is the maximum len of repeating without overlaps
         max_len = 0
         while left <= right:
             mid = (left + right) // 2
-            if is_found_repeating_substring(s, mid):
+            if version(s, mid):
                 max_len = max(max_len, mid)
                 left = mid + 1
             else:
