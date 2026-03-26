@@ -1,5 +1,41 @@
 class Solution:
     def longestRepeatingSubstring(self, s: str) -> int:
+        # brute force
+        # check all substrings and it exists in a set it is repeating substring and return the max len
+        substrings = set()
+        max_len = 0
+        for i in range(len(s)):
+            
+            curr = s[i]
+            if curr not in substrings:
+                substrings.add(curr)
+            elif max_len < 1:
+                max_len = 1
+            
+            for j in range(i+1, len(s)):
+                curr += s[j]
+                if curr not in substrings:
+                    substrings.add(curr)
+                elif max_len < len(curr):
+                    max_len = len(curr)
+        return max_len
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # dp
         length = len(s)
         dp = [[0] * (length + 1) for _ in range(length + 1)]
