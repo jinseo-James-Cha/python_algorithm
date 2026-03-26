@@ -2,16 +2,23 @@ from collections import deque
 class Solution:
     def longestRepeatingSubstring(self, s: str) -> int:
         # dp
-        # length = len(s)
-        # dp = [[0] * (length + 1) for _ in range(length + 1)]
-        # max_length = 0
+        #   a b b a b a
+        # a 1 0 0 1 0 1
+        # b 0 2 1 0 2 0
+        # b 0 1 3 0 1 0
+        # a 1 0 0 4 0 2
+        # b
+        # a
+        length = len(s)
+        dp = [[0] * (length + 1) for _ in range(length + 1)]
+        max_length = 0
 
-        # for i in range(1, length + 1):
-        #     for j in range(i + 1, length + 1):
-        #         if s[i - 1] == s[j - 1]:
-        #             dp[i][j] = dp[i - 1][j - 1] + 1
-        #             max_length = max(max_length, dp[i][j])
-        # return max_length
+        for i in range(1, length + 1):
+            for j in range(i + 1, length + 1):
+                if s[i - 1] == s[j - 1]:
+                    dp[i][j] = dp[i - 1][j - 1] + 1
+                    max_length = max(max_length, dp[i][j])
+        return max_length
 
 
         # binary search range 0 ~ len(s)-1
