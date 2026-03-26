@@ -2,13 +2,10 @@ from collections import deque
 class Solution:
     def longestRepeatingSubstring(self, s: str) -> int:
         # dp
-        #   a b b a b a
-        # a 1 0 0 1 0 1
-        # b 0 2 1 0 2 0
-        # b 0 1 3 0 1 0
-        # a 1 0 0 4 0 2
-        # b
-        # a
+        # using 2D dp table => i, j
+        # concept: if s[i] == s[j] 
+        # if two different positions' letter are the same,
+        # add + 1 from prev position from the both, i-1 and j-1
         length = len(s)
         dp = [[0] * (length + 1) for _ in range(length + 1)]
         max_length = 0
