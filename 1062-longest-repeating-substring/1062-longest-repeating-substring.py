@@ -1,7 +1,41 @@
 from collections import deque
 class Solution:
     def longestRepeatingSubstring(self, s: str) -> int:
-        # dp
+        # Binary Search and Rabin-Karp
+        # time complexity: O(n log n)
+        # Hash(new) = (Hash(prev) - C(out)*base26) * base 26 + C(in)
+        n = len(s)
+        base = 26
+        mod = 2**63 - 1
+
+        def check(size):
+            h = 0
+            for i in range(size):
+                h = (h * base + (ord(s[i]) - ord('a'))) % mod
+            
+            seen = {h}
+            baseL = pow(base, size, mod)  # base^L % mod
+
+            for i in range(1, n - size + 1):
+                h = (h * base - (ord(s[i-1]) - ord('a')) * baseL + (ord(s[i+size-1]) - ord('a'))) % mod
+                if h in seen:
+                    return True
+                seen.add(h)
+            return False
+
+        left, right = 1, n - 1
+        ans = 0
+        while left <= right:
+            mid = (left + right) // 2
+            if check(mid):
+                ans = mid
+                left = mid + 1
+            else:
+                right = mid - 1
+        return ans
+       
+        # dp 
+        # time complexity: O(n^2)
         # using 2D dp table => i, j
         # concept: if s[i] == s[j] 
         # if two different positions' letter are the same,
@@ -18,8 +52,10 @@ class Solution:
         return max_length
 
 
-        # binary search range 0 ~ len(s)-1
+        # binary search 
         # time complexity: O(n^2 log n)
+        # range 0 ~ len(s)-1 -> log n
+        # is_found_repeating_substring -> n^2
         def is_found_repeating_substring(s, size):
             seen = set()
             for i in range(len(s) - size + 1):
@@ -28,21 +64,6 @@ class Solution:
                     return True
                 seen.add(curr)
             return False
-
-        def version(s, size):
-            curr = s[:size]
-            queue = deque(curr)
-            seen = set()
-            seen.add(tuple(curr))
-            for i in range(size, len(s)):
-                queue.popleft()
-                queue.append(s[i])
-                t = tuple(queue)
-                if t in seen:
-                    return True
-                seen.add(t)
-            return False
-
 
         left = 1
         right = len(s) - 1 # this is the maximum len of repeating without overlaps
@@ -55,8 +76,6 @@ class Solution:
             else:
                 right = mid - 1
         return max_len
-
-
 
         # brute force
         # o(n**3) o of cubed 
