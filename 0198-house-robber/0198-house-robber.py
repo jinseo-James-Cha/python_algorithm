@@ -1,31 +1,9 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        # bottom up optimize
-        if len(nums) == 1:
-            return nums[0]
-        
-        two_back = nums[0]
-        one_back = max(nums[0], nums[1])
-        for i in range(2, len(nums)):
-            
-            current = max(two_back + nums[i], one_back)
-            
-            two_back = one_back
-            one_back = current
-        return one_back
-
-        # bottom up
-        if len(nums) == 1:
-            return nums[0]
-
-        dp = [0] * len(nums)
-        dp[0] = nums[0]
-        dp[1] = max(nums[0], nums[1])
-        for i in range(2, len(nums)):
-            dp[i] = max(dp[i-2] + nums[i], dp[i-1])
-        return dp[len(nums)-1]
-
-
+        """
+        either take this house or skip this for the next house?
+        state: house index, is_took
+        """
         # top down
         def dp(i):
             if i == 0:
