@@ -4,6 +4,22 @@ class Solution:
         either take this house or skip this for the next house?
         state: house index
         """
+        # bottom up optimized
+        n = len(nums)
+        if n == 1:
+            return nums[0]
+        if n == 2:
+            return max(nums[0], nums[1])
+        
+        prev_prev = nums[0]
+        prev = max(nums[0], nums[1])
+        for i in range(2, n):
+            curr = max(prev, prev_prev + nums[i])
+            
+            prev_prev = prev
+            prev = curr
+        return prev
+
         # bottom up
         n = len(nums)
         if n == 1:
