@@ -3,8 +3,30 @@ class Solution:
         """
         word-a predecessor of word-b
         insert one letter anywhere in word-a => word-b
-
         """
+        # dp
+        def dfs(word):
+            if word in memo:
+                return memo[word]
+            
+            max_len = 1
+            
+            for i in range(len(word)):
+                prev = word[:i] + word[i+1:]
+                if prev in words_set:
+                    max_len = max(max_len, 1 + dfs(prev))
+
+            memo[word] = max_len
+            return max_len
+
+        words_set =set(words)
+        memo = {}
+        return max([dfs(word) for word in words])
+
+
+
+        # hashmap
+        # time complexity: O(n log n + n * 16^2) => O(n log n)
         chains = {}
         words.sort(key = lambda x:len(x))
 
