@@ -4,7 +4,21 @@ class Solution:
         word-a predecessor of word-b
         insert one letter anywhere in word-a => word-b
         """
-        # dp
+        # dp bottom up
+        words.sort(key=lambda x:len(x))
+        dp = {}
+
+        for word in words:
+            dp[word] = 1
+
+            for i in range(len(word)):
+                prev = word[:i] + word[i+1:]
+                if prev in dp:
+                    dp[word] = max(dp[word], dp[prev] + 1)
+
+        return max(dp.values())
+
+        # dp top down
         def dfs(word):
             if word in memo:
                 return memo[word]
