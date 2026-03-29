@@ -1,8 +1,5 @@
 # Neccessary Sort Algorithms
-
 [Sort algorithms .pdf](https://github.com/user-attachments/files/25826855/Sort.algorithms.pdf)
-
-
 # Neccessary Hard Questions
 ## 1. Dynamic Programming (Partitioning & Optimization)
 
