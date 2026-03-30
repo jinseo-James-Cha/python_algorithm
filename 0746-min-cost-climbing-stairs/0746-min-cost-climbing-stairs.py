@@ -1,5 +1,14 @@
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
+        prev_prev = prev = 0
+        for i in range(2, len(cost) + 1):
+            curr = min(prev + cost[i - 1], prev_prev + cost[i - 2])
+            
+            prev_prev = prev
+            prev = curr
+        return prev
+
+
         # dp top down
         def dp(i):
             if i <= 1:
