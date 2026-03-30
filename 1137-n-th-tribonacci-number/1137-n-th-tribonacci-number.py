@@ -12,6 +12,7 @@ class Solution:
             return memo[i]
         memo = {}
         return dp(n)
+        
         # bottom up
         if n <= 1:
             return n
