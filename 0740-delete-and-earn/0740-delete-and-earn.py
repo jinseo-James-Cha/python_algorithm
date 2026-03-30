@@ -22,8 +22,6 @@ class Solution:
             dp[i] = max(dp[i-1], dp[i-2] + hashmap[i])
         return dp[-1]
 
-
-
         # dp top down
         hashmap = defaultdict(int)
         max_number = 0
