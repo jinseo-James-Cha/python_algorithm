@@ -1,5 +1,30 @@
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
+        # dp top down
+        def dp(row, col):
+            if row < 0 or col < 0:
+                return 0
+            
+            if (row, col) not in memo:
+                curr = 0
+                if matrix[row][col] == "1":
+                    curr = min(dp(row-1, col), dp(row, col-1), dp(row-1,col-1)) + 1
+                memo[(row,col)] = curr
+                    
+            return memo[(row, col)]
+
+
+        m,n = len(matrix), len(matrix[0])
+        maximal_square = 0
+        memo = {}
+        for row in range(m):
+            for col in range(n):
+                if matrix[row][col] == "1":
+                    maximal_square = max(maximal_square, dp(row, col))
+
+        return maximal_square**2
+
+
         # dp bottom up
         m,n = len(matrix), len(matrix[0])
         dp = [[0] * (n+1) for _ in range(m+1)] # dp[row][col]
