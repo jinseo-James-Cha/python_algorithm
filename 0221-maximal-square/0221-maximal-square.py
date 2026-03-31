@@ -1,5 +1,19 @@
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
+        # dp bottom up optimized space
+        m,n = len(matrix), len(matrix[0])
+        prev = [0] * (n+1)
+        maximal_square = 0
+        for row in range(1, m+1):
+            curr = [0] * (n+1)
+            for col in range(1, n+1):
+                if matrix[row-1][col-1] != "0":
+                    curr[col] = min(prev[col-1], prev[col], curr[col-1]) + 1
+                    maximal_square = max(maximal_square, curr[col])
+            prev = curr
+        return maximal_square**2
+
+
         # dp bottom up
         m,n = len(matrix), len(matrix[0])
         dp = [[0] * (n+1) for _ in range(m+1)]
@@ -48,10 +62,6 @@ class Solution:
                     largest_square = max(largest_square, dp[row][col])
         
         return largest_square**2
-
-
-
-
 
         # dp top down
         def dp(row, col):
