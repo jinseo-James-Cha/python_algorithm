@@ -18,6 +18,7 @@ class Solution:
 
         # dp top down
         def dp(row, col):
+            # base case
             if row < 0 or col < 0:
                 return 0
             
@@ -33,10 +34,10 @@ class Solution:
         rows = len(matrix)
         cols = len(matrix[0])
         largest_square = 0
-        # guarantee all cells called once
         for r in range(rows):
             for c in range(cols):
                     largest_square = max(largest_square, dp(r, c))
+
         return largest_square * largest_square
 
         # square = 1, 4, 9, 16
