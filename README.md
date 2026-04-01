@@ -315,6 +315,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-furthest-building-you-can-reach) |
 | [1762-buildings-with-an-ocean-view](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1762-buildings-with-an-ocean-view) |
+| [1770-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1770-maximum-score-from-performing-multiplication-operations) |
 | [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1813-maximum-erasure-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1813-maximum-erasure-value) |
@@ -1032,6 +1033,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1504-count-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1504-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1764-maximum-repeating-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1764-maximum-repeating-substring) |
+| [1770-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1770-maximum-score-from-performing-multiplication-operations) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
