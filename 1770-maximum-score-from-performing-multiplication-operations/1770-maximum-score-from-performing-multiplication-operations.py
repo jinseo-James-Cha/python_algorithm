@@ -7,8 +7,8 @@ class Solution:
             
             if (idx, left_idx) not in memo:
                 mult = multipliers[idx]
-                # total size - 1 - (current_idx - chosen left idx)
-                right = n - 1 - (idx - left_idx) 
+                # right idx = total size - 1 - (current_idx - chosen left idx)
+                right = n - 1 - (idx - left_idx)  # 5 - (2-2) out of 5, left chosen 2 for 2 right is still 5
 
                 # choosing max from the two options
                 # max(left choose, right choose)
