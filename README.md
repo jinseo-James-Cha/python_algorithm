@@ -289,6 +289,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1319-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1319-unique-number-of-occurrences) |
+| [1335-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1335-minimum-difficulty-of-a-job-schedule) |
 | [1382-calculate-amount-paid-in-taxes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1382-calculate-amount-paid-in-taxes) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -1026,6 +1027,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1236-n-th-tribonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1263-number-of-dice-rolls-with-target-sum) |
+| [1335-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1335-minimum-difficulty-of-a-job-schedule) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
