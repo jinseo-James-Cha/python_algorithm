@@ -1,5 +1,16 @@
 class Solution:
     def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
+        # Dp bottom up
+        n, m = len(nums), len(multipliers)
+        dp = [[0] * (m+1) for _ in range(m+1)]
+        for i in range(m-1, -1, -1):
+            for left in range(i, -1, -1):
+                mult = multipliers[i]
+                right = n - 1 - (i - left)
+                dp[i][left] = max(mult * nums[left] + dp[i+1][left+1], mult * nums[right] + dp[i+1][left])
+        return dp[0][0]
+
+        # DP Top down
         n, m = len(nums), len(multipliers)
         def dp(idx, left_idx):
             if idx == m:
@@ -17,9 +28,6 @@ class Solution:
         
         memo = {}
         return dp(0, 0)
-
-
-
 
         # this is wrong answer and here are the reasons
         # 1. memoization needs the whole states which are curr list, and i => need to put both and make it simple -> dont use list in the state
