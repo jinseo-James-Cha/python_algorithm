@@ -1,5 +1,44 @@
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
+        """
+        maximize profit with k transactions
+        buy + sell => 1 transaction
+        """
+
+        def dp(day, is_hold, transactions):
+            if transactions == 0:
+                return 0
+            if day >= len(prices):
+                return 0
+
+            if (day, is_hold, transactions) not in memo:
+                do_nothing = dp(day+1, is_hold, transactions)
+                do_something = 0
+                if is_hold: # sell and transactions -1
+                    do_something = dp(day+1, False, transactions-1) + prices[day]
+                else:
+                    do_something = dp(day+1, True, transactions) - prices[day]
+                memo[(day, is_hold, transactions)] = max(do_nothing, do_something)
+            return memo[(day, is_hold, transactions)]
+        memo = {}
+        return dp(0, False, k)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # maximum profit -> dp?
         # dp top down
         def dp(day, transactionTime, isHoldingStock):
