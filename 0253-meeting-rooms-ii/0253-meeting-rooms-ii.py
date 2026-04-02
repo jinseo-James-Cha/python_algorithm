@@ -1,39 +1,40 @@
-import heapq
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        """
+        get minimum rooms
+        -> how many meetings are overlapping?
+        -> should I consider an overlapping when end time and start time are the same?
+        
+        need to handle by start time order
+
+        0 5 10 15 20 25 30
+        - - -  -  -  -  -
+          - -
+               -  -
+        total 2 meetings
+
+        0 1 2 3 4 5 6 7 8 9 10
+            - - -
+                      - - - -
+
+        [30]
+        30 > 5
+        compare prev.end to curr.start
+        if prev.end > curr.start -> overlapping
+        if prev.end <= curr.start -> no overlapping
+        """
+
+
         # sweep line
         events = []
         for start, end in intervals:
             events.append((start, 1))
             events.append((end, -1))
-
+        
         events.sort()
-
-        max_room = 0
-        total_score = 0
-        for position, score in events:
-            total_score += score
-            max_room = max(max_room, total_score)
-        return max_room
-
-
-        """
-        add close position in heap
-        and check if heap[0] > start -> add end in the heap and renew max room
-        """
-        minimum_room = 1
-        
-        intervals.sort()
-        
-        pq = []
-        heapq.heappush(pq, intervals[0][1])
-
-        for i in range(1, len(intervals)):
-            curr = intervals[i]
-            while pq and curr[0] >= pq[0]:
-                heapq.heappop(pq)
-            heapq.heappush(pq, curr[1])
-            minimum_room = max(minimum_room, len(pq))
-
-        return minimum_room
-        
+        overlaps = 0
+        curr_meeting_room = 0
+        for time, usage in events:
+            curr_meeting_room += usage
+            overlaps = max(overlaps, curr_meeting_room)
+        return overlaps
