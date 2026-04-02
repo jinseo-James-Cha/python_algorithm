@@ -1,23 +1,15 @@
-# at most every 10 seconds
-# t + 10 < next message
-# Several messages may arrive at the same timestamp.
-
-# time : O(1) -> hashtable / dictionary
-# space : O(M)
 class Logger:
 
     def __init__(self):
-        self.message_timestamp = {}
+        self.log = {}
 
     def shouldPrintMessage(self, timestamp: int, message: str) -> bool:
-        if not message in self.message_timestamp:
-            self.message_timestamp[message] = timestamp + 10
-        elif self.message_timestamp[message] > timestamp:
+        if message in self.log and self.log[message] > timestamp:
             return False
-        else:
-            self.message_timestamp[message] = timestamp + 10
-
+        self.log[message] = timestamp + 10
         return True
+        
+
 
 
 # Your Logger object will be instantiated and called as such:
