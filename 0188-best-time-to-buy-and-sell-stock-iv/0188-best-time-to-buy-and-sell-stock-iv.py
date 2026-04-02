@@ -4,7 +4,23 @@ class Solution:
         maximize profit with k transactions
         buy + sell => 1 transaction
         """
+        # DP bottom up
+        n = len(prices)
+        dp = [[[0] * 2 for _ in range(k + 1)] for __ in range(n + 1)]
+        for day in range(n-1, -1, -1):
+            for transaction in range(k, 0, -1):
+                for is_hold in range(2):
+                    do_nothing = dp[day+1][transaction][is_hold]
+                    do_something = 0
+                    if is_hold:
+                        do_something = dp[day+1][transaction-1][0] + prices[day]
+                    else:
+                        do_something = dp[day+1][transaction][1] - prices[day]
+                    dp[day][transaction][is_hold] = max(do_nothing, do_something)
 
+        return dp[0][k][0]
+
+        # DP top down
         def dp(day, is_hold, transactions):
             if transactions == 0:
                 return 0
@@ -14,7 +30,7 @@ class Solution:
             if (day, is_hold, transactions) not in memo:
                 do_nothing = dp(day+1, is_hold, transactions)
                 do_something = 0
-                if is_hold: # sell and transactions -1
+                if is_hold:
                     do_something = dp(day+1, False, transactions-1) + prices[day]
                 else:
                     do_something = dp(day+1, True, transactions) - prices[day]
@@ -22,47 +38,6 @@ class Solution:
             return memo[(day, is_hold, transactions)]
         memo = {}
         return dp(0, False, k)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        # maximum profit -> dp?
-        # dp top down
-        def dp(day, transactionTime, isHoldingStock):
-            nonlocal k
-            if day == len(prices):
-                return 0
-            
-            if transactionTime == k:
-                return 0
-
-            if (day, transactionTime, isHoldingStock) not in memo:
-                doNothing = dp(day + 1, transactionTime, isHoldingStock)
-                doSomething = 0
-                if isHoldingStock:
-                    doSomething = prices[day] + dp(day+1, transactionTime+1, False)
-                else:
-                    doSomething = -prices[day] + dp(day+1, transactionTime, True)
-                memo[(day, transactionTime, isHoldingStock)] = max(doNothing, doSomething)
-            return memo[(day, transactionTime, isHoldingStock)]
-        
-        memo = {}
-        return dp(0, 0, False)
-        
-
 
         # state 
         # - which day -> i
