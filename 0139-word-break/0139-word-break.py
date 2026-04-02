@@ -1,12 +1,92 @@
 class TrieNode:
     def __init__(self):
-        self.is_word = False
         self.children = {}
+        self.is_end = False
+
+class Trie:
+    def __init__(self):
+        self.root = TrieNode()
+
+    def insert(self, word):
+        curr = self.root
+        for ch in word:
+            if ch not in curr.children:
+                curr.children[ch] = TrieNode()
+            curr = curr.children[ch]
+        curr.is_end = True
+    
+    def search(self, word):
+        curr = self.root
+        for ch in word:
+            if ch not in curr:
+                return False
+            curr = curr[ch]
+        
+        return curr.is_end
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        # BFS
+        trie = Trie()
+        for word in wordDict:
+            trie.insert(word)
+        
+        n = len(s)
+        dp = [False] * (n + 1)
+        dp[0] = True
+        for i in range(n):
+            if not dp[i]:
+                continue
+            
+            curr = trie.root
+            for j in range(i, n):
+                if s[j] not in curr.children:
+                    break
+                curr = curr.children[s[j]]
+                if curr.is_end:
+                    dp[j + 1] = True
+        return dp[n]
 
+        
+
+
+
+
+
+
+
+
+
+        # Trie
+        word_trie = TrieNode()
+        for word in wordDict:
+            curr = word_trie
+            for w in word:
+                if w not in curr.children:
+                    curr.children[w] = TrieNode()
+                curr = curr.children[w]
+            curr.is_word = True
+
+        def dfs(i):
+            if i == len(s):
+                return True
+            
+            if dp[i] == False:
+                return False
+            
+            j = i
+            curr = word_trie
+            while j < len(s) and s[j] in curr.children:
+                curr = curr.children[s[j]]
+                j += 1
+                if curr.is_word:
+                    if dfs(j):
+                        return True
+            dp[i] = False
+            return dp[i]
+
+        dp = [None] * len(s)
+        return dfs(0)
+        
 
         # bottom up
         dp = [False] * len(s)
