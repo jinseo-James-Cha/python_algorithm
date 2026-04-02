@@ -1,4 +1,4 @@
-from collections import deque
+from collections import deque, defaultdict
 class Solution:
     def findAllRecipes(self, recipes: List[str], ingredients: List[List[str]], supplies: List[str]) -> List[str]:
         """
@@ -62,4 +62,52 @@ class Solution:
                 indegree[recipe_to_idx[next_recipe]] -= 1
                 if indegree[recipe_to_idx[next_recipe]] == 0:
                     pq.append(recipe_to_idx[next_recipe])
+        return res
+
+
+        from collections import deque
+class Solution:
+    def findAllRecipes(self, recipes: List[str], ingredients: List[List[str]], supplies: List[str]) -> List[str]:
+        """
+        bread, sandwich
+
+        yeast, flour -> bread
+
+        bread, meat -> sandwich
+
+        bread -> sandwich,burger..
+
+        """
+        set_sup = set(supplies)
+        n = len(recipes)
+        
+        graph = defaultdict(list)
+        indegree = [0] * n
+        for i in range(n):
+            recipe = recipes[i]
+            for ingre in ingredients[i]:
+                if ingre not in set_sup:
+                    graph[ingre].append(recipe)
+                    indegree[i] += 1
+
+        pq = deque()
+        for i, cnt in enumerate(indegree):
+            if cnt == 0:
+                pq.append(i)
+        
+        recipe_idx = {}
+        for i, recipe in enumerate(recipes):
+            recipe_idx[recipe] = i
+
+        res = []
+        while pq:
+            curr_idx = pq.popleft()
+            recipe = recipes[curr_idx]
+            res.append(recipe)
+
+            for neighbor in graph[recipe]:
+                idx = recipe_idx[neighbor]
+                indegree[idx] -= 1
+                if indegree[idx] == 0:
+                    pq.append(idx)
         return res
