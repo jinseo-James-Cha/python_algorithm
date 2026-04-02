@@ -16,14 +16,10 @@ class Solution:
         """
 
         stack = []
-        longest = 0
         for num in nums:
-            if not stack:
+            insert_idx = bisect_left(stack, num)
+            if insert_idx == len(stack):
                 stack.append(num)
             else:
-                if stack[-1] < num:
-                    stack.append(num)
-                else:
-                    insert_idx = bisect_left(stack, num)
-                    stack[insert_idx] = num
+                stack[insert_idx] = num
         return len(stack)
