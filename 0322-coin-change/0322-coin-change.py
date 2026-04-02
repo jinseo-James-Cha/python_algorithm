@@ -1,10 +1,70 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        # amount == total amount
-        # return fewest number of coins -> dp?
-        # fewest or -1
+        # should I sort coins by reverse? -> yes to get the fewest number of coins
+        """
+        11
 
-        # state -> number of coins, amount
+        5 2 1
+        11 - 5 => 6 => 1 coin
+        6 - 5 => 1 => 2 coins
+        1 - 2 X
+        1 - 1 => 0 => 3 coins
+
+        """
+        # DP - bottom up
+        dp = [float('inf')] * (amount+1)
+        dp[0] = 0
+        for target in range(1, amount + 1):
+            for coin in coins:
+                if coin <= target:
+                    dp[target] = min(dp[target], dp[target - coin] + 1)
+        return dp[amount] if dp[amount] != float('inf') else -1
+                
+
+        # DP - top down
+        def dp(target):
+            if target == 0:
+                return 0
+            
+            if target < 0:
+                return -1
+            
+            fewest = float('inf')
+            if target not in memo:
+                for coin in coins:
+                    res = dp(target - coin)
+                    if res != -1:
+                        fewest = min(fewest, res + 1)
+                memo[target] = fewest if fewest != float('inf') else -1
+            return memo[target]
+
+        memo = {}
+        return dp(amount)
+
+
+
+        # fewest combinations.. sort by descening order? and backtrack
+        # TLE
+        def backtrack(curr_coins, start):
+            nonlocal fewest_number
+            if sum(curr_coins) == amount:
+                fewest_number = min(fewest_number, len(curr_coins))
+                return
+            if sum(curr_coins) > amount:
+                return
+            
+            if len(curr_coins) >= fewest_number:
+                return
+            
+            for i in range(start, len(coins)):
+                curr_coins.append(coins[i])
+                backtrack(curr_coins, i)
+                curr_coins.pop()
+
+        fewest_number = float('inf')
+        backtrack([], 0)
+        return fewest_number if fewest_number != float('inf') else -1
+        
 
         # bottom up
         dp = [float(inf)] * (amount+1)
@@ -17,24 +77,24 @@ class Solution:
 
 
         # top down
-        # def dp (target):
-        #     # base case
-        #     if target < 0:
-        #         return -1
-        #     if target == 0:
-        #         return 0
+        def dp (target):
+            # base case
+            if target < 0:
+                return -1
+            if target == 0:
+                return 0
             
-        #     fewest = float(inf)
-        #     if target not in memo:
-        #         for c in coins:
-        #             res = dp(target - c)
-        #             if res != -1:
-        #                 fewest = min(fewest, res + 1)
-        #         memo[target] = fewest if fewest != float(inf) else -1
-        #     return memo[target]
+            fewest = float(inf)
+            if target not in memo:
+                for c in coins:
+                    res = dp(target - c)
+                    if res != -1:
+                        fewest = min(fewest, res + 1)
+                memo[target] = fewest if fewest != float(inf) else -1
+            return memo[target]
 
-        # memo = {}
-        # return dp(amount)
+        memo = {}
+        return dp(amount)
 
 
 
