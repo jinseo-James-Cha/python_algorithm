@@ -1,5 +1,45 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        """
+        maximum profit
+        # cannot buy the day after you sell stock
+        -> sell stock -> day + 2
+
+        state = day, is_hold
+        """
+        def dp(day, is_hold):
+            if day >= len(prices):
+                return 0
+            
+            if (day, is_hold) not in memo:
+                do_nothing = dp(day+1, is_hold)
+                do_something = 0
+                if is_hold:
+                    do_something = dp(day+2, False) + prices[day]
+                else:
+                    do_something = dp(day+1, True) - prices[day]
+
+                memo[(day, is_hold)] = max(do_nothing, do_something)       
+            return memo[(day, is_hold)]
+
+        memo = {}
+        return dp(0, False)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # state
         # days -> i
         # action -> 0 buying, 1 selling
