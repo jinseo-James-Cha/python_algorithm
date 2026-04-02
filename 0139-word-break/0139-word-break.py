@@ -26,67 +26,25 @@ class Trie:
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        # Trie
+        # S   l e e t c o d e
+        #dp T F F F T F F F T   
         trie = Trie()
         for word in wordDict:
             trie.insert(word)
         
         n = len(s)
-        dp = [False] * (n + 1)
-        dp[0] = True
+        dp = [False] * n
         for i in range(n):
-            if not dp[i]:
-                continue
-            
-            curr = trie.root
-            for j in range(i, n):
-                if s[j] not in curr.children:
-                    break
-                curr = curr.children[s[j]]
-                if curr.is_end:
-                    dp[j + 1] = True
-        return dp[n]
-
-        
-
-
-
-
-
-
-
-
-
-        # Trie
-        word_trie = TrieNode()
-        for word in wordDict:
-            curr = word_trie
-            for w in word:
-                if w not in curr.children:
-                    curr.children[w] = TrieNode()
-                curr = curr.children[w]
-            curr.is_word = True
-
-        def dfs(i):
-            if i == len(s):
-                return True
-            
-            if dp[i] == False:
-                return False
-            
-            j = i
-            curr = word_trie
-            while j < len(s) and s[j] in curr.children:
-                curr = curr.children[s[j]]
-                j += 1
-                if curr.is_word:
-                    if dfs(j):
-                        return True
-            dp[i] = False
-            return dp[i]
-
-        dp = [None] * len(s)
-        return dfs(0)
-        
+            if i == 0 or dp[i-1]:
+                curr = trie.root
+                for j in range(i, n):
+                    if s[j] not in curr.children:
+                        break
+                    curr = curr.children[s[j]]
+                    if curr.is_end:
+                        dp[j] = True
+        return dp[-1]
 
         # bottom up
         dp = [False] * len(s)
@@ -101,60 +59,38 @@ class Solution:
                         break
         return dp[-1]
 
-
         # top down
-        # def dp(i):
-        #     if i < 0:
-        #         return True
+        def dp(i):
+            if i < 0:
+                return True
             
-        #     if i not in memo:    
-        #         memo[i] = False
-        #         for word in wordDict:
-        #             if s[i - len(word) + 1: i + 1] == word and dp(i - len(word)):
-        #                 memo[i] = True
+            if i not in memo:    
+                memo[i] = False
+                for word in wordDict:
+                    if s[i - len(word) + 1: i + 1] == word and dp(i - len(word)):
+                        memo[i] = True
             
-        #     return memo[i]
+            return memo[i]
         
-        # memo = {}
-        # return dp(len(s) - 1)
+        memo = {}
+        return dp(len(s) - 1)
 
+        # BFS
+        # add start-end possible word from each letter
+        words = set(wordDict) # time = O(m * k) m is length and k is the avg len of each word to get hash
+        queue = deque([0])
+        seen = set()
 
-
-
-
-
-
-
-        # 0. Analysis
-        # true -> if s can be segmented into a space-separated sequence
-        # True -> s == wordDict[0] + word[1]
-
-        # 1. intuition
-        # first thought of this solution is Trie.
-        # if trie is is_word true and then go back to the beginning
-        # should I use dfs to keep going even tho "cat" is not ok later
-        # but "cats" will be ok?
-
-
-        root = TrieNode()
-        for word in wordDict:
-            curr = root
-            for c in word:
-                if c not in curr.children:
-                    curr.children[c] = TrieNode()
-                curr = curr.children[c]
-            curr.is_word = True
-
-        dp = [False] * len(s)
-        for i in range(len(s)):
-            if i == 0 or dp[i - 1]: # 첫 시작이거나 dp로 확인했을때 이전 단어가 true인 경우 leetcodedp에서 c인 경우 같은거지
-                curr = root # trie 다시 순회하면서 단어 있나 검색
-                for j in range(i, len(s)): # 해당 스펠링부터 끝까지가 기준임
-                    c = s[j]  
-                    if c not in curr.children: # 없어? 그럼 브레이크 -> False야 그대로
-                        break
-                    
-                    curr = curr.children[c] # 있으면 더 들어가자 
-                    if curr.is_word: # 이 단어가 끝이있네? 그럼 true
-                        dp[j] = True
-        return dp[-1]
+        while queue:
+            start = queue.popleft() # 0
+            if start == len(s):# reach the end
+                return True
+            
+            for end in range(start + 1, len(s) + 1): # check all possible words from start ~ end
+                if end in seen: # if end is already true, we don't need to do
+                    continue
+                
+                if s[start:end] in words:
+                    queue.append(end)
+                    seen.add(end)
+        return False
