@@ -27,8 +27,8 @@ class Trie:
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         # Trie
-        # S   l e e t c o d e
-        #dp T F F F T F F F T   
+        # Time Complexity = O(n^2 + m*k) => m*k is from building trie
+        # Time Complexity => O(m * k) => k is the maximum length of a word
         trie = Trie()
         for word in wordDict:
             trie.insert(word)
