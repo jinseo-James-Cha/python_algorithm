@@ -24,8 +24,7 @@ class Solution:
                 return memo[word]
             
             max_len = 1
-            
-            for i in range(len(word)):
+            for i in range(len(word)): #3  bca -> ca, ba, bc 
                 prev = word[:i] + word[i+1:]
                 if prev in words_set:
                     max_len = max(max_len, 1 + dfs(prev))
