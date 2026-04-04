@@ -4,26 +4,24 @@ class Solution:
         return number of combinations -> make up that amount
         """
         # DP - top down
-        def dp(curr_amount, start_idx):
-            if curr_amount == 0:
+         # top down
+        def dp(i, target_amount):
+            if target_amount == 0:
                 return 1
-            if curr_amount < 0:
+            if i == len(coins) or target_amount < 0:
                 return 0
             
-            if (curr_amount, start_idx) not in memo:
-                counts = 0
-                for i in range(start_idx, len(coins)):
-                    if curr_amount - coins[i] >= 0:
-                        counts += dp(curr_amount-coins[i], i)
-                memo[(curr_amount, start_idx)] = counts
-            return memo[(curr_amount, start_idx)]
+            if (i, target_amount) not in memo:
+                # possibilities
+                # use the coin + not use the coin
+                used = dp(i, target_amount - coins[i])
+                not_used = dp(i+1, target_amount)
 
-        memo = {}
-        return dp(amount, 0)
-
-
+                memo[(i,target_amount)] = used + not_used
+            return memo[(i,target_amount)]
         
-
+        memo = {}
+        return dp(0, amount)
 
 
         # brute force
