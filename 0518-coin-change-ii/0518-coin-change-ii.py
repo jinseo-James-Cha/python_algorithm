@@ -3,8 +3,26 @@ class Solution:
         """
         return number of combinations -> make up that amount
         """
+        # DP - bottom up
+        if amount == 0:
+            return 1
+        
+        n = len(coins)
+        dp = [[0] * (amount+1) for _ in range(n+1)]
+        for i in range(n):
+            dp[i][0] = 1
+        
+        for i in range(n-1, -1, -1):
+            for curr_amount in range(1, amount + 1):
+                if coins[i] > curr_amount:
+                    dp[i][curr_amount] = dp[i+1][curr_amount]
+                else:
+                    dp[i][curr_amount] = dp[i+1][curr_amount] + dp[i][curr_amount-coins[i]]
+        return dp[0][amount]
+
+
+
         # DP - top down
-         # top down
         def dp(i, target_amount):
             if target_amount == 0:
                 return 1
