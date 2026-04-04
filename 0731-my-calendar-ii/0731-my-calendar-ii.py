@@ -1,85 +1,35 @@
-from sortedcontainers import SortedDict
-
 class MyCalendarTwo:
-    # SortedDict, sweep line
-    # O(log N)
+
     def __init__(self):
-        self.timeline = SortedDict()
+        self.events = []
+        
 
-    def book(self, start, end):
-        self.timeline[start] = self.timeline.get(start, 0) + 1
-        self.timeline[end] = self.timeline.get(end, 0) - 1
+    def book(self, startTime: int, endTime: int) -> bool:
+        copied_events = self.events[:]
+        copied_events.append((startTime, 1))
+        copied_events.append((endTime, -1))
 
-        curr = 0
-        for time in self.timeline:
-            curr += self.timeline[time]
-            if curr >= 3:
-                self.timeline[start] -= 1
-                self.timeline[end] += 1
+        copied_events.sort()
+
+        curr_score = 0
+        for time, score in copied_events:
+            curr_score += score
+            if curr_score >= 3:
                 return False
+        
+        self.events = copied_events[:]
         return True
-    
-    # sweep line
-    # O(N log N)
-    # def __init__(self):
-    #     self.timeline = {}
-
-    # def book(self, startTime: int, endTime: int) -> bool:
-    #     self.timeline[startTime] = self.timeline.get(startTime, 0) + 1
-    #     self.timeline[endTime] = self.timeline.get(endTime, 0) - 1
-
-    #     curr = 0
-    #     for time in sorted(self.timeline.keys()):
-    #         curr += self.timeline[time]
-    #         if curr >= 3:
-    #             self.timeline[startTime] -= 1
-    #             self.timeline[endTime] += 1
-    #             return False
-
-    #     return True
-
-
-    # O(N^2)
-    # def __init__(self):
-    #     self.bookings = []
-    #     self.double_bookings = []
-
-    # def book(self, startTime: int, endTime: int) -> bool:
-    #     for ds, de in self.double_bookings:
-    #         if ds < endTime and startTime < de:
-    #             return False
-            
-    #     for s, e in self.bookings:
-    #         if s < endTime and startTime < e:
-    #             self.double_bookings.append((max(s, startTime), min(e, endTime)))
-
-    #     self.bookings.append((startTime, endTime))
-    #     return True
-
-        
-    # O(N^2)
-    # TLE
-    # def __init__(self):
-    #     self.bookings = {}
-
-    # def book(self, startTime: int, endTime: int) -> bool:
-    #     # check
-    #     is_valid = True
-    #     for curr in range(startTime, endTime):
-    #         if curr not in self.bookings:
-    #             continue
-    #         elif self.bookings[curr] >= 2:
-    #             is_valid = False
-        
-    #     if not is_valid:
-    #         return False
-        
-    #     for curr in range(startTime, endTime):
-    #         self.bookings[curr] = self.bookings.get(curr, 0) + 1
-    #     return True
-        
 
 
 # Your MyCalendarTwo object will be instantiated and called as such:
 # obj = MyCalendarTwo()
 # param_1 = obj.book(startTime,endTime)
+
+"""
+ 10 - 20
+             50- 60
+ 10      40
+5 15 X
+510
+        25     55 
+"""
