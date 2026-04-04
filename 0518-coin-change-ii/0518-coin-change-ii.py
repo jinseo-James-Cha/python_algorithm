@@ -1,57 +1,51 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
-        # bottom up optimization
-        dp = [0] * (amount + 1)
-        dp[0] = 1  # 0원을 만드는 방법은 아무것도 안 쓰는 경우 1개
-
-        for coin in coins:  # 코인을 바깥 루프로
-            for j in range(coin, amount + 1):  # j-c가 존재할 때만
-                dp[j] += dp[j - coin] # 나 자신 값 + 내 이후의 경우의 수 = 나의 경우의 수에 저장
-        return dp[amount]
-
-        # bottom up
-        n = len(coins)
-        dp = [[0] * (amount + 1) for _ in range(n+1)] 
-        for i in range(n):
-            dp[i][0] = 1 
-
-        for i in range(n-1, -1, -1):
-            for j in range(1, amount + 1):
-                if coins[i] > j:
-                    dp[i][j] = dp[i + 1][j]
-                else:
-                    dp[i][j] = dp[i + 1][j] + dp[i][j - coins[i]]
-                    
-        return dp[0][amount]
-
-        # top down
-        def dp(i, target_amount):
-            if target_amount == 0:
+        """
+        return number of combinations -> make up that amount
+        """
+        # DP - top down
+        def dp(curr_amount, start_idx):
+            if curr_amount == 0:
                 return 1
-            if i == len(coins) or target_amount < 0:
+            if curr_amount < 0:
                 return 0
             
-            if (i, target_amount) not in memo:
-                used = dp(i, target_amount - coins[i])
-                not_used = dp(i+1, target_amount)
+            if (curr_amount, start_idx) not in memo:
+                counts = 0
+                for i in range(start_idx, len(coins)):
+                    if curr_amount - coins[i] >= 0:
+                        counts += dp(curr_amount-coins[i], i)
+                memo[(curr_amount, start_idx)] = counts
+            return memo[(curr_amount, start_idx)]
 
-                memo[(i,target_amount)] = used + not_used
-            
-            return memo[(i,target_amount)]
-        
         memo = {}
-        return dp(0, amount)
+        return dp(amount, 0)
 
-        # backtracking
-        def backtrack(start, total):
-            if total > amount:
-                return 0
-            if total == amount:
-                return 1
-    
-            count = 0
+
+        
+
+
+
+        # brute force
+        # check all combination using backtracking
+        # res += 1 if amount == sum(current_combination)
+        # nothung if amount < sum(current_combination)
+        # combination 1 1 1 2 == 2 1 1 1, so we don't need duplications
+        # using index to check only further combination.
+        # TLE -> O(n^amount)
+        def backtrack(curr_amount, start):
+            nonlocal res
+            if curr_amount < 0:
+                return
+            if curr_amount == 0:
+                res += 1
+
             for i in range(start, len(coins)):
-                count += backtrack(i, total + coins[i])
-            return count
-
-        return backtrack(0, 0)
+                coin = coins[i]
+                if curr_amount - coin >= 0:
+                    curr_amount -= coin
+                    backtrack(curr_amount, i)
+                    curr_amount += coin 
+        res = 0
+        backtrack(amount, 0)
+        return res
