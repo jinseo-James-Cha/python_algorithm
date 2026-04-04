@@ -5,6 +5,9 @@ class Solution:
         # previous dir -> ..
         # //, /// -> /
 
+
+        # absolute path -> simplified canonical path
+
         path_list = path.split('/')
         res_list = []
 
