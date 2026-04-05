@@ -1,43 +1,28 @@
-from collections import defaultdict, deque
+from collections import defaultdict
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        """
-        b take first and then can a
-
-        [1,0],[2,0],[3,1],[3,2]]
-
-        0 -> 1, 2
-        1 -> 3
-        2 -> 3
-        3
-        
-        0, 1, 2, 3
-        or 0, 2, 1, 3
-
-        directed acyclic graph
-        -> kahn's algorithm with topological sort
-        tracking indegree and 0 and then can take the course
-        """
+        # topological sort - Kahn's algorithm
         graph = defaultdict(list)
         indegree = [0] * numCourses
         for a, b in prerequisites:
+            # b -> a
             graph[b].append(a)
             indegree[a] += 1
-
-        # initiate with indegree 0
+        
         queue = deque()
-        for course in range(numCourses):
-            if indegree[course] == 0:
-                queue.append(course)
+        for label in range(numCourses):
+            if indegree[label] == 0:
+                queue.append(label)
 
         res = []
         while queue:
-            curr_course = queue.popleft()
-            res.append(curr_course)
+            course = queue.popleft()
+            res.append(course)
 
-            for next_course in graph[curr_course]:
+            for next_course in graph[course]:
                 indegree[next_course] -= 1
                 if indegree[next_course] == 0:
                     queue.append(next_course)
         
         return res if len(res) == numCourses else []
+        
