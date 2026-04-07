@@ -1,7 +1,7 @@
 class UnionFind:
     def __init__(self, size):
         self.parent = list(range(size))
-        self.ranl = [0] * size
+        self.rank = [0] * size
     
     def find(self, x):
         if self.parent[x] != x:
@@ -13,9 +13,9 @@ class UnionFind:
         if xset == yset:
             return False
 
-        if self.parent[xset] < self.parent[yset]:
+        if self.rank[xset] < self.rank[yset]:
             self.parent[xset] = yset
-        elif self.parent[xset] > self.parent[yset]:
+        elif self.rank[xset] > self.rank[yset]:
             self.parent[yset] = xset
         else:
             self.parent[yset] = xset
