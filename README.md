@@ -285,6 +285,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
 | [1293-three-consecutive-odds](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-three-consecutive-odds) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1304-find-n-unique-integers-sum-up-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1304-find-n-unique-integers-sum-up-to-zero) |
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
@@ -1312,6 +1313,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0994-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1428-leftmost-column-with-at-least-a-one](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1428-leftmost-column-with-at-least-a-one) |
@@ -1589,6 +1591,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1042-flower-planting-with-no-adjacent](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
