@@ -1494,6 +1494,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0669-trim-a-binary-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0669-trim-a-binary-search-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0671-second-minimum-node-in-a-binary-tree) |
+| [0684-redundant-connection](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0684-redundant-connection) |
 | [0694-number-of-distinct-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0694-number-of-distinct-islands) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0743-network-delay-time) |
@@ -1566,6 +1567,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0617-merge-two-binary-trees](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0684-redundant-connection](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0684-redundant-connection) |
 | [0694-number-of-distinct-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0694-number-of-distinct-islands) |
 | [0733-flood-fill](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0743-network-delay-time) |
@@ -2088,6 +2090,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1042-flower-planting-with-no-adjacent](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1042-flower-planting-with-no-adjacent) |
@@ -2098,6 +2101,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0200-number-of-islands) |
+| [0684-redundant-connection](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0684-redundant-connection) |
 | [0778-swim-in-rising-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2812-find-the-safest-path-in-a-grid) |
