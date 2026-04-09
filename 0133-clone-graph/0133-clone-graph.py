@@ -9,22 +9,29 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+        """
+        connected undirected graph
+        deep copy
+
+
+        node.val is unique -> can be key?
+        [key] = new Node()
+
+        
+        """
         def dfs(curr_node):
             if curr_node in visited:
                 return visited[curr_node]
             
-            copied_node = Node(curr_node.val)
-            visited[curr_node] = copied_node
-            
+            copy_node = Node(curr_node.val)
+            visited[curr_node] = copy_node
             for neighbor in curr_node.neighbors:
-                copied_neighbor = dfs(neighbor)
-                copied_node.neighbors.append(copied_neighbor)
-            
-            return copied_node
-        
-        
+                copy_node.neighbors.append(dfs(neighbor))
+
+            return copy_node
+
         if not node:
-            return None
-        
+            return None 
+            
         visited = {}
         return dfs(node)
