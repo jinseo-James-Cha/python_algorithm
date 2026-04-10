@@ -12,7 +12,8 @@ class Solution:
             
             for j in range(i*i, n, i):
                 arr[j] = False
-        return sum([arr[i] for i in range(2, n) if arr[i]])
+        
+        return sum(arr)
 
 
         # optimize brute force: O(n * sqrt(n))) : O(n times square root of n)
