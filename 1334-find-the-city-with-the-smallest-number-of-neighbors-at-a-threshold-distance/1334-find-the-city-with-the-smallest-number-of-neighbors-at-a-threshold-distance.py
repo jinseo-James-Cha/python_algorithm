@@ -34,7 +34,7 @@ class Solution:
         cities = [0] * n
         for i in range(n):
             for j in range(n):
-                if 0 < d[i][j] <= distanceThreshold:
+                if i != j and d[i][j] <= distanceThreshold:
                     cities[i] += 1
     
         min_count = float('inf')
