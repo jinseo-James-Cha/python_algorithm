@@ -42,11 +42,16 @@ class Solution:
 
         edges.sort(key=lambda x:x[2])
         total_distance = 0
+        edge_used = 0
 
         uf = UnionFind(n)
         for u,v,w in edges:
             if uf.union(u,v):
                 total_distance += w
+                edge_used += 1
+
+            if edge_used == n-1:
+                break
         return total_distance
 
 
