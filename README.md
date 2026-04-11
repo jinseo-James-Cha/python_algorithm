@@ -1848,6 +1848,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1094-car-pooling](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1094-car-pooling) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1127-last-stone-weight) |
+| [1135-connecting-cities-with-minimum-cost](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
@@ -2063,6 +2064,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Minimum Spanning Tree
 |  |
 | ------- |
+| [1135-connecting-cities-with-minimum-cost](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1706-min-cost-to-connect-all-points) |
@@ -2102,6 +2104,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0743-network-delay-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1042-flower-planting-with-no-adjacent](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1042-flower-planting-with-no-adjacent) |
+| [1135-connecting-cities-with-minimum-cost](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1615-maximal-network-rank](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1615-maximal-network-rank) |
@@ -2114,6 +2117,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0684-redundant-connection](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0684-redundant-connection) |
 | [0778-swim-in-rising-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
+| [1135-connecting-cities-with-minimum-cost](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Suffix Array
