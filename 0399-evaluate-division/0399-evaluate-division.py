@@ -18,6 +18,7 @@ class Solution:
         def dfs(src, dest, curr, visited):
             visited.add(src)
             ret = -1.0
+
             neighbors = graph[src]
             if dest in neighbors:
                 ret = curr * neighbors[dest]
@@ -25,6 +26,7 @@ class Solution:
                 for neighbor, value in neighbors.items():
                     if neighbor in visited:
                         continue
+                        
                     ret = dfs(neighbor, dest, curr * value, visited)
                     if ret != -1.0:
                         break
