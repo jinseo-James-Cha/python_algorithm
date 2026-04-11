@@ -4,6 +4,7 @@ class UnionFind:
         self.rank = [0] * size
 
     def find(self, x):
+        # path compression
         if self.parent[x] != x:
             self.parent[x] = self.find(self.parent[x])
         return self.parent[x]
