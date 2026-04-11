@@ -26,11 +26,11 @@ class Solution:
                 for neighbor, value in neighbors.items():
                     if neighbor in visited:
                         continue
-                        
+
                     ret = dfs(neighbor, dest, curr * value, visited)
                     if ret != -1.0:
                         break
-            visited.remove(src)
+            # visited.remove(src)
             return ret
 
         graph = defaultdict(dict)
