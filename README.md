@@ -308,6 +308,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1552-build-an-array-with-stack-operations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1552-build-an-array-with-stack-operations) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1580-shuffle-the-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1580-shuffle-the-array) |
+| [1584-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1584-min-cost-to-connect-all-points) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1656-count-good-triplets) |
@@ -2067,6 +2068,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1135-connecting-cities-with-minimum-cost](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| [1584-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1584-min-cost-to-connect-all-points) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
@@ -2107,6 +2109,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1135-connecting-cities-with-minimum-cost](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| [1584-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1584-min-cost-to-connect-all-points) |
 | [1615-maximal-network-rank](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1615-maximal-network-rank) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Union-Find
@@ -2119,6 +2122,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0827-making-a-large-island](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0827-making-a-large-island) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| [1584-min-cost-to-connect-all-points](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1584-min-cost-to-connect-all-points) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Suffix Array
 |  |
