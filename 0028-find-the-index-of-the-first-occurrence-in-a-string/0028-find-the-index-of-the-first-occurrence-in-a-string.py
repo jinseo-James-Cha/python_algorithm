@@ -1,6 +1,6 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
-        # Knuth-Morris-Pratt
+        # KMP algorithm (Knuth-Morris-Pratt)
         # O(n + m)
         m = len(needle)
         n = len(haystack)
