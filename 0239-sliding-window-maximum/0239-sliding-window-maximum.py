@@ -3,6 +3,18 @@ class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         # [1,3,-1,-3,5, 3], k = 3
         # monotonic deque
+        # O(n)
+
+        # monotonic stack keeps index by its numbers descending order
+        # [1, 3, -1] -> [1, 2] -> index 1 - 3 and 2 - -1
+        # it means monotonic stack keeps the biggiest value in the first element
+        # => queue[0] = biggiest value's index
+        # if new number comming -> check the first index is still valid in the window size
+        # if not, remove the first one by popleft
+        # and then
+        # check from back(smallest first)
+        # and pop if it is smaller than current value
+
         queue = deque()
         maximums = []
         for i in range(k):
