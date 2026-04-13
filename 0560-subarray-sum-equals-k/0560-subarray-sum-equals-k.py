@@ -1,8 +1,30 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
+        prev_prefix_sum = {0: 1}
+        current_total_sum = 0
+        res = 0
+        for i, num in enumerate(nums):
+            current_total_sum += num
+            if current_total_sum - k in prev_prefix_sum:
+                res += prev_prefix_sum[current_total_sum - k]
+
+            prev_prefix_sum[current_total_sum] = prev_prefix_sum.get(current_total_sum, 0) + 1
+        return res
+
+
+
         # brute force
         # and nested loop all elements and sum
-        # o(n^2) and o(n) for sum -> o(n^3) 
+        # o(n^2) and o(n) for sum -> o(n^2) 
+        num_of_subarray = 0
+
+        for i in range(len(nums)):
+            curr = 0
+            for j in range(i, len(nums)):
+                curr += nums[j]
+                if curr == k:
+                    num_of_subarray += 1
+        return num_of_subarray
 
         # sum(i~j) = prefix_sum[j] - prefix_sum[i-1]
         # k = prefix_sum[j] - prefix_sum[i-1]
