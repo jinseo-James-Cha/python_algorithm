@@ -1,6 +1,54 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
         """
+        decode ways
+
+                        11106
+                    1    1106             11 106
+                   A  1    106         11 06 
+                      A   1 "06" 10 6
+                                 J  F ....
+        
+        starting from 0 -> nope
+        valid range "1" <= ch <= "26" -> ways -> always same result
+        I can break down into subproblems
+        like 112 -> 1 , 12 -> dynamic programing
+        state i?
+        choice 2 1split or 2split
+        """
+
+        # state
+        # string and its index s[i:]
+        # decode complete? i == len(s)
+
+        # how to distinguish 06 -> two letter should be 10~26
+        # one letter should be 1 ~ 26
+
+        # action choose 1letter or 2letters
+
+        # 1 1 1 0 6 -> 1 / 1106 + 11 / 106
+        # top down
+
+        # dp(0) -> dp(1) + dp(2)
+        def dp(i):
+            if i == len(s):
+                return 1
+            
+            if s[i] == "0":
+                return 0
+            
+            if i not in memo:
+                one_letter = dp(i+1)
+                two_letter = 0                    
+                if i + 1 < len(s) and 10 <= int(s[i:i+2]) <= 26:     
+                    two_letter = dp(i+2)
+                memo[i] = one_letter + two_letter
+            return memo[i]
+        
+        memo = {}
+        return dp(0)
+
+        """
         return the number of ways to decode a string
 
         it can decode 1 character or 2 characters
@@ -75,7 +123,7 @@ class Solution:
         
         # top down
         def dp(i):
-            if i == len(s): # I think even tho its over the len, it is still true..
+            if i == len(s):
                 return 1
             
             if s[i] == "0":
