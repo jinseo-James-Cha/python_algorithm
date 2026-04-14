@@ -37,7 +37,12 @@ class Solution:
             return 0
         
         remain_wordList = set(wordList)
+        if endWord not in remain_wordList:
+            return 0
 
+        if beginWord in remain_wordList:
+            remain_wordList.remove(beginWord)
+        
         queue = deque([(1, beginWord)])
         while queue:
             curr_path, curr_word = queue.popleft()
@@ -46,7 +51,10 @@ class Solution:
             
             for i in range(len(beginWord)):
                 for j in range(26):
-                    new_word = curr_word[:i] + chr(ord('a') + j) + curr_word[i+1:]
+                    c = chr(ord('a') + j)
+                    if c == curr_word[i]:
+                        continue
+                    new_word = curr_word[:i] + c + curr_word[i+1:]
                     if new_word in remain_wordList:
                         remain_wordList.remove(new_word)
                         queue.append((curr_path+1, new_word))
