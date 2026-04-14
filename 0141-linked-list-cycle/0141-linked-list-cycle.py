@@ -17,12 +17,16 @@ class Solution:
 
         starting from a dummy 
         """
-        dummy = ListNode(-1)
-        dummy.next = head
-        slow = fast = dummy
-        while fast and fast.next:
+        if not head or not head.next:
+            return False
+
+        slow = head
+        fast = head.next
+        while slow != fast:
+            if fast is None or fast.next is None:
+                return False
+            
             slow = slow.next
             fast = fast.next.next
-            if slow == fast:
-                return True
-        return False
+
+        return True
