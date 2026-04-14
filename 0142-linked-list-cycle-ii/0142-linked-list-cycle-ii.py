@@ -12,8 +12,34 @@ class Solution:
 
         if no cycle -> return null
 
-        "pos"
+
+          3 2 0 4
+            S
+            F
+
         """
+        slow = head
+        fast = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                break
+        
+        if not fast or not fast.next:
+            return None
+        
+        fast = head
+        while fast != slow:
+            slow = slow.next
+            fast = fast.next
+
+        return slow
+
+
+
+
         seen = set()
         dummy = head
         while dummy is not None:
