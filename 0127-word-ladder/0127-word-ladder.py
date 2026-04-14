@@ -35,17 +35,14 @@ class Solution:
         # BFS
         if len(beginWord) != len(endWord):
             return 0
-
-        if endWord and endWord not in wordList:
-            return 0
         
         remain_wordList = set(wordList)
 
-        queue = deque([(0, beginWord)])
+        queue = deque([(1, beginWord)])
         while queue:
             curr_path, curr_word = queue.popleft()
             if curr_word == endWord:
-                return curr_path + 1
+                return curr_path
             
             for i in range(len(beginWord)):
                 for j in range(26):
