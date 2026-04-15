@@ -1,7 +1,27 @@
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         """
-        brute force
+        binary search
+        """
+        n = len(nums)
+        left = 0
+        right = n-1
+        while left <= right:
+            mid = left + (right - left) // 2
+            
+            left_val = nums[mid-1] if mid > 0 else float('-inf')
+            right_val = nums[mid+1] if mid < n - 1 else float('-inf')
+            if left_val < nums[mid] > right_val:
+                return mid
+            elif left_val > nums[mid]:
+                right = mid - 1
+            elif right_val > nums[mid]:
+                left = mid + 1
+        return -1
+
+
+        """
+        brute force -> o(n)
         check each element is greater than neighbors
 
         """
