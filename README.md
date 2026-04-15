@@ -215,6 +215,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0643-maximum-average-subarray-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0645-set-mismatch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0645-set-mismatch) |
 | [0692-top-k-frequent-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0692-top-k-frequent-words) |
+| [0704-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0704-binary-search) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0724-find-pivot-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0724-find-pivot-index) |
@@ -1155,6 +1156,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0704-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0704-binary-search) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0731-my-calendar-ii) |
