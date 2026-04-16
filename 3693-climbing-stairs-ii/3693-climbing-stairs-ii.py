@@ -1,5 +1,33 @@
+import heapq
 class Solution:
     def climbStairs(self, n: int, costs: List[int]) -> int:
+        # dijkstra
+        # starting 0 -> end n
+        dist = [float('inf')] * (n+1)
+        dist[0] = 0
+
+        pq = [(0, 0)]
+
+        while pq:
+            curr_dist, curr_node = heapq.heappop(pq)
+
+            if curr_dist > dist[curr_node]:
+                continue
+
+            for step in [1, 2, 3]:
+                next_node = curr_node + step
+                if next_node-1 < n:
+                    next_dist = curr_dist + costs[next_node-1] + step**2
+
+                    if dist[next_node] > next_dist:
+                        dist[next_node] = next_dist
+                        heapq.heappush(pq, (next_dist, next_node))
+        return dist[n]
+
+
+
+
+
         def dp(i):
             if i == 0:
                 return 0
