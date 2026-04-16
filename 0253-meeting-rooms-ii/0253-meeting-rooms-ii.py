@@ -29,11 +29,12 @@ class Solution:
         intervals.sort(key= lambda x: x[0])
         heapq.heappush(free_rooms, intervals[0][1])
 
-        for i in intervals[1:]:
-            if free_rooms[0] <= i[0]:
+        for i in range(1, len(intervals)):
+            earliest_end = free_rooms[0]
+            curr_start, curr_end = intervals[i]
+            if earliest_end <= curr_start:
                 heapq.heappop(free_rooms)
-            heapq.heappush(free_rooms, i[1])
-
+            heapq.heappush(free_rooms, curr_end)
         return len(free_rooms)
 
 
