@@ -527,6 +527,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0030-substring-with-concatenation-of-all-words](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0032-longest-valid-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0038-count-and-say) |
+| [0043-multiply-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
@@ -775,6 +776,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0067-add-binary) |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
@@ -840,6 +842,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0009-palindrome-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0013-roman-to-integer) |
+| [0043-multiply-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0062-unique-paths) |
