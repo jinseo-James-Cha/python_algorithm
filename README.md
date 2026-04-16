@@ -101,6 +101,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0042-trapping-rain-water](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0051-n-queens) |
@@ -1062,6 +1063,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0015-3sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0015-3sum) |
+| [0047-permutations-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0075-sort-colors) |
@@ -1953,6 +1955,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0039-combination-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0077-combinations) |
