@@ -16,7 +16,7 @@ class Solution:
 
             for step in [1, 2, 3]:
                 next_node = curr_node + step
-                if next_node-1 < n:
+                if next_node <= n:
                     next_dist = curr_dist + costs[next_node-1] + step**2
 
                     if dist[next_node] > next_dist:
