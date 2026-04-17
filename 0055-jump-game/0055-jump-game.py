@@ -17,7 +17,14 @@ class Solution:
             prev_index + nums[prev_index] = curr_index
             2 + num[1] >= 3 => YES -> curr_position = prev_indx = 2
         """
-       # brute force
+        lastPos = len(nums) - 1
+        for i in range(len(nums) - 1, -1, -1):
+            if i + nums[i] >= lastPos:
+                lastPos = i
+        return lastPos == 0
+
+
+       # brute force o(n^2)
         n = len(nums)
         if n == 1:
             return True
