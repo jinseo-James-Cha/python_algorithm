@@ -1,12 +1,17 @@
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        near, far = 0,0
-        i, n = 0, len(nums)
-        res = 0
-        while i < n-1:
-            far = max(far, i + nums[i]) # 2
-            if near == i:
-                res += 1
-                near = far            
-            i += 1
-        return res
+        answer = 0
+        n = len(nums)
+        cur_end, cur_far = 0, 0
+
+        for i in range(n - 1):
+            # Update the farthest reachable index of this jump.
+            cur_far = max(cur_far, i + nums[i])
+
+            # If we finish the starting range of this jump,
+            # Move on to the starting range of the next jump.
+            if i == cur_end:
+                answer += 1
+                cur_end = cur_far
+
+        return answer
