@@ -17,11 +17,11 @@ class Solution:
             prev_index + nums[prev_index] = curr_index
             2 + num[1] >= 3 => YES -> curr_position = prev_indx = 2
         """
-        lastPos = len(nums) - 1
-        for i in range(len(nums) - 1, -1, -1):
-            if i + nums[i] >= lastPos:
-                lastPos = i
-        return lastPos == 0
+        curr_position = len(nums) - 1
+        for prev_index in range(len(nums) - 1, -1, -1):
+            if prev_index + nums[prev_index] >= curr_position:
+                curr_position = prev_index
+        return curr_position == 0
 
 
        # brute force o(n^2)
