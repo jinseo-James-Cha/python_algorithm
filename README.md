@@ -207,6 +207,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0518-coin-change-ii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+| [0528-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0528-random-pick-with-weight) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0575-distribute-candies](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0575-distribute-candies) |
@@ -875,6 +876,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
 | [0445-add-two-numbers-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0445-add-two-numbers-ii) |
 | [0507-perfect-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0507-perfect-number) |
+| [0528-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0528-random-pick-with-weight) |
 | [0650-2-keys-keyboard](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0650-2-keys-keyboard) |
 | [0788-rotated-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0788-rotated-digits) |
 | [0795-k-th-symbol-in-grammar](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0795-k-th-symbol-in-grammar) |
@@ -1162,6 +1164,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0528-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0528-random-pick-with-weight) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0704-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0704-binary-search) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -1758,6 +1761,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
+| [0528-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0528-random-pick-with-weight) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
 ## Sliding Window
 |  |
@@ -1837,6 +1841,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0370-range-addition](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0370-range-addition) |
+| [0528-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0528-random-pick-with-weight) |
 | [0560-subarray-sum-equals-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0731-my-calendar-ii) |
