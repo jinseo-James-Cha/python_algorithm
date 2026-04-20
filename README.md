@@ -465,6 +465,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0940-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0940-fruit-into-baskets) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0966-binary-subarrays-with-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0966-binary-subarrays-with-sum) |
+| [0981-time-based-key-value-store](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-time-based-key-value-store) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1039-find-the-town-judge](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1039-find-the-town-judge) |
@@ -612,6 +613,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0949-largest-time-for-given-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0949-largest-time-for-given-digits) |
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [0981-delete-columns-to-make-sorted](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-delete-columns-to-make-sorted) |
+| [0981-time-based-key-value-store](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-time-based-key-value-store) |
 | [0990-verifying-an-alien-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0990-verifying-an-alien-dictionary) |
 | [1021-remove-outermost-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1021-remove-outermost-parentheses) |
 | [1044-longest-duplicate-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1044-longest-duplicate-substring) |
@@ -1177,6 +1179,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0792-binary-search](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0875-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
+| [0981-time-based-key-value-store](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-time-based-key-value-store) |
 | [1004-max-consecutive-ones-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1044-longest-duplicate-substring](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1044-longest-duplicate-substring) |
@@ -1759,6 +1762,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-number-of-recent-calls) |
+| [0981-time-based-key-value-store](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0981-time-based-key-value-store) |
 | [1146-snapshot-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1146-snapshot-array) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [2336-smallest-number-in-infinite-set](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2336-smallest-number-in-infinite-set) |
