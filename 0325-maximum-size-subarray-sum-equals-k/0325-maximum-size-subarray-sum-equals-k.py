@@ -1,46 +1,34 @@
 class Solution:
     def maxSubArrayLen(self, nums: List[int], k: int) -> int:
-       
         """
-        sum(i~j) = prefix[j] - prefix[i-1]
-        k = prefix[j] - prefix[i-1]
-        prefix[i-1] = prefix[j] - k
-        check in the past
-        -> yes? i - j
+        subarray sum
+        sum(i~j) == k
+        prefix_sum[j] - prefix_sum[i-1] == k
+        prefix_sum[j] - k == prefix_sum[i-1]
+        1 2 3 = 3
+        
+        1:0
+        3 - 2 in 
+        i - prev[total - k]
+        3:1
+
+        curr_sum_total_j - k in prev_subarray_sum: i -> 
+        j - i -> the length and update by maximum
+
         """
-        max_len = 0
-        prefix_sum = 0
-        indices = {}
-        for i,num in enumerate(nums):
-            prefix_sum += num
+        prev_subarray_sum = {} # key: i
+        curr_sum_total = 0
+        maximum_size = 0
+        for i, num in enumerate(nums):
+            curr_sum_total += num
+
+            if curr_sum_total == k:
+                maximum_size = i + 1
+
+            if curr_sum_total - k in prev_subarray_sum:
+                maximum_size = max(maximum_size, i - prev_subarray_sum[curr_sum_total - k])
             
-            if prefix_sum == k:
-                max_len = i + 1               
+            if curr_sum_total not in prev_subarray_sum:
+                prev_subarray_sum[curr_sum_total] = i
 
-            if prefix_sum - k in indices:
-                max_len = max(max_len, i - indices[prefix_sum - k])
-            
-            if prefix_sum not in indices:
-                indices[prefix_sum] = i
-        
-        return max_len
-
-
-
-
-        """
-        brute force 
-        loop check by size from n ~ 1
-        if it makes -> return the size
-        
-        Time = O(n**3)
-        Space = O(1)
-        """
-        n = len(nums)
-        for size in range(n, 0, -1):
-            for i in range(0, n - size + 1):
-                curr_sum = sum(nums[i:i+size]) # o(n)
-                if curr_sum == k:
-                    return size
-        
-        return 0
+        return maximum_size
