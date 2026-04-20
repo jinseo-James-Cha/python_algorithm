@@ -1,18 +1,21 @@
 class SnapshotArray:
     def __init__(self, length: int):
-        self.id = 0
-        self.history_records = [[[0, 0]] for _ in range(length)]
+        self.snap_id = 0
+        self.histories = [[[0,0]] for _ in range(length)]
         
     def set(self, index: int, val: int) -> None:
-        self.history_records[index].append([self.id, val])
+        self.histories[index].append([self.snap_id, val])
 
     def snap(self) -> int:
-        self.id += 1
-        return self.id - 1
+        self.snap_id += 1
+        return self.snap_id - 1
 
     def get(self, index: int, snap_id: int) -> int:
-        snap_index = bisect.bisect_right(self.history_records[index], [snap_id, 10 ** 9])
-        return self.history_records[index][snap_index - 1][1]
+        snap_index = bisect.bisect_right(self.histories[index], [snap_id, 10 ** 9])
+        # self.history_records[index] = [[0,5], [1, 10]]... this type of form.
+        # so need to make the same form to compare them [0,5][1,10] then 0, 1 compare first and then second element
+        # put maximum possible value 10**9 so we can get always last updated value
+        return self.histories[index][snap_index - 1][1]
 
     # MLE
     # def __init__(self, length: int):
