@@ -18,11 +18,28 @@ class Solution:
         first max -> 1
         second max -> 1 when to switch to second jump? when there is no more jump
         """
+        curr_max = 0
+        next_max = 0
+        jumps = 0
+        for i in range(len(nums) - 1):
+            next_max = max(next_max, i + nums[i])
+            
+            if i == curr_max:
+                curr_max = next_max
+                jumps += 1
+        return jumps
+
+        
+
+
+
 
 
         """
+        dp -> O(n^2)
         2 3 1 1 4
         2 1 2 1 0
+        <- <- <- <-
         """
         n = len(nums)
         jumps = [0] * n
