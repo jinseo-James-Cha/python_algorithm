@@ -16,33 +16,33 @@ class Solution:
 
         shortest path from start node to dest value
         
-        lowest ancester 
+        lowest ancestor 
         L R
-        U - from starting Node to Lowest Ancester -> only U
-        L R - from Lowest Ancester to destValue -> L or U
+        U - from starting Node to Lowest Ancestor -> only U
+        L R - from Lowest Ancestor to destValue -> L or U
         """
-        # find Lowest Ancester
-        def findAncester(node, startValue, destValue):
-            nonlocal lowestAncester
+        # find Lowest Common Ancestor
+        def findAncestor(node, startValue, destValue):
+            nonlocal lowestAncestor
             if not node:
                 return False
             
             myself = node.val == startValue or node.val == destValue
-            leftResult = findAncester(node.left, startValue, destValue)
-            rightResult = findAncester(node.right, startValue, destValue)
+            leftResult = findAncestor(node.left, startValue, destValue)
+            rightResult = findAncestor(node.right, startValue, destValue)
 
             if myself + leftResult + rightResult >= 2:
-                lowestAncester = node
+                lowestAncestor = node
             
             return myself or leftResult or rightResult
 
-        lowestAncester = None
-        findAncester(root, startValue, destValue)
+        lowestAncestor = None
+        findAncestor(root, startValue, destValue)
         
 
         startPath = ""
         destPath = ""
-        queue = deque([(lowestAncester, "")])
+        queue = deque([(lowestAncestor, "")])
         while queue:
             curr_node, curr_path = queue.popleft()
             if curr_node.val == startValue:
