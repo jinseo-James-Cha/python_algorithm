@@ -295,6 +295,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1304-find-n-unique-integers-sum-up-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1304-find-n-unique-integers-sum-up-to-zero) |
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
+| [1306-jump-game-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-jump-game-iii) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1319-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1319-unique-number-of-occurrences) |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1335-minimum-difficulty-of-a-job-schedule) |
@@ -1563,6 +1564,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1192-critical-connections-in-a-network](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1192-critical-connections-in-a-network) |
+| [1306-jump-game-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-jump-game-iii) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -1636,6 +1638,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1306-jump-game-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-jump-game-iii) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
