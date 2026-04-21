@@ -39,18 +39,24 @@ class Solution:
         lowestAncestor = None
         findAncestor(root, startValue, destValue)
         
+        if not lowestAncestor:
+            return ""
 
         startPath = ""
         destPath = ""
+        foundStart = False
+        foundDest = False
         queue = deque([(lowestAncestor, "")])
         while queue:
             curr_node, curr_path = queue.popleft()
             if curr_node.val == startValue:
                 startPath = curr_path
+                foundStart = True
             elif curr_node.val == destValue:
                 destPath = curr_path
+                FoundDest = True
             
-            if startPath and destPath:
+            if foundStart and foundDest:
                 break
             
             if curr_node.left:
