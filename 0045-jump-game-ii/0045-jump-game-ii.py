@@ -1,17 +1,41 @@
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        answer = 0
+        """
         n = len(nums)
-        cur_end, cur_far = 0, 0
 
-        for i in range(n - 1):
-            # Update the farthest reachable index of this jump.
-            cur_far = max(cur_far, i + nums[i])
+        initial position 0
+        each element nums[i] -> maximum length of jump from i
 
-            # If we finish the starting range of this jump,
-            # Move on to the starting range of the next jump.
-            if i == cur_end:
-                answer += 1
-                cur_end = cur_far
+        2 3 1 1 4
+        F F F
+          S S S S     =>  2jumps 
+        
+        2 3 0 1 4
+        F F F
+          S S S S   => 2 jumps
 
-        return answer
+        when can I count a new jump?
+        first max -> 1
+        second max -> 1 when to switch to second jump? when there is no more jump
+        """
+
+
+        """
+        2 3 1 1 4
+        2 1 2 1 0
+        """
+        n = len(nums)
+        jumps = [0] * n
+        for i in range(n-2, -1, -1): # 5-2 3
+            if nums[i] == 0:
+                jumps[i] = float('inf')
+                continue
+
+            curr_jump = nums[i] 
+            min_val = float('inf')
+            for j in range(i+1, min(n, i + curr_jump + 1)): 
+                min_val = min(min_val, jumps[j])
+            
+            jumps[i] = min_val + 1
+        return jumps[0]
+
