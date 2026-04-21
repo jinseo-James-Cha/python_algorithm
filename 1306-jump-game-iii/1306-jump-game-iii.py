@@ -10,6 +10,31 @@ class Solution:
         - return any index has 0
 
         """
+        # BFS
+        n = len(arr)
+        queue = deque([start])
+        visited = set()
+        while queue:
+            curr_idx = queue.popleft()
+            if arr[curr_idx] == 0:
+                return True
+            
+            visited.add(curr_idx)
+            
+            if curr_idx + arr[curr_idx] < n and curr_idx + arr[curr_idx] not in visited:
+                queue.append(curr_idx + arr[curr_idx])
+            
+            if curr_idx - arr[curr_idx] >= 0 and curr_idx - arr[curr_idx] not in visited:
+                queue.append(curr_idx - arr[curr_idx])
+
+        return False
+
+
+
+
+
+
+
         #  DP
         # state i
         # - is i in range of the array? 
