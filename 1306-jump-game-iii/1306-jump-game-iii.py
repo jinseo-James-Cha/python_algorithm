@@ -29,6 +29,7 @@ class Solution:
             
             if i in visited:
                 return False
+            
             visited.add(i)
 
             if i not in memo:
@@ -36,7 +37,6 @@ class Solution:
                     memo[i] = True
                 else:
                     memo[i] = dp(i + arr[i]) or dp(i - arr[i])
-            visited.remove(i)
             return memo[i]
         
         memo = {}
