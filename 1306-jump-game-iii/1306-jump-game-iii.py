@@ -13,18 +13,18 @@ class Solution:
         # BFS
         n = len(arr)
         queue = deque([start])
-        visited = set()
+        visited = set([start])
         while queue:
             curr_idx = queue.popleft()
             if arr[curr_idx] == 0:
                 return True
             
-            visited.add(curr_idx)
-            
             if curr_idx + arr[curr_idx] < n and curr_idx + arr[curr_idx] not in visited:
+                visited.add(curr_idx + arr[curr_idx])
                 queue.append(curr_idx + arr[curr_idx])
             
             if curr_idx - arr[curr_idx] >= 0 and curr_idx - arr[curr_idx] not in visited:
+                visited.add(curr_idx - arr[curr_idx])
                 queue.append(curr_idx - arr[curr_idx])
 
         return False
