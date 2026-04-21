@@ -643,6 +643,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2211-count-collisions-on-a-road](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2211-count-collisions-on-a-road) |
@@ -1473,6 +1474,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1448-count-good-nodes-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2384-root-equals-sum-of-children](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2384-root-equals-sum-of-children) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
@@ -1568,6 +1570,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
 | [1753-path-with-minimum-effort](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1753-path-with-minimum-effort) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2121-find-if-path-exists-in-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2121-find-if-path-exists-in-graph) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
@@ -1710,6 +1713,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1448-count-good-nodes-in-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1609-find-all-the-lonely-nodes) |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2384-root-equals-sum-of-children](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2384-root-equals-sum-of-children) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2843-extract-kth-character-from-the-rope-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2843-extract-kth-character-from-the-rope-tree) |
