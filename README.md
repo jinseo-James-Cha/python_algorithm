@@ -364,6 +364,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2542-maximum-subsequence-score](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2542-maximum-subsequence-score) |
 | [2551-apply-operations-to-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2551-apply-operations-to-an-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
+| [2615-sum-of-distances](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2615-sum-of-distances) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2737-row-with-maximum-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2737-row-with-maximum-ones) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
@@ -504,6 +505,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2352-equal-row-and-column-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2352-equal-row-and-column-pairs) |
 | [2406-decode-the-message](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2406-decode-the-message) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2615-sum-of-distances](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2615-sum-of-distances) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3227-find-missing-and-repeated-values) |
 | [3343-count-numbers-with-unique-digits-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3343-count-numbers-with-unique-digits-ii) |
@@ -1875,6 +1877,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2615-sum-of-distances](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2615-sum-of-distances) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Heap (Priority Queue)
