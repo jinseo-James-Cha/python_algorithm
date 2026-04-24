@@ -660,6 +660,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [2452-words-within-two-edits-of-dictionary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2833-furthest-point-from-origin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2833-furthest-point-from-origin) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3447-clear-digits) |
 | [3606-coupon-code-validator](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3606-coupon-code-validator) |
@@ -843,6 +844,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2308-divide-array-into-equal-pairs) |
+| [2833-furthest-point-from-origin](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2833-furthest-point-from-origin) |
 | [3583-count-special-triplets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3583-count-special-triplets) |
 | [3713-longest-balanced-substring-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3713-longest-balanced-substring-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
