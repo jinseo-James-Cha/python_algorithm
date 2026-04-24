@@ -45,7 +45,7 @@
 - Everyday minimum 1 LC question
 
 # Python
-- Daily algorithm!
+- Daily algorithm!!!
 - Data Structures:
 ```
 Arrays: Manipulation, searching, sorting.
