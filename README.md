@@ -344,6 +344,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1927-maximum-ascending-subarray-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1983-maximum-population-year](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1983-maximum-population-year) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2048-build-array-from-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2058-concatenation-of-array) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -923,6 +924,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2383-add-two-integers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2383-add-two-integers) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2432-number-of-zero-filled-subarrays) |
@@ -1143,6 +1145,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1657-determine-if-two-strings-are-close](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2215-finding-3-digit-even-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2215-finding-3-digit-even-numbers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -1375,6 +1378,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1791-richest-customer-wealth](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1791-richest-customer-wealth) |
 | [1901-find-a-peak-element-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1901-find-a-peak-element-ii) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2352-equal-row-and-column-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2352-equal-row-and-column-pairs) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/2585-delete-greatest-value-in-each-row) |
