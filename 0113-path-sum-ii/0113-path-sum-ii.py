@@ -21,15 +21,11 @@ class Solution:
                 continue
             
             if curr_node.left:
-                queue.append((curr_node.left, curr_combo, remaining - curr_node.val))
+                queue.append((curr_node.left, curr_combo[:], remaining - curr_node.val))
             
             if curr_node.right:
-                queue.append((curr_node.right, curr_combo, remaining - curr_node.val))
-            
-
-
-
-
+                queue.append((curr_node.right, curr_combo[:], remaining - curr_node.val))
+        return res
 
 
         # DFS
