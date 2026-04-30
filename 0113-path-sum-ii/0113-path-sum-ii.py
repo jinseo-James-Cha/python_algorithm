@@ -18,7 +18,7 @@ class Solution:
             curr_combo = curr_combo[:]
             curr_combo.append(curr_node.val)
             if remaining == curr_node.val and not curr_node.left and not curr_node.right:
-                res.append(curr_combo[:])
+                res.append(curr_combo)
                 continue
             
             if curr_node.left:
