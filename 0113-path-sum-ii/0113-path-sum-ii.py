@@ -15,16 +15,17 @@ class Solution:
         queue = deque([(root, [], targetSum)])
         while queue:
             curr_node, curr_combo, remaining = queue.popleft()
+            curr_combo = curr_combo[:]
             curr_combo.append(curr_node.val)
             if remaining == curr_node.val and not curr_node.left and not curr_node.right:
                 res.append(curr_combo[:])
                 continue
             
             if curr_node.left:
-                queue.append((curr_node.left, curr_combo[:], remaining - curr_node.val))
+                queue.append((curr_node.left, curr_combo, remaining - curr_node.val))
             
             if curr_node.right:
-                queue.append((curr_node.right, curr_combo[:], remaining - curr_node.val))
+                queue.append((curr_node.right, curr_combo, remaining - curr_node.val))
         return res
 
 
