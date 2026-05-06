@@ -26,7 +26,3 @@ class Solution:
             return float(merged_list[len(merged_list) // 2])
         
         return float((merged_list[len(merged_list) // 2] + merged_list[len(merged_list) // 2 - 1]) / 2)
-
-
-
-
