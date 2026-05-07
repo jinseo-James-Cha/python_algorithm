@@ -43,6 +43,7 @@
 
 # Goal
 - Everyday minimum 1 LC question
+- Pass all big tech's DSA interview with perfect score
 
 # Python
 - Daily algorithm!!!
