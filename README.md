@@ -44,9 +44,10 @@
 # Goal
 - Everyday minimum 1 LC question
 - Pass all big tech's DSA interview with perfect score
+- Solve a medium within 20min, a hard within 30min
 
 # Python
-- Daily algorithm!!!
+- Daily algorithm
 - Data Structures:
 ```
 Arrays: Manipulation, searching, sorting.
