@@ -889,6 +889,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0326-power-of-three](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0342-power-of-four) |
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
+| [0369-plus-one-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0369-plus-one-linked-list) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
@@ -969,6 +970,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0328-odd-even-linked-list) |
+| [0369-plus-one-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0369-plus-one-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0445-add-two-numbers-ii) |
 | [0708-insert-into-a-sorted-circular-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0708-insert-into-a-sorted-circular-linked-list) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
