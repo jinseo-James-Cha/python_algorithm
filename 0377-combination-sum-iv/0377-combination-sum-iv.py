@@ -37,7 +37,7 @@ class Solution:
                 res.append(curr_combination[:])
             
             for i in range(start, len(nums)):
-                if target - nums[i] >= 0:
+                if remaining - nums[i] >= 0:
                     curr_combination.append(nums[i])
                     backtrack(i, curr_combination, remaining - nums[i])
                     curr_combination.pop()
