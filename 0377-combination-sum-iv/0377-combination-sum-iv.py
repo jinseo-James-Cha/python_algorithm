@@ -29,19 +29,20 @@ class Solution:
         return dp(target)
 
 
-        # backtracking
-        def backtrack(start, curr_combination, remaining):
-            if remaining < 0:
-                return
-            elif remaining == 0:
-                res.append(curr_combination[:])
+        # backtracking -> NOT WORKING -> it didn't have prev nums in the combinations..
+        # def backtrack(start, curr_combination, remaining):
+        #     if remaining < 0:
+        #         return
+        #     elif remaining == 0:
+        #         res.append(curr_combination[:])
+        #         return
             
-            for i in range(start, len(nums)):
-                if remaining - nums[i] >= 0:
-                    curr_combination.append(nums[i])
-                    backtrack(i, curr_combination, remaining - nums[i])
-                    curr_combination.pop()
+        #     for i in range(start, len(nums)):
+        #         if remaining - nums[i] >= 0:
+        #             curr_combination.append(nums[i])
+        #             backtrack(i, curr_combination, remaining - nums[i])
+        #             curr_combination.pop()
             
-        res = []
-        backtrack(0, [], target)
-        return len(res)
+        # res = []
+        # backtrack(0, [], target)
+        # return len(res)
