@@ -1,3 +1,7 @@
+# Want to do more on..
+- graphs: dijkstra, bellman-ford, Prim, Kruskal, Topological sort...
+
+
 # Neccessary Sort Algorithms
 [Sort algorithms .pdf](https://github.com/user-attachments/files/25826855/Sort.algorithms.pdf)
 # Neccessary Hard Questions
@@ -39,7 +43,7 @@
 * **212: Word Search II** (Hard) - Backtracking with Trie
 * **23: Merge k Sorted Lists** (Hard) - Priority Queue optimization
 * **295: Find Median from Data Stream** (Hard) - Two-Heap approach
-
+Y
 
 # Goal
 - Everyday minimum 1 LC question
@@ -183,7 +187,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0300-longest-increasing-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
-| [0318-maximum-product-of-word-lengths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0318-maximum-product-of-word-lengths) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0334-increasing-triplet-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0334-increasing-triplet-subsequence) |
@@ -191,12 +194,9 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
-| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
 | [0370-range-addition](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0370-range-addition) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0373-find-k-pairs-with-smallest-sums) |
-| [0377-combination-sum-iv](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0377-combination-sum-iv) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
-| [0379-design-phone-directory](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0379-design-phone-directory) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
@@ -450,7 +450,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
-| [0379-design-phone-directory](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0379-design-phone-directory) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
@@ -584,7 +583,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0291-word-pattern-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0291-word-pattern-ii) |
 | [0293-flip-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0293-flip-game) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
-| [0318-maximum-product-of-word-lengths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0318-maximum-product-of-word-lengths) |
 | [0344-reverse-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0383-ransom-note) |
@@ -895,7 +893,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0326-power-of-three](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0342-power-of-four) |
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
-| [0369-plus-one-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0369-plus-one-linked-list) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
@@ -976,8 +973,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0328-odd-even-linked-list) |
-| [0369-plus-one-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0369-plus-one-linked-list) |
-| [0379-design-phone-directory](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0379-design-phone-directory) |
 | [0445-add-two-numbers-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0445-add-two-numbers-ii) |
 | [0708-insert-into-a-sorted-circular-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0708-insert-into-a-sorted-circular-linked-list) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -1045,7 +1040,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
-| [0377-combination-sum-iv](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0392-is-subsequence) |
 | [0413-arithmetic-slices](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
@@ -1192,7 +1186,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0300-longest-increasing-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
-| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1251,7 +1244,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0231-power-of-two](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0231-power-of-two) |
 | [0266-palindrome-permutation](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0268-missing-number) |
-| [0318-maximum-product-of-word-lengths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0318-maximum-product-of-word-lengths) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0389-find-the-difference) |
@@ -1409,8 +1401,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0225-implement-stack-using-queues](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0225-implement-stack-using-queues) |
 | [0239-sliding-window-maximum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0239-sliding-window-maximum) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
-| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
-| [0379-design-phone-directory](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0379-design-phone-directory) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0649-dota2-senate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0649-dota2-senate) |
 | [0933-number-of-recent-calls](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-number-of-recent-calls) |
@@ -1475,7 +1465,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
-| [0366-find-leaves-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0366-find-leaves-of-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0449-serialize-and-deserialize-bst) |
@@ -1557,7 +1546,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0332-reconstruct-itinerary) |
 | [0339-nested-list-weight-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0339-nested-list-weight-sum) |
-| [0366-find-leaves-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0366-find-leaves-of-binary-tree) |
 | [0388-longest-absolute-file-path](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0388-longest-absolute-file-path) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
@@ -1729,7 +1717,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
-| [0366-find-leaves-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0366-find-leaves-of-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0449-serialize-and-deserialize-bst) |
@@ -1807,8 +1794,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
-| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
-| [0379-design-phone-directory](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0379-design-phone-directory) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
 | [0449-serialize-and-deserialize-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0449-serialize-and-deserialize-bst) |
@@ -1862,7 +1847,6 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
-| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-number-of-recent-calls) |
