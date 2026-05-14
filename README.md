@@ -1,6 +1,8 @@
 # Want to do more on..
 - graphs: dijkstra, bellman-ford, Prim, Kruskal, Topological sort...
-
+- monotonic stack
+- sorting: merge, quick, heap, counting...
+- Dynamic Programming: 1D, 2D...
 
 # Neccessary Sort Algorithms
 [Sort algorithms .pdf](https://github.com/user-attachments/files/25826855/Sort.algorithms.pdf)
