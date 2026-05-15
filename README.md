@@ -191,6 +191,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0347-top-k-frequent-elements](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
 | [0370-range-addition](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0370-range-addition) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0377-combination-sum-iv](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0377-combination-sum-iv) |
@@ -1191,6 +1192,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0300-longest-increasing-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1407,6 +1409,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0225-implement-stack-using-queues](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0225-implement-stack-using-queues) |
 | [0239-sliding-window-maximum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0239-sliding-window-maximum) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
+| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
 | [0379-design-phone-directory](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0379-design-phone-directory) |
 | [0387-first-unique-character-in-a-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0649-dota2-senate](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0649-dota2-senate) |
@@ -1801,6 +1804,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0303-range-sum-query-immutable](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0303-range-sum-query-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
+| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
 | [0379-design-phone-directory](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0379-design-phone-directory) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
@@ -1855,6 +1859,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0359-logger-rate-limiter) |
+| [0362-design-hit-counter](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0362-design-hit-counter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-number-of-recent-calls) |
