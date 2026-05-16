@@ -16,7 +16,7 @@ class Solution:
 
             currHeight = max(leftHeight, rightHeight) + 1
 
-            if len(res) <= currHeight:
+            if len(res) == currHeight:
                 res.append([])
 
             res[currHeight].append(node.val)
