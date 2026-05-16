@@ -1475,6 +1475,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0366-find-leaves-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0366-find-leaves-of-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0449-serialize-and-deserialize-bst) |
@@ -1556,6 +1557,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0332-reconstruct-itinerary) |
 | [0339-nested-list-weight-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0339-nested-list-weight-sum) |
+| [0366-find-leaves-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0366-find-leaves-of-binary-tree) |
 | [0388-longest-absolute-file-path](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0388-longest-absolute-file-path) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
@@ -1727,6 +1729,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0270-closest-binary-search-tree-value](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0366-find-leaves-of-binary-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0366-find-leaves-of-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0449-serialize-and-deserialize-bst) |
