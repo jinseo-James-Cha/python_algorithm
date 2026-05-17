@@ -761,6 +761,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0234-palindrome-linked-list](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0234-palindrome-linked-list) |
 | [0246-strobogrammatic-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0246-strobogrammatic-number) |
 | [0253-meeting-rooms-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0253-meeting-rooms-ii) |
+| [0277-find-the-celebrity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0277-find-the-celebrity) |
 | [0283-move-zeroes](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0344-reverse-string) |
@@ -1225,6 +1226,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 |  |
 | ------- |
 | [0157-read-n-characters-given-read4](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0157-read-n-characters-given-read4) |
+| [0277-find-the-celebrity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0277-find-the-celebrity) |
 | [0278-first-bad-version](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0374-guess-number-higher-or-lower) |
 | [0865-robot-room-cleaner](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0865-robot-room-cleaner) |
@@ -2194,6 +2196,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | ------- |
 | [0133-clone-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0133-clone-graph) |
 | [0210-course-schedule-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0210-course-schedule-ii) |
+| [0277-find-the-celebrity](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0277-find-the-celebrity) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0684-redundant-connection) |
