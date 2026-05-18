@@ -895,6 +895,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0292-nim-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0342-power-of-four) |
+| [0357-count-numbers-with-unique-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0357-count-numbers-with-unique-digits) |
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
@@ -1043,6 +1044,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
+| [0357-count-numbers-with-unique-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0357-count-numbers-with-unique-digits) |
 | [0392-is-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0392-is-subsequence) |
 | [0413-arithmetic-slices](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
@@ -2037,6 +2039,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0257-binary-tree-paths](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0257-binary-tree-paths) |
 | [0267-palindrome-permutation-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0267-palindrome-permutation-ii) |
 | [0291-word-pattern-ii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0291-word-pattern-ii) |
+| [0357-count-numbers-with-unique-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0357-count-numbers-with-unique-digits) |
 | [0401-binary-watch](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0401-binary-watch) |
 | [0494-target-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0494-target-sum) |
 | [0681-next-closest-time](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0681-next-closest-time) |
