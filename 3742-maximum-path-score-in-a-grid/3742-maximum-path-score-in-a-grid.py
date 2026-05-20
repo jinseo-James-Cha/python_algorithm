@@ -21,26 +21,28 @@ class Solution:
         dp = [[[INF] * (k + 1) for _ in range(n)] for _ in range(m)]
         dp[0][0][0] = 0
 
-        for i in range(m):
-            for j in range(n):
-                for c in range(k + 1):
-                    if dp[i][j][c] == INF:
+        for row in range(m):
+            for col in range(n):
+                for remaining in range(k + 1):
+                    if dp[row][col][remaining] == INF:
                         continue
 
-                    if i + 1 < m:
-                        val = grid[i + 1][j]
+                    # to bottom
+                    if row + 1 < m:
+                        val = grid[row + 1][col]
                         cost = 0 if val == 0 else 1
-                        if c + cost <= k:
-                            dp[i + 1][j][c + cost] = max(
-                                dp[i + 1][j][c + cost], dp[i][j][c] + val
+                        if remaining + cost <= k:
+                            dp[row + 1][col][remaining + cost] = max(
+                                dp[row + 1][col][remaining + cost], dp[row][col][remaining] + val
                             )
 
-                    if j + 1 < n:
-                        val = grid[i][j + 1]
+                    # to right
+                    if col + 1 < n:
+                        val = grid[row][col + 1]
                         cost = 0 if val == 0 else 1
-                        if c + cost <= k:
-                            dp[i][j + 1][c + cost] = max(
-                                dp[i][j + 1][c + cost], dp[i][j][c] + val
+                        if remaining + cost <= k:
+                            dp[row][col + 1][remaining + cost] = max(
+                                dp[row][col + 1][remaining + cost], dp[row][col][remaining] + val
                             )
 
         ans = max(dp[m - 1][n - 1])
