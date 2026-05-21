@@ -201,6 +201,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
+| [0396-rotate-function](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0396-rotate-function) |
 | [0399-evaluate-division](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0399-evaluate-division) |
 | [0413-arithmetic-slices](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0413-arithmetic-slices) |
 | [0414-third-maximum-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0414-third-maximum-number) |
@@ -901,6 +902,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0367-valid-perfect-square](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0367-valid-perfect-square) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0384-shuffle-an-array) |
+| [0396-rotate-function](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0396-rotate-function) |
 | [0398-random-pick-index](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0398-random-pick-index) |
 | [0412-fizz-buzz](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0415-add-strings) |
@@ -1049,6 +1051,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0338-counting-bits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0338-counting-bits) |
 | [0357-count-numbers-with-unique-digits](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0357-count-numbers-with-unique-digits) |
 | [0392-is-subsequence](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0392-is-subsequence) |
+| [0396-rotate-function](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0396-rotate-function) |
 | [0413-arithmetic-slices](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0494-target-sum) |
