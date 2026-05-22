@@ -252,6 +252,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0875-koko-eating-bananas](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0875-koko-eating-bananas) |
 | [0898-transpose-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0898-transpose-matrix) |
 | [0904-fruit-into-baskets](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0904-fruit-into-baskets) |
+| [0907-sum-of-subarray-minimums](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0907-sum-of-subarray-minimums) |
 | [0912-random-pick-with-weight](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-random-pick-with-weight) |
 | [0912-sort-an-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0912-sort-an-array) |
 | [0929-unique-email-addresses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0929-unique-email-addresses) |
@@ -716,6 +717,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0776-n-ary-tree-postorder-traversal](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0874-backspace-string-compare](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0874-backspace-string-compare) |
 | [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
+| [0907-sum-of-subarray-minimums](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0907-sum-of-subarray-minimums) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0933-increasing-order-search-tree](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0933-increasing-order-search-tree) |
 | [1021-remove-outermost-parentheses](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1021-remove-outermost-parentheses) |
@@ -1072,6 +1074,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0803-cheapest-flights-within-k-stops](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0826-soup-servings) |
+| [0907-sum-of-subarray-minimums](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0907-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1013-fibonacci-number) |
@@ -1999,6 +2002,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0496-next-greater-element-i](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0901-online-stock-span) |
+| [0907-sum-of-subarray-minimums](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0907-sum-of-subarray-minimums) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1504-count-submatrices-with-all-ones](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1504-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
