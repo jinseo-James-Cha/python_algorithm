@@ -305,6 +305,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1280-diet-plan-performance](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1280-diet-plan-performance) |
 | [1293-three-consecutive-odds](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-three-consecutive-odds) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1304-find-n-unique-integers-sum-up-to-zero](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1304-find-n-unique-integers-sum-up-to-zero) |
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
 | [1306-jump-game-iii](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-jump-game-iii) |
@@ -498,6 +499,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1149-intersection-of-three-sorted-arrays](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1207-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1207-unique-number-of-occurrences) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1319-unique-number-of-occurrences](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1319-unique-number-of-occurrences) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -1159,6 +1161,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [1098-largest-unique-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1098-largest-unique-number) |
 | [1137-height-checker](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1137-height-checker) |
 | [1268-search-suggestions-system](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1268-search-suggestions-system) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1306-minimum-absolute-difference](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1306-minimum-absolute-difference) |
 | [1308-smallest-string-with-swaps](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1308-smallest-string-with-swaps) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
@@ -1332,6 +1335,7 @@ Divide and Conquer: Breaking a problem into smaller sub-problems (e.g., Merge So
 | [0979-di-string-match](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/0979-di-string-match) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1144-decrease-elements-to-make-array-zigzag](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1144-decrease-elements-to-make-array-zigzag) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1448-maximum-69-number](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1448-maximum-69-number) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/jinseo-James-Cha/python_algorithm/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
