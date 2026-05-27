@@ -11,7 +11,7 @@ class Solution:
 
         # DFS
         def dfs(node):
-            nonlocal lcs
+            nonlocal lca
             if not node:
                 return 0
             
@@ -19,9 +19,9 @@ class Solution:
             right = dfs(node.right)
             curr = node == p or node == q
             if left + right + curr >= 2:
-                lcs = node
+                lca = node
             return left or right or curr
 
-        lcs = None
+        lca = None
         dfs(root)
-        return lcs
+        return lca
