@@ -1,19 +1,27 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-    
-        # using Binary search, but its partially not sorted !?
-        # like 12345 -> 45123
-        # one index has bigger than next index
-        # two parts of array 
+        """
+        sorted in ascending order -> binary search?
+        but nums are rotated
+
+        1 2 3 4 -> 3 4 1 2 -> 2 times left rotated
+        return target is in nums with log n -> binary search but something different
         
-        # need to check non-ascending order
-        left, right = 0, len(nums) - 1
+        
+        1 3 5 7 9 and 6
+        L   M   R -> 5 < 6 we can move to right range cuz it is bigger than target always.
+        if not gauranteed, we need to check where to move to.
+
+        """
+        left = 0
+        right = len(nums) - 1
         while left < right:
             mid = (left + right) // 2
+
+            # if correct
             if nums[mid] == target:
                 return mid
             elif nums[left] <= nums[mid]:
-                # if nums[left:mid] is proper asceding order list
                 if nums[left] <= target < nums[mid]:
                     right = mid - 1
                 else:
@@ -24,3 +32,6 @@ class Solution:
                 else:
                     right = mid - 1
         return left if nums and nums[left] == target else -1
+
+
+
