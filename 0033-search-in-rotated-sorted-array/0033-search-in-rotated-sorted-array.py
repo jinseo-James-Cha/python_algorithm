@@ -12,13 +12,14 @@ class Solution:
         L   M   R -> 5 < 6 we can move to right range cuz it is bigger than target always.
         if not gauranteed, we need to check where to move to.
 
+
+        In each iteration, one half of the rotated array is always sorted. We determine which half is sorted, check if the target belongs to that range, and eliminate the other half. This allows us to perform a modified binary search in O(log n) time.
         """
         left = 0
         right = len(nums) - 1
         while left < right:
             mid = (left + right) // 2
 
-            # if correct
             if nums[mid] == target:
                 return mid
             elif nums[left] <= nums[mid]:
