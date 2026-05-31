@@ -1,3 +1,18 @@
+
+# Live coding test framework
+- clarify problem
+- ask questions
+- naive solution approach
+- time/space complexity analysis
+- Pseudo code
+- Think other soltutions(alternatives)
+- Find optimized solution
+- time/space complexity analysis
+- code
+- check edge case
+- Dry run
+
+
 # Want to do more on..
 - graphs: dijkstra, bellman-ford, Prim, Kruskal, Topological sort...
 - monotonic stack
