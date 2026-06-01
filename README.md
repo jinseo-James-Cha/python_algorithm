@@ -12,6 +12,14 @@
 - check edge case
 - Dry run
 
+# good resource
+- [leetcode](https://leetcode.com/)
+- [algomonster](https://algo.monster/flowchart) -> learn flowchart
+- [exponent](https://www.tryexponent.com/) -> mock interview
+- [system design](https://github.com/donnemartin/system-design-primer/blob/master/README.md)
+- [book](https://www.amazon.ie/Coding-Interview-Patterns-Nail-Your/dp/1736049135/ref=sr_1_2?crid=2AJE839UWUWU6&dib=eyJ2IjoiMSJ9.YvREDvNErjyaHbzaM58D3dsYMC05RvlpaYz5ieMM8RrNsvpuJlhXBdOHCdqf328wDFP1y4qXD6Q1c1vvvDYrZeR3Rbhj6slBB22d0r-zoTjCKf1B9B4SyK1UWr7Qyc-5OQd9WIRqVVuOuojPF5CWql0hJU0O83fQViRcyfDq_WRqKWEHRO82o5vMSNbvEuj-cu-M48UYrvn9r0vBiYbAlAU-vPNak6AQduiwQ0POOzycgKqggO0iJzxiJuoryT6ZTYK9bjr12VOvX4_r4aUwAKUAVK3wovHf8XN15RXKapY.gXroMm3F2vyJoFlYof2YgZCNlfe_edSNzK8VH5az0k8&dib_tag=se&keywords=coding+interview&qid=1780935824&sprefix=coding+intervie%2Caps%2C96&sr=8-2)
+- [book](https://www.amazon.ie/Cracking-Coding-Interview-6th-Programming/dp/0984782850/ref=sr_1_1?crid=2AJE839UWUWU6&dib=eyJ2IjoiMSJ9.YvREDvNErjyaHbzaM58D3dsYMC05RvlpaYz5ieMM8RrNsvpuJlhXBdOHCdqf328wDFP1y4qXD6Q1c1vvvDYrZeR3Rbhj6slBB22d0r-zoTjCKf1B9B4SyK1UWr7Qyc-5OQd9WIRqVVuOuojPF5CWql0hJU0O83fQViRcyfDq_WRqKWEHRO82o5vMSNbvEuj-cu-M48UYrvn9r0vBiYbAlAU-vPNak6AQduiwQ0POOzycgKqggO0iJzxiJuoryT6ZTYK9bjr12VOvX4_r4aUwAKUAVK3wovHf8XN15RXKapY.gXroMm3F2vyJoFlYof2YgZCNlfe_edSNzK8VH5az0k8&dib_tag=se&keywords=coding+interview&qid=1780935824&sprefix=coding+intervie%2Caps%2C96&sr=8-1)
+- [book](https://www.amazon.ie/System-Design-Interview-insiders-guide/dp/B08CMF2CQF/ref=sr_1_9?crid=2AJE839UWUWU6&dib=eyJ2IjoiMSJ9.YvREDvNErjyaHbzaM58D3dsYMC05RvlpaYz5ieMM8RrNsvpuJlhXBdOHCdqf328wDFP1y4qXD6Q1c1vvvDYrZeR3Rbhj6slBB22d0r-zoTjCKf1B9B4SyK1UWr7Qyc-5OQd9WIRqVVuOuojPF5CWql0hJU0O83fQViRcyfDq_WRqKWEHRO82o5vMSNbvEuj-cu-M48UYrvn9r0vBiYbAlAU-vPNak6AQduiwQ0POOzycgKqggO0iJzxiJuoryT6ZTYK9bjr12VOvX4_r4aUwAKUAVK3wovHf8XN15RXKapY.gXroMm3F2vyJoFlYof2YgZCNlfe_edSNzK8VH5az0k8&dib_tag=se&keywords=coding+interview&qid=1780935824&sprefix=coding+intervie%2Caps%2C96&sr=8-9) - system design
 
 # Want to do more on..
 - graphs: dijkstra, bellman-ford, Prim, Kruskal, Topological sort...
