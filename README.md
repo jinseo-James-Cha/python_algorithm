@@ -1,3 +1,7 @@
+# tips
+- Leetcode daily challenge - 1questions everyday
+- 200easy + 250medium + 50hard
+- more mocks, more confident
 
 # Live coding test framework
 - clarify problem
