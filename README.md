@@ -1,3 +1,8 @@
+# Big techs
+- Meta: 1easy + 1med in 45min * 2, system design, 3 behaviours
+- MS: 1med in 45min, system design, SQL or OOD, 2 behaviours
+- Google: 1med/med hard in 45 * 3, 1 behaviour
+
 # tips
 - Leetcode daily challenge - 1questions everyday
 - 200easy + 250medium + 50hard
