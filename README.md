@@ -1,3 +1,22 @@
+# Templates
+### DFS
+```
+def dfs(r, c):
+    if (
+        r < 0 or r >= rows or
+        c < 0 or c >= cols or
+        visited[r][c]
+    ):
+        return
+
+    visited[r][c] = True
+
+    for dr, dc in directions:
+        dfs(r + dr, c + dc)
+```
+
+
+
 # Big techs
 - Meta: 1easy + 1med in 45min * 2, system design, 3 behaviours
 - MS: 1med in 45min, system design, SQL or OOD, 2 behaviours
