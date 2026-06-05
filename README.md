@@ -15,6 +15,22 @@ def dfs(r, c):
         dfs(r + dr, c + dc)
 ```
 
+### BFS
+```
+from collections import deque
+
+queue = deque([start])
+visited = {start}
+
+while queue:
+    node = queue.popleft()
+
+    for nxt in neighbors[node]:
+        if nxt not in visited:
+            visited.add(nxt)
+            queue.append(nxt)
+```
+
 
 
 # Big techs
