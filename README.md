@@ -49,7 +49,21 @@ while left <= right:
         right = mid - 1
 ```
 
+### Sliding Window
+```
+left = 0
+window_sum = 0
+max_sum = 0
 
+for right in range(len(nums)):
+    window_sum += nums[right]
+
+    while window_sum > k:
+        window_sum -= nums[left]
+        left += 1
+
+    max_sum = max(max_sum, window_sum)
+```
 
 # Big techs
 - Meta: 1easy + 1med in 45min * 2, system design, 3 behaviours
