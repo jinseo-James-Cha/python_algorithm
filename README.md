@@ -65,6 +65,21 @@ for right in range(len(nums)):
     max_sum = max(max_sum, window_sum)
 ```
 
+### Heap(Priority Queue)
+```
+import heapq
+
+heap = []
+
+for num in nums:
+    heapq.heappush(heap, num)
+
+    if len(heap) > k:
+        heapq.heappop(heap)
+
+```
+
+
 # Big techs
 - Meta: 1easy + 1med in 45min * 2, system design, 3 behaviours
 - MS: 1med in 45min, system design, SQL or OOD, 2 behaviours
