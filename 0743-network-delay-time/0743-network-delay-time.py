@@ -1,8 +1,9 @@
-from collections import deque, defaultdict
+from collections import defaultdict
+import heapq
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
         """
-        Dijkstra algorithm
+        Dijkstra algorithm - heapq
         """
         graph = defaultdict(list)
         for u,v,w in times:
@@ -12,9 +13,9 @@ class Solution:
         network_time[0] = 0
         network_time[k] = 0
 
-        queue = deque([(0, k)])
+        queue = [(0, k)]
         while queue:
-            curr_time, curr_node = queue.popleft()
+            curr_time, curr_node = heapq.heappop(queue)
             if curr_time > network_time[curr_node]:
                 continue
             
@@ -22,6 +23,6 @@ class Solution:
                 total_time = next_time + curr_time
                 if network_time[next_node] > total_time:
                     network_time[next_node] = total_time
-                    queue.append((total_time, next_node))
+                    heapq.heappush(queue, (total_time, next_node))
         
         return -1 if max(network_time) == float('inf') else max(network_time)
