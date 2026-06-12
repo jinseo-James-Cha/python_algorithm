@@ -26,11 +26,11 @@ class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         # union find
         n = len(edges)
-        uf = UnionFind(n+1)
+        uf = UnionFind(n)
 
         res = []
         for a, b in edges:
-            if not uf.union(a, b):
+            if not uf.union(a-1, b-1):
                 res = [a, b]
         return res
         
