@@ -7,7 +7,7 @@ class Solution:
     def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         # Two pointers
         # Fast and Slow pointers
-        # O(N)
+        # time complexity: O(N)
         if not head.next:
             return None
 
