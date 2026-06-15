@@ -5,7 +5,9 @@
 #         self.next = next
 class Solution:
     def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        # Fast and Slow pointers - two pointers
+        # Two pointers
+        # Fast and Slow pointers
+        # O(N)
         if not head.next:
             return None
 
