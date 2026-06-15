@@ -10,17 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
       - name: Extract Problem Info
         id: problem
+        shell: bash
         run: |
           FILE=$(git diff --name-only HEAD~1 HEAD | grep -E '^[0-9]{4}-' | head -1)
 
           if [ -z "$FILE" ]; then
-            echo "found=false" >> $GITHUB_OUTPUT
+            echo "found=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -33,13 +35,16 @@ jobs:
             | sed 's/-/ /g' \
             | sed -E 's/(^| )(.)/\1\u\2/g')
 
-          echo "found=true" >> $GITHUB_OUTPUT
-          echo "number=$NUMBER" >> $GITHUB_OUTPUT
-          echo "slug=$SLUG" >> $GITHUB_OUTPUT
-          echo "title=$TITLE" >> $GITHUB_OUTPUT
+          echo "found=true" >> "$GITHUB_OUTPUT"
+          echo "number=$NUMBER" >> "$GITHUB_OUTPUT"
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "title=$TITLE" >> "$GITHUB_OUTPUT"
 
-      - name: Send Slack Message
+      - name: Send Slack Notifications
         if: steps.problem.outputs.found == 'true'
+        env:
+          WEBHOOK_1: ${{ secrets.SLACK_WEBHOOK_URL_EXIT }}
+          WEBHOOK_2: ${{ secrets.SLACK_WEBHOOK_URL_DUBLIN }}
         run: |
           MESSAGE="Daily Challenge - LeetCode Solved
 
@@ -50,7 +55,16 @@ jobs:
           🔗 https://leetcode.com/problems/${{ steps.problem.outputs.slug }}
           "
 
-          curl -X POST \
+          PAYLOAD=$(jq -n --arg text "$MESSAGE" '{text: $text}')
+
+          curl -s -X POST \
             -H 'Content-type: application/json' \
-            --data "{\"text\":\"$MESSAGE\"}" \
-            ${{ secrets.SLACK_WEBHOOK_URL }}
+            --data "$PAYLOAD" \
+            "$WEBHOOK_1"
+
+          curl -s -X POST \
+            -H 'Content-type: application/json' \
+            --data "$PAYLOAD" \
+            "$WEBHOOK_2"
+
+          echo "Slack notifications sent."
