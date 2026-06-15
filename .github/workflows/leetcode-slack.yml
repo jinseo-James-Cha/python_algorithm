@@ -41,14 +41,11 @@ jobs:
       - name: Send Slack Message
         if: steps.problem.outputs.found == 'true'
         run: |
-          MESSAGE="🔥 LeetCode Solved
+          MESSAGE="Daily Challenge - LeetCode Solved
 
           #${{ steps.problem.outputs.number }} - ${{ steps.problem.outputs.title }}
 
-          👤 Author: ${{ github.actor }}
-
-          📝 Commit:
-          ${{ github.event.head_commit.message }}
+          👤 Author: James
 
           🔗 https://leetcode.com/problems/${{ steps.problem.outputs.slug }}
           "
