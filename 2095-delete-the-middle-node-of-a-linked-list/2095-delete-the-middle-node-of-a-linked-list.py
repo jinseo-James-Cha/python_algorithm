@@ -5,18 +5,6 @@
 #         self.next = next
 class Solution:
     def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        """
-        1 2 3 4
-          S
-              F
-
-        1 2 3 4 5
-          S
-              F
-        1 2
-        S
-          F      
-        """
         # Fast and Slow pointers - two pointers
         if not head.next:
             return None
