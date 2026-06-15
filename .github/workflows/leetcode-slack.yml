@@ -10,11 +10,90 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Send Slack Message
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Extract Problem Info
+        id: problem
+        run: |
+          FILE=$(git diff --name-only HEAD~1 HEAD | grep -E '^[0-9]{4}-' | head -1)
+
+          if [ -z "$FILE" ]; then
+            echo "found=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          DIR=$(echo "$FILE" | cut -d'/' -f1)
+
+          NUMBER=$(echo "$DIR" | cut -d'-' -f1)
+
+          SLUG=$(echo "$DIR" | cut -d'-' -f2-)
+
+          TITLE=$(echo "$SLUG" \
+            | sed 's/-/ /g' \
+            | sed -E 's/(^| )(.)/\1\u\2/g')
+
+          echo "found=true" >> $GITHUB_OUTPUT
+          echo "number=$NUMBER" >> $GITHUB_OUTPUT
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+
+      - name: Send Slack Notification
+        if: steps.problem.outputs.found == 'true'
         run: |
           curl -X POST \
             -H 'Content-type: application/json' \
             --data '{
-              "text":"🔥 New LeetCode Solution\n\nAuthor: ${{ github.actor }}\nCommit: ${{ github.event.head_commit.message }}\nRepository: ${{ github.repository }}"
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Daily Challenge - LeetCode"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*#${{ steps.problem.outputs.number }} — ${{ steps.problem.outputs.title }}*"
+                  }
+                },
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Author*\n${{ github.actor }}"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Repository*\n${{ github.repository }}"
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Commit Message*\n${{ github.event.head_commit.message }}"
+                  }
+                },
+                {
+                  "type": "actions",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "text": {
+                        "type": "plain_text",
+                        "text": "Open LeetCode"
+                      },
+                      "url": "https://leetcode.com/problems/${{ steps.problem.outputs.slug }}"
+                    }
+                  ]
+                }
+              ]
             }' \
             ${{ secrets.SLACK_WEBHOOK_URL }}
