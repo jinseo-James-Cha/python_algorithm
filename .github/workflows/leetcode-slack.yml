@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
@@ -28,7 +27,6 @@ jobs:
           DIR=$(echo "$FILE" | cut -d'/' -f1)
 
           NUMBER=$(echo "$DIR" | cut -d'-' -f1)
-
           SLUG=$(echo "$DIR" | cut -d'-' -f2-)
 
           TITLE=$(echo "$SLUG" \
@@ -40,60 +38,22 @@ jobs:
           echo "slug=$SLUG" >> $GITHUB_OUTPUT
           echo "title=$TITLE" >> $GITHUB_OUTPUT
 
-      - name: Send Slack Notification
+      - name: Send Slack Message
         if: steps.problem.outputs.found == 'true'
         run: |
+          MESSAGE="🔥 LeetCode Solved
+
+          #${{ steps.problem.outputs.number }} - ${{ steps.problem.outputs.title }}
+
+          👤 Author: ${{ github.actor }}
+
+          📝 Commit:
+          ${{ github.event.head_commit.message }}
+
+          🔗 https://leetcode.com/problems/${{ steps.problem.outputs.slug }}
+          "
+
           curl -X POST \
             -H 'Content-type: application/json' \
-            --data '{
-              "blocks": [
-                {
-                  "type": "header",
-                  "text": {
-                    "type": "plain_text",
-                    "text": "Daily Challenge - LeetCode"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*#${{ steps.problem.outputs.number }} — ${{ steps.problem.outputs.title }}*"
-                  }
-                },
-                {
-                  "type": "section",
-                  "fields": [
-                    {
-                      "type": "mrkdwn",
-                      "text": "*Author*\n${{ github.actor }}"
-                    },
-                    {
-                      "type": "mrkdwn",
-                      "text": "*Repository*\n${{ github.repository }}"
-                    }
-                  ]
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*Commit Message*\n${{ github.event.head_commit.message }}"
-                  }
-                },
-                {
-                  "type": "actions",
-                  "elements": [
-                    {
-                      "type": "button",
-                      "text": {
-                        "type": "plain_text",
-                        "text": "Open LeetCode"
-                      },
-                      "url": "https://leetcode.com/problems/${{ steps.problem.outputs.slug }}"
-                    }
-                  ]
-                }
-              ]
-            }' \
+            --data "{\"text\":\"$MESSAGE\"}" \
             ${{ secrets.SLACK_WEBHOOK_URL }}
