@@ -1,0 +1,20 @@
+name: LeetCode Slack Notification
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Slack Message
+        run: |
+          curl -X POST \
+            -H 'Content-type: application/json' \
+            --data '{
+              "text":"🔥 New LeetCode Solution\n\nAuthor: ${{ github.actor }}\nCommit: ${{ github.event.head_commit.message }}\nRepository: ${{ github.repository }}"
+            }' \
+            ${{ secrets.SLACK_WEBHOOK_URL }}
