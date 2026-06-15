@@ -20,6 +20,7 @@ class Solution:
         """
         if not head.next:
             return None
+
         dummy = ListNode()
         dummy.next = head
         slow, fast = dummy, dummy
@@ -29,4 +30,4 @@ class Solution:
             fast = fast.next.next
         
         slow.next = slow.next.next
-        return head
+        return dummy.next
