@@ -61,7 +61,7 @@ jobs:
           steps.verify.outputs.leetcode == 'true' &&
           steps.problem.outputs.found == 'true'
         env:
-          WEBHOOK_1: ${{ secrets.SLACK_WEBHOOK_URL_EXIT }}
+          WEBHOOK_1: ${{ secrets.SLACK_WEBHOOK_URL_D_C }}
           WEBHOOK_2: ${{ secrets.SLACK_WEBHOOK_URL_DUBLIN }}
         run: |
           MESSAGE="🏆 Daily Challenge - LeetCode Solved
