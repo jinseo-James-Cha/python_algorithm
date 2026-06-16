@@ -16,7 +16,7 @@ jobs:
         run: |
           COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
 
-          if [[ "$COMMIT_MESSAGE" == *"LeetHub"* ]]; then
+          if [[ "$COMMIT_MESSAGE" =~ ^Time:.*Space:.*LeetHub$ ]]; then
             echo "leetcode=true" >> "$GITHUB_OUTPUT"
           else
             echo "leetcode=false" >> "$GITHUB_OUTPUT"
