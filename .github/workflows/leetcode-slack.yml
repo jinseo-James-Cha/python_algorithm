@@ -68,6 +68,7 @@ jobs:
           echo "title=$TITLE" >> "$GITHUB_OUTPUT"
 
       - name: Send Slack Notifications
+        if: steps.leetcode.outputs.is_leetcode == 'true' && steps.problem.outputs.found == 'true'
         env:
           WEBHOOK_1: ${{ secrets.SLACK_WEBHOOK_URL_D_C }}
           WEBHOOK_2: ${{ secrets.SLACK_WEBHOOK_URL_DUBLIN }}
@@ -79,13 +80,7 @@ jobs:
 
           👤 ${{ steps.info.outputs.author }}
 
-          📝 ${{ steps.info.outputs.message }}"
-
-          if [[ "${{ steps.leetcode.outputs.is_leetcode }}" == "true" && "${{ steps.problem.outputs.found }}" == "true" ]]; then
-            BASE_MESSAGE="${BASE_MESSAGE}
-
-          🔗 https://leetcode.com/problems/${{ steps.problem.outputs.slug }}"
-          fi
+          📝 leetcode: https://leetcode.com/problems/${{ steps.problem.outputs.slug }}"
 
           PAYLOAD=$(jq -n --arg text "$BASE_MESSAGE" '{text: $text}')
 
