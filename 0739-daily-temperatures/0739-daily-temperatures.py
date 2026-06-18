@@ -12,8 +12,8 @@ class Solution:
         idx_stack = []  
         for i in range(n):
             while idx_stack and temperatures[idx_stack[-1]] < temperatures[i]:
-                lower_day = idx_stack.pop()
-                answer[lower_day] = i - lower_day
+                prev_day = idx_stack.pop()
+                answer[prev_day] = i - prev_day
             
             idx_stack.append(i)
         return answer
