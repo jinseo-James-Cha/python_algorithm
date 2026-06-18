@@ -1,7 +1,53 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-        # answer[i] == the number of days you have to wait for a warmer temp
-        # default 0
+        """
+        How many days need to wait to see a warmer temperature.
+
+        73 74 75 71 69 72 76 73
+           1  1  -  -  - 4 2 1 1 0 0
+        """
+        # monotonic stack
+        n = len(temperatures)
+        answer = [0] * n
+        idx_stack = []  
+        for i in range(n):
+            while idx_stack and temperatures[idx_stack[-1]] < temperatures[i]:
+                lower_day = idx_stack.pop()
+                answer[lower_day] = i - lower_day
+            
+            idx_stack.append(i)
+        return answer
+
+        # brute force
+        # time complexity: o(n^2) -> TLE
+        n = len(temperatures)
+        answer = [0] * n
+        for i in range(n):
+            for j in range(i + 1, n):
+                if temperatures[i] < temperatures[j]:
+                    answer[i] = j - i
+                    break
+        return answer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         """
         [73,74,75,71,69,72,76,73]
