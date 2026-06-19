@@ -1,5 +1,39 @@
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
+        """
+        n + 1 points at different altitudes
+        0 ~ n
+
+        -5, 1, 5, 0, -7
+
+        0 -5 -4 1 1 -6
+
+        0 0+-5 -5+1 -5+1+5 -5+1+5+0 -5+1+5+0-7
+        """
+        n = len(gain)
+        res = [0]
+        for g in gain:
+            res.append(res[-1] + g)
+
+        return max(res)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # road trip n + 1 altitudes
         # start 0 and altitude 0
 
