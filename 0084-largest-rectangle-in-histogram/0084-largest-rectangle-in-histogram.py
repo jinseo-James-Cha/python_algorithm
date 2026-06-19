@@ -1,22 +1,11 @@
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
-        # stack - Monotonic stack
-        # 기본적인 구성으로는 stack에 index를 담고 빼고하는 작업을 한다
-        # 담는 기준은 이전의 막대 길이가 현재 길이보다 작으면, 즉 담겨있는 index는 막대길이가 오름차순인것
-        # 이전 막대가 현재 막대보다 짧으면 팝해나가면서 그 넓이를 구한다
-
-        index_stack = [-1] # sentinel -1, prove it is empty
+        index_stack = [-1]
         res = 0
 
-        for i in range(len(heights)): # 모든 막대를 왼쪽 -> 오른쪽으로 한번씩 순회 o(n)
-
-            # 현재 막대 heights[i]가 이전 막대의 높이(heights[index_stack[-1]]) 보다 작거나 같으면
-            # 인덱스를 팝해서, 그 팝한 막대를 '최소 높이로 간주하여' 넓이 계산
+        for i in range(len(heights)):
             while index_stack[-1] != -1 and heights[index_stack[-1]] >= heights[i]:
-                current_height = heights[index_stack.pop()] # 팝한 인덱스의 막대길이는 지금구하려는 직사각형의 높이
-
-                # 구하고자 하는 넓이의 오른쪽 경계는 i-1 왼쪽 경계는 stack[-1]+1이므로
-                # width = (i-1) - (stack[-1] + 1) + 1
+                current_height = heights[index_stack.pop()]
                 current_width = (i-1) - (index_stack[-1] + 1) + 1
                 res = max(res, current_height * current_width)
             index_stack.append(i) # 현재 인덱스를 스택에 푸시, 증가하는 높이 유지.
