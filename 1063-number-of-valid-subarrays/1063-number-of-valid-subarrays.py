@@ -2,6 +2,7 @@ class Solution:
     def validSubarrays(self, nums: List[int]) -> int:
         """
         1 4 2 5 3
+        0 1 2 3 4
 
         1 4 2 5 3 -> 5
         4 -> 1
@@ -10,6 +11,7 @@ class Solution:
         3 -> 1
         """
         # monotonic stack
+        # O(n)
         res = 0
         stack = []
         for i in range(len(nums)):
