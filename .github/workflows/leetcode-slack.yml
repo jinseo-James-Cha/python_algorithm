@@ -71,7 +71,7 @@ jobs:
         if: steps.leetcode.outputs.is_leetcode == 'true' && steps.problem.outputs.found == 'true'
         env:
           WEBHOOK_1: ${{ secrets.SLACK_WEBHOOK_URL_D_C }}
-          WEBHOOK_2: ${{ secrets.SLACK_WEBHOOK_URL_DUBLIN }}
+          # WEBHOOK_2: ${{ secrets.SLACK_WEBHOOK_URL_DUBLIN }}
         run: |
 
           BASE_MESSAGE="
@@ -83,7 +83,8 @@ jobs:
 
           PAYLOAD=$(jq -n --arg text "$BASE_MESSAGE" '{text: $text}')
 
-          for WEBHOOK in "$WEBHOOK_1" "$WEBHOOK_2"
+          # for WEBHOOK in "$WEBHOOK_1" "$WEBHOOK_2"
+          for WEBHOOK in "$WEBHOOK_1"
           do
             curl -s \
               -X POST \
