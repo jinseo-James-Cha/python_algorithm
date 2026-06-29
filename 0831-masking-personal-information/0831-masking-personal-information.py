@@ -9,12 +9,9 @@ class Solution:
         - two uppercase and lowercase letters + @ + domain + . 
         - all lowercase and first letter +  * X 5 + last letter 
         """
-        is_email = False
-        for ch in s:
-            if ch == "@":
-                is_email = True
         
-        if is_email:
+        
+        if '@' in s:
             res = s.split('@')
             res[0] = res[0].lower()
             res[1] = res[1].lower()
